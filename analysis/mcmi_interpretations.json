@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "source": "Interpretacion sheets",
+    "purpose": "BR score range to clinical interpretation text mapping",
+    "total_scales": 0
+  },
+  "validity_scales": {},
+  "personality_patterns": {},
+  "severe_pathology": {},
+  "clinical_syndromes": {},
+  "notes": [
+    "Interpretation text extracted from Excel sheets",
+    "BR ranges need to be manually verified and refined",
+    "Full interpretation paragraphs available in source files",
+    "Spanish text - needs translation to Portuguese for final implementation"
+  ]
+}

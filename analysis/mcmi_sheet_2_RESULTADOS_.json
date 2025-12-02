@@ -1,0 +1,1837 @@
+{
+  "name": "RESULTADOS ",
+  "data": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Nombre :Estefania Milagros Negron Huapaya",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "ESCALA DE VALIDEZ",
+      "Escalas de Validez",
+      "PD",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "V",
+      "Invalidez",
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "válido pero dudable, cuestionable.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "W",
+      "Inconsistencia",
+      7,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "consistente.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "X",
+      "Sinceridad",
+      30,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      26,
+      null,
+      null,
+      null,
+      "clínicamente interpretable",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Y",
+      "Deseabilidad Social",
+      78,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      18,
+      null,
+      null,
+      null,
+      "Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Z",
+      "Devaluación",
+      37,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      4,
+      null,
+      null,
+      null,
+      "Tendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Patrones de Personalidad ",
+      null,
+      "PE",
+      null,
+      null,
+      null,
+      "PERCENTIL",
+      null,
+      null,
+      null,
+      "PD",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      1,
+      "Esquizoide  ",
+      40,
+      3,
+      null,
+      2,
+      31,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2A",
+      "Evitativo",
+      6,
+      4,
+      null,
+      3,
+      5,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2B",
+      "Melancólico ",
+      30,
+      5,
+      null,
+      4,
+      28,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      3,
+      "Dependiente",
+      36,
+      6,
+      null,
+      5,
+      25,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4A",
+      "Histriónico",
+      75,
+      7,
+      null,
+      6,
+      83,
+      null,
+      null,
+      null,
+      15,
+      null,
+      null,
+      "Patrones menos adaptativos y Trastornos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4B",
+      "Tempestuoso",
+      80,
+      8,
+      null,
+      7,
+      93,
+      null,
+      null,
+      null,
+      22,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      5,
+      "Narcisista",
+      62,
+      9,
+      null,
+      8,
+      56,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "Categoría de Riesgo",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6A",
+      "Antisocial",
+      20,
+      10,
+      null,
+      9,
+      25,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6B",
+      "Sádico ",
+      10,
+      11,
+      null,
+      10,
+      13,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      7,
+      "Compulsivo",
+      49,
+      12,
+      null,
+      11,
+      26,
+      null,
+      null,
+      null,
+      13,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8A",
+      "Negativista",
+      60,
+      13,
+      null,
+      12,
+      48,
+      null,
+      null,
+      null,
+      9,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8B",
+      "Masoquista",
+      38,
+      14,
+      null,
+      13,
+      33,
+      null,
+      null,
+      null,
+      5,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Patologías Graves Personalidad",
+      null,
+      "PE",
+      null,
+      null,
+      null,
+      "PERCENTIL",
+      null,
+      null,
+      null,
+      "PD",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S",
+      "Esquizotípico ",
+      12,
+      15,
+      null,
+      14,
+      14,
+      null,
+      null,
+      null,
+      2,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C",
+      "Límite    ",
+      45,
+      16,
+      null,
+      15,
+      40,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "P",
+      "Paranoide",
+      66,
+      17,
+      null,
+      16,
+      62,
+      null,
+      null,
+      null,
+      9,
+      null,
+      null,
+      "Categoría de Riesgo",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Sindromes Clínicos",
+      null,
+      "PE",
+      null,
+      null,
+      null,
+      "PERCENTIL",
+      null,
+      null,
+      null,
+      "PD",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "A",
+      "Ansiedad Generalizada",
+      15,
+      18,
+      null,
+      17,
+      14,
+      null,
+      null,
+      null,
+      2,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "H",
+      "Síntomas Somáticos ",
+      0,
+      19,
+      null,
+      18,
+      11,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "N",
+      "Espectro Bípolar",
+      30,
+      20,
+      null,
+      19,
+      22,
+      null,
+      null,
+      null,
+      3,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "D",
+      "Depresión Persistente",
+      30,
+      21,
+      null,
+      20,
+      28,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "B",
+      "Consumo de Alcohol",
+      0,
+      22,
+      null,
+      21,
+      34,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "T",
+      "Consumo de Drogas",
+      0,
+      23,
+      null,
+      22,
+      24,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "R",
+      "Estrés Postraumático",
+      48,
+      24,
+      null,
+      23,
+      42,
+      null,
+      null,
+      null,
+      4,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "SS",
+      "Espectro Esquizofrénico",
+      40,
+      25,
+      null,
+      24,
+      33,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "CC",
+      "Depresión Mayor",
+      51,
+      26,
+      null,
+      25,
+      46,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "PP",
+      "Delirante",
+      60,
+      27,
+      null,
+      26,
+      51,
+      null,
+      null,
+      null,
+      2,
+      null,
+      null,
+      "No presenta",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "formulas": [
+    {
+      "cell": "P5",
+      "formula": "APLICACION!B9",
+      "value": "Nombre :Estefania Milagros Negron Huapaya",
+      "type": "s"
+    },
+    {
+      "cell": "D10",
+      "formula": "APLICACION!F46",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "O10",
+      "formula": "'Interpretacion '!R8",
+      "value": "válido pero dudable, cuestionable.",
+      "type": "s"
+    },
+    {
+      "cell": "D11",
+      "formula": "APLICACION!K60",
+      "value": 7,
+      "type": "n"
+    },
+    {
+      "cell": "O11",
+      "formula": "'Interpretacion '!R9",
+      "value": "consistente.",
+      "type": "s"
+    },
+    {
+      "cell": "D12",
+      "formula": "VLOOKUP(K12,RESULTADOS!A3:B117,2,FALSE)",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "K12",
+      "formula": "APLICACION!G63",
+      "value": 26,
+      "type": "n"
+    },
+    {
+      "cell": "O12",
+      "formula": "'Interpretacion '!R10",
+      "value": "clínicamente interpretable",
+      "type": "s"
+    },
+    {
+      "cell": "D13",
+      "formula": "VLOOKUP(K13,RESULTADOS!A3:C27,3,FALSE)",
+      "value": 78,
+      "type": "n"
+    },
+    {
+      "cell": "K13",
+      "formula": "APLICACION!G64",
+      "value": 18,
+      "type": "n"
+    },
+    {
+      "cell": "O13",
+      "formula": "'Interpretacion '!R11",
+      "value": "Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales.",
+      "type": "s"
+    },
+    {
+      "cell": "D14",
+      "formula": "VLOOKUP('RESULTADOS '!K14,RESULTADOS!A3:D33,4,FALSE)",
+      "value": 37,
+      "type": "n"
+    },
+    {
+      "cell": "K14",
+      "formula": "APLICACION!G65",
+      "value": 4,
+      "type": "n"
+    },
+    {
+      "cell": "O14",
+      "formula": "'Interpretacion '!R12",
+      "value": "Tendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar.",
+      "type": "s"
+    },
+    {
+      "cell": "D17",
+      "formula": "CORRECCION!D17",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "H17",
+      "formula": "IFERROR(VLOOKUP(D17,TABLAPER,G17,FALSE),\"\")",
+      "value": 31,
+      "type": "n"
+    },
+    {
+      "cell": "L17",
+      "formula": "APLICACION!F17",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O17",
+      "formula": "CORRECCION!O17",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D18",
+      "formula": "CORRECCION!D18",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "H18",
+      "formula": "IFERROR(VLOOKUP(D18,TABLAPER,G18,FALSE),\"\")",
+      "value": 5,
+      "type": "n"
+    },
+    {
+      "cell": "L18",
+      "formula": "APLICACION!F18",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "O18",
+      "formula": "CORRECCION!O18",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D19",
+      "formula": "CORRECCION!D19",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "H19",
+      "formula": "IFERROR(VLOOKUP(D19,TABLAPER,G19,FALSE),\"\")",
+      "value": 28,
+      "type": "n"
+    },
+    {
+      "cell": "L19",
+      "formula": "APLICACION!F19",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O19",
+      "formula": "CORRECCION!O19",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D20",
+      "formula": "CORRECCION!D20",
+      "value": 36,
+      "type": "n"
+    },
+    {
+      "cell": "H20",
+      "formula": "IFERROR(VLOOKUP(D20,TABLAPER,G20,FALSE),\"\")",
+      "value": 25,
+      "type": "n"
+    },
+    {
+      "cell": "L20",
+      "formula": "APLICACION!F20",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O20",
+      "formula": "CORRECCION!O20",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D21",
+      "formula": "CORRECCION!D21",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "H21",
+      "formula": "IFERROR(VLOOKUP(D21,TABLAPER,G21,FALSE),\"\")",
+      "value": 83,
+      "type": "n"
+    },
+    {
+      "cell": "L21",
+      "formula": "APLICACION!F21",
+      "value": 15,
+      "type": "n"
+    },
+    {
+      "cell": "O21",
+      "formula": "CORRECCION!O21",
+      "value": "Patrones menos adaptativos y Trastornos",
+      "type": "s"
+    },
+    {
+      "cell": "D22",
+      "formula": "CORRECCION!D22",
+      "value": 80,
+      "type": "n"
+    },
+    {
+      "cell": "H22",
+      "formula": "IFERROR(VLOOKUP(D22,TABLAPER,G22,FALSE),\"\")",
+      "value": 93,
+      "type": "n"
+    },
+    {
+      "cell": "L22",
+      "formula": "APLICACION!F22",
+      "value": 22,
+      "type": "n"
+    },
+    {
+      "cell": "D23",
+      "formula": "CORRECCION!D23",
+      "value": 62,
+      "type": "n"
+    },
+    {
+      "cell": "H23",
+      "formula": "IFERROR(VLOOKUP(D23,TABLAPER,G23,FALSE),\"\")",
+      "value": 56,
+      "type": "n"
+    },
+    {
+      "cell": "L23",
+      "formula": "APLICACION!F23",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O23",
+      "formula": "CORRECCION!O23",
+      "value": "Categoría de Riesgo",
+      "type": "s"
+    },
+    {
+      "cell": "D24",
+      "formula": "CORRECCION!D24",
+      "value": 20,
+      "type": "n"
+    },
+    {
+      "cell": "H24",
+      "formula": "IFERROR(VLOOKUP(D24,TABLAPER,G24,FALSE),\"\")",
+      "value": 25,
+      "type": "n"
+    },
+    {
+      "cell": "L24",
+      "formula": "APLICACION!F24",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "O24",
+      "formula": "CORRECCION!O24",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D25",
+      "formula": "CORRECCION!D25",
+      "value": 10,
+      "type": "n"
+    },
+    {
+      "cell": "H25",
+      "formula": "IFERROR(VLOOKUP(D25,TABLAPER,G25,FALSE),\"\")",
+      "value": 13,
+      "type": "n"
+    },
+    {
+      "cell": "L25",
+      "formula": "APLICACION!F25",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "O25",
+      "formula": "CORRECCION!O25",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D26",
+      "formula": "CORRECCION!D26",
+      "value": 49,
+      "type": "n"
+    },
+    {
+      "cell": "H26",
+      "formula": "IFERROR(VLOOKUP(D26,TABLAPER,G26,FALSE),\"\")",
+      "value": 26,
+      "type": "n"
+    },
+    {
+      "cell": "L26",
+      "formula": "APLICACION!F26",
+      "value": 13,
+      "type": "n"
+    },
+    {
+      "cell": "O26",
+      "formula": "CORRECCION!O26",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D27",
+      "formula": "CORRECCION!D27",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "H27",
+      "formula": "IFERROR(VLOOKUP(D27,TABLAPER,G27,FALSE),\"\")",
+      "value": 48,
+      "type": "n"
+    },
+    {
+      "cell": "L27",
+      "formula": "APLICACION!F27",
+      "value": 9,
+      "type": "n"
+    },
+    {
+      "cell": "O27",
+      "formula": "CORRECCION!O27",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D28",
+      "formula": "CORRECCION!D28",
+      "value": 38,
+      "type": "n"
+    },
+    {
+      "cell": "H28",
+      "formula": "IFERROR(VLOOKUP(D28,TABLAPER,G28,FALSE),\"\")",
+      "value": 33,
+      "type": "n"
+    },
+    {
+      "cell": "L28",
+      "formula": "APLICACION!F28",
+      "value": 5,
+      "type": "n"
+    },
+    {
+      "cell": "O28",
+      "formula": "CORRECCION!O28",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D29",
+      "formula": "CORRECCION!D29",
+      "value": "PE",
+      "type": "s"
+    },
+    {
+      "cell": "D30",
+      "formula": "CORRECCION!D30",
+      "value": 12,
+      "type": "n"
+    },
+    {
+      "cell": "H30",
+      "formula": "IFERROR(VLOOKUP(D30,TABLAPER,G30,FALSE),\"\")",
+      "value": 14,
+      "type": "n"
+    },
+    {
+      "cell": "L30",
+      "formula": "APLICACION!F29",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "O30",
+      "formula": "CORRECCION!O30",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D31",
+      "formula": "CORRECCION!D31",
+      "value": 45,
+      "type": "n"
+    },
+    {
+      "cell": "H31",
+      "formula": "IFERROR(VLOOKUP(D31,TABLAPER,G31,FALSE),\"\")",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "L31",
+      "formula": "APLICACION!F30",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O31",
+      "formula": "CORRECCION!O31",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D32",
+      "formula": "CORRECCION!D32",
+      "value": 66,
+      "type": "n"
+    },
+    {
+      "cell": "H32",
+      "formula": "IFERROR(VLOOKUP(D32,TABLAPER,G32,FALSE),\"\")",
+      "value": 62,
+      "type": "n"
+    },
+    {
+      "cell": "L32",
+      "formula": "APLICACION!F31",
+      "value": 9,
+      "type": "n"
+    },
+    {
+      "cell": "O32",
+      "formula": "CORRECCION!O32",
+      "value": "Categoría de Riesgo",
+      "type": "s"
+    },
+    {
+      "cell": "D33",
+      "formula": "CORRECCION!D33",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "O33",
+      "formula": "CORRECCION!O33",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D34",
+      "formula": "CORRECCION!D34",
+      "value": "PE",
+      "type": "s"
+    },
+    {
+      "cell": "D35",
+      "formula": "CORRECCION!D35",
+      "value": 15,
+      "type": "n"
+    },
+    {
+      "cell": "H35",
+      "formula": "IFERROR(VLOOKUP(D35,TABLAPER,G35,FALSE),\"\")",
+      "value": 14,
+      "type": "n"
+    },
+    {
+      "cell": "L35",
+      "formula": "APLICACION!F35",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "O35",
+      "formula": "CORRECCION!O35",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D36",
+      "formula": "CORRECCION!D36",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "H36",
+      "formula": "IFERROR(VLOOKUP(D36,TABLAPER,G36,FALSE),\"\")",
+      "value": 11,
+      "type": "n"
+    },
+    {
+      "cell": "L36",
+      "formula": "APLICACION!F36",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "O36",
+      "formula": "CORRECCION!O36",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D37",
+      "formula": "CORRECCION!D37",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "H37",
+      "formula": "IFERROR(VLOOKUP(D37,TABLAPER,G37,FALSE),\"\")",
+      "value": 22,
+      "type": "n"
+    },
+    {
+      "cell": "L37",
+      "formula": "APLICACION!F37",
+      "value": 3,
+      "type": "n"
+    },
+    {
+      "cell": "O37",
+      "formula": "CORRECCION!O37",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D38",
+      "formula": "CORRECCION!D38",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "H38",
+      "formula": "IFERROR(VLOOKUP(D38,TABLAPER,G38,FALSE),\"\")",
+      "value": 28,
+      "type": "n"
+    },
+    {
+      "cell": "L38",
+      "formula": "APLICACION!F38",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O38",
+      "formula": "CORRECCION!O38",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D39",
+      "formula": "CORRECCION!D39",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "H39",
+      "formula": "IFERROR(VLOOKUP(D39,TABLAPER,G39,FALSE),\"\")",
+      "value": 34,
+      "type": "n"
+    },
+    {
+      "cell": "L39",
+      "formula": "APLICACION!F39",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "O39",
+      "formula": "CORRECCION!O39",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D40",
+      "formula": "CORRECCION!D40",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "H40",
+      "formula": "IFERROR(VLOOKUP(D40,TABLAPER,G40,FALSE),\"\")",
+      "value": 24,
+      "type": "n"
+    },
+    {
+      "cell": "L40",
+      "formula": "APLICACION!F40",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "O40",
+      "formula": "CORRECCION!O40",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D41",
+      "formula": "CORRECCION!D41",
+      "value": 48,
+      "type": "n"
+    },
+    {
+      "cell": "H41",
+      "formula": "IFERROR(VLOOKUP(D41,TABLAPER,G41,FALSE),\"\")",
+      "value": 42,
+      "type": "n"
+    },
+    {
+      "cell": "L41",
+      "formula": "APLICACION!F41",
+      "value": 4,
+      "type": "n"
+    },
+    {
+      "cell": "O41",
+      "formula": "CORRECCION!O41",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D42",
+      "formula": "CORRECCION!D42",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "H42",
+      "formula": "IFERROR(VLOOKUP(D42,TABLAPER,G42,FALSE),\"\")",
+      "value": 33,
+      "type": "n"
+    },
+    {
+      "cell": "L42",
+      "formula": "APLICACION!F42",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O42",
+      "formula": "CORRECCION!O42",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D43",
+      "formula": "CORRECCION!D43",
+      "value": 51,
+      "type": "n"
+    },
+    {
+      "cell": "H43",
+      "formula": "IFERROR(VLOOKUP(D43,TABLAPER,G43,FALSE),\"\")",
+      "value": 46,
+      "type": "n"
+    },
+    {
+      "cell": "L43",
+      "formula": "APLICACION!F43",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "O43",
+      "formula": "CORRECCION!O43",
+      "value": "No presenta",
+      "type": "s"
+    },
+    {
+      "cell": "D44",
+      "formula": "CORRECCION!D44",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "H44",
+      "formula": "IFERROR(VLOOKUP(D44,TABLAPER,G44,FALSE),\"\")",
+      "value": 51,
+      "type": "n"
+    },
+    {
+      "cell": "L44",
+      "formula": "APLICACION!F44",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "O44",
+      "formula": "CORRECCION!O44",
+      "value": "No presenta",
+      "type": "s"
+    }
+  ],
+  "range": "B4:X44",
+  "merges": [
+    {
+      "s": {
+        "c": 1,
+        "r": 15
+      },
+      "e": {
+        "c": 2,
+        "r": 15
+      }
+    },
+    {
+      "s": {
+        "c": 14,
+        "r": 15
+      },
+      "e": {
+        "c": 15,
+        "r": 15
+      }
+    },
+    {
+      "s": {
+        "c": 1,
+        "r": 28
+      },
+      "e": {
+        "c": 2,
+        "r": 28
+      }
+    },
+    {
+      "s": {
+        "c": 1,
+        "r": 33
+      },
+      "e": {
+        "c": 2,
+        "r": 33
+      }
+    },
+    {
+      "s": {
+        "c": 1,
+        "r": 8
+      },
+      "e": {
+        "c": 2,
+        "r": 8
+      }
+    },
+    {
+      "s": {
+        "c": 14,
+        "r": 9
+      },
+      "e": {
+        "c": 19,
+        "r": 9
+      }
+    },
+    {
+      "s": {
+        "c": 14,
+        "r": 10
+      },
+      "e": {
+        "c": 19,
+        "r": 10
+      }
+    },
+    {
+      "s": {
+        "c": 14,
+        "r": 11
+      },
+      "e": {
+        "c": 19,
+        "r": 11
+      }
+    },
+    {
+      "s": {
+        "c": 14,
+        "r": 12
+      },
+      "e": {
+        "c": 19,
+        "r": 12
+      }
+    },
+    {
+      "s": {
+        "c": 14,
+        "r": 13
+      },
+      "e": {
+        "c": 19,
+        "r": 13
+      }
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "name": "RPTA SIGNIFICATIVAS",
+  "data": [
+    [
+      "Respuestas Siginificativas",
+      null,
+      "PD",
+      "%",
+      null,
+      null
+    ],
+    [
+      1,
+      "TDAH",
+      2,
+      0.3333333333333333,
+      null,
+      6
+    ],
+    [
+      2,
+      "Espectro Autista",
+      0,
+      0,
+      null,
+      7
+    ],
+    [
+      3,
+      "Maltrato Infantil",
+      2,
+      1,
+      null,
+      2
+    ],
+    [
+      4,
+      "Trastornos de la conducta alimentaria",
+      0,
+      0,
+      null,
+      4
+    ],
+    [
+      5,
+      "Falta de Control Emocional",
+      1,
+      0.125,
+      null,
+      8
+    ],
+    [
+      6,
+      "Explosiones de Ira",
+      0,
+      0,
+      null,
+      6
+    ],
+    [
+      7,
+      "Preocupación por su salud",
+      0,
+      0,
+      null,
+      6
+    ],
+    [
+      8,
+      "Alienación Interpersonal",
+      0,
+      0,
+      null,
+      4
+    ],
+    [
+      9,
+      "Abuso de Medicación",
+      0,
+      0,
+      null,
+      2
+    ],
+    [
+      10,
+      "Potencial Conducta autodestructiva",
+      2,
+      0.16666666666666666,
+      null,
+      12
+    ],
+    [
+      11,
+      "Conductas/Tendencias Autolesivas",
+      0,
+      0,
+      null,
+      2
+    ],
+    [
+      12,
+      "Lesión Cerebral",
+      0,
+      0,
+      null,
+      2
+    ],
+    [
+      13,
+      "Tendencias Vengativas",
+      2,
+      0.25,
+      null,
+      8
+    ]
+  ],
+  "formulas": [
+    {
+      "cell": "C9",
+      "formula": "APLICACION!D68+APLICACION!D75+APLICACION!D89+APLICACION!D94+APLICACION!D104+APLICACION!D120",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D9",
+      "formula": "((C9/F9))",
+      "value": 0.3333333333333333,
+      "type": "n"
+    },
+    {
+      "cell": "C10",
+      "formula": "APLICACION!D104+APLICACION!D131+APLICACION!D150+APLICACION!D175+APLICACION!D177+APLICACION!D191+APLICACION!D202",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D10",
+      "formula": "((C10/F10))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C11",
+      "formula": "APLICACION!D59+APLICACION!D169",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D11",
+      "formula": "((C11/F11))",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "C12",
+      "formula": "APLICACION!D81+APLICACION!D98+APLICACION!D114+APLICACION!D198",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D12",
+      "formula": "((C12/F12))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C13",
+      "formula": "APLICACION!D39+APLICACION!D48+APLICACION!D57+APLICACION!D68+APLICACION!D84+APLICACION!D92+APLICACION!D139+APLICACION!D189",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D13",
+      "formula": "((C13/F13))",
+      "value": 0.125,
+      "type": "n"
+    },
+    {
+      "cell": "C14",
+      "formula": "APLICACION!D23+APLICACION!D86+APLICACION!D127+APLICACION!D157+APLICACION!D180+APLICACION!D203",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D14",
+      "formula": "((C14/F14))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C15",
+      "formula": "APLICACION!D19+APLICACION!D53+APLICACION!D69+APLICACION!D125+APLICACION!D132+APLICACION!D158",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D15",
+      "formula": "((C15/F15))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C16",
+      "formula": "APLICACION!D16+APLICACION!D116+APLICACION!D194+APLICACION!D202",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D16",
+      "formula": "((C16/F16))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C17",
+      "formula": "APLICACION!D136+APLICACION!D188",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D17",
+      "formula": "((C17/F17))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C18",
+      "formula": "APLICACION!D26+APLICACION!D44+APLICACION!D46+APLICACION!D51+APLICACION!D71+APLICACION!D90+APLICACION!D113+APLICACION!D119+APLICACION!D126+APLICACION!D138+APLICACION!D163+APLICACION!D176",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D18",
+      "formula": "((C18/F18))",
+      "value": 0.16666666666666666,
+      "type": "n"
+    },
+    {
+      "cell": "C19",
+      "formula": "APLICACION!D52+APLICACION!D193",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D19",
+      "formula": "((C19/F19))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C20",
+      "formula": "APLICACION!D67+APLICACION!D122",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D20",
+      "formula": "((C20/F20))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C21",
+      "formula": "APLICACION!D34+APLICACION!D49+APLICACION!D112+APLICACION!D115+APLICACION!D148+APLICACION!D179+APLICACION!D190+APLICACION!D204",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D21",
+      "formula": "((C21/F21))",
+      "value": 0.25,
+      "type": "n"
+    }
+  ],
+  "range": "A8:F21",
+  "merges": [
+    {
+      "s": {
+        "c": 0,
+        "r": 7
+      },
+      "e": {
+        "c": 1,
+        "r": 7
+      }
+    }
+  ]
+}

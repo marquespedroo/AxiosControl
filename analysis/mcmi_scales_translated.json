@@ -1,0 +1,806 @@
+{
+  "testName": "MCMI-IV",
+  "fullName": {
+    "es": "Inventario Clínico Multiaxial de Millon - IV",
+    "pt": "Inventário Clínico Multiaxial de Millon - IV"
+  },
+  "validityScales": [
+    {
+      "code": "V",
+      "name": {
+        "es": "Invalidez",
+        "pt": "Invalidez"
+      },
+      "description": {
+        "es": "Mide la validez del protocolo y la sinceridad de las respuestas",
+        "pt": "Mede a validade do protocolo e a sinceridade das respostas"
+      }
+    },
+    {
+      "code": "W",
+      "name": {
+        "es": "Inconsistencia",
+        "pt": "Inconsistência"
+      },
+      "description": {
+        "es": "Detecta patrones de respuesta inconsistentes o contradictorios",
+        "pt": "Detecta padrões de resposta inconsistentes ou contraditórios"
+      }
+    },
+    {
+      "code": "X",
+      "name": {
+        "es": "Sinceridad",
+        "pt": "Sinceridade"
+      },
+      "description": {
+        "es": "Evalúa la tendencia a minimizar o negar problemas",
+        "pt": "Avalia a tendência de minimizar ou negar problemas"
+      }
+    },
+    {
+      "code": "Y",
+      "name": {
+        "es": "Deseabilidad Social",
+        "pt": "Desejabilidade Social"
+      },
+      "description": {
+        "es": "Mide la tendencia a presentarse de manera socialmente favorable",
+        "pt": "Mede a tendência de se apresentar de maneira socialmente favorável"
+      }
+    },
+    {
+      "code": "Z",
+      "name": {
+        "es": "Devaluación",
+        "pt": "Desvalorização"
+      },
+      "description": {
+        "es": "Evalúa la tendencia a exagerar o magnificar problemas",
+        "pt": "Avalia a tendência de exagerar ou magnificar problemas"
+      }
+    }
+  ],
+  "personalityPatterns": [
+    {
+      "code": "2A",
+      "name": {
+        "es": "Evitativo",
+        "pt": "Evitativo"
+      },
+      "description": {
+        "es": "Patrón de evitación social, hipersensibilidad al rechazo y baja autoestima",
+        "pt": "Padrão de evitação social, hipersensibilidade à rejeição e baixa autoestima"
+      }
+    },
+    {
+      "code": "2B",
+      "name": {
+        "es": "Melancólico",
+        "pt": "Melancólico"
+      },
+      "description": {
+        "es": "Estado de ánimo depresivo crónico, pesimismo y desesperanza",
+        "pt": "Estado de ânimo depressivo crônico, pessimismo e desesperança"
+      }
+    },
+    {
+      "code": "3",
+      "name": {
+        "es": "Dependiente",
+        "pt": "Dependente"
+      },
+      "description": {
+        "es": "Necesidad excesiva de apoyo y guía de los demás",
+        "pt": "Necessidade excessiva de apoio e orientação dos outros"
+      }
+    },
+    {
+      "code": "4A",
+      "name": {
+        "es": "Histriónico",
+        "pt": "Histriônico"
+      },
+      "description": {
+        "es": "Búsqueda de atención, dramatización y emocionalidad excesiva",
+        "pt": "Busca de atenção, dramatização e emocionalidade excessiva"
+      }
+    },
+    {
+      "code": "4B",
+      "name": {
+        "es": "Tempestuoso",
+        "pt": "Tempestuoso"
+      },
+      "description": {
+        "es": "Inestabilidad emocional, impulsividad y conflictos en relaciones",
+        "pt": "Instabilidade emocional, impulsividade e conflitos em relacionamentos"
+      }
+    },
+    {
+      "code": "5",
+      "name": {
+        "es": "Narcisista",
+        "pt": "Narcisista"
+      },
+      "description": {
+        "es": "Sentimiento de superioridad, necesidad de admiración y falta de empatía",
+        "pt": "Sentimento de superioridade, necessidade de admiração e falta de empatia"
+      }
+    },
+    {
+      "code": "6A",
+      "name": {
+        "es": "Antisocial",
+        "pt": "Antissocial"
+      },
+      "description": {
+        "es": "Desprecio por normas sociales, impulsividad y falta de remordimiento",
+        "pt": "Desprezo por normas sociais, impulsividade e falta de remorso"
+      }
+    },
+    {
+      "code": "6B",
+      "name": {
+        "es": "Sádico",
+        "pt": "Sádico"
+      },
+      "description": {
+        "es": "Agresividad, hostilidad y placer en el sufrimiento ajeno",
+        "pt": "Agressividade, hostilidade e prazer no sofrimento alheio"
+      }
+    },
+    {
+      "code": "7",
+      "name": {
+        "es": "Compulsivo",
+        "pt": "Compulsivo"
+      },
+      "description": {
+        "es": "Perfeccionismo, rigidez, necesidad de control y orden",
+        "pt": "Perfeccionismo, rigidez, necessidade de controle e ordem"
+      }
+    },
+    {
+      "code": "8A",
+      "name": {
+        "es": "Negativista",
+        "pt": "Negativista"
+      },
+      "description": {
+        "es": "Ambivalencia, resistencia pasiva y fluctuación entre sumisión y oposición",
+        "pt": "Ambivalência, resistência passiva e flutuação entre submissão e oposição"
+      }
+    },
+    {
+      "code": "8B",
+      "name": {
+        "es": "Masoquista",
+        "pt": "Masoquista"
+      },
+      "description": {
+        "es": "Auto-sabotaje, sufrimiento auto-infligido y comportamientos autodestructivos",
+        "pt": "Autossabotagem, sofrimento autoinfligido e comportamentos autodestrutivos"
+      }
+    },
+    {
+      "code": "S",
+      "name": {
+        "es": "Esquizoide",
+        "pt": "Esquizoide"
+      },
+      "description": {
+        "es": "Aislamiento social, frialdad emocional y falta de interés en relaciones",
+        "pt": "Isolamento social, frieza emocional e falta de interesse em relacionamentos"
+      }
+    }
+  ],
+  "severePatterns": [
+    {
+      "code": "S",
+      "name": {
+        "es": "Esquizotípico",
+        "pt": "Esquizotípico"
+      },
+      "description": {
+        "es": "Pensamiento peculiar, experiencias perceptivas inusuales y aislamiento social",
+        "pt": "Pensamento peculiar, experiências perceptivas incomuns e isolamento social"
+      }
+    },
+    {
+      "code": "C",
+      "name": {
+        "es": "Límite",
+        "pt": "Borderline"
+      },
+      "description": {
+        "es": "Inestabilidad en relaciones, autoimagen y afectos; impulsividad marcada",
+        "pt": "Instabilidade em relacionamentos, autoimagem e afetos; impulsividade marcada"
+      }
+    },
+    {
+      "code": "P",
+      "name": {
+        "es": "Paranoide",
+        "pt": "Paranoide"
+      },
+      "description": {
+        "es": "Desconfianza generalizada, suspicacia y tendencia a malinterpretar intenciones",
+        "pt": "Desconfiança generalizada, suspeita e tendência a interpretar mal as intenções"
+      }
+    }
+  ],
+  "clinicalSyndromes": [
+    {
+      "code": "N",
+      "name": {
+        "es": "Espectro Bípolar",
+        "pt": "Espectro Bipolar"
+      },
+      "description": {
+        "es": "Oscilaciones entre estados de ánimo elevado y deprimido",
+        "pt": "Oscilações entre estados de ânimo elevado e deprimido"
+      }
+    },
+    {
+      "code": "D",
+      "name": {
+        "es": "Depresión Persistente",
+        "pt": "Depressão Persistente"
+      },
+      "description": {
+        "es": "Estado depresivo crónico con baja energía y anhedonia",
+        "pt": "Estado depressivo crônico com baixa energia e anedonia"
+      }
+    },
+    {
+      "code": "B",
+      "name": {
+        "es": "Consumo de Alcohol",
+        "pt": "Consumo de Álcool"
+      },
+      "description": {
+        "es": "Problemas relacionados con el consumo excesivo de alcohol",
+        "pt": "Problemas relacionados com o consumo excessivo de álcool"
+      }
+    },
+    {
+      "code": "T",
+      "name": {
+        "es": "Consumo de Drogas",
+        "pt": "Consumo de Drogas"
+      },
+      "description": {
+        "es": "Problemas relacionados con el uso de sustancias psicoactivas",
+        "pt": "Problemas relacionados com o uso de substâncias psicoativas"
+      }
+    },
+    {
+      "code": "R",
+      "name": {
+        "es": "Estrés Postraumático",
+        "pt": "Estresse Pós-Traumático"
+      },
+      "description": {
+        "es": "Reexperimentación de eventos traumáticos con hipervigilancia y evitación",
+        "pt": "Reexperimentação de eventos traumáticos com hipervigilância e evitação"
+      }
+    },
+    {
+      "code": "A",
+      "name": {
+        "es": "Ansiedad",
+        "pt": "Ansiedade"
+      },
+      "description": {
+        "es": "Ansiedad generalizada, preocupación excesiva y tensión",
+        "pt": "Ansiedade generalizada, preocupação excessiva e tensão"
+      }
+    },
+    {
+      "code": "H",
+      "name": {
+        "es": "Somatización",
+        "pt": "Somatização"
+      },
+      "description": {
+        "es": "Expresión de malestar psicológico a través de síntomas físicos",
+        "pt": "Expressão de mal-estar psicológico através de sintomas físicos"
+      }
+    },
+    {
+      "code": "SS",
+      "name": {
+        "es": "Espectro Esquizofrénico",
+        "pt": "Espectro Esquizofrênico"
+      },
+      "description": {
+        "es": "Distorsiones del pensamiento, percepciones inusuales y desorganización",
+        "pt": "Distorções do pensamento, percepções incomuns e desorganização"
+      }
+    },
+    {
+      "code": "CC",
+      "name": {
+        "es": "Depresión Mayor",
+        "pt": "Depressão Maior"
+      },
+      "description": {
+        "es": "Episodio depresivo grave con síntomas somáticos y cognitivos",
+        "pt": "Episódio depressivo grave com sintomas somáticos e cognitivos"
+      }
+    },
+    {
+      "code": "PP",
+      "name": {
+        "es": "Delirante",
+        "pt": "Delirante"
+      },
+      "description": {
+        "es": "Creencias fijas y falsas no compartidas culturalmente",
+        "pt": "Crenças fixas e falsas não compartilhadas culturalmente"
+      }
+    }
+  ],
+  "grossmanFacets": [
+    {
+      "code": "2A.1",
+      "name": {
+        "es": "Interpersonalmente Aversivo",
+        "pt": "Interpessoalmente Aversivo"
+      },
+      "description": {
+        "es": "Evitación activa del contacto social",
+        "pt": "Evitação ativa do contato social"
+      }
+    },
+    {
+      "code": "2A.2",
+      "name": {
+        "es": "Autoimagen Alienada",
+        "pt": "Autoimagem Alienada"
+      },
+      "description": {
+        "es": "Sentimiento de ser diferente e incomprendido",
+        "pt": "Sentimento de ser diferente e incompreendido"
+      }
+    },
+    {
+      "code": "2A.3",
+      "name": {
+        "es": "Contenido Vejatorio",
+        "pt": "Conteúdo Vexatório"
+      },
+      "description": {
+        "es": "Experiencias de humillación y vergüenza",
+        "pt": "Experiências de humilhação e vergonha"
+      }
+    },
+    {
+      "code": "2B.1",
+      "name": {
+        "es": "Cognitivamente Fatalista",
+        "pt": "Cognitivamente Fatalista"
+      },
+      "description": {
+        "es": "Pensamiento pesimista sobre el futuro",
+        "pt": "Pensamento pessimista sobre o futuro"
+      }
+    },
+    {
+      "code": "2B.2",
+      "name": {
+        "es": "Autoimagen Inútil",
+        "pt": "Autoimagem Inútil"
+      },
+      "description": {
+        "es": "Percepción de incompetencia y falta de valor",
+        "pt": "Percepção de incompetência e falta de valor"
+      }
+    },
+    {
+      "code": "2B.3",
+      "name": {
+        "es": "Temperalmente Afligido",
+        "pt": "Temperamentalmente Aflito"
+      },
+      "description": {
+        "es": "Estado de ánimo triste y melancólico crónico",
+        "pt": "Estado de ânimo triste e melancólico crônico"
+      }
+    },
+    {
+      "code": "4A.1",
+      "name": {
+        "es": "Expresivamente Dramático",
+        "pt": "Expressivamente Dramático"
+      },
+      "description": {
+        "es": "Estilo comunicativo teatral y exagerado",
+        "pt": "Estilo comunicativo teatral e exagerado"
+      }
+    },
+    {
+      "code": "4A.2",
+      "name": {
+        "es": "Interpersonalmente Buscador de Atención",
+        "pt": "Interpessoalmente Buscador de Atenção"
+      },
+      "description": {
+        "es": "Necesidad constante de ser el centro de atención",
+        "pt": "Necessidade constante de ser o centro das atenções"
+      }
+    },
+    {
+      "code": "4A.3",
+      "name": {
+        "es": "Temperamentalmente Inconstante",
+        "pt": "Temperamentalmente Inconstante"
+      },
+      "description": {
+        "es": "Emociones superficiales y rápidamente cambiantes",
+        "pt": "Emoções superficiais e rapidamente mutáveis"
+      }
+    },
+    {
+      "code": "4B.1",
+      "name": {
+        "es": "Expresivamente Impetuoso",
+        "pt": "Expressivamente Impetuoso"
+      },
+      "description": {
+        "es": "Comportamiento impulsivo y reactivo",
+        "pt": "Comportamento impulsivo e reativo"
+      }
+    },
+    {
+      "code": "4B.2",
+      "name": {
+        "es": "Interpersonalmente Eufórico",
+        "pt": "Interpessoalmente Eufórico"
+      },
+      "description": {
+        "es": "Relaciones intensas e inestables",
+        "pt": "Relacionamentos intensos e instáveis"
+      }
+    },
+    {
+      "code": "4B.3",
+      "name": {
+        "es": "Autoimagen Sobreestimada",
+        "pt": "Autoimagem Superestimada"
+      },
+      "description": {
+        "es": "Visión inflada de las propias capacidades",
+        "pt": "Visão inflada das próprias capacidades"
+      }
+    },
+    {
+      "code": "6A.1",
+      "name": {
+        "es": "Interpersonalmente Irresponsable",
+        "pt": "Interpessoalmente Irresponsável"
+      },
+      "description": {
+        "es": "Falta de consideración por obligaciones sociales",
+        "pt": "Falta de consideração por obrigações sociais"
+      }
+    },
+    {
+      "code": "6A.2",
+      "name": {
+        "es": "Autoimagen Autónoma",
+        "pt": "Autoimagem Autônoma"
+      },
+      "description": {
+        "es": "Rechazo de normas y expectativas sociales",
+        "pt": "Rejeição de normas e expectativas sociais"
+      }
+    },
+    {
+      "code": "6A.3",
+      "name": {
+        "es": "Dinámicas de Irreflexión",
+        "pt": "Dinâmicas de Irreflexão"
+      },
+      "description": {
+        "es": "Actuación sin considerar consecuencias",
+        "pt": "Atuação sem considerar consequências"
+      }
+    },
+    {
+      "code": "6B.1",
+      "name": {
+        "es": "Expresivamente Precipitado",
+        "pt": "Expressivamente Precipitado"
+      },
+      "description": {
+        "es": "Comportamiento agresivo y hostil",
+        "pt": "Comportamento agressivo e hostil"
+      }
+    },
+    {
+      "code": "6B.2",
+      "name": {
+        "es": "Interpersonalmente Desagradable",
+        "pt": "Interpessoalmente Desagradável"
+      },
+      "description": {
+        "es": "Actitud abusiva y intimidante con otros",
+        "pt": "Atitude abusiva e intimidadora com outros"
+      }
+    },
+    {
+      "code": "6B.3",
+      "name": {
+        "es": "Arquitectura Eruptiva",
+        "pt": "Arquitetura Eruptiva"
+      },
+      "description": {
+        "es": "Tendencia a explosiones de ira y violencia",
+        "pt": "Tendência a explosões de raiva e violência"
+      }
+    },
+    {
+      "code": "8A.1",
+      "name": {
+        "es": "Expresivamente Resentido",
+        "pt": "Expressivamente Ressentido"
+      },
+      "description": {
+        "es": "Expresión de insatisfacción y queja constante",
+        "pt": "Expressão de insatisfação e queixa constante"
+      }
+    },
+    {
+      "code": "8A.2",
+      "name": {
+        "es": "Autoimagen Descontenta",
+        "pt": "Autoimagem Descontente"
+      },
+      "description": {
+        "es": "Insatisfacción crónica con uno mismo",
+        "pt": "Insatisfação crônica consigo mesmo"
+      }
+    },
+    {
+      "code": "8A.3",
+      "name": {
+        "es": "Temperamentalmente Irritable",
+        "pt": "Temperamentalmente Irritável"
+      },
+      "description": {
+        "es": "Estado de ánimo irritable y hostil",
+        "pt": "Estado de ânimo irritável e hostil"
+      }
+    },
+    {
+      "code": "8B.1",
+      "name": {
+        "es": "Autoimagen Desmerecedora",
+        "pt": "Autoimagem Desmerecedora"
+      },
+      "description": {
+        "es": "Sentimiento de no merecer cosas buenas",
+        "pt": "Sentimento de não merecer coisas boas"
+      }
+    },
+    {
+      "code": "8B.2",
+      "name": {
+        "es": "Arquitectura Invertida",
+        "pt": "Arquitetura Invertida"
+      },
+      "description": {
+        "es": "Sabotaje de experiencias positivas",
+        "pt": "Sabotagem de experiências positivas"
+      }
+    },
+    {
+      "code": "8B.3",
+      "name": {
+        "es": "Temperamentalmente Disfórico",
+        "pt": "Temperamentalmente Disfórico"
+      },
+      "description": {
+        "es": "Estado emocional de malestar persistente",
+        "pt": "Estado emocional de mal-estar persistente"
+      }
+    }
+  ],
+  "significantResponses": [
+    {
+      "code": 1,
+      "name": {
+        "es": "TDAH",
+        "pt": "TDAH"
+      },
+      "description": {
+        "es": "Indicadores de Trastorno por Déficit de Atención e Hiperactividad",
+        "pt": "Indicadores de Transtorno de Déficit de Atenção e Hiperatividade"
+      }
+    },
+    {
+      "code": 2,
+      "name": {
+        "es": "Espectro Autista",
+        "pt": "Espectro Autista"
+      },
+      "description": {
+        "es": "Indicadores de Trastorno del Espectro Autista",
+        "pt": "Indicadores de Transtorno do Espectro Autista"
+      }
+    },
+    {
+      "code": 3,
+      "name": {
+        "es": "Maltrato Infantil",
+        "pt": "Maus-tratos na Infância"
+      },
+      "description": {
+        "es": "Historia de abuso o negligencia en la infancia",
+        "pt": "História de abuso ou negligência na infância"
+      }
+    },
+    {
+      "code": 4,
+      "name": {
+        "es": "Trastornos de la Conducta Alimentaria",
+        "pt": "Transtornos Alimentares"
+      },
+      "description": {
+        "es": "Indicadores de anorexia, bulimia u otros trastornos alimentarios",
+        "pt": "Indicadores de anorexia, bulimia ou outros transtornos alimentares"
+      }
+    },
+    {
+      "code": 5,
+      "name": {
+        "es": "Falta de Control Emocional",
+        "pt": "Falta de Controle Emocional"
+      },
+      "description": {
+        "es": "Dificultad para regular emociones",
+        "pt": "Dificuldade para regular emoções"
+      }
+    },
+    {
+      "code": 6,
+      "name": {
+        "es": "Explosiones de Ira",
+        "pt": "Explosões de Raiva"
+      },
+      "description": {
+        "es": "Episodios de ira intensa y descontrolada",
+        "pt": "Episódios de raiva intensa e descontrolada"
+      }
+    },
+    {
+      "code": 7,
+      "name": {
+        "es": "Preocupación por su Salud",
+        "pt": "Preocupação com a Saúde"
+      },
+      "description": {
+        "es": "Preocupación excesiva por la salud física",
+        "pt": "Preocupação excessiva com a saúde física"
+      }
+    },
+    {
+      "code": 8,
+      "name": {
+        "es": "Alienación Interpersonal",
+        "pt": "Alienação Interpessoal"
+      },
+      "description": {
+        "es": "Sentimientos de desconexión y aislamiento social",
+        "pt": "Sentimentos de desconexão e isolamento social"
+      }
+    },
+    {
+      "code": 9,
+      "name": {
+        "es": "Abuso de Medicación",
+        "pt": "Abuso de Medicação"
+      },
+      "description": {
+        "es": "Uso inadecuado de medicamentos prescritos",
+        "pt": "Uso inadequado de medicamentos prescritos"
+      }
+    },
+    {
+      "code": 10,
+      "name": {
+        "es": "Potencial Conducta Autodestructiva",
+        "pt": "Potencial Conduta Autodestrutiva"
+      },
+      "description": {
+        "es": "Riesgo de comportamientos que dañan al propio individuo",
+        "pt": "Risco de comportamentos que prejudicam o próprio indivíduo"
+      }
+    },
+    {
+      "code": 11,
+      "name": {
+        "es": "Conductas/Tendencias Autolesivas",
+        "pt": "Condutas/Tendências Autolesivas"
+      },
+      "description": {
+        "es": "Comportamientos de autolesión deliberada",
+        "pt": "Comportamentos de autolesão deliberada"
+      }
+    },
+    {
+      "code": 12,
+      "name": {
+        "es": "Lesión Cerebral",
+        "pt": "Lesão Cerebral"
+      },
+      "description": {
+        "es": "Indicadores de daño cerebral o déficits cognitivos",
+        "pt": "Indicadores de dano cerebral ou déficits cognitivos"
+      }
+    },
+    {
+      "code": 13,
+      "name": {
+        "es": "Tendencias Vengativas",
+        "pt": "Tendências Vingativas"
+      },
+      "description": {
+        "es": "Deseos de venganza o retaliación",
+        "pt": "Desejos de vingança ou retaliação"
+      }
+    }
+  ],
+  "interpretationRanges": {
+    "noPresent": {
+      "value": "<60",
+      "label": {
+        "es": "Rasgo No Presente",
+        "pt": "Traço Não Presente"
+      },
+      "description": {
+        "es": "El rasgo no está presente o es mínimo",
+        "pt": "O traço não está presente ou é mínimo"
+      },
+      "color": "green"
+    },
+    "risk": {
+      "value": "60-74",
+      "label": {
+        "es": "Rasgo Presente (Riesgo)",
+        "pt": "Traço Presente (Risco)"
+      },
+      "description": {
+        "es": "El rasgo está presente y puede requerir atención",
+        "pt": "O traço está presente e pode requerer atenção"
+      },
+      "color": "yellow"
+    },
+    "pattern": {
+      "value": "75-84",
+      "label": {
+        "es": "Patrón Clínico",
+        "pt": "Padrão Clínico"
+      },
+      "description": {
+        "es": "Patrón clínicamente significativo",
+        "pt": "Padrão clinicamente significativo"
+      },
+      "color": "orange"
+    },
+    "critical": {
+      "value": "≥85",
+      "label": {
+        "es": "Prominente",
+        "pt": "Proeminente"
+      },
+      "description": {
+        "es": "Rasgo muy prominente que requiere atención inmediata",
+        "pt": "Traço muito proeminente que requer atenção imediata"
+      },
+      "color": "red"
+    }
+  }
+}

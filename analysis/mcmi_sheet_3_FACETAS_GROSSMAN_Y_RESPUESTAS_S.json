@@ -1,0 +1,2062 @@
+{
+  "name": "FACETAS GROSSMAN Y RESPUESTAS S",
+  "data": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Patrones de Personalidad ",
+      null,
+      "PD",
+      "PE",
+      null,
+      null,
+      "Respuestas Siginificativas",
+      null,
+      "PD",
+      "%"
+    ],
+    [
+      1,
+      "Esquizoide  ",
+      null,
+      40,
+      "gggggggggggggggggggg",
+      null,
+      1,
+      "TDAH",
+      2,
+      0.3333333333333333
+    ],
+    [
+      1.1,
+      "Interpersonalmente Desvinculado",
+      1,
+      20,
+      "gggggggggg",
+      null,
+      2,
+      "Espectro Autista",
+      0,
+      0
+    ],
+    [
+      1.2,
+      "Contenido Escaso",
+      2,
+      30,
+      "ggggggggggggggg",
+      null,
+      3,
+      "Maltrato Infantil",
+      2,
+      1
+    ],
+    [
+      1.3,
+      "Temperalmente apático",
+      3,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      4,
+      "Trastornos de la conducta alimentaria",
+      0,
+      0
+    ],
+    [
+      "2A",
+      "Evitativo",
+      null,
+      6,
+      "ggg",
+      null,
+      5,
+      "Falta de Control Emocional",
+      1,
+      0.125
+    ],
+    [
+      "2A.1",
+      "Interpersonalmente Aversivo",
+      2,
+      30,
+      "ggggggggggggggg",
+      null,
+      6,
+      "Explosiones de Ira",
+      0,
+      0
+    ],
+    [
+      "2A.2",
+      "Autoimagen Alienada",
+      2,
+      30,
+      "ggggggggggggggg",
+      null,
+      7,
+      "Preocupación por su salud",
+      0,
+      0
+    ],
+    [
+      "2A.3",
+      "Contenido Vejatorio",
+      2,
+      40,
+      "gggggggggggggggggggg",
+      null,
+      8,
+      "Alienación Interpersonal",
+      0,
+      0
+    ],
+    [
+      "2B",
+      "Melancólico ",
+      null,
+      30,
+      "ggggggggggggggg",
+      null,
+      9,
+      "Abuso de Medicación",
+      0,
+      0
+    ],
+    [
+      "2B.1",
+      "Cognitivamente Fatalista",
+      3,
+      30,
+      "ggggggggggggggg",
+      null,
+      10,
+      "Potencial Conducta autodestructiva",
+      2,
+      0.16666666666666666
+    ],
+    [
+      "2B.2",
+      "Autoimagen Inutil",
+      1,
+      30,
+      "ggggggggggggggg",
+      null,
+      11,
+      "Conductas/Tendencias Autolesivas",
+      0,
+      0
+    ],
+    [
+      "2B.3",
+      "Temperalmente Afligido",
+      4,
+      75,
+      "ggggggggggggggggggggggggggggggggggggg",
+      null,
+      12,
+      "Lesión Cerebral",
+      0,
+      0
+    ],
+    [
+      3,
+      "Dependiente",
+      null,
+      36,
+      "gggggggggggggggggg",
+      null,
+      13,
+      "Tendencias Vengativas",
+      2,
+      0.25
+    ],
+    [
+      3.1,
+      "Expresivamente Pueril",
+      0,
+      0,
+      "",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      3.2,
+      "Interpersonalmente Sumiso",
+      3,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      3.3,
+      "Autoimagen Inepta",
+      2,
+      30,
+      "ggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4A",
+      "Histriónico",
+      null,
+      75,
+      "ggggggggggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4A.1",
+      "Expresivamente Dramatico",
+      1,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      "Respuestas Siginificativas",
+      null,
+      null
+    ],
+    [
+      "4A.2",
+      "Interpersonalmente buscador de Atención",
+      9,
+      93,
+      "gggggggggggggggggggggggggggggggggggggggggggggg",
+      null,
+      1,
+      "TDAH",
+      "gggggg",
+      null
+    ],
+    [
+      "4A.3",
+      "Temperamentalmente Inconstante ",
+      8,
+      75,
+      "ggggggggggggggggggggggggggggggggggggg",
+      null,
+      2,
+      "Espectro Autista",
+      "",
+      null
+    ],
+    [
+      "4B",
+      "Tempestuoso",
+      null,
+      80,
+      "gggggggggggggggggggggggggggggggggggggggg",
+      null,
+      3,
+      "Maltrato Infantil",
+      "gggggggggggggggggggg",
+      null
+    ],
+    [
+      "4B.1",
+      "Expresivamente Impetuoso",
+      7,
+      75,
+      "ggggggggggggggggggggggggggggggggggggg",
+      null,
+      4,
+      "Trastornos de la conducta alimentaria",
+      "",
+      null
+    ],
+    [
+      "4B.2",
+      "Interpersonamente Eufórico",
+      5,
+      70,
+      "ggggggggggggggggggggggggggggggggggg",
+      null,
+      5,
+      "Falta de Control Emocional",
+      "gg",
+      null
+    ],
+    [
+      "4B.3",
+      "Autoimagen Sobreestimada",
+      7,
+      85,
+      "gggggggggggggggggggggggggggggggggggggggggg",
+      null,
+      6,
+      "Explosiones de Ira",
+      "",
+      null
+    ],
+    [
+      5,
+      "Narcisista",
+      null,
+      62,
+      "ggggggggggggggggggggggggggggggg",
+      null,
+      7,
+      "Preocupación por su salud",
+      "",
+      null
+    ],
+    [
+      5.1,
+      "Interpersonalmente Explotador",
+      1,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      8,
+      "Alienación Interpersonal",
+      "",
+      null
+    ],
+    [
+      5.2,
+      "Cognitivamente Expansivo",
+      9,
+      85,
+      "gggggggggggggggggggggggggggggggggggggggggg",
+      null,
+      9,
+      "Abuso de Medicación",
+      "",
+      null
+    ],
+    [
+      5.3,
+      "Autoimagen Admirable",
+      1,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      10,
+      "Potencial Conducta autodestructiva",
+      "ggg",
+      null
+    ],
+    [
+      "6A",
+      "Antisocial",
+      null,
+      20,
+      "gggggggggg",
+      null,
+      11,
+      "Conductas/Tendencias Autolesivas",
+      "",
+      null
+    ],
+    [
+      "6A.1",
+      "Intepersonalmente Responsable",
+      4,
+      75,
+      "ggggggggggggggggggggggggggggggggggggg",
+      null,
+      12,
+      "Lesión Cerebral",
+      "",
+      null
+    ],
+    [
+      "6A.2",
+      "Autoimagen Autónoma",
+      3,
+      65,
+      "gggggggggggggggggggggggggggggggg",
+      null,
+      13,
+      "Tendencias Vengativas",
+      "ggggg",
+      null
+    ],
+    [
+      "6A.3",
+      "Dinámicas de Irreflexión",
+      1,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6B",
+      "Sádico ",
+      null,
+      10,
+      "ggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6B.1",
+      "Expresivamente Precipitado",
+      2,
+      40,
+      "gggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6B.2",
+      "Interpersonalmente Desagradable",
+      2,
+      64,
+      "gggggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6B.3",
+      "Arquitectura Eruptiva",
+      0,
+      0,
+      "",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      7,
+      "Compulsivo",
+      null,
+      49,
+      "gggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      7.1,
+      "Expresivamente Disciplinado",
+      6,
+      75,
+      "ggggggggggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      7.2,
+      "Cognitivamente Constreñido",
+      1,
+      9,
+      "gggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      7.3,
+      "Autoimagen Escrupulosa",
+      7,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8A",
+      "Negativista",
+      null,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8A.1",
+      "Expresivamente Resentido",
+      4,
+      68,
+      "gggggggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8A.2",
+      "Autoimagen Descontenta",
+      2,
+      30,
+      "ggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8A.3",
+      "Temperalmente Irritable",
+      1,
+      20,
+      "gggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8B",
+      "Masoquista",
+      null,
+      38,
+      "ggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8B.1",
+      "Autoimagen Desmerecedora",
+      2,
+      30,
+      "ggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8B.2",
+      "Arquitectura Invertida",
+      2,
+      40,
+      "gggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "8B.3",
+      "Temperamentalmente Disfórico",
+      5,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S",
+      "Esquizotípico ",
+      null,
+      12,
+      "gggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S1",
+      "Cognitivamente Circunstancial",
+      1,
+      15,
+      "ggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S2",
+      "Autoimagen Disociada",
+      2,
+      40,
+      "gggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S3",
+      "Contenido Caótico",
+      2,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C",
+      "Límite    ",
+      null,
+      45,
+      "gggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C1",
+      "Autoimagen Inestable",
+      4,
+      65,
+      "gggggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C2",
+      "Arquitectura Disgregada",
+      0,
+      0,
+      "",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C3",
+      "Temperalmente Labil",
+      2,
+      40,
+      "gggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "P",
+      "Paranoide",
+      null,
+      66,
+      "ggggggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "P1",
+      "Expresivamente Defensivo",
+      3,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "P2",
+      "Cognitivamente Desconfiado",
+      2,
+      60,
+      "gggggggggggggggggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "P3",
+      "Dinámicas de Proyección",
+      1,
+      30,
+      "ggggggggggggggg",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "formulas": [
+    {
+      "cell": "D9",
+      "formula": "CORRECCION!D17",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "E9",
+      "formula": "REPT(\"g\",D9/2)",
+      "value": "gggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I9",
+      "formula": "'RPTA SIGNIFICATIVAS'!C9",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "J9",
+      "formula": "'RPTA SIGNIFICATIVAS'!D9",
+      "value": 0.3333333333333333,
+      "type": "n"
+    },
+    {
+      "cell": "C10",
+      "formula": "APLICACION!D24+APLICACION!D27+APLICACION!D36+APLICACION!D116+APLICACION!D161+APLICACION!E166+APLICACION!D192+APLICACION!E197+APLICACION!D202",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D10",
+      "formula": "IF(C10=0,'PERCENTIL GROSSMAN'!B3,IF(C10=1,'PERCENTIL GROSSMAN'!D3,IF(C10=2,'PERCENTIL GROSSMAN'!F3,IF(C10=3,'PERCENTIL GROSSMAN'!H3,IF(C10=4,'PERCENTIL GROSSMAN'!J3,IF(C10=5,'PERCENTIL GROSSMAN'!L3,IF(C10=6,'PERCENTIL GROSSMAN'!N3,IF(C10=7,'PERCENTIL GROSSMAN'!P3,IF(C10=8,'PERCENTIL GROSSMAN'!R3,IF(C10=9,'PERCENTIL GROSSMAN'!T3))))))))))",
+      "value": 20,
+      "type": "n"
+    },
+    {
+      "cell": "E10",
+      "formula": "REPT(\"g\",D10/2)",
+      "value": "gggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I10",
+      "formula": "'RPTA SIGNIFICATIVAS'!C10",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J10",
+      "formula": "'RPTA SIGNIFICATIVAS'!D10",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C11",
+      "formula": "APLICACION!D38+APLICACION!E42+APLICACION!E58+APLICACION!E79+APLICACION!D111+APLICACION!D151+APLICACION!D187+APLICACION!E190+APLICACION!D207",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D11",
+      "formula": "IF(C11=0,'PERCENTIL GROSSMAN'!B4,IF(C11=1,'PERCENTIL GROSSMAN'!D4,IF(C11=2,'PERCENTIL GROSSMAN'!F4,IF(C11=3,'PERCENTIL GROSSMAN'!H4,IF(C11=4,'PERCENTIL GROSSMAN'!J4,IF(C11=5,'PERCENTIL GROSSMAN'!L4,IF(C11=6,'PERCENTIL GROSSMAN'!N4,IF(C11=7,'PERCENTIL GROSSMAN'!P4,IF(C11=8,'PERCENTIL GROSSMAN'!R4,IF(C11=9,'PERCENTIL GROSSMAN'!T4))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E11",
+      "formula": "REPT(\"g\",D11/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I11",
+      "formula": "'RPTA SIGNIFICATIVAS'!C11",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "J11",
+      "formula": "'RPTA SIGNIFICATIVAS'!D11",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "C12",
+      "formula": "APLICACION!D39+APLICACION!E43+APLICACION!E59+APLICACION!E80+APLICACION!D112+APLICACION!D152+APLICACION!D188+APLICACION!E191+APLICACION!D208",
+      "value": 3,
+      "type": "n"
+    },
+    {
+      "cell": "D12",
+      "formula": "IF(C12=0,'PERCENTIL GROSSMAN'!B5,IF(C12=1,'PERCENTIL GROSSMAN'!D5,IF(C12=2,'PERCENTIL GROSSMAN'!F5,IF(C12=3,'PERCENTIL GROSSMAN'!H5,IF(C12=4,'PERCENTIL GROSSMAN'!J5,IF(C12=5,'PERCENTIL GROSSMAN'!L5,IF(C12=6,'PERCENTIL GROSSMAN'!N5,IF(C12=7,'PERCENTIL GROSSMAN'!P5,IF(C12=8,'PERCENTIL GROSSMAN'!R5,IF(C12=9,'PERCENTIL GROSSMAN'!T5))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E12",
+      "formula": "REPT(\"g\",D12/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I12",
+      "formula": "'RPTA SIGNIFICATIVAS'!C12",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J12",
+      "formula": "'RPTA SIGNIFICATIVAS'!D12",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D13",
+      "formula": "CORRECCION!D18",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "E13",
+      "formula": "REPT(\"g\",D13/2)",
+      "value": "ggg",
+      "type": "s"
+    },
+    {
+      "cell": "I13",
+      "formula": "'RPTA SIGNIFICATIVAS'!C13",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "J13",
+      "formula": "'RPTA SIGNIFICATIVAS'!D13",
+      "value": 0.125,
+      "type": "n"
+    },
+    {
+      "cell": "C14",
+      "formula": "APLICACION!D27+APLICACION!D38+APLICACION!E42+APLICACION!E58+APLICACION!E96+APLICACION!D111+APLICACION!D151+APLICACION!E166",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D14",
+      "formula": "IF(C14=0,'PERCENTIL GROSSMAN'!B6,IF(C14=1,'PERCENTIL GROSSMAN'!D6,IF(C14=2,'PERCENTIL GROSSMAN'!F6,IF(C14=3,'PERCENTIL GROSSMAN'!H6,IF(C14=4,'PERCENTIL GROSSMAN'!J6,IF(C14=5,'PERCENTIL GROSSMAN'!L6,IF(C14=6,'PERCENTIL GROSSMAN'!N6,IF(C14=7,'PERCENTIL GROSSMAN'!P6,IF(C14=8,'PERCENTIL GROSSMAN'!R6,IF(C14=9,'PERCENTIL GROSSMAN'!T6))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E14",
+      "formula": "REPT(\"g\",D14/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I14",
+      "formula": "'RPTA SIGNIFICATIVAS'!C14",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J14",
+      "formula": "'RPTA SIGNIFICATIVAS'!D14",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C15",
+      "formula": "APLICACION!D35+APLICACION!D70+APLICACION!E79+APLICACION!D123+APLICACION!D147+APLICACION!D168+APLICACION!D190+APLICACION!D204+APLICACION!D205",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D15",
+      "formula": "IF(C15=0,'PERCENTIL GROSSMAN'!B7,IF(C15=1,'PERCENTIL GROSSMAN'!D7,IF(C15=2,'PERCENTIL GROSSMAN'!F7,IF(C15=3,'PERCENTIL GROSSMAN'!H7,IF(C15=4,'PERCENTIL GROSSMAN'!J7,IF(C15=5,'PERCENTIL GROSSMAN'!L7,IF(C15=6,'PERCENTIL GROSSMAN'!N7,IF(C15=7,'PERCENTIL GROSSMAN'!P7,IF(C15=8,'PERCENTIL GROSSMAN'!R7,IF(C15=9,'PERCENTIL GROSSMAN'!T7))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E15",
+      "formula": "REPT(\"g\",D15/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I15",
+      "formula": "'RPTA SIGNIFICATIVAS'!C15",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J15",
+      "formula": "'RPTA SIGNIFICATIVAS'!D15",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C16",
+      "formula": "APLICACION!E17+APLICACION!D24+APLICACION!D36+APLICACION!D64+APLICACION!D104+APLICACION!D105+APLICACION!D124+APLICACION!D196+APLICACION!D207",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D16",
+      "formula": "IF(C16=0,'PERCENTIL GROSSMAN'!B8,IF(C16=1,'PERCENTIL GROSSMAN'!D8,IF(C16=2,'PERCENTIL GROSSMAN'!F8,IF(C16=3,'PERCENTIL GROSSMAN'!H8,IF(C16=4,'PERCENTIL GROSSMAN'!J8,IF(C16=5,'PERCENTIL GROSSMAN'!L8,IF(C16=6,'PERCENTIL GROSSMAN'!N8,IF(C16=7,'PERCENTIL GROSSMAN'!P8,IF(C16=8,'PERCENTIL GROSSMAN'!R8,IF(C16=9,'PERCENTIL GROSSMAN'!T8))))))))))",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "E16",
+      "formula": "REPT(\"g\",D16/2)",
+      "value": "gggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I16",
+      "formula": "'RPTA SIGNIFICATIVAS'!C16",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J16",
+      "formula": "'RPTA SIGNIFICATIVAS'!D16",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D17",
+      "formula": "CORRECCION!D19",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E17",
+      "formula": "REPT(\"g\",D17/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I17",
+      "formula": "'RPTA SIGNIFICATIVAS'!C17",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J17",
+      "formula": "'RPTA SIGNIFICATIVAS'!D17",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C18",
+      "formula": "APLICACION!D29+APLICACION!D35+APLICACION!D45+APLICACION!D63+APLICACION!D64+APLICACION!D83+APLICACION!D101+APLICACION!D138+APLICACION!D196",
+      "value": 3,
+      "type": "n"
+    },
+    {
+      "cell": "D18",
+      "formula": "IF(C18=0,'PERCENTIL GROSSMAN'!B9,IF(C18=1,'PERCENTIL GROSSMAN'!D9,IF(C18=2,'PERCENTIL GROSSMAN'!F9,IF(C18=3,'PERCENTIL GROSSMAN'!H9,IF(C18=4,'PERCENTIL GROSSMAN'!J9,IF(C18=5,'PERCENTIL GROSSMAN'!L9,IF(C18=6,'PERCENTIL GROSSMAN'!N9,IF(C18=7,'PERCENTIL GROSSMAN'!P9,IF(C18=8,'PERCENTIL GROSSMAN'!R9,IF(C18=9,'PERCENTIL GROSSMAN'!T9))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E18",
+      "formula": "REPT(\"g\",D18/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I18",
+      "formula": "'RPTA SIGNIFICATIVAS'!C18",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "J18",
+      "formula": "'RPTA SIGNIFICATIVAS'!D18",
+      "value": 0.16666666666666666,
+      "type": "n"
+    },
+    {
+      "cell": "C19",
+      "formula": "APLICACION!D51+APLICACION!D71+APLICACION!D105+APLICACION!D124+APLICACION!D181+APLICACION!D187+APLICACION!D190+APLICACION!D204+APLICACION!D207",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D19",
+      "formula": "IF(C19=0,'PERCENTIL GROSSMAN'!B10,IF(C19=1,'PERCENTIL GROSSMAN'!D10,IF(C19=2,'PERCENTIL GROSSMAN'!F10,IF(C19=3,'PERCENTIL GROSSMAN'!H10,IF(C19=4,'PERCENTIL GROSSMAN'!J10,IF(C19=5,'PERCENTIL GROSSMAN'!L10,IF(C19=6,'PERCENTIL GROSSMAN'!N10,IF(C19=7,'PERCENTIL GROSSMAN'!P10,IF(C19=8,'PERCENTIL GROSSMAN'!R10,IF(C19=9,'PERCENTIL GROSSMAN'!T10))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E19",
+      "formula": "REPT(\"g\",D19/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I19",
+      "formula": "'RPTA SIGNIFICATIVAS'!C19",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J19",
+      "formula": "'RPTA SIGNIFICATIVAS'!D19",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "C20",
+      "formula": "APLICACION!D34+APLICACION!E65+APLICACION!D82+APLICACION!D102+APLICACION!D113+APLICACION!D119+APLICACION!D123+APLICACION!D182+APLICACION!D205",
+      "value": 4,
+      "type": "n"
+    },
+    {
+      "cell": "D20",
+      "formula": "IF(C20=0,'PERCENTIL GROSSMAN'!B11,IF(C20=1,'PERCENTIL GROSSMAN'!D11,IF(C20=2,'PERCENTIL GROSSMAN'!F11,IF(C20=3,'PERCENTIL GROSSMAN'!H11,IF(C20=4,'PERCENTIL GROSSMAN'!J11,IF(C20=5,'PERCENTIL GROSSMAN'!L11,IF(C20=6,'PERCENTIL GROSSMAN'!N11,IF(C20=7,'PERCENTIL GROSSMAN'!P11,IF(C20=8,'PERCENTIL GROSSMAN'!R11,IF(C20=9,'PERCENTIL GROSSMAN'!T11))))))))))",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "E20",
+      "formula": "REPT(\"g\",D20/2)",
+      "value": "ggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I20",
+      "formula": "'RPTA SIGNIFICATIVAS'!C20",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "J20",
+      "formula": "'RPTA SIGNIFICATIVAS'!D20",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D21",
+      "formula": "CORRECCION!D20",
+      "value": 36,
+      "type": "n"
+    },
+    {
+      "cell": "E21",
+      "formula": "REPT(\"g\",D21/2)",
+      "value": "gggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I21",
+      "formula": "'RPTA SIGNIFICATIVAS'!C21",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "J21",
+      "formula": "'RPTA SIGNIFICATIVAS'!D21",
+      "value": 0.25,
+      "type": "n"
+    },
+    {
+      "cell": "C22",
+      "formula": "APLICACION!D16+APLICACION!D17+APLICACION!D35+APLICACION!D63+APLICACION!D84+APLICACION!D111+APLICACION!D121+APLICACION!D147+APLICACION!D196",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D22",
+      "formula": "IF(C22=0,'PERCENTIL GROSSMAN'!B12,IF(C22=1,'PERCENTIL GROSSMAN'!D12,IF(C22=2,'PERCENTIL GROSSMAN'!F12,IF(C22=3,'PERCENTIL GROSSMAN'!H12,IF(C22=4,'PERCENTIL GROSSMAN'!J12,IF(C22=5,'PERCENTIL GROSSMAN'!L12,IF(C22=6,'PERCENTIL GROSSMAN'!N12,IF(C22=7,'PERCENTIL GROSSMAN'!P12,IF(C22=8,'PERCENTIL GROSSMAN'!R12,IF(C22=9,'PERCENTIL GROSSMAN'!T12))))))))))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "E22",
+      "formula": "REPT(\"g\",D22/2)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C23",
+      "formula": "APLICACION!D38+APLICACION!D72+APLICACION!D174+APLICACION!D181+APLICACION!D185+APLICACION!D197+APLICACION!D206",
+      "value": 3,
+      "type": "n"
+    },
+    {
+      "cell": "D23",
+      "formula": "IF(C23=0,'PERCENTIL GROSSMAN'!B13,IF(C23=1,'PERCENTIL GROSSMAN'!D13,IF(C23=2,'PERCENTIL GROSSMAN'!F13,IF(C23=3,'PERCENTIL GROSSMAN'!H13,IF(C23=4,'PERCENTIL GROSSMAN'!J13,IF(C23=5,'PERCENTIL GROSSMAN'!L13,IF(C23=6,'PERCENTIL GROSSMAN'!N13,IF(C23=7,'PERCENTIL GROSSMAN'!P13,IF(C23=8,'PERCENTIL GROSSMAN'!R13,IF(C23=9,'PERCENTIL GROSSMAN'!T13))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E23",
+      "formula": "REPT(\"g\",D23/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C24",
+      "formula": "APLICACION!D54+APLICACION!E65+APLICACION!E79+APLICACION!D89+APLICACION!D97+APLICACION!D105+APLICACION!D145+APLICACION!D163+APLICACION!D187",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D24",
+      "formula": "IF(C24=0,'PERCENTIL GROSSMAN'!B14,IF(C24=1,'PERCENTIL GROSSMAN'!D14,IF(C24=2,'PERCENTIL GROSSMAN'!F14,IF(C24=3,'PERCENTIL GROSSMAN'!H14,IF(C24=4,'PERCENTIL GROSSMAN'!J14,IF(C24=5,'PERCENTIL GROSSMAN'!L14,IF(C24=6,'PERCENTIL GROSSMAN'!N14,IF(C24=7,'PERCENTIL GROSSMAN'!P14,IF(C24=8,'PERCENTIL GROSSMAN'!R14,IF(C24=9,'PERCENTIL GROSSMAN'!T14))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E24",
+      "formula": "REPT(\"g\",D24/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "D25",
+      "formula": "CORRECCION!D21",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "E25",
+      "formula": "REPT(\"g\",D25/2)",
+      "value": "ggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C26",
+      "formula": "APLICACION!D22+APLICACION!D50+APLICACION!D95+APLICACION!D129+APLICACION!D144+APLICACION!D154+APLICACION!D183",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D26",
+      "formula": "IF(C26=0,'PERCENTIL GROSSMAN'!B15,IF(C26=1,'PERCENTIL GROSSMAN'!D15,IF(C26=2,'PERCENTIL GROSSMAN'!F15,IF(C26=3,'PERCENTIL GROSSMAN'!H15,IF(C26=4,'PERCENTIL GROSSMAN'!J15,IF(C26=5,'PERCENTIL GROSSMAN'!L15,IF(C26=6,'PERCENTIL GROSSMAN'!N15,IF(C26=7,'PERCENTIL GROSSMAN'!P15,IF(C26=8,'PERCENTIL GROSSMAN'!R15,IF(C26=9,'PERCENTIL GROSSMAN'!T15))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E26",
+      "formula": "REPT(\"g\",D26/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C27",
+      "formula": "APLICACION!E18+APLICACION!E27+APLICACION!E36+APLICACION!E38+APLICACION!E38+APLICACION!D42+APLICACION!D58+APLICACION!D96+APLICACION!E151+APLICACION!D166+APLICACION!E207",
+      "value": 9,
+      "type": "n"
+    },
+    {
+      "cell": "D27",
+      "formula": "IF(C27=0,'PERCENTIL GROSSMAN'!B16,IF(C27=1,'PERCENTIL GROSSMAN'!D16,IF(C27=2,'PERCENTIL GROSSMAN'!F16,IF(C27=3,'PERCENTIL GROSSMAN'!H16,IF(C27=4,'PERCENTIL GROSSMAN'!J16,IF(C27=5,'PERCENTIL GROSSMAN'!L16,IF(C27=6,'PERCENTIL GROSSMAN'!N16,IF(C27=7,'PERCENTIL GROSSMAN'!P16,IF(C27=8,'PERCENTIL GROSSMAN'!R16,IF(C27=9,'PERCENTIL GROSSMAN'!T16))))))))))",
+      "value": 93,
+      "type": "n"
+    },
+    {
+      "cell": "E27",
+      "formula": "REPT(\"g\",D27/2)",
+      "value": "gggggggggggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I27",
+      "formula": "REPT(\"g\",J9*100/5)",
+      "value": "gggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C28",
+      "formula": "APLICACION!D20+APLICACION!D32+APLICACION!D39+APLICACION!D65+APLICACION!D79+APLICACION!D87+APLICACION!E147+APLICACION!D167+APLICACION!E182+APLICACION!D186+APLICACION!D190",
+      "value": 8,
+      "type": "n"
+    },
+    {
+      "cell": "D28",
+      "formula": "IF(C28=0,'PERCENTIL GROSSMAN'!B17,IF(C28=1,'PERCENTIL GROSSMAN'!D17,IF(C28=2,'PERCENTIL GROSSMAN'!F17,IF(C28=3,'PERCENTIL GROSSMAN'!H17,IF(C28=4,'PERCENTIL GROSSMAN'!J17,IF(C28=5,'PERCENTIL GROSSMAN'!L17,IF(C28=6,'PERCENTIL GROSSMAN'!N17,IF(C28=7,'PERCENTIL GROSSMAN'!P17,IF(C28=8,'PERCENTIL GROSSMAN'!R17,IF(C28=9,'PERCENTIL GROSSMAN'!T17))))))))))",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "E28",
+      "formula": "REPT(\"g\",D28/2)",
+      "value": "ggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I28",
+      "formula": "REPT(\"g\",J10*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "D29",
+      "formula": "CORRECCION!D22",
+      "value": 80,
+      "type": "n"
+    },
+    {
+      "cell": "E29",
+      "formula": "REPT(\"g\",D29/2)",
+      "value": "gggggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I29",
+      "formula": "REPT(\"g\",J11*100/5)",
+      "value": "gggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C30",
+      "formula": "APLICACION!D20+APLICACION!D32+APLICACION!D65+APLICACION!D87+APLICACION!D141+APLICACION!D167+APLICACION!D186",
+      "value": 7,
+      "type": "n"
+    },
+    {
+      "cell": "D30",
+      "formula": "IF(C30=0,'PERCENTIL GROSSMAN'!B18,IF(C30=1,'PERCENTIL GROSSMAN'!D18,IF(C30=2,'PERCENTIL GROSSMAN'!F18,IF(C30=3,'PERCENTIL GROSSMAN'!H18,IF(C30=4,'PERCENTIL GROSSMAN'!J18,IF(C30=5,'PERCENTIL GROSSMAN'!L18,IF(C30=6,'PERCENTIL GROSSMAN'!N18,IF(C30=7,'PERCENTIL GROSSMAN'!P18,IF(C30=8,'PERCENTIL GROSSMAN'!R18,IF(C30=9,'PERCENTIL GROSSMAN'!T18))))))))))",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "E30",
+      "formula": "REPT(\"g\",D30/2)",
+      "value": "ggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I30",
+      "formula": "REPT(\"g\",J12*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C31",
+      "formula": "APLICACION!D17+APLICACION!D22+APLICACION!E38+APLICACION!D42+APLICACION!D58+APLICACION!D96+APLICACION!D129+APLICACION!E161+APLICACION!D166",
+      "value": 5,
+      "type": "n"
+    },
+    {
+      "cell": "D31",
+      "formula": "IF(C31=0,'PERCENTIL GROSSMAN'!B19,IF(C31=1,'PERCENTIL GROSSMAN'!D19,IF(C31=2,'PERCENTIL GROSSMAN'!F19,IF(C31=3,'PERCENTIL GROSSMAN'!H19,IF(C31=4,'PERCENTIL GROSSMAN'!J19,IF(C31=5,'PERCENTIL GROSSMAN'!L19,IF(C31=6,'PERCENTIL GROSSMAN'!N19,IF(C31=7,'PERCENTIL GROSSMAN'!P19,IF(C31=8,'PERCENTIL GROSSMAN'!R19,IF(C31=9,'PERCENTIL GROSSMAN'!T19))))))))))",
+      "value": 70,
+      "type": "n"
+    },
+    {
+      "cell": "E31",
+      "formula": "REPT(\"g\",D31/2)",
+      "value": "ggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I31",
+      "formula": "REPT(\"g\",J13*100/5)",
+      "value": "gg",
+      "type": "s"
+    },
+    {
+      "cell": "C32",
+      "formula": "APLICACION!E26+APLICACION!D79+APLICACION!E105+APLICACION!E132+APLICACION!D154+APLICACION!E168+APLICACION!E187+APLICACION!E190",
+      "value": 7,
+      "type": "n"
+    },
+    {
+      "cell": "D32",
+      "formula": "IF(C32=0,'PERCENTIL GROSSMAN'!B20,IF(C32=1,'PERCENTIL GROSSMAN'!D20,IF(C32=2,'PERCENTIL GROSSMAN'!F20,IF(C32=3,'PERCENTIL GROSSMAN'!H20,IF(C32=4,'PERCENTIL GROSSMAN'!J20,IF(C32=5,'PERCENTIL GROSSMAN'!L20,IF(C32=6,'PERCENTIL GROSSMAN'!N20,IF(C32=7,'PERCENTIL GROSSMAN'!P20,IF(C32=8,'PERCENTIL GROSSMAN'!R20,IF(C32=9,'PERCENTIL GROSSMAN'!T20))))))))))",
+      "value": 85,
+      "type": "n"
+    },
+    {
+      "cell": "E32",
+      "formula": "REPT(\"g\",D32/2)",
+      "value": "gggggggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I32",
+      "formula": "REPT(\"g\",J14*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "D33",
+      "formula": "CORRECCION!D23",
+      "value": 62,
+      "type": "n"
+    },
+    {
+      "cell": "E33",
+      "formula": "REPT(\"g\",D33/2)",
+      "value": "ggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I33",
+      "formula": "REPT(\"g\",J15*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C34",
+      "formula": "APLICACION!D22+APLICACION!D31+APLICACION!D50+APLICACION!D95+APLICACION!D129+APLICACION!D144+APLICACION!D171+APLICACION!D183+APLICACION!D195",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D34",
+      "formula": "IF(C34=0,'PERCENTIL GROSSMAN'!B21,IF(C34=1,'PERCENTIL GROSSMAN'!D21,IF(C34=2,'PERCENTIL GROSSMAN'!F21,IF(C34=3,'PERCENTIL GROSSMAN'!H21,IF(C34=4,'PERCENTIL GROSSMAN'!J21,IF(C34=5,'PERCENTIL GROSSMAN'!L21,IF(C34=6,'PERCENTIL GROSSMAN'!N21,IF(C34=7,'PERCENTIL GROSSMAN'!P21,IF(C34=8,'PERCENTIL GROSSMAN'!R21,IF(C34=9,'PERCENTIL GROSSMAN'!T21))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E34",
+      "formula": "REPT(\"g\",D34/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I34",
+      "formula": "REPT(\"g\",J16*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C35",
+      "formula": "APLICACION!D20+APLICACION!D79+APLICACION!D87+APLICACION!E105+APLICACION!D154+APLICACION!D166+APLICACION!D167+APLICACION!D186+APLICACION!E190+APLICACION!D197",
+      "value": 9,
+      "type": "n"
+    },
+    {
+      "cell": "D35",
+      "formula": "IF(C35=0,'PERCENTIL GROSSMAN'!B22,IF(C35=1,'PERCENTIL GROSSMAN'!D22,IF(C35=2,'PERCENTIL GROSSMAN'!F22,IF(C35=3,'PERCENTIL GROSSMAN'!H22,IF(C35=4,'PERCENTIL GROSSMAN'!J22,IF(C35=5,'PERCENTIL GROSSMAN'!L22,IF(C35=6,'PERCENTIL GROSSMAN'!N22,IF(C35=7,'PERCENTIL GROSSMAN'!P22,IF(C35=8,'PERCENTIL GROSSMAN'!R22,IF(C35=9,'PERCENTIL GROSSMAN'!T22))))))))))",
+      "value": 85,
+      "type": "n"
+    },
+    {
+      "cell": "E35",
+      "formula": "REPT(\"g\",D35/2)",
+      "value": "gggggggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I35",
+      "formula": "REPT(\"g\",J17*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C36",
+      "formula": "APLICACION!D41+APLICACION!D66+APLICACION!D91+APLICACION!D99+APLICACION!D118+APLICACION!D192+APLICACION!D201",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D36",
+      "formula": "IF(C36=0,'PERCENTIL GROSSMAN'!B23,IF(C36=1,'PERCENTIL GROSSMAN'!D23,IF(C36=2,'PERCENTIL GROSSMAN'!F23,IF(C36=3,'PERCENTIL GROSSMAN'!H23,IF(C36=4,'PERCENTIL GROSSMAN'!J23,IF(C36=5,'PERCENTIL GROSSMAN'!L23,IF(C36=6,'PERCENTIL GROSSMAN'!N23,IF(C36=7,'PERCENTIL GROSSMAN'!P23,IF(C36=8,'PERCENTIL GROSSMAN'!R23,IF(C36=9,'PERCENTIL GROSSMAN'!T23))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E36",
+      "formula": "REPT(\"g\",D36/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I36",
+      "formula": "REPT(\"g\",J18*100/5)",
+      "value": "ggg",
+      "type": "s"
+    },
+    {
+      "cell": "D37",
+      "formula": "CORRECCION!D24",
+      "value": 20,
+      "type": "n"
+    },
+    {
+      "cell": "E37",
+      "formula": "REPT(\"g\",D37/2)",
+      "value": "gggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I37",
+      "formula": "REPT(\"g\",J19*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C38",
+      "formula": "APLICACION!E22+APLICACION!E50+APLICACION!D95+APLICACION!D115+APLICACION!D171+APLICACION!E183+APLICACION!D195+APLICACION!E200",
+      "value": 4,
+      "type": "n"
+    },
+    {
+      "cell": "D38",
+      "formula": "IF(C38=0,'PERCENTIL GROSSMAN'!B24,IF(C38=1,'PERCENTIL GROSSMAN'!D24,IF(C38=2,'PERCENTIL GROSSMAN'!F24,IF(C38=3,'PERCENTIL GROSSMAN'!H24,IF(C38=4,'PERCENTIL GROSSMAN'!J24,IF(C38=5,'PERCENTIL GROSSMAN'!L24,IF(C38=6,'PERCENTIL GROSSMAN'!N24,IF(C38=7,'PERCENTIL GROSSMAN'!P24,IF(C38=8,'PERCENTIL GROSSMAN'!R24,IF(C38=9,'PERCENTIL GROSSMAN'!T24))))))))))",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "E38",
+      "formula": "REPT(\"g\",D38/2)",
+      "value": "ggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I38",
+      "formula": "REPT(\"g\",J20*100/5)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C39",
+      "formula": "APLICACION!D23+APLICACION!D31+APLICACION!E60+APLICACION!E85+APLICACION!D159+APLICACION!D164+APLICACION!D165+APLICACION!E170+APLICACION!D180+APLICACION!E203",
+      "value": 3,
+      "type": "n"
+    },
+    {
+      "cell": "D39",
+      "formula": "IF(C39=0,'PERCENTIL GROSSMAN'!B25,IF(C39=1,'PERCENTIL GROSSMAN'!D25,IF(C39=2,'PERCENTIL GROSSMAN'!F25,IF(C39=3,'PERCENTIL GROSSMAN'!H25,IF(C39=4,'PERCENTIL GROSSMAN'!J25,IF(C39=5,'PERCENTIL GROSSMAN'!L25,IF(C39=6,'PERCENTIL GROSSMAN'!N25,IF(C39=7,'PERCENTIL GROSSMAN'!P25,IF(C39=8,'PERCENTIL GROSSMAN'!R25,IF(C39=9,'PERCENTIL GROSSMAN'!T25))))))))))",
+      "value": 65,
+      "type": "n"
+    },
+    {
+      "cell": "E39",
+      "formula": "REPT(\"g\",D39/2)",
+      "value": "gggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "I39",
+      "formula": "REPT(\"g\",J21*100/5)",
+      "value": "ggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C40",
+      "formula": "APLICACION!D37+APLICACION!D48+APLICACION!D73+APLICACION!E75+APLICACION!D97+APLICACION!D117+APLICACION!D138+APLICACION!D142+APLICACION!D156",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D40",
+      "formula": "IF(C40=0,'PERCENTIL GROSSMAN'!B26,IF(C40=1,'PERCENTIL GROSSMAN'!D26,IF(C40=2,'PERCENTIL GROSSMAN'!F26,IF(C40=3,'PERCENTIL GROSSMAN'!H26,IF(C40=4,'PERCENTIL GROSSMAN'!J26,IF(C40=5,'PERCENTIL GROSSMAN'!L26,IF(C40=6,'PERCENTIL GROSSMAN'!N26,IF(C40=7,'PERCENTIL GROSSMAN'!P26,IF(C40=8,'PERCENTIL GROSSMAN'!R26,IF(C40=9,'PERCENTIL GROSSMAN'!T26))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E40",
+      "formula": "REPT(\"g\",D40/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "D41",
+      "formula": "CORRECCION!D25",
+      "value": 10,
+      "type": "n"
+    },
+    {
+      "cell": "E41",
+      "formula": "REPT(\"g\",D41/2)",
+      "value": "ggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C42",
+      "formula": "APLICACION!D21+APLICACION!D23+APLICACION!D77+APLICACION!D78+APLICACION!D100+APLICACION!D115+APLICACION!D164+APLICACION!D165+APLICACION!D171",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D42",
+      "formula": "IF(C42=0,'PERCENTIL GROSSMAN'!B27,IF(C42=1,'PERCENTIL GROSSMAN'!D27,IF(C42=2,'PERCENTIL GROSSMAN'!F27,IF(C42=3,'PERCENTIL GROSSMAN'!H27,IF(C42=4,'PERCENTIL GROSSMAN'!J27,IF(C42=5,'PERCENTIL GROSSMAN'!L27,IF(C42=6,'PERCENTIL GROSSMAN'!N27,IF(C42=7,'PERCENTIL GROSSMAN'!P27,IF(C42=8,'PERCENTIL GROSSMAN'!R27,IF(C42=9,'PERCENTIL GROSSMAN'!T27))))))))))",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "E42",
+      "formula": "REPT(\"g\",D42/2)",
+      "value": "gggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C43",
+      "formula": "APLICACION!D31+APLICACION!D33+APLICACION!D62+APLICACION!D109+APLICACION!D153+APLICACION!E178+APLICACION!D199",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D43",
+      "formula": "IF(C43=0,'PERCENTIL GROSSMAN'!B28,IF(C43=1,'PERCENTIL GROSSMAN'!D28,IF(C43=2,'PERCENTIL GROSSMAN'!F28,IF(C43=3,'PERCENTIL GROSSMAN'!H28,IF(C43=4,'PERCENTIL GROSSMAN'!J28,IF(C43=5,'PERCENTIL GROSSMAN'!L28,IF(C43=6,'PERCENTIL GROSSMAN'!N28,IF(C43=7,'PERCENTIL GROSSMAN'!P28,IF(C43=8,'PERCENTIL GROSSMAN'!R28,IF(C43=9,'PERCENTIL GROSSMAN'!T28))))))))))",
+      "value": 64,
+      "type": "n"
+    },
+    {
+      "cell": "E43",
+      "formula": "REPT(\"g\",D43/2)",
+      "value": "gggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C44",
+      "formula": "APLICACION!D28+APLICACION!D49+APLICACION!D86+APLICACION!D127+APLICACION!D149+APLICACION!D157+APLICACION!D180",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D44",
+      "formula": "IF(C44=0,'PERCENTIL GROSSMAN'!B29,IF(C44=1,'PERCENTIL GROSSMAN'!D29,IF(C44=2,'PERCENTIL GROSSMAN'!F29,IF(C44=3,'PERCENTIL GROSSMAN'!H29,IF(C44=4,'PERCENTIL GROSSMAN'!J29,IF(C44=5,'PERCENTIL GROSSMAN'!L29,IF(C44=6,'PERCENTIL GROSSMAN'!N29,IF(C44=7,'PERCENTIL GROSSMAN'!P29,IF(C44=8,'PERCENTIL GROSSMAN'!R29,IF(C44=9,'PERCENTIL GROSSMAN'!T29))))))))))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "E44",
+      "formula": "REPT(\"g\",D44/2)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "D45",
+      "formula": "CORRECCION!D26",
+      "value": 49,
+      "type": "n"
+    },
+    {
+      "cell": "E45",
+      "formula": "REPT(\"g\",D45/2)",
+      "value": "gggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C46",
+      "formula": "APLICACION!D14+APLICACION!D32+APLICACION!D47+APLICACION!D75+APLICACION!E97+APLICACION!E130+APLICACION!D186+APLICACION!D200",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "D46",
+      "formula": "IF(C46=0,'PERCENTIL GROSSMAN'!B30,IF(C46=1,'PERCENTIL GROSSMAN'!D30,IF(C46=2,'PERCENTIL GROSSMAN'!F30,IF(C46=3,'PERCENTIL GROSSMAN'!H30,IF(C46=4,'PERCENTIL GROSSMAN'!J30,IF(C46=5,'PERCENTIL GROSSMAN'!L30,IF(C46=6,'PERCENTIL GROSSMAN'!N30,IF(C46=7,'PERCENTIL GROSSMAN'!P30,IF(C46=8,'PERCENTIL GROSSMAN'!R30,IF(C46=9,'PERCENTIL GROSSMAN'!T30))))))))))",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "E46",
+      "formula": "REPT(\"g\",D46/2)",
+      "value": "ggggggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C47",
+      "formula": "APLICACION!D35+APLICACION!D56+APLICACION!D63+APLICACION!D64+APLICACION!D111+APLICACION!D140+APLICACION!D143+APLICACION!D147+APLICACION!D149",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D47",
+      "formula": "IF(C47=0,'PERCENTIL GROSSMAN'!B31,IF(C47=1,'PERCENTIL GROSSMAN'!D31,IF(C47=2,'PERCENTIL GROSSMAN'!F31,IF(C47=3,'PERCENTIL GROSSMAN'!H31,IF(C47=4,'PERCENTIL GROSSMAN'!J31,IF(C47=5,'PERCENTIL GROSSMAN'!L31,IF(C47=6,'PERCENTIL GROSSMAN'!N31,IF(C47=7,'PERCENTIL GROSSMAN'!P31,IF(C47=8,'PERCENTIL GROSSMAN'!R31,IF(C47=9,'PERCENTIL GROSSMAN'!T31))))))))))",
+      "value": 9,
+      "type": "n"
+    },
+    {
+      "cell": "E47",
+      "formula": "REPT(\"g\",D47/2)",
+      "value": "gggg",
+      "type": "s"
+    },
+    {
+      "cell": "C48",
+      "formula": "APLICACION!E31+APLICACION!D60+APLICACION!D85+APLICACION!E95+APLICACION!E159+APLICACION!E164+APLICACION!D170+APLICACION!E195+APLICACION!D203",
+      "value": 7,
+      "type": "n"
+    },
+    {
+      "cell": "D48",
+      "formula": "IF(C48=0,'PERCENTIL GROSSMAN'!B32,IF(C48=1,'PERCENTIL GROSSMAN'!D32,IF(C48=2,'PERCENTIL GROSSMAN'!F32,IF(C48=3,'PERCENTIL GROSSMAN'!H32,IF(C48=4,'PERCENTIL GROSSMAN'!J32,IF(C48=5,'PERCENTIL GROSSMAN'!L32,IF(C48=6,'PERCENTIL GROSSMAN'!N32,IF(C48=7,'PERCENTIL GROSSMAN'!P32,IF(C48=8,'PERCENTIL GROSSMAN'!R32,IF(C48=9,'PERCENTIL GROSSMAN'!T32))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E48",
+      "formula": "REPT(\"g\",D48/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "D49",
+      "formula": "CORRECCION!D27",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E49",
+      "formula": "REPT(\"g\",D49/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C50",
+      "formula": "APLICACION!D33+APLICACION!D44+APLICACION!D91+APLICACION!D100+APLICACION!D108+APLICACION!D112+APLICACION!D134+APLICACION!D179+APLICACION!D184",
+      "value": 4,
+      "type": "n"
+    },
+    {
+      "cell": "D50",
+      "formula": "IF(C50=0,'PERCENTIL GROSSMAN'!B33,IF(C50=1,'PERCENTIL GROSSMAN'!D33,IF(C50=2,'PERCENTIL GROSSMAN'!F33,IF(C50=3,'PERCENTIL GROSSMAN'!H33,IF(C50=4,'PERCENTIL GROSSMAN'!J33,IF(C50=5,'PERCENTIL GROSSMAN'!L33,IF(C50=6,'PERCENTIL GROSSMAN'!N33,IF(C50=7,'PERCENTIL GROSSMAN'!P33,IF(C50=8,'PERCENTIL GROSSMAN'!R33,IF(C50=9,'PERCENTIL GROSSMAN'!T33))))))))))",
+      "value": 68,
+      "type": "n"
+    },
+    {
+      "cell": "E50",
+      "formula": "REPT(\"g\",D50/2)",
+      "value": "gggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C51",
+      "formula": "APLICACION!D24+APLICACION!D29+APLICACION!D36+APLICACION!D46+APLICACION!D51+APLICACION!D63+APLICACION!D64+APLICACION!D71+APLICACION!E87+APLICACION!D165",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D51",
+      "formula": "IF(C51=0,'PERCENTIL GROSSMAN'!B34,IF(C51=1,'PERCENTIL GROSSMAN'!D34,IF(C51=2,'PERCENTIL GROSSMAN'!F34,IF(C51=3,'PERCENTIL GROSSMAN'!H34,IF(C51=4,'PERCENTIL GROSSMAN'!J34,IF(C51=5,'PERCENTIL GROSSMAN'!L34,IF(C51=6,'PERCENTIL GROSSMAN'!N34,IF(C51=7,'PERCENTIL GROSSMAN'!P34,IF(C51=8,'PERCENTIL GROSSMAN'!R34,IF(C51=9,'PERCENTIL GROSSMAN'!T34))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E51",
+      "formula": "REPT(\"g\",D51/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C52",
+      "formula": "APLICACION!D21+APLICACION!D49+APLICACION!D86+APLICACION!D94+APLICACION!D109+APLICACION!D127+APLICACION!D149+APLICACION!D157+APLICACION!D180",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D52",
+      "formula": "IF(C52=0,'PERCENTIL GROSSMAN'!B35,IF(C52=1,'PERCENTIL GROSSMAN'!D35,IF(C52=2,'PERCENTIL GROSSMAN'!F35,IF(C52=3,'PERCENTIL GROSSMAN'!H35,IF(C52=4,'PERCENTIL GROSSMAN'!J35,IF(C52=5,'PERCENTIL GROSSMAN'!L35,IF(C52=6,'PERCENTIL GROSSMAN'!N35,IF(C52=7,'PERCENTIL GROSSMAN'!P35,IF(C52=8,'PERCENTIL GROSSMAN'!R35,IF(C52=9,'PERCENTIL GROSSMAN'!T35))))))))))",
+      "value": 20,
+      "type": "n"
+    },
+    {
+      "cell": "E52",
+      "formula": "REPT(\"g\",D52/2)",
+      "value": "gggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "D53",
+      "formula": "CORRECCION!D28",
+      "value": 38,
+      "type": "n"
+    },
+    {
+      "cell": "E53",
+      "formula": "REPT(\"g\",D53/2)",
+      "value": "ggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C54",
+      "formula": "APLICACION!D16+APLICACION!D24+APLICACION!D35+APLICACION!D51+APLICACION!D64+APLICACION!D71+APLICACION!D82+APLICACION!D105+APLICACION!D176",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D54",
+      "formula": "IF(C54=0,'PERCENTIL GROSSMAN'!B36,IF(C54=1,'PERCENTIL GROSSMAN'!D36,IF(C54=2,'PERCENTIL GROSSMAN'!F36,IF(C54=3,'PERCENTIL GROSSMAN'!H36,IF(C54=4,'PERCENTIL GROSSMAN'!J36,IF(C54=5,'PERCENTIL GROSSMAN'!L36,IF(C54=6,'PERCENTIL GROSSMAN'!N36,IF(C54=7,'PERCENTIL GROSSMAN'!P36,IF(C54=8,'PERCENTIL GROSSMAN'!R36,IF(C54=9,'PERCENTIL GROSSMAN'!T36))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E54",
+      "formula": "REPT(\"g\",D54/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C55",
+      "formula": "APLICACION!D29+APLICACION!D52+APLICACION!D97+APLICACION!D112+APLICACION!D138+APLICACION!D168+APLICACION!D178+APLICACION!D179+APLICACION!D196",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D55",
+      "formula": "IF(C55=0,'PERCENTIL GROSSMAN'!B37,IF(C55=1,'PERCENTIL GROSSMAN'!D37,IF(C55=2,'PERCENTIL GROSSMAN'!F37,IF(C55=3,'PERCENTIL GROSSMAN'!H37,IF(C55=4,'PERCENTIL GROSSMAN'!J37,IF(C55=5,'PERCENTIL GROSSMAN'!L37,IF(C55=6,'PERCENTIL GROSSMAN'!N37,IF(C55=7,'PERCENTIL GROSSMAN'!P37,IF(C55=8,'PERCENTIL GROSSMAN'!R37,IF(C55=9,'PERCENTIL GROSSMAN'!T37))))))))))",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "E55",
+      "formula": "REPT(\"g\",D55/2)",
+      "value": "gggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C56",
+      "formula": "APLICACION!D32+APLICACION!D65+APLICACION!E79+APLICACION!D87+APLICACION!D104+APLICACION!D119+APLICACION!D166+APLICACION!D167+APLICACION!E182",
+      "value": 5,
+      "type": "n"
+    },
+    {
+      "cell": "D56",
+      "formula": "IF(C56=0,'PERCENTIL GROSSMAN'!B38,IF(C56=1,'PERCENTIL GROSSMAN'!D38,IF(C56=2,'PERCENTIL GROSSMAN'!F38,IF(C56=3,'PERCENTIL GROSSMAN'!H38,IF(C56=4,'PERCENTIL GROSSMAN'!J38,IF(C56=5,'PERCENTIL GROSSMAN'!L38,IF(C56=6,'PERCENTIL GROSSMAN'!N38,IF(C56=7,'PERCENTIL GROSSMAN'!P38,IF(C56=8,'PERCENTIL GROSSMAN'!R38,IF(C56=9,'PERCENTIL GROSSMAN'!T38))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E56",
+      "formula": "REPT(\"g\",D56/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "D57",
+      "formula": "CORRECCION!D30",
+      "value": 12,
+      "type": "n"
+    },
+    {
+      "cell": "E57",
+      "formula": "REPT(\"g\",D57/2)",
+      "value": "gggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C58",
+      "formula": "APLICACION!D30+APLICACION!D45+APLICACION!D56+APLICACION!D101+APLICACION!D133+APLICACION!D135+APLICACION!D143+APLICACION!D175",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D58",
+      "formula": "IF(C58=0,'PERCENTIL GROSSMAN'!B39,IF(C58=1,'PERCENTIL GROSSMAN'!D39,IF(C58=2,'PERCENTIL GROSSMAN'!F39,IF(C58=3,'PERCENTIL GROSSMAN'!H39,IF(C58=4,'PERCENTIL GROSSMAN'!J39,IF(C58=5,'PERCENTIL GROSSMAN'!L39,IF(C58=6,'PERCENTIL GROSSMAN'!N39,IF(C58=7,'PERCENTIL GROSSMAN'!P39,IF(C58=8,'PERCENTIL GROSSMAN'!R39,IF(C58=9,'PERCENTIL GROSSMAN'!T39))))))))))",
+      "value": 15,
+      "type": "n"
+    },
+    {
+      "cell": "E58",
+      "formula": "REPT(\"g\",D58/2)",
+      "value": "ggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C59",
+      "formula": "APLICACION!D17+APLICACION!D70+APLICACION!D82+APLICACION!D102+APLICACION!D105+APLICACION!D123+APLICACION!D138+APLICACION!E166+APLICACION!D168+APLICACION!D178",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D59",
+      "formula": "IF(C59=0,'PERCENTIL GROSSMAN'!B40,IF(C59=1,'PERCENTIL GROSSMAN'!D40,IF(C59=2,'PERCENTIL GROSSMAN'!F40,IF(C59=3,'PERCENTIL GROSSMAN'!H40,IF(C59=4,'PERCENTIL GROSSMAN'!J40,IF(C59=5,'PERCENTIL GROSSMAN'!L40,IF(C59=6,'PERCENTIL GROSSMAN'!N40,IF(C59=7,'PERCENTIL GROSSMAN'!P40,IF(C59=8,'PERCENTIL GROSSMAN'!R40,IF(C59=9,'PERCENTIL GROSSMAN'!T40))))))))))",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "E59",
+      "formula": "REPT(\"g\",D59/2)",
+      "value": "gggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C60",
+      "formula": "APLICACION!D25+APLICACION!D36+APLICACION!D80+APLICACION!D91+APLICACION!D100+APLICACION!D118+APLICACION!D124+APLICACION!D160+APLICACION!D179",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D60",
+      "formula": "IF(C60=0,'PERCENTIL GROSSMAN'!B41,IF(C60=1,'PERCENTIL GROSSMAN'!D41,IF(C60=2,'PERCENTIL GROSSMAN'!F41,IF(C60=3,'PERCENTIL GROSSMAN'!H41,IF(C60=4,'PERCENTIL GROSSMAN'!J41,IF(C60=5,'PERCENTIL GROSSMAN'!L41,IF(C60=6,'PERCENTIL GROSSMAN'!N41,IF(C60=7,'PERCENTIL GROSSMAN'!P41,IF(C60=8,'PERCENTIL GROSSMAN'!R41,IF(C60=9,'PERCENTIL GROSSMAN'!T41))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E60",
+      "formula": "REPT(\"g\",D60/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "D61",
+      "formula": "CORRECCION!D31",
+      "value": 45,
+      "type": "n"
+    },
+    {
+      "cell": "E61",
+      "formula": "REPT(\"g\",D61/2)",
+      "value": "gggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C62",
+      "formula": "APLICACION!D26+APLICACION!D82+APLICACION!D113+APLICACION!D123+APLICACION!D163+APLICACION!D168+APLICACION!D182+APLICACION!D190",
+      "value": 4,
+      "type": "n"
+    },
+    {
+      "cell": "D62",
+      "formula": "IF(C62=0,'PERCENTIL GROSSMAN'!B42,IF(C62=1,'PERCENTIL GROSSMAN'!D42,IF(C62=2,'PERCENTIL GROSSMAN'!F42,IF(C62=3,'PERCENTIL GROSSMAN'!H42,IF(C62=4,'PERCENTIL GROSSMAN'!J42,IF(C62=5,'PERCENTIL GROSSMAN'!L42,IF(C62=6,'PERCENTIL GROSSMAN'!N42,IF(C62=7,'PERCENTIL GROSSMAN'!P42,IF(C62=8,'PERCENTIL GROSSMAN'!R42,IF(C62=9,'PERCENTIL GROSSMAN'!T42))))))))))",
+      "value": 65,
+      "type": "n"
+    },
+    {
+      "cell": "E62",
+      "formula": "REPT(\"g\",D62/2)",
+      "value": "gggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C63",
+      "formula": "APLICACION!D16+APLICACION!D29+APLICACION!D51+APLICACION!D71+APLICACION!D105+APLICACION!D112+APLICACION!D138+APLICACION!D146+APLICACION!D178",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "D63",
+      "formula": "IF(C63=0,'PERCENTIL GROSSMAN'!B43,IF(C63=1,'PERCENTIL GROSSMAN'!D43,IF(C63=2,'PERCENTIL GROSSMAN'!F43,IF(C63=3,'PERCENTIL GROSSMAN'!H43,IF(C63=4,'PERCENTIL GROSSMAN'!J43,IF(C63=5,'PERCENTIL GROSSMAN'!L43,IF(C63=6,'PERCENTIL GROSSMAN'!N43,IF(C63=7,'PERCENTIL GROSSMAN'!P43,IF(C63=8,'PERCENTIL GROSSMAN'!R43,IF(C63=9,'PERCENTIL GROSSMAN'!T43))))))))))",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "E63",
+      "formula": "REPT(\"g\",D63/2)",
+      "value": "",
+      "type": "s"
+    },
+    {
+      "cell": "C64",
+      "formula": "APLICACION!D28+APLICACION!D30+APLICACION!D49+APLICACION!D86+APLICACION!D92+APLICACION!D94+APLICACION!D127+APLICACION!D149+APLICACION!D176",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D64",
+      "formula": "IF(C64=0,'PERCENTIL GROSSMAN'!B44,IF(C64=1,'PERCENTIL GROSSMAN'!D44,IF(C64=2,'PERCENTIL GROSSMAN'!F44,IF(C64=3,'PERCENTIL GROSSMAN'!H44,IF(C64=4,'PERCENTIL GROSSMAN'!J44,IF(C64=5,'PERCENTIL GROSSMAN'!L44,IF(C64=6,'PERCENTIL GROSSMAN'!N44,IF(C64=7,'PERCENTIL GROSSMAN'!P44,IF(C64=8,'PERCENTIL GROSSMAN'!R44,IF(C64=9,'PERCENTIL GROSSMAN'!T44))))))))))",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "E64",
+      "formula": "REPT(\"g\",D64/2)",
+      "value": "gggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "D65",
+      "formula": "CORRECCION!D32",
+      "value": 66,
+      "type": "n"
+    },
+    {
+      "cell": "E65",
+      "formula": "REPT(\"g\",D65/2)",
+      "value": "ggggggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C66",
+      "formula": "APLICACION!D24+APLICACION!D27+APLICACION!D33+APLICACION!D36+APLICACION!D116+APLICACION!D161+APLICACION!D165+APLICACION!D192+APLICACION!D207",
+      "value": 3,
+      "type": "n"
+    },
+    {
+      "cell": "D66",
+      "formula": "IF(C66=0,'PERCENTIL GROSSMAN'!B45,IF(C66=1,'PERCENTIL GROSSMAN'!D45,IF(C66=2,'PERCENTIL GROSSMAN'!F45,IF(C66=3,'PERCENTIL GROSSMAN'!H45,IF(C66=4,'PERCENTIL GROSSMAN'!J45,IF(C66=5,'PERCENTIL GROSSMAN'!L45,IF(C66=6,'PERCENTIL GROSSMAN'!N45,IF(C66=7,'PERCENTIL GROSSMAN'!P45,IF(C66=8,'PERCENTIL GROSSMAN'!R45,IF(C66=9,'PERCENTIL GROSSMAN'!T45))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E66",
+      "formula": "REPT(\"g\",D66/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C67",
+      "formula": "APLICACION!D29+APLICACION!D64+APLICACION!D91+APLICACION!D100+APLICACION!D184+APLICACION!D194+APLICACION!D196",
+      "value": 2,
+      "type": "n"
+    },
+    {
+      "cell": "D67",
+      "formula": "IF(C67=0,'PERCENTIL GROSSMAN'!B46,IF(C67=1,'PERCENTIL GROSSMAN'!D46,IF(C67=2,'PERCENTIL GROSSMAN'!F46,IF(C67=3,'PERCENTIL GROSSMAN'!H46,IF(C67=4,'PERCENTIL GROSSMAN'!J46,IF(C67=5,'PERCENTIL GROSSMAN'!L46,IF(C67=6,'PERCENTIL GROSSMAN'!N46,IF(C67=7,'PERCENTIL GROSSMAN'!P46,IF(C67=8,'PERCENTIL GROSSMAN'!R46,IF(C67=9,'PERCENTIL GROSSMAN'!T46))))))))))",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "E67",
+      "formula": "REPT(\"g\",D67/2)",
+      "value": "gggggggggggggggggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "C68",
+      "formula": "APLICACION!D25+APLICACION!D44+APLICACION!D80+APLICACION!D108+APLICACION!D118+APLICACION!D124+APLICACION!D134+APLICACION!D148+APLICACION!D160",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "D68",
+      "formula": "IF(C68=0,'PERCENTIL GROSSMAN'!B47,IF(C68=1,'PERCENTIL GROSSMAN'!D47,IF(C68=2,'PERCENTIL GROSSMAN'!F47,IF(C68=3,'PERCENTIL GROSSMAN'!H47,IF(C68=4,'PERCENTIL GROSSMAN'!J47,IF(C68=5,'PERCENTIL GROSSMAN'!L47,IF(C68=6,'PERCENTIL GROSSMAN'!N47,IF(C68=7,'PERCENTIL GROSSMAN'!P47,IF(C68=8,'PERCENTIL GROSSMAN'!R47,IF(C68=9,'PERCENTIL GROSSMAN'!T47))))))))))",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "E68",
+      "formula": "REPT(\"g\",D68/2)",
+      "value": "ggggggggggggggg",
+      "type": "s"
+    },
+    {
+      "cell": "E69",
+      "formula": "REPT(\"g\",D69/2)",
+      "value": "",
+      "type": "s"
+    }
+  ],
+  "range": "A4:J69",
+  "merges": [
+    {
+      "s": {
+        "c": 0,
+        "r": 7
+      },
+      "e": {
+        "c": 1,
+        "r": 7
+      }
+    },
+    {
+      "s": {
+        "c": 6,
+        "r": 7
+      },
+      "e": {
+        "c": 7,
+        "r": 7
+      }
+    },
+    {
+      "s": {
+        "c": 7,
+        "r": 25
+      },
+      "e": {
+        "c": 8,
+        "r": 25
+      }
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "testName": "MCMI-IV",
+  "fullName": "Inventario Clínico Multiaxial de Millon - IV",
+  "totalItems": 195,
+  "responseFormat": "true_false",
+  "validityScales": [
+    {
+      "code": "V",
+      "name": "Invalidez"
+    },
+    {
+      "code": "W",
+      "name": "Inconsistencia"
+    },
+    {
+      "code": "X",
+      "name": "Sinceridad"
+    },
+    {
+      "code": "Y",
+      "name": "Deseabilidad Social"
+    },
+    {
+      "code": "Z",
+      "name": "Devaluación"
+    }
+  ],
+  "personalityPatterns": [
+    {
+      "code": "2A",
+      "name": "Evitativo"
+    },
+    {
+      "code": "2B",
+      "name": "Melancólico "
+    },
+    {
+      "code": 3,
+      "name": "Dependiente"
+    },
+    {
+      "code": "4A",
+      "name": "Histriónico"
+    },
+    {
+      "code": "4B",
+      "name": "Tempestuoso"
+    },
+    {
+      "code": 5,
+      "name": "Narcisista"
+    },
+    {
+      "code": "6A",
+      "name": "Antisocial"
+    },
+    {
+      "code": "6B",
+      "name": "Sádico "
+    },
+    {
+      "code": 7,
+      "name": "Compulsivo"
+    },
+    {
+      "code": "8A",
+      "name": "Negativista"
+    },
+    {
+      "code": "8B",
+      "name": "Masoquista"
+    },
+    {
+      "code": "Patologías Graves Personalidad",
+      "name": null
+    }
+  ],
+  "severePatterns": [
+    {
+      "code": "C",
+      "name": "Límite    "
+    },
+    {
+      "code": "P",
+      "name": "Paranoide"
+    }
+  ],
+  "clinicalSyndromes": [
+    {
+      "code": "N",
+      "name": "Espectro Bípolar"
+    },
+    {
+      "code": "D",
+      "name": "Depresión Persistente"
+    },
+    {
+      "code": "B",
+      "name": "Consumo de Alcohol"
+    },
+    {
+      "code": "T",
+      "name": "Consumo de Drogas"
+    },
+    {
+      "code": "R",
+      "name": "Estrés Postraumático"
+    },
+    {
+      "code": "SS",
+      "name": "Espectro Esquizofrénico"
+    },
+    {
+      "code": "CC",
+      "name": "Depresión Mayor"
+    },
+    {
+      "code": "PP",
+      "name": "Delirante"
+    }
+  ],
+  "grossmanFacets": [
+    {
+      "code": "2A.1",
+      "name": "Interpersonalmente Aversivo"
+    },
+    {
+      "code": "2A.2",
+      "name": "Autoimagen Alienada"
+    },
+    {
+      "code": "2A.3",
+      "name": "Contenido Vejatorio"
+    },
+    {
+      "code": "2B.1",
+      "name": "Cognitivamente Fatalista"
+    },
+    {
+      "code": "2B.2",
+      "name": "Autoimagen Inutil"
+    },
+    {
+      "code": "2B.3",
+      "name": "Temperalmente Afligido"
+    },
+    {
+      "code": "4A.1",
+      "name": "Expresivamente Dramatico"
+    },
+    {
+      "code": "4A.2",
+      "name": "Interpersonalmente buscador de Atención"
+    },
+    {
+      "code": "4A.3",
+      "name": "Temperamentalmente Inconstante "
+    },
+    {
+      "code": "4B.1",
+      "name": "Expresivamente Impetuoso"
+    },
+    {
+      "code": "4B.2",
+      "name": "Interpersonamente Eufórico"
+    },
+    {
+      "code": "4B.3",
+      "name": "Autoimagen Sobreestimada"
+    },
+    {
+      "code": "6A.1",
+      "name": "Intepersonalmente Responsable"
+    },
+    {
+      "code": "6A.2",
+      "name": "Autoimagen Autónoma"
+    },
+    {
+      "code": "6A.3",
+      "name": "Dinámicas de Irreflexión"
+    },
+    {
+      "code": "6B.1",
+      "name": "Expresivamente Precipitado"
+    },
+    {
+      "code": "6B.2",
+      "name": "Interpersonalmente Desagradable"
+    },
+    {
+      "code": "6B.3",
+      "name": "Arquitectura Eruptiva"
+    },
+    {
+      "code": "8A.1",
+      "name": "Expresivamente Resentido"
+    },
+    {
+      "code": "8A.2",
+      "name": "Autoimagen Descontenta"
+    },
+    {
+      "code": "8A.3",
+      "name": "Temperalmente Irritable"
+    },
+    {
+      "code": "8B.1",
+      "name": "Autoimagen Desmerecedora"
+    },
+    {
+      "code": "8B.2",
+      "name": "Arquitectura Invertida"
+    },
+    {
+      "code": "8B.3",
+      "name": "Temperamentalmente Disfórico"
+    }
+  ],
+  "significantResponses": [
+    {
+      "code": 1,
+      "name": "TDAH"
+    },
+    {
+      "code": 2,
+      "name": "Espectro Autista"
+    },
+    {
+      "code": 3,
+      "name": "Maltrato Infantil"
+    },
+    {
+      "code": 4,
+      "name": "Trastornos de la conducta alimentaria"
+    },
+    {
+      "code": 5,
+      "name": "Falta de Control Emocional"
+    },
+    {
+      "code": 6,
+      "name": "Explosiones de Ira"
+    },
+    {
+      "code": 7,
+      "name": "Preocupación por su salud"
+    },
+    {
+      "code": 8,
+      "name": "Alienación Interpersonal"
+    },
+    {
+      "code": 9,
+      "name": "Abuso de Medicación"
+    },
+    {
+      "code": 10,
+      "name": "Potencial Conducta autodestructiva"
+    },
+    {
+      "code": 11,
+      "name": "Conductas/Tendencias Autolesivas"
+    },
+    {
+      "code": 12,
+      "name": "Lesión Cerebral"
+    },
+    {
+      "code": 13,
+      "name": "Tendencias Vengativas"
+    }
+  ],
+  "scoringMethod": "weighted_formula",
+  "interpretationRanges": {
+    "noPresent": "<60",
+    "risk": "60-74",
+    "pattern": "75-84",
+    "critical": "≥85"
+  }
+}

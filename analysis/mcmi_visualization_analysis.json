@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-10-21T21:03:10.738Z",
+  "totalSheets": 13,
+  "resultSheets": [
+    "RESULTADOS ",
+    "RESULTADOS",
+    "FACETAS GROSSMAN Y RESPUESTAS S"
+  ],
+  "hasCharts": false,
+  "hasDrawings": false,
+  "hasConditionalFormatting": false,
+  "visualization_requirements": [
+    "Graph/Chart for Personality Patterns (scales 1-8B)",
+    "Graph/Chart for Clinical Syndromes (scales S1-C)",
+    "Graph/Chart for Grossman Facets (24 facets)",
+    "Table/List for Validity Scales (V, W, X, Y, Z)",
+    "Table/List for Significant Responses",
+    "Percentile bars or indicators",
+    "BR (Base Rate) score displays",
+    "Color-coded severity indicators"
+  ],
+  "notes": [
+    "Excel charts are typically embedded objects not easily extracted via xlsx library",
+    "Need to recreate visualizations based on data structure and formatting patterns",
+    "RESULTADOS sheet shows the final presentation layout",
+    "FACETAS GROSSMAN sheet contains additional visual layouts"
+  ]
+}

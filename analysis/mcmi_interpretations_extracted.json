@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "source": "CORRECCION sheet - column with interpretation text",
+    "purpose": "BR score interpretation text for each scale",
+    "br_interpretation_ranges": {
+      "validity_specific": "Each validity scale has specific thresholds",
+      "general": "<60 (Not Present), 60-74 (At Risk), 75-84 (Clinical Pattern), ≥85 (Prominent)"
+    }
+  },
+  "validity_scales": [
+    {
+      "code": "V",
+      "name_es": "Invalidez",
+      "pd_or_br_example": 1,
+      "interpretation_es": "válido pero dudable, cuestionable."
+    },
+    {
+      "code": "W",
+      "name_es": "Inconsistencia",
+      "pd_or_br_example": 7,
+      "interpretation_es": "consistente."
+    },
+    {
+      "code": "X",
+      "name_es": "Sinceridad",
+      "pd_or_br_example": 30,
+      "interpretation_es": "clínicamente interpretable"
+    },
+    {
+      "code": "Y",
+      "name_es": "Deseabilidad Social",
+      "pd_or_br_example": 78,
+      "interpretation_es": "Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales."
+    },
+    {
+      "code": "Z",
+      "name_es": "Devaluación",
+      "pd_or_br_example": 37,
+      "interpretation_es": "Tendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar."
+    }
+  ],
+  "personality_patterns": [
+    {
+      "code": "2A",
+      "name_es": "Evitativo",
+      "pd_or_br_example": 6,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "2B",
+      "name_es": "Melancólico",
+      "pd_or_br_example": 30,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "4A",
+      "name_es": "Histriónico",
+      "pd_or_br_example": 75,
+      "interpretation_es": "Patrones menos adaptativos y Trastornos"
+    },
+    {
+      "code": "4B",
+      "name_es": "Tempestuoso",
+      "pd_or_br_example": 80,
+      "interpretation_es": "Patrones menos adaptativos y Trastornos"
+    },
+    {
+      "code": "6A",
+      "name_es": "Antisocial",
+      "pd_or_br_example": 20,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "6B",
+      "name_es": "Sádico",
+      "pd_or_br_example": 10,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "8A",
+      "name_es": "Negativista",
+      "pd_or_br_example": 60,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "8B",
+      "name_es": "Masoquista",
+      "pd_or_br_example": 38,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "S",
+      "name_es": "Esquizotípico",
+      "pd_or_br_example": 12,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "C",
+      "name_es": "Límite",
+      "pd_or_br_example": 45,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "P",
+      "name_es": "Paranoide",
+      "pd_or_br_example": 66,
+      "interpretation_es": "Categoría de Riesgo"
+    },
+    {
+      "code": "A",
+      "name_es": "Ansiedad Generalizada",
+      "pd_or_br_example": 15,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "H",
+      "name_es": "Síntomas Somáticos",
+      "pd_or_br_example": 0,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "N",
+      "name_es": "Espectro Bípolar",
+      "pd_or_br_example": 30,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "D",
+      "name_es": "Depresión Persistente",
+      "pd_or_br_example": 30,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "B",
+      "name_es": "Consumo de Alcohol",
+      "pd_or_br_example": 0,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "T",
+      "name_es": "Consumo de Drogas",
+      "pd_or_br_example": 0,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "R",
+      "name_es": "Estrés Postraumático",
+      "pd_or_br_example": 48,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "SS",
+      "name_es": "Espectro Esquizofrénico",
+      "pd_or_br_example": 40,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "CC",
+      "name_es": "Depresión Mayor",
+      "pd_or_br_example": 51,
+      "interpretation_es": "No presenta"
+    },
+    {
+      "code": "PP",
+      "name_es": "Delirante",
+      "pd_or_br_example": 60,
+      "interpretation_es": "No presenta"
+    }
+  ],
+  "severe_pathology": [],
+  "clinical_syndromes": []
+}

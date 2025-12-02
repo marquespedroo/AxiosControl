@@ -1,0 +1,986 @@
+{
+  "testName": "MCMI-IV",
+  "fullName": {
+    "es": "Inventario Clínico Multiaxial de Millon - IV",
+    "pt": "Inventário Clínico Multiaxial de Millon - IV"
+  },
+  "totalItems": 195,
+  "responseFormat": "true_false",
+  "items": [
+    {
+      "numero": 1,
+      "es": "Ultimamente parece que me quedo sin fuerzas incluso por las mañanas.",
+      "pt": "Ultimamente parece que fico sem forças mesmo pela manhã."
+    },
+    {
+      "numero": 2,
+      "es": "Siempre me aseguro de que mi trabajo esté bien planeado y organizado.",
+      "pt": "Sempre me certifico de que meu trabalho esteja bem planejado e organizado."
+    },
+    {
+      "numero": 3,
+      "es": "Disfruto haciendo tantas cosas diferentes que no puedo decidir por cuál empezar.",
+      "pt": "Gosto de fazer tantas coisas diferentes que não consigo decidir por qual começar."
+    },
+    {
+      "numero": 4,
+      "es": "Me preocupa que las personas de las que dependo me abandonen.",
+      "pt": "Me preocupa que as pessoas das quais dependo me abandonem."
+    },
+    {
+      "numero": 5,
+      "es": "Aunque me da miedo hacer amistades, me gustaría tener más de las que tengo.",
+      "pt": "Embora eu tenha medo de fazer amizades, gostaria de ter mais do que tenho."
+    },
+    {
+      "numero": 6,
+      "es": "Raramente exteriorizo los pocos sentimientos que tengo.",
+      "pt": "Raramente exteriorizo os poucos sentimentos que tenho."
+    },
+    {
+      "numero": 7,
+      "es": "Me cuesta mantener el equilibrio cuando camino.",
+      "pt": "Tenho dificuldade para manter o equilíbrio quando caminho."
+    },
+    {
+      "numero": 8,
+      "es": "Siempre busco oportunidades nuevas que me resulten emocionantes.",
+      "pt": "Sempre busco oportunidades novas que me pareçam emocionantes."
+    },
+    {
+      "numero": 9,
+      "es": "Algunas veces puedo ser bastante duro y desagradable con mi familia.",
+      "pt": "Às vezes posso ser bastante duro e desagradável com minha família."
+    },
+    {
+      "numero": 10,
+      "es": "Me gusta ser el centro de atención.",
+      "pt": "Gosto de ser o centro das atenções."
+    },
+    {
+      "numero": 11,
+      "es": "De adolescente tuve muchos problemas por mi mal comportamiento en la escuela o instituto.",
+      "pt": "Na adolescência tive muitos problemas por meu mau comportamento na escola."
+    },
+    {
+      "numero": 12,
+      "es": "Me da miedo hacerme muy amigo de alquien por que podría acabar sintiéndome ridiculizado o avergonzado.",
+      "pt": "Tenho medo de me tornar muito amigo de alguém porque poderia acabar me sentindo ridicularizado ou envergonhado."
+    },
+    {
+      "numero": 13,
+      "es": "Noto que la gente está hablando de mí cuando paso a su lado.",
+      "pt": "Percebo que as pessoas estão falando de mim quando passo ao lado delas."
+    },
+    {
+      "numero": 14,
+      "es": "Hace uno años comencé a sentirme un fracasado.",
+      "pt": "Há alguns anos comecei a me sentir um fracassado."
+    },
+    {
+      "numero": 15,
+      "es": "Si puedo elegir, prefiero hacer las cosas solo.",
+      "pt": "Se posso escolher, prefiro fazer as coisas sozinho."
+    },
+    {
+      "numero": 16,
+      "es": "Últimamente he comenzado a sentir deseos de destrozar cosas.",
+      "pt": "Ultimamente comecei a sentir vontade de destruir coisas."
+    },
+    {
+      "numero": 17,
+      "es": "Las cosas que hoy van bien no durarán mucho tiempo.",
+      "pt": "As coisas que hoje vão bem não durarão muito tempo."
+    },
+    {
+      "numero": 18,
+      "es": "A veces, cuando las cosas empiezan a irme mal, me siento como si estuviera loco o fuera de la realidad.",
+      "pt": "Às vezes, quando as coisas começam a dar errado, sinto como se estivesse louco ou fora da realidade."
+    },
+    {
+      "numero": 19,
+      "es": "Hago lo que quiero sin preocuparme de las consecuencias que tenga en los demás.",
+      "pt": "Faço o que quero sem me preocupar com as consequências para os outros."
+    },
+    {
+      "numero": 20,
+      "es": "Afronto mis actividades diarias con mucha energía y persistencia.",
+      "pt": "Enfrento minhas atividades diárias com muita energia e persistência."
+    },
+    {
+      "numero": 21,
+      "es": "Nunca perdono una ofensa ni olvido una situación embarazosa que alguien me haya causado.",
+      "pt": "Nunca perdoo uma ofensa nem esqueço uma situação embaraçosa que alguém me tenha causado."
+    },
+    {
+      "numero": 22,
+      "es": "Me siento extremadamente deprimido y triste gran parte del tiempo.",
+      "pt": "Me sinto extremamente deprimido e triste grande parte do tempo."
+    },
+    {
+      "numero": 23,
+      "es": "Siempre tiendo a culparme cuando las cosas van mal.",
+      "pt": "Sempre tendo a me culpar quando as coisas vão mal."
+    },
+    {
+      "numero": 24,
+      "es": "Hace mucho decidí que es mejor tener poca relación con la gente.",
+      "pt": "Há muito tempo decidi que é melhor ter pouco relacionamento com as pessoas."
+    },
+    {
+      "numero": 25,
+      "es": "Tengo un problema con el alcohol que nos ha creado dificultades a mí y a mi familia.",
+      "pt": "Tenho um problema com álcool que criou dificuldades para mim e minha família."
+    },
+    {
+      "numero": 26,
+      "es": "Soy una persona socialmente muy reservada y tímida.",
+      "pt": "Sou uma pessoa socialmente muito reservada e tímida."
+    },
+    {
+      "numero": 27,
+      "es": "Muchas veces me siento muy alegre y animado sin ninguna razón.",
+      "pt": "Muitas vezes me sinto muito alegre e animado sem nenhuma razão."
+    },
+    {
+      "numero": 28,
+      "es": "En las últimas semanas me he sentido agotado sin ningún motivo en particular.",
+      "pt": "Nas últimas semanas me senti esgotado sem nenhum motivo em particular."
+    },
+    {
+      "numero": 29,
+      "es": "Mi tiempo es más valioso que el de los demás.",
+      "pt": "Meu tempo é mais valioso que o dos outros."
+    },
+    {
+      "numero": 30,
+      "es": "Siempre estoy buscando hacer nuevas amistades y conocer gente nueva.",
+      "pt": "Sempre estou procurando fazer novas amizades e conhecer pessoas novas."
+    },
+    {
+      "numero": 31,
+      "es": "Desde hace unas semanas estoy muy nervioso.",
+      "pt": "Há algumas semanas estou muito nervoso."
+    },
+    {
+      "numero": 32,
+      "es": "Simplemente, no he tenido la suerte que otras personas han tenido en la vida.",
+      "pt": "Simplesmente, não tive a sorte que outras pessoas tiveram na vida."
+    },
+    {
+      "numero": 33,
+      "es": "Las ideas me dan vueltas en la cabeza una y otra vez y no desaparecen.",
+      "pt": "As ideias ficam dando voltas na minha cabeça repetidamente e não desaparecem."
+    },
+    {
+      "numero": 34,
+      "es": "Desde hace uno o dos años, al pensar sobre la vida, me siento muy triste y desanimado.",
+      "pt": "Há um ou dois anos, ao pensar sobre a vida, me sinto muito triste e desanimado."
+    },
+    {
+      "numero": 35,
+      "es": "Intento hacerlo todo tan perfecto como sea posible.",
+      "pt": "Tento fazer tudo tão perfeito quanto possível."
+    },
+    {
+      "numero": 36,
+      "es": "Mi adicción a las drogas hizo que faltara al trabajo.",
+      "pt": "Meu vício em drogas fez com que faltasse ao trabalho."
+    },
+    {
+      "numero": 37,
+      "es": "Mi estado de ánimo varía mucho de un día para otro.",
+      "pt": "Meu estado de ânimo varia muito de um dia para outro."
+    },
+    {
+      "numero": 38,
+      "es": "Utilizo mi encanto para conseguir lo que quiero.",
+      "pt": "Uso meu charme para conseguir o que quero."
+    },
+    {
+      "numero": 39,
+      "es": "A menudo pienso que no merezco las cosas buenas que me pasan.",
+      "pt": "Frequentemente penso que não mereço as coisas boas que me acontecem."
+    },
+    {
+      "numero": 40,
+      "es": "En el pasado me corté o autolesioné a propósito.",
+      "pt": "No passado me cortei ou me autolesionei de propósito."
+    },
+    {
+      "numero": 41,
+      "es": "Tengo la sensación de que no duermo, y me levanto tan cansado como al acostarme.",
+      "pt": "Tenho a sensação de que não durmo, e levanto tão cansado quanto ao deitar."
+    },
+    {
+      "numero": 42,
+      "es": "A menudo dejo que los demás tomen por mi desiciones importantes.",
+      "pt": "Frequentemente deixo que os outros tomem decisões importantes por mim."
+    },
+    {
+      "numero": 43,
+      "es": "Parece que pocas cosas me entristecen o me alegran.",
+      "pt": "Parece que poucas coisas me entristecem ou me alegram."
+    },
+    {
+      "numero": 44,
+      "es": "A menudo tengo pensamiento extraños de los que desearía librarme.",
+      "pt": "Frequentemente tenho pensamentos estranhos dos quais gostaria de me livrar."
+    },
+    {
+      "numero": 45,
+      "es": "Tengo muchos problemas para controlar el impulso de beber alcohol en exceso.",
+      "pt": "Tenho muitos problemas para controlar o impulso de beber álcool em excesso."
+    },
+    {
+      "numero": 46,
+      "es": "Hago amistades con mucha más facilidad que la mayoría de la gente que conozco.",
+      "pt": "Faço amizades com muito mais facilidade que a maioria das pessoas que conheço."
+    },
+    {
+      "numero": 47,
+      "es": "Me da vergüenza el maltrato que sufrí cuando era joven.",
+      "pt": "Tenho vergonha dos maus-tratos que sofri quando era jovem."
+    },
+    {
+      "numero": 48,
+      "es": "Me parece muy bien que haya normas porque son una buena guía a seguir.",
+      "pt": "Acho muito bom que existam normas porque são um bom guia a seguir."
+    },
+    {
+      "numero": 49,
+      "es": "El año pasado aparecí en la portada de varias revistas.",
+      "pt": "No ano passado apareci na capa de várias revistas."
+    },
+    {
+      "numero": 50,
+      "es": "A menudo me enfado con la gente que hace las cosas lentamente.",
+      "pt": "Frequentemente me irrito com pessoas que fazem as coisas lentamente."
+    },
+    {
+      "numero": 51,
+      "es": "Me paso la vida preocupándome por una cosa u otra.",
+      "pt": "Passo a vida me preocupando com uma coisa ou outra."
+    },
+    {
+      "numero": 52,
+      "es": "Siempre me pregunto cuál es la razón real de que alguien sea especificamente agradable conmigo.",
+      "pt": "Sempre me pergunto qual é a razão real de alguém ser especialmente agradável comigo."
+    },
+    {
+      "numero": 53,
+      "es": "Mis actividades cotidianas me animan y motivan.",
+      "pt": "Minhas atividades cotidianas me animam e motivam."
+    },
+    {
+      "numero": 54,
+      "es": "Tengo mcuhas ideas que son avanzadas para los tiempos actuales.",
+      "pt": "Tenho muitas ideias que são avançadas para os tempos atuais."
+    },
+    {
+      "numero": 55,
+      "es": "Desde que sufrí una conmoción cerebral grave, ya no puedo concentrarme en nada.",
+      "pt": "Desde que sofri uma concussão cerebral grave, já não consigo me concentrar em nada."
+    },
+    {
+      "numero": 56,
+      "es": "Antes la gente decía que me interesaba y me entusiasmaba demasiado por muchas cosas.",
+      "pt": "Antes as pessoas diziam que eu me interessava e me entusiasmava demais por muitas coisas."
+    },
+    {
+      "numero": 57,
+      "es": "He perdido el apetito por completo, y la mayoria de las noches tengo problemas para dormir.",
+      "pt": "Perdi o apetite completamente, e na maioria das noites tenho problemas para dormir."
+    },
+    {
+      "numero": 58,
+      "es": "Desde que era niño he ido perdiendo contacto con la realidad.",
+      "pt": "Desde que era criança tenho perdido contato com a realidade."
+    },
+    {
+      "numero": 59,
+      "es": "No puedo sentir mucho placer por que no creo que lo merezca.",
+      "pt": "Não consigo sentir muito prazer porque não acredito que o mereça."
+    },
+    {
+      "numero": 60,
+      "es": "Prefiero que me digan lo que tengo que hacer en lugar de decidir por mí mismo.",
+      "pt": "Prefiro que me digam o que tenho que fazer em vez de decidir por mim mesmo."
+    },
+    {
+      "numero": 61,
+      "es": "Consumir drogas me ha causado discusiones con mi familia.",
+      "pt": "Consumir drogas me causou discussões com minha família."
+    },
+    {
+      "numero": 62,
+      "es": "El recuerdo de una experiencia muy pertubadora sigue presente en mis pensamientos y me obsesiona.",
+      "pt": "A lembrança de uma experiência muito perturbadora continua presente em meus pensamentos e me obceca."
+    },
+    {
+      "numero": 63,
+      "es": "La mayoría de la gente me considera una persona prudente y cuidadosa.",
+      "pt": "A maioria das pessoas me considera uma pessoa prudente e cuidadosa."
+    },
+    {
+      "numero": 64,
+      "es": "Parece que he perdido el interés en la mayoría de las cosas que solia encontrar placenteras, como el sexo.",
+      "pt": "Parece que perdi o interesse na maioria das coisas que costumava achar prazerosas, como o sexo."
+    },
+    {
+      "numero": 65,
+      "es": "He tenido problemas con la ley un par de veces.",
+      "pt": "Tive problemas com a lei algumas vezes."
+    },
+    {
+      "numero": 66,
+      "es": "He tenido que ser muy duro con algunas personas para mantenerlas a raya.",
+      "pt": "Tive que ser muito duro com algumas pessoas para mantê-las na linha."
+    },
+    {
+      "numero": 67,
+      "es": "Estoy muy seguro de mí mismo.",
+      "pt": "Estou muito seguro de mim mesmo."
+    },
+    {
+      "numero": 68,
+      "es": "La gente intenta hacerme creer que estoy loco.",
+      "pt": "As pessoas tentam me fazer acreditar que estou louco."
+    },
+    {
+      "numero": 69,
+      "es": "Me doy atracones de comida un par de veces en la semana.",
+      "pt": "Tenho compulsões alimentares algumas vezes na semana."
+    },
+    {
+      "numero": 70,
+      "es": "Frecuentemente siento que no hay nada dentro de mí, como si estuviera vacío y hueco.",
+      "pt": "Frequentemente sinto que não há nada dentro de mim, como se estivesse vazio e oco."
+    },
+    {
+      "numero": 71,
+      "es": "Siempre me ha resultado difícil dejar de sentirme deprimido y triste.",
+      "pt": "Sempre me foi difícil deixar de me sentir deprimido e triste."
+    },
+    {
+      "numero": 72,
+      "es": "Cuando estoy solo y lejos de casa a menudo comienzo a sentirme tenso y entro en pánico.",
+      "pt": "Quando estou sozinho e longe de casa frequentemente começo a me sentir tenso e entro em pânico."
+    },
+    {
+      "numero": 73,
+      "es": "La gente dice que soy una persona formal y con valores morales.",
+      "pt": "As pessoas dizem que sou uma pessoa formal e com valores morais."
+    },
+    {
+      "numero": 74,
+      "es": "Me cuesta controlar mi ira.",
+      "pt": "Tenho dificuldade para controlar minha raiva."
+    },
+    {
+      "numero": 75,
+      "es": "Soy una persona muy optimista.",
+      "pt": "Sou uma pessoa muito otimista."
+    },
+    {
+      "numero": 76,
+      "es": "Años después, aún tengo pesadillas sobre un hecho que fue una amenaza real para mi vida.",
+      "pt": "Anos depois, ainda tenho pesadelos sobre um fato que foi uma ameaça real para minha vida."
+    },
+    {
+      "numero": 77,
+      "es": "Me parece que necesito que alguien me oriente para hacer las cosas.",
+      "pt": "Me parece que preciso que alguém me oriente para fazer as coisas."
+    },
+    {
+      "numero": 78,
+      "es": "Recientemente he pensado muy en serio en quitarme la vida.",
+      "pt": "Recentemente pensei muito seriamente em tirar minha vida."
+    },
+    {
+      "numero": 79,
+      "es": "Hay gente mala que intenta llevarse el mérito de lo que he hecho o pensado.",
+      "pt": "Há pessoas más que tentam levar o crédito pelo que fiz ou pensei."
+    },
+    {
+      "numero": 80,
+      "es": "Últimamente estoy destrozado.",
+      "pt": "Ultimamente estou arrasado."
+    },
+    {
+      "numero": 81,
+      "es": "Consumir drogas puede ser irresponsable, pero en el pasado las he necesitado.",
+      "pt": "Consumir drogas pode ser irresponsável, mas no passado precisei delas."
+    },
+    {
+      "numero": 82,
+      "es": "Soy una persona muy variable, cambio de opinión y sentimientos continuamente.",
+      "pt": "Sou uma pessoa muito variável, mudo de opinião e sentimentos continuamente."
+    },
+    {
+      "numero": 83,
+      "es": "Se me da muy bien inventar excusas cuando me meto en problemas.",
+      "pt": "Sou muito bom em inventar desculpas quando me meto em problemas."
+    },
+    {
+      "numero": 84,
+      "es": "Cuando estoy en una fiesta, nunca me aíslo de los demás.",
+      "pt": "Quando estou em uma festa, nunca me isolo dos outros."
+    },
+    {
+      "numero": 85,
+      "es": "Parece que echo a perder las buenas oportunidades que se cruzan en mi camino.",
+      "pt": "Parece que estrago as boas oportunidades que cruzam meu caminho."
+    },
+    {
+      "numero": 86,
+      "es": "Algunas veces me provoco el vómito después de comer.",
+      "pt": "Às vezes provoco o vômito depois de comer."
+    },
+    {
+      "numero": 87,
+      "es": "Soy una persona especial, así que no me importa lo que piensen los demás.",
+      "pt": "Sou uma pessoa especial, então não me importa o que os outros pensem."
+    },
+    {
+      "numero": 88,
+      "es": "Observo atentamente a mi familia para saber en quíen se puede confiar y en quién no.",
+      "pt": "Observo atentamente minha família para saber em quem se pode confiar e em quem não."
+    },
+    {
+      "numero": 89,
+      "es": "Ciertos pensamientos vuelven a mi mente una y otra vez.",
+      "pt": "Certos pensamentos voltam à minha mente repetidamente."
+    },
+    {
+      "numero": 90,
+      "es": "Pocas cosas en la vida me resultan placenteras.",
+      "pt": "Poucas coisas na vida me parecem prazerosas."
+    },
+    {
+      "numero": 91,
+      "es": "Me siento agitado y me cuesta conciliar el sueño por que tengo recuerdos dolorosos dando vueltas en mi cabeza.",
+      "pt": "Me sinto agitado e tenho dificuldade para pegar no sono porque tenho lembranças dolorosas dando voltas na minha cabeça."
+    },
+    {
+      "numero": 92,
+      "es": "A menudo me pierdo en mis pensamientos y me olvido de lo que está pasando a mi alrededor.",
+      "pt": "Frequentemente me perco em meus pensamentos e esqueço o que está acontecendo ao meu redor."
+    },
+    {
+      "numero": 93,
+      "es": "Nunca he podido dejar de sentir que no valgo nada para los demás.",
+      "pt": "Nunca consegui deixar de sentir que não valho nada para os outros."
+    },
+    {
+      "numero": 94,
+      "es": "Tengo un problema con la bebida que he tratado de solucionar sin éxito.",
+      "pt": "Tenho um problema com a bebida que tentei solucionar sem sucesso."
+    },
+    {
+      "numero": 95,
+      "es": "Alguien ha estado intentando controlar mi mente.",
+      "pt": "Alguém tem tentado controlar minha mente."
+    },
+    {
+      "numero": 96,
+      "es": "La mayoría de las personas que han triunfado han tenido suerte o han sido deshonestas.",
+      "pt": "A maioria das pessoas que triunfaram tiveram sorte ou foram desonestas."
+    },
+    {
+      "numero": 97,
+      "es": "A menudo irrito a la gente dándoles órdenes.",
+      "pt": "Frequentemente irrito as pessoas dando-lhes ordens."
+    },
+    {
+      "numero": 98,
+      "es": "No he visto un coche en los últimos diez años.",
+      "pt": "Não vi um carro nos últimos dez anos."
+    },
+    {
+      "numero": 99,
+      "es": "Siempre me siento cohibido y tenso en las reuniones sociales.",
+      "pt": "Sempre me sinto inibido e tenso em reuniões sociais."
+    },
+    {
+      "numero": 100,
+      "es": "Creo que provoco situaciones en las que resulto herido o me siento rechazado.",
+      "pt": "Acredito que provoco situações nas quais saio ferido ou me sinto rejeitado."
+    },
+    {
+      "numero": 101,
+      "es": "Me siento profundamente deprimido sin saber por qué.",
+      "pt": "Me sinto profundamente deprimido sem saber por quê."
+    },
+    {
+      "numero": 102,
+      "es": "La gente dice que soy una persona delgada, pero creo que mis muslos y mi trasero son demasiado grandes.",
+      "pt": "As pessoas dizem que sou uma pessoa magra, mas acho que minhas coxas e meu traseiro são grandes demais."
+    },
+    {
+      "numero": 103,
+      "es": "A menudo disfruto provocando una discusión o una pelea.",
+      "pt": "Frequentemente gosto de provocar uma discussão ou uma briga."
+    },
+    {
+      "numero": 104,
+      "es": "Tengo mucho cuidado en mantener mi vida como algo privado, para que nadie pueda aprovecharse de mí.",
+      "pt": "Tenho muito cuidado em manter minha vida privada, para que ninguém possa se aproveitar de mim."
+    },
+    {
+      "numero": 105,
+      "es": "El consumo de drogas me ha causado muchos problemas.",
+      "pt": "O consumo de drogas me causou muitos problemas."
+    },
+    {
+      "numero": 106,
+      "es": "A menudo me echan la culpa por las cosas de las que no soy responsable.",
+      "pt": "Frequentemente me culpam por coisas das quais não sou responsável."
+    },
+    {
+      "numero": 107,
+      "es": "Pensar en el futuro al inicio de cada día me hace sentir extremadamente deprimido.",
+      "pt": "Pensar no futuro no início de cada dia me faz sentir extremamente deprimido."
+    },
+    {
+      "numero": 108,
+      "es": "A veces las personas se molestan conmigo porque dicen que hablo mucho o demasiado rapido.",
+      "pt": "Às vezes as pessoas se incomodam comigo porque dizem que falo muito ou rápido demais."
+    },
+    {
+      "numero": 109,
+      "es": "Yo nunca podría arreglármelas solo.",
+      "pt": "Eu nunca conseguiria me virar sozinho."
+    },
+    {
+      "numero": 110,
+      "es": "Mi cabeza no funciona bien desde que hace unos años tuve una lesión cerebral.",
+      "pt": "Minha cabeça não funciona bem desde que há alguns anos tive uma lesão cerebral."
+    },
+    {
+      "numero": 111,
+      "es": "Me siento solo y vacío la mayor parte del tiempo.",
+      "pt": "Me sinto sozinho e vazio a maior parte do tempo."
+    },
+    {
+      "numero": 112,
+      "es": "La gente se burla de mí a mis espaldas.",
+      "pt": "As pessoas zombam de mim pelas minhas costas."
+    },
+    {
+      "numero": 113,
+      "es": "Últimamente sudo mucho y me siento muy tenso.",
+      "pt": "Ultimamente suo muito e me sinto muito tenso."
+    },
+    {
+      "numero": 114,
+      "es": "Estas últimas semanas me sentido cada vez más triste.",
+      "pt": "Estas últimas semanas me senti cada vez mais triste."
+    },
+    {
+      "numero": 115,
+      "es": "Me enfurezco rápidamente con la gente que me molesta.",
+      "pt": "Fico furioso rapidamente com pessoas que me incomodam."
+    },
+    {
+      "numero": 116,
+      "es": "A veces no he podido pasar el día sin tomar drogas.",
+      "pt": "Às vezes não consegui passar o dia sem tomar drogas."
+    },
+    {
+      "numero": 117,
+      "es": "Me gusta mucho coquetear.",
+      "pt": "Gosto muito de flertar."
+    },
+    {
+      "numero": 118,
+      "es": "Ya no tengo energía para concentrarme en mis responsabilidades.",
+      "pt": "Já não tenho energia para me concentrar em minhas responsabilidades."
+    },
+    {
+      "numero": 119,
+      "es": "Mis emociones no parecen ser tan intensas como las del resto de la gente.",
+      "pt": "Minhas emoções não parecem ser tão intensas quanto as do resto das pessoas."
+    },
+    {
+      "numero": 120,
+      "es": "Me siento débil y cansado la mayor parte del tiempo.",
+      "pt": "Me sinto fraco e cansado a maior parte do tempo."
+    },
+    {
+      "numero": 121,
+      "es": "Ideas extrañas entran en mi mente, dan vueltas y vueltas en mi cabeza, y no desaparecen.",
+      "pt": "Ideias estranhas entram na minha mente, ficam dando voltas e voltas na minha cabeça, e não desaparecem."
+    },
+    {
+      "numero": 122,
+      "es": "Los demás tienen oportunidades que yo no tengo.",
+      "pt": "Os outros têm oportunidades que eu não tenho."
+    },
+    {
+      "numero": 123,
+      "es": "Repito ciertos comportamientos una y otra vez, algunas veces para reducir mi ansiedad y otras para evitar que pase algo malo.",
+      "pt": "Repito certos comportamentos repetidamente, às vezes para reduzir minha ansiedade e outras para evitar que algo ruim aconteça."
+    },
+    {
+      "numero": 124,
+      "es": "He tomado medicación que me habían recetado.",
+      "pt": "Tomei medicação que me receitaram."
+    },
+    {
+      "numero": 125,
+      "es": "Mi vida actual todavía se ve afectada por recuerdos e imágenes de algo terrible que me pasó.",
+      "pt": "Minha vida atual ainda é afetada por lembranças e imagens de algo terrível que me aconteceu."
+    },
+    {
+      "numero": 126,
+      "es": "A menudo echo a perder las cosas buenas que me ocurren.",
+      "pt": "Frequentemente estrago as coisas boas que me acontecem."
+    },
+    {
+      "numero": 127,
+      "es": "Voces malvadas intentan apoderarse de mi mente.",
+      "pt": "Vozes malignas tentam se apoderar da minha mente."
+    },
+    {
+      "numero": 128,
+      "es": "Me siento muy culpable cuando pierdo el control.",
+      "pt": "Me sinto muito culpado quando perco o controle."
+    },
+    {
+      "numero": 129,
+      "es": "Mi entusiasmo por el trabajo que hago nunca disminuye.",
+      "pt": "Meu entusiasmo pelo trabalho que faço nunca diminui."
+    },
+    {
+      "numero": 130,
+      "es": "Supongo que no soy diferente de mis padres ya que, en cierto modo, me he convertido en un alcohólico.",
+      "pt": "Suponho que não sou diferente dos meus pais já que, de certo modo, me tornei um alcoólatra."
+    },
+    {
+      "numero": 131,
+      "es": "Últimamente tengo que pensar las cosas una y otra vez sin ningún motivo.",
+      "pt": "Ultimamente tenho que pensar nas coisas repetidamente sem nenhum motivo."
+    },
+    {
+      "numero": 132,
+      "es": "Animo a los demás a que admiren lo que digo o hago.",
+      "pt": "Encorajo os outros a admirarem o que digo ou faço."
+    },
+    {
+      "numero": 133,
+      "es": "Dejo de hacer cosas si tengo que hacerlas solo.",
+      "pt": "Deixo de fazer coisas se tenho que fazê-las sozinho."
+    },
+    {
+      "numero": 134,
+      "es": "He intentado suicidarme.",
+      "pt": "Tentei me suicidar."
+    },
+    {
+      "numero": 135,
+      "es": "Soy una persona miedosa y reservada.",
+      "pt": "Sou uma pessoa medrosa e reservada."
+    },
+    {
+      "numero": 136,
+      "es": "A las personas que supuestamente son mis amigos les gustaría hacerme daño.",
+      "pt": "As pessoas que supostamente são meus amigos gostariam de me fazer mal."
+    },
+    {
+      "numero": 137,
+      "es": "A menudo me dejo llevar por la rabia y luego me siento culpable.",
+      "pt": "Frequentemente me deixo levar pela raiva e depois me sinto culpado."
+    },
+    {
+      "numero": 138,
+      "es": "A menudo oigo cosas con tanta claridad que me molesta.",
+      "pt": "Frequentemente ouço coisas com tanta clareza que me incomoda."
+    },
+    {
+      "numero": 139,
+      "es": "Aparte de mi familia, tengo muy pocos amigos íntimos.",
+      "pt": "Além da minha família, tenho muito poucos amigos íntimos."
+    },
+    {
+      "numero": 140,
+      "es": "Las desorganización me hace sentir muy incómodo.",
+      "pt": "A desorganização me faz sentir muito desconfortável."
+    },
+    {
+      "numero": 141,
+      "es": "A menudo critico mucho a la gente que me irrita.",
+      "pt": "Frequentemente critico muito as pessoas que me irritam."
+    },
+    {
+      "numero": 142,
+      "es": "Tengo muchas cualidades que los demás querrían tener.",
+      "pt": "Tenho muitas qualidades que os outros gostariam de ter."
+    },
+    {
+      "numero": 143,
+      "es": "Terribles acontecimientos de mi pasado reaparecen obsesivamente en mis pensamientos y sueños.",
+      "pt": "Acontecimentos terríveis do meu passado reaparecem obsessivamente em meus pensamentos e sonhos."
+    },
+    {
+      "numero": 144,
+      "es": "Sé que he gastado más dinero en droga del que debería.",
+      "pt": "Sei que gastei mais dinheiro com droga do que deveria."
+    },
+    {
+      "numero": 145,
+      "es": "A menudo, y antes de darme cuenta, me pongo a gritar enfadado a mis amigos y familiares.",
+      "pt": "Frequentemente, e antes de me dar conta, começo a gritar enfurecido com meus amigos e familiares."
+    },
+    {
+      "numero": 146,
+      "es": "Me preocupa que mi cuerpo se desgaste rapidamente.",
+      "pt": "Me preocupa que meu corpo se desgaste rapidamente."
+    },
+    {
+      "numero": 147,
+      "es": "Está bien burlar la ley si es poco probable que te atrapen.",
+      "pt": "Está certo burlar a lei se é pouco provável que te peguem."
+    },
+    {
+      "numero": 148,
+      "es": "Creo que hay una conspiración contra mí.",
+      "pt": "Acredito que há uma conspiração contra mim."
+    },
+    {
+      "numero": 149,
+      "es": "Soy una persona solitaria y no me molesta.",
+      "pt": "Sou uma pessoa solitária e não me incomoda."
+    },
+    {
+      "numero": 150,
+      "es": "Todavía me aterrorizo cuando pienso en una experiencia traumática que tuve hace años.",
+      "pt": "Ainda me aterrorizo quando penso em uma experiência traumática que tive há anos."
+    },
+    {
+      "numero": 151,
+      "es": "Últimamente me he sentido muy culpable porqueya no soy capaz de hacer nada bien.",
+      "pt": "Ultimamente me senti muito culpado porque já não sou capaz de fazer nada bem."
+    },
+    {
+      "numero": 152,
+      "es": "Los castigos nunca me impidieron hacer lo que quería.",
+      "pt": "Os castigos nunca me impediram de fazer o que queria."
+    },
+    {
+      "numero": 153,
+      "es": "Pocas veces creo lo que la gente me dice.",
+      "pt": "Poucas vezes acredito no que as pessoas me dizem."
+    },
+    {
+      "numero": 154,
+      "es": "Soy una persona muy sociable y extrovertida.",
+      "pt": "Sou uma pessoa muito sociável e extrovertida."
+    },
+    {
+      "numero": 155,
+      "es": "Me entusiasmo con casi todo lo que hago.",
+      "pt": "Me entusiasmo com quase tudo que faço."
+    },
+    {
+      "numero": 156,
+      "es": "Estoy confundido sobre quién soy.",
+      "pt": "Estou confuso sobre quem sou."
+    },
+    {
+      "numero": 157,
+      "es": "Odio pensar en el matrato que sufrí en la infancia.",
+      "pt": "Odeio pensar nos maus-tratos que sofri na infância."
+    },
+    {
+      "numero": 158,
+      "es": "Nunca infringiría la ley, aunque pudiera salir impune.",
+      "pt": "Nunca infringiria a lei, mesmo que pudesse sair impune."
+    },
+    {
+      "numero": 159,
+      "es": "Algunos miembros de mi familia dicen que soy egoísta y que sólo pienso en mí.",
+      "pt": "Alguns membros da minha família dizem que sou egoísta e que só penso em mim."
+    },
+    {
+      "numero": 160,
+      "es": "En el último año he cruzado el Atlántico en avión 30 veces.",
+      "pt": "No último ano cruzei o Atlântico de avião 30 vezes."
+    },
+    {
+      "numero": 161,
+      "es": "Beber alcohol me ayuda cuando me siento deprimido.",
+      "pt": "Beber álcool me ajuda quando me sinto deprimido."
+    },
+    {
+      "numero": 162,
+      "es": "Preferiría seguir a alguien antes que ser yo el líder.",
+      "pt": "Preferiria seguir alguém a ser eu o líder."
+    },
+    {
+      "numero": 163,
+      "es": "A menudo me vienen ideas a la mente mucho más rápido de lo puedo expresarlas.",
+      "pt": "Frequentemente me vêm ideias à mente muito mais rápido do que posso expressá-las."
+    },
+    {
+      "numero": 164,
+      "es": "A menudo me siento tan mal que quiero hacerme daño de verdad.",
+      "pt": "Frequentemente me sinto tão mal que quero me machucar de verdade."
+    },
+    {
+      "numero": 165,
+      "es": "Algunas personas dicen que soy extraño o raro.",
+      "pt": "Algumas pessoas dizem que sou estranho ou esquisito."
+    },
+    {
+      "numero": 166,
+      "es": "A veces encuentro consuelo en mi sufrimiento.",
+      "pt": "Às vezes encontro consolo no meu sofrimento."
+    },
+    {
+      "numero": 167,
+      "es": "A menudo creo que me han tratado injustamente.",
+      "pt": "Frequentemente acredito que me trataram injustamente."
+    },
+    {
+      "numero": 168,
+      "es": "Muestro mi enfado rápidamente a las personas que no están de acuerdo conmigo.",
+      "pt": "Mostro minha raiva rapidamente às pessoas que não concordam comigo."
+    },
+    {
+      "numero": 169,
+      "es": "Casi siempre me siento culpable sin ninguna razón aparente.",
+      "pt": "Quase sempre me sinto culpado sem nenhuma razão aparente."
+    },
+    {
+      "numero": 170,
+      "es": "Desde hace algún tiempo me siento triste y deprimido y parece que no consigo animarme.",
+      "pt": "Há algum tempo me sinto triste e deprimido e parece que não consigo me animar."
+    },
+    {
+      "numero": 171,
+      "es": "Sé cómo seducir a la gente.",
+      "pt": "Sei como seduzir as pessoas."
+    },
+    {
+      "numero": 172,
+      "es": "Siempre he tenido que estar atento a la gente que intenta engañarme.",
+      "pt": "Sempre tive que estar atento às pessoas que tentam me enganar."
+    },
+    {
+      "numero": 173,
+      "es": "Siempre estoy dispuesto a aceptar lo que los demás les gustaría hacer.",
+      "pt": "Sempre estou disposto a aceitar o que os outros gostariam de fazer."
+    },
+    {
+      "numero": 174,
+      "es": "Afronto todos los retos de la vida con una actitud valiente y enérgica.",
+      "pt": "Enfrento todos os desafios da vida com uma atitude corajosa e enérgica."
+    },
+    {
+      "numero": 175,
+      "es": "Nunca siento que tenga algo interesante que aportar a una conversación.",
+      "pt": "Nunca sinto que tenho algo interessante a contribuir para uma conversa."
+    },
+    {
+      "numero": 176,
+      "es": "Si un medicamento no me hace efecto, es probable que lo tome con más frecuencia o aumente la dosis.",
+      "pt": "Se um medicamento não me faz efeito, é provável que o tome com mais frequência ou aumente a dose."
+    },
+    {
+      "numero": 177,
+      "es": "En muchos periodos de mi vida he estado tan animado y he consumido tanta energía que luego me he sentido muy bajo de ánimo.",
+      "pt": "Em muitos períodos da minha vida estive tão animado e consumi tanta energia que depois me senti muito desanimado."
+    },
+    {
+      "numero": 178,
+      "es": "A menudo me siento muy infeliz conmigo mismo.",
+      "pt": "Frequentemente me sinto muito infeliz comigo mesmo."
+    },
+    {
+      "numero": 179,
+      "es": "No me gusta cambiar mi rutina.",
+      "pt": "Não gosto de mudar minha rotina."
+    },
+    {
+      "numero": 180,
+      "es": "No necesito tener amigos íntimos como tienen los demás.",
+      "pt": "Não preciso ter amigos íntimos como os outros têm."
+    },
+    {
+      "numero": 181,
+      "es": "A veces me ha reconfirtado herirme físicamente.",
+      "pt": "Às vezes me reconfortou me machucar fisicamente."
+    },
+    {
+      "numero": 182,
+      "es": "Mucha gente ha estado espiando mi vida privada durante años.",
+      "pt": "Muitas pessoas têm espionado minha vida privada durante anos."
+    },
+    {
+      "numero": 183,
+      "es": "Cuando quiero, se me da bastante bien engañar a la gente.",
+      "pt": "Quando quero, sou bastante bom em enganar as pessoas."
+    },
+    {
+      "numero": 184,
+      "es": "Incluso cuando las cosas van bien, creo que pronto irán mal.",
+      "pt": "Mesmo quando as coisas vão bem, acredito que logo vão mal."
+    },
+    {
+      "numero": 185,
+      "es": "Se me da muy bien animar y motivar a los demás.",
+      "pt": "Sou muito bom em animar e motivar os outros."
+    },
+    {
+      "numero": 186,
+      "es": "Estoy dispuesto a pasar hambre para estar aún más delgado de lo que estoy.",
+      "pt": "Estou disposto a passar fome para estar ainda mais magro do que estou."
+    },
+    {
+      "numero": 187,
+      "es": "A menudo estoy irrtiable y de mal humor.",
+      "pt": "Frequentemente estou irritável e de mau humor."
+    },
+    {
+      "numero": 188,
+      "es": "Siempre intento acabar mi trabajo antes de dedicar tiempo a actividades de ocio.",
+      "pt": "Sempre tento terminar meu trabalho antes de dedicar tempo a atividades de lazer."
+    },
+    {
+      "numero": 189,
+      "es": "Solo las personas excepcionales pueden comprender mis capacidades.",
+      "pt": "Somente pessoas excepcionais podem compreender minhas capacidades."
+    },
+    {
+      "numero": 190,
+      "es": "Realmente no entiendo los sentimientos humanos como los entienden los demás.",
+      "pt": "Realmente não entendo os sentimentos humanos como os outros entendem."
+    },
+    {
+      "numero": 191,
+      "es": "Demasiadas normas impiden que haga lo que quiero.",
+      "pt": "Normas demais impedem que eu faça o que quero."
+    },
+    {
+      "numero": 192,
+      "es": "A veces siento que meresco ser infeliz.",
+      "pt": "Às vezes sinto que mereço ser infeliz."
+    },
+    {
+      "numero": 193,
+      "es": "He estado abatido y triste gran parte de mi vida.",
+      "pt": "Estive abatido e triste grande parte da minha vida."
+    },
+    {
+      "numero": 194,
+      "es": "Tiendo a estar de acuerdo con las opiniones de los demás.",
+      "pt": "Tendo a concordar com as opiniões dos outros."
+    },
+    {
+      "numero": 195,
+      "es": "Evito la mayoría de las situaciones sociales porque creo que la gente me rechazará.",
+      "pt": "Evito a maioria das situações sociais porque acredito que as pessoas vão me rejeitar."
+    }
+  ]
+}

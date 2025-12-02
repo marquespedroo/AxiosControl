@@ -1,0 +1,782 @@
+[
+  {
+    "numero": 1,
+    "texto": "Ultimamente parece que me quedo sin fuerzas incluso por las mañanas."
+  },
+  {
+    "numero": 2,
+    "texto": "Siempre me aseguro de que mi trabajo esté bien planeado y organizado."
+  },
+  {
+    "numero": 3,
+    "texto": "Disfruto haciendo tantas cosas diferentes que no puedo decidir por cuál empezar."
+  },
+  {
+    "numero": 4,
+    "texto": "Me preocupa que las personas de las que dependo me abandonen."
+  },
+  {
+    "numero": 5,
+    "texto": "Aunque me da miedo hacer amistades, me gustaría tener más de las que tengo."
+  },
+  {
+    "numero": 6,
+    "texto": "Raramente exteriorizo los pocos sentimientos que tengo."
+  },
+  {
+    "numero": 7,
+    "texto": "Me cuesta mantener el equilibrio cuando camino."
+  },
+  {
+    "numero": 8,
+    "texto": "Siempre busco oportunidades nuevas que me resulten emocionantes."
+  },
+  {
+    "numero": 9,
+    "texto": "Algunas veces puedo ser bastante duro y desagradable con mi familia"
+  },
+  {
+    "numero": 10,
+    "texto": "Me gusta ser el centro de atención."
+  },
+  {
+    "numero": 11,
+    "texto": "De adolescente tuve muchos problemas por mi mal comportamiento en la escuela o instituto."
+  },
+  {
+    "numero": 12,
+    "texto": "Me da miedo hacerme muy amigo de alquien por que podría acabar sintiéndome ridiculizado o avergonzado."
+  },
+  {
+    "numero": 13,
+    "texto": "Noto que la gente está hablando de mí cuando paso a su lado."
+  },
+  {
+    "numero": 14,
+    "texto": "Hace uno años comencé a sentirme un fracasado."
+  },
+  {
+    "numero": 15,
+    "texto": "Si puedo elegir, prefiero hacer las cosas solo."
+  },
+  {
+    "numero": 16,
+    "texto": "Últimamente he comenzado a sentir deseos de destrozar cosas."
+  },
+  {
+    "numero": 17,
+    "texto": "Las cosas que hoy van bien no durarán mucho tiempo."
+  },
+  {
+    "numero": 18,
+    "texto": "A veces, cuando las cosas empiezan a irme mal, me siento como si estuviera loco o fuera de la realidad."
+  },
+  {
+    "numero": 19,
+    "texto": "Hago lo que quiero sin preocuparme de las consecuencias que tenga en los demás."
+  },
+  {
+    "numero": 20,
+    "texto": "Afronto mis actividades diarias con mucha energía y persistencia."
+  },
+  {
+    "numero": 21,
+    "texto": "Nunca perdono una ofensa ni olvido una situación embarazosa que alguien me haya causado."
+  },
+  {
+    "numero": 22,
+    "texto": "Me siento extremadamente deprimido y triste gran parte del tiempo."
+  },
+  {
+    "numero": 23,
+    "texto": "Siempre tiendo a culparme cuando las cosas van mal."
+  },
+  {
+    "numero": 24,
+    "texto": "Hace mucho decidí que es mejor tener poca relación con la gente."
+  },
+  {
+    "numero": 25,
+    "texto": "Tengo un problema con el alcohol que nos ha creado dificultades a mí y a mi familia."
+  },
+  {
+    "numero": 26,
+    "texto": "Soy una persona socialmente muy reservada y tímida."
+  },
+  {
+    "numero": 27,
+    "texto": "Muchas veces me siento muy alegre y animado sin ninguna razón."
+  },
+  {
+    "numero": 28,
+    "texto": "En las últimas semanas me he sentido agotado sin ningún motivo en particular."
+  },
+  {
+    "numero": 29,
+    "texto": "Mi tiempo es más valioso que el de los demás."
+  },
+  {
+    "numero": 30,
+    "texto": "Siempre estoy buscando hacer nuevas amistades y conocer gente nueva."
+  },
+  {
+    "numero": 31,
+    "texto": "Desde hace unas semanas estoy muy nervioso."
+  },
+  {
+    "numero": 32,
+    "texto": "Simplemente, no he tenido la suerte que otras personas han tenido en la vida."
+  },
+  {
+    "numero": 33,
+    "texto": "Las ideas me dan vueltas en la cabeza una y otra vez y no desaparecen."
+  },
+  {
+    "numero": 34,
+    "texto": "Desde hace uno o dos años, al pensar sobre la vida, me siento muy triste y desanimado."
+  },
+  {
+    "numero": 35,
+    "texto": "Intento hacerlo todo tan perfecto como sea posible."
+  },
+  {
+    "numero": 36,
+    "texto": "Mi adicción a las drogas hizo que faltara al trabajo."
+  },
+  {
+    "numero": 37,
+    "texto": "Mi estado de ánimo varía mucho de un día para otro."
+  },
+  {
+    "numero": 38,
+    "texto": "Utilizo mi encanto para conseguir lo que quiero."
+  },
+  {
+    "numero": 39,
+    "texto": "A menudo pienso que no merezco las cosas buenas que me pasan."
+  },
+  {
+    "numero": 40,
+    "texto": "En el pasado me corté o autolesioné a propósito"
+  },
+  {
+    "numero": 41,
+    "texto": "Tengo la sensación de que no duermo, y me levanto tan cansado como al acostarme."
+  },
+  {
+    "numero": 42,
+    "texto": "A menudo dejo que los demás tomen por mi desiciones importantes."
+  },
+  {
+    "numero": 43,
+    "texto": "Parece que pocas cosas me entristecen o me alegran."
+  },
+  {
+    "numero": 44,
+    "texto": "A menudo tengo pensamiento extraños de los que desearía librarme."
+  },
+  {
+    "numero": 45,
+    "texto": "Tengo muchos problemas para controlar el impulso de beber alcohol en exceso."
+  },
+  {
+    "numero": 46,
+    "texto": "Hago amistades con mucha más facilidad que la mayoría de la gente que conozco."
+  },
+  {
+    "numero": 47,
+    "texto": "Me da vergüenza el maltrato que sufrí cuando era joven."
+  },
+  {
+    "numero": 48,
+    "texto": "Me parece muy bien que haya normas porque son una buena guía a seguir."
+  },
+  {
+    "numero": 49,
+    "texto": "El año pasado aparecí en la portada de varias revistas."
+  },
+  {
+    "numero": 50,
+    "texto": "A menudo me enfado con la gente que hace las cosas lentamente."
+  },
+  {
+    "numero": 51,
+    "texto": "Me paso la vida preocupándome por una cosa u otra."
+  },
+  {
+    "numero": 52,
+    "texto": "Siempre me pregunto cuál es la razón real de que alguien sea especificamente agradable conmigo."
+  },
+  {
+    "numero": 53,
+    "texto": "Mis actividades cotidianas me animan y motivan."
+  },
+  {
+    "numero": 54,
+    "texto": "Tengo mcuhas ideas que son avanzadas para los tiempos actuales."
+  },
+  {
+    "numero": 55,
+    "texto": "Desde que sufrí una conmoción cerebral grave, ya no puedo concentrarme en nada."
+  },
+  {
+    "numero": 56,
+    "texto": "Antes la gente decía que me interesaba y me entusiasmaba demasiado por muchas cosas."
+  },
+  {
+    "numero": 57,
+    "texto": "He perdido el apetito por completo, y la mayoria de las noches tengo problemas para dormir."
+  },
+  {
+    "numero": 58,
+    "texto": "Desde que era niño he ido perdiendo contacto con la realidad."
+  },
+  {
+    "numero": 59,
+    "texto": "No puedo sentir mucho placer por que no creo que lo merezca ."
+  },
+  {
+    "numero": 60,
+    "texto": "Prefiero que me digan lo que tengo que hacer en lugar de decidir por mí mismo."
+  },
+  {
+    "numero": 61,
+    "texto": "Consumir drogas me ha causado discusiones con mi familia."
+  },
+  {
+    "numero": 62,
+    "texto": "El recuerdo de una experiencia muy pertubadora sigue presente en mis pensamientos y me obsesiona."
+  },
+  {
+    "numero": 63,
+    "texto": "La mayoría de la gente me considera una persona prudente y cuidadosa."
+  },
+  {
+    "numero": 64,
+    "texto": "Parece que he perdido el interés en la mayoría de las cosas que solia encontrar placenteras, como el sexo."
+  },
+  {
+    "numero": 65,
+    "texto": "He tenido problemas con la ley un par de veces."
+  },
+  {
+    "numero": 66,
+    "texto": "He tenido que ser muy duro con algunas personas para mantenerlas a raya."
+  },
+  {
+    "numero": 67,
+    "texto": "Estoy muy seguro de mí mismo."
+  },
+  {
+    "numero": 68,
+    "texto": "La gente intenta hacerme creer que estoy loco."
+  },
+  {
+    "numero": 69,
+    "texto": "Me doy atracones de comida un par de veces en la semana."
+  },
+  {
+    "numero": 70,
+    "texto": "Frecuentemente siento que no hay nada dentro de mí, como si estuviera vacío y hueco."
+  },
+  {
+    "numero": 71,
+    "texto": "Siempre me ha resultado difícil dejar de sentirme deprimido y triste."
+  },
+  {
+    "numero": 72,
+    "texto": "Cuando estoy solo y lejos de casa a menudo comienzo a sentirme tenso y entro en pánico."
+  },
+  {
+    "numero": 73,
+    "texto": "La gente dice que soy una persona formal y con valores morales."
+  },
+  {
+    "numero": 74,
+    "texto": "Me cuesta controlar mi ira."
+  },
+  {
+    "numero": 75,
+    "texto": "Soy una persona muy optimista."
+  },
+  {
+    "numero": 76,
+    "texto": "Años después, aún tengo pesadillas sobre un hecho que fue una amenaza real para mi vida."
+  },
+  {
+    "numero": 77,
+    "texto": "Me parece que necesito que alguien me oriente para hacer las cosas."
+  },
+  {
+    "numero": 78,
+    "texto": "Recientemente he pensado muy en serio en quitarme la vida."
+  },
+  {
+    "numero": 79,
+    "texto": "Hay gente mala que intenta llevarse el mérito de lo que he hecho o pensado."
+  },
+  {
+    "numero": 80,
+    "texto": "Últimamente estoy destrozado."
+  },
+  {
+    "numero": 81,
+    "texto": "Consumir drogas puede ser irresponsable, pero en el pasado las he necesitado."
+  },
+  {
+    "numero": 82,
+    "texto": "Soy una persona muy variable, cambio de opinión y sentimientos continuamente."
+  },
+  {
+    "numero": 83,
+    "texto": "Se me da muy bien inventar excusas cuando me meto en problemas."
+  },
+  {
+    "numero": 84,
+    "texto": "Cuando estoy en una fiesta, nunca me aíslo de los demás."
+  },
+  {
+    "numero": 85,
+    "texto": "Parece que echo a perder las buenas oportunidades que se cruzan en mi camino."
+  },
+  {
+    "numero": 86,
+    "texto": "Algunas veces me provoco el vómito después de comer."
+  },
+  {
+    "numero": 87,
+    "texto": "Soy una persona especial, así que no me importa lo que piensen los demás."
+  },
+  {
+    "numero": 88,
+    "texto": "Observo atentamente a mi familia para saber en quíen se puede confiar y en quién no."
+  },
+  {
+    "numero": 89,
+    "texto": "Ciertos pensamientos vuelven a mi mente una y otra vez."
+  },
+  {
+    "numero": 90,
+    "texto": "Pocas cosas en la vida me resultan placenteras."
+  },
+  {
+    "numero": 91,
+    "texto": "Me siento agitado y me cuesta conciliar el sueño por que tengo recuerdos dolorosos dando vueltas en mi cabeza."
+  },
+  {
+    "numero": 92,
+    "texto": "A menudo me pierdo en mis pensamientos y me olvido de lo que está pasando a mi alrededor."
+  },
+  {
+    "numero": 93,
+    "texto": "Nunca he podido dejar de sentir que no valgo nada para los demás."
+  },
+  {
+    "numero": 94,
+    "texto": "Tengo un problema con la bebida que he tratado de solucionar sin éxito."
+  },
+  {
+    "numero": 95,
+    "texto": "Alguien ha estado intentando controlar mi mente."
+  },
+  {
+    "numero": 96,
+    "texto": "La mayoría de las personas que han triunfado han tenido suerte o han sido deshonestas."
+  },
+  {
+    "numero": 97,
+    "texto": "A menudo irrito a la gente dándoles órdenes."
+  },
+  {
+    "numero": 98,
+    "texto": "No he visto un coche en los últimos diez años."
+  },
+  {
+    "numero": 99,
+    "texto": "Siempre me siento cohibido y tenso en las reuniones sociales."
+  },
+  {
+    "numero": 100,
+    "texto": "Creo que provoco situaciones en las que resulto herido o me siento rechazado."
+  },
+  {
+    "numero": 101,
+    "texto": "Me siento profundamente deprimido sin saber por qué."
+  },
+  {
+    "numero": 102,
+    "texto": "La gente dice que soy una persona delgada, pero creo que mis muslos y mi trasero son demasiado grandes."
+  },
+  {
+    "numero": 103,
+    "texto": "A menudo disfruto provocando una discusión o una pelea."
+  },
+  {
+    "numero": 104,
+    "texto": "Tengo mucho cuidado en mantener mi vida como algo privado, para que nadie pueda aprovecharse de mí."
+  },
+  {
+    "numero": 105,
+    "texto": "El consumo de drogas me ha causado muchos problemas."
+  },
+  {
+    "numero": 106,
+    "texto": "A menudo me echan la culpa por las cosas de las que no soy responsable."
+  },
+  {
+    "numero": 107,
+    "texto": "Pensar en el futuro al inicio de cada día me hace sentir extremadamente deprimido."
+  },
+  {
+    "numero": 108,
+    "texto": "A veces las personas se molestan conmigo porque dicen que hablo mucho o demasiado rapido."
+  },
+  {
+    "numero": 109,
+    "texto": "Yo nunca podría arreglármelas solo."
+  },
+  {
+    "numero": 110,
+    "texto": "Mi cabeza no funciona bien desde que hace unos años tuve una lesión cerebral."
+  },
+  {
+    "numero": 111,
+    "texto": "Me siento solo y vacío la mayor parte del tiempo."
+  },
+  {
+    "numero": 112,
+    "texto": "La gente se burla de mí a mis espaldas."
+  },
+  {
+    "numero": 113,
+    "texto": "Últimamente sudo mucho y me siento muy tenso."
+  },
+  {
+    "numero": 114,
+    "texto": "Estas últimas semanas me sentido cada vez más triste."
+  },
+  {
+    "numero": 115,
+    "texto": "Me enfurezco rápidamente con la gente que me molesta."
+  },
+  {
+    "numero": 116,
+    "texto": "A veces no he podido pasar el día sin tomar drogas."
+  },
+  {
+    "numero": 117,
+    "texto": "Me gusta mucho coquetear."
+  },
+  {
+    "numero": 118,
+    "texto": "Ya no tengo energía para concentrarme en mis responsabilidades."
+  },
+  {
+    "numero": 119,
+    "texto": "Mis emociones no parecen ser tan intensas como las del resto de la gente."
+  },
+  {
+    "numero": 120,
+    "texto": "Me siento débil y cansado la mayor parte del tiempo."
+  },
+  {
+    "numero": 121,
+    "texto": "Ideas extrañas entran en mi mente, dan vueltas y vueltas en mi cabeza, y no desaparecen."
+  },
+  {
+    "numero": 122,
+    "texto": "Los demás tienen oportunidades que yo no tengo."
+  },
+  {
+    "numero": 123,
+    "texto": "Repito ciertos comportamientos una y otra vez, algunas veces para reducir mi ansiedad y otras para evitar que pase algo malo"
+  },
+  {
+    "numero": 124,
+    "texto": "He tomado medicación que me habían recetado."
+  },
+  {
+    "numero": 125,
+    "texto": "Mi vida actual todavía se ve afectada por recuerdos e imágenes de algo terrible que me pasó."
+  },
+  {
+    "numero": 126,
+    "texto": "A menudo echo a perder las cosas buenas que me ocurren."
+  },
+  {
+    "numero": 127,
+    "texto": "Voces malvadas intentan apoderarse de mi mente."
+  },
+  {
+    "numero": 128,
+    "texto": "Me siento muy culpable cuando pierdo el control."
+  },
+  {
+    "numero": 129,
+    "texto": "Mi entusiasmo por el trabajo que hago nunca disminuye."
+  },
+  {
+    "numero": 130,
+    "texto": "Supongo que no soy diferente de mis padres ya que, en cierto modo, me he convertido en un alcohólico."
+  },
+  {
+    "numero": 131,
+    "texto": "Últimamente tengo que pensar las cosas una y otra vez sin ningún motivo."
+  },
+  {
+    "numero": 132,
+    "texto": "Animo a los demás a que admiren lo que digo o hago."
+  },
+  {
+    "numero": 133,
+    "texto": "Dejo de hacer cosas si tengo que hacerlas solo."
+  },
+  {
+    "numero": 134,
+    "texto": "He intentado suicidarme."
+  },
+  {
+    "numero": 135,
+    "texto": "Soy una persona miedosa y reservada."
+  },
+  {
+    "numero": 136,
+    "texto": "A las personas que supuestamente son mis amigos les gustaría hacerme daño."
+  },
+  {
+    "numero": 137,
+    "texto": "A menudo me dejo llevar por la rabia y luego me siento culpable."
+  },
+  {
+    "numero": 138,
+    "texto": "A menudo oigo cosas con tanta claridad que me molesta."
+  },
+  {
+    "numero": 139,
+    "texto": "Aparte de mi familia, tengo muy pocos amigos íntimos."
+  },
+  {
+    "numero": 140,
+    "texto": "Las desorganización me hace sentir muy incómodo."
+  },
+  {
+    "numero": 141,
+    "texto": "A menudo critico mucho a la gente que me irrita."
+  },
+  {
+    "numero": 142,
+    "texto": "Tengo muchas cualidades que los demás querrían tener."
+  },
+  {
+    "numero": 143,
+    "texto": "Terribles acontecimientos de mi pasado reaparecen obsesivamente en mis pensamientos y sueños."
+  },
+  {
+    "numero": 144,
+    "texto": "Sé que he gastado más dinero en droga del que debería."
+  },
+  {
+    "numero": 145,
+    "texto": "A menudo, y antes de darme cuenta, me pongo a gritar enfadado a mis amigos y familiares."
+  },
+  {
+    "numero": 146,
+    "texto": "Me preocupa que mi cuerpo se desgaste rapidamente."
+  },
+  {
+    "numero": 147,
+    "texto": "Está bien burlar la ley si es poco probable que te atrapen."
+  },
+  {
+    "numero": 148,
+    "texto": "Creo que hay una conspiración contra mí."
+  },
+  {
+    "numero": 149,
+    "texto": "Soy una persona solitaria y no me molesta."
+  },
+  {
+    "numero": 150,
+    "texto": "Todavía me aterrorizo cuando pienso en una experiencia traumática que tuve hace años."
+  },
+  {
+    "numero": 151,
+    "texto": "Últimamente me he sentido muy culpable porqueya no soy capaz de hacer nada bien."
+  },
+  {
+    "numero": 152,
+    "texto": "Los castigos nunca me impidieron hacer lo que quería."
+  },
+  {
+    "numero": 153,
+    "texto": "Pocas veces creo lo que la gente me dice."
+  },
+  {
+    "numero": 154,
+    "texto": "Soy una persona muy sociable y extrovertida."
+  },
+  {
+    "numero": 155,
+    "texto": "Me entusiasmo con casi todo lo que hago."
+  },
+  {
+    "numero": 156,
+    "texto": "Estoy confundido sobre quién soy."
+  },
+  {
+    "numero": 157,
+    "texto": "Odio pensar en el matrato que sufrí en la infancia."
+  },
+  {
+    "numero": 158,
+    "texto": "Nunca infringiría la ley, aunque pudiera salir impune."
+  },
+  {
+    "numero": 159,
+    "texto": "Algunos miembros de mi familia dicen que soy egoísta y que sólo pienso en mí."
+  },
+  {
+    "numero": 160,
+    "texto": "En el último año he cruzado el Atlántico en avión 30 veces."
+  },
+  {
+    "numero": 161,
+    "texto": "Beber alcohol me ayuda cuando me siento deprimido."
+  },
+  {
+    "numero": 162,
+    "texto": "Preferiría seguir a alguien antes que ser yo el líder."
+  },
+  {
+    "numero": 163,
+    "texto": "A menudo me vienen ideas a la mente mucho más rápido de lo puedo expresarlas."
+  },
+  {
+    "numero": 164,
+    "texto": "A menudo me siento tan mal que quiero hacerme daño de verdad."
+  },
+  {
+    "numero": 165,
+    "texto": "Algunas personas dicen que soy extraño o raro."
+  },
+  {
+    "numero": 166,
+    "texto": "A veces encuentro consuelo en mi sufrimiento."
+  },
+  {
+    "numero": 167,
+    "texto": "A menudo creo que me han tratado injustamente."
+  },
+  {
+    "numero": 168,
+    "texto": "Muestro mi enfado rápidamente a las personas que no están de acuerdo conmigo."
+  },
+  {
+    "numero": 169,
+    "texto": "Casi siempre me siento culpable sin ninguna razón aparente."
+  },
+  {
+    "numero": 170,
+    "texto": "Desde hace algún tiempo me siento triste y deprimido y parece que no consigo animarme."
+  },
+  {
+    "numero": 171,
+    "texto": "Sé cómo seducir a la gente."
+  },
+  {
+    "numero": 172,
+    "texto": "Siempre he tenido que estar atento a la gente que intenta engañarme."
+  },
+  {
+    "numero": 173,
+    "texto": "Siempre estoy dispuesto a aceptar lo que los demás les gustaría hacer."
+  },
+  {
+    "numero": 174,
+    "texto": "Afronto todos los retos de la vida con una actitud valiente y enérgica."
+  },
+  {
+    "numero": 175,
+    "texto": "Nunca siento que tenga algo interesante que aportar a una conversación."
+  },
+  {
+    "numero": 176,
+    "texto": "Si un medicamento no me hace efecto, es probable que lo tome con más frecuencia o aumente la dosis."
+  },
+  {
+    "numero": 177,
+    "texto": "En muchos periodos de mi vida he estado tan animado y he consumido tanta energía que luego me he sentido muy bajo de ánimo."
+  },
+  {
+    "numero": 178,
+    "texto": "A menudo me siento muy infeliz conmigo mismo."
+  },
+  {
+    "numero": 179,
+    "texto": "No me gusta cambiar mi rutina."
+  },
+  {
+    "numero": 180,
+    "texto": "No necesito tener amigos íntimos como tienen los demás."
+  },
+  {
+    "numero": 181,
+    "texto": "A veces me ha reconfirtado herirme físicamente."
+  },
+  {
+    "numero": 182,
+    "texto": "Mucha gente ha estado espiando mi vida privada durante años."
+  },
+  {
+    "numero": 183,
+    "texto": "Cuando quiero, se me da bastante bien engañar a la gente."
+  },
+  {
+    "numero": 184,
+    "texto": "Incluso cuando las cosas van bien, creo que pronto irán mal."
+  },
+  {
+    "numero": 185,
+    "texto": "Se me da muy bien animar y motivar a los demás."
+  },
+  {
+    "numero": 186,
+    "texto": "Estoy dispuesto a pasar hambre para estar aún más delgado de lo que estoy."
+  },
+  {
+    "numero": 187,
+    "texto": "A menudo estoy irrtiable y de mal humor."
+  },
+  {
+    "numero": 188,
+    "texto": "Siempre intento acabar mi trabajo antes de dedicar tiempo a actividades de ocio."
+  },
+  {
+    "numero": 189,
+    "texto": "Solo las personas excepcionales pueden comprender mis capacidades."
+  },
+  {
+    "numero": 190,
+    "texto": "Realmente no entiendo los sentimientos humanos como los entienden los demás."
+  },
+  {
+    "numero": 191,
+    "texto": "Demasiadas normas impiden que haga lo que quiero."
+  },
+  {
+    "numero": 192,
+    "texto": "A veces siento que meresco ser infeliz."
+  },
+  {
+    "numero": 193,
+    "texto": "He estado abatido y triste gran parte de mi vida."
+  },
+  {
+    "numero": 194,
+    "texto": "Tiendo a estar de acuerdo con las opiniones de los demás."
+  },
+  {
+    "numero": 195,
+    "texto": "Evito la mayoría de las situaciones sociales porque creo que la gente me rechazará."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "AxiosControl - Plataforma de Gestão e Avaliação",
+  "short_name": "AxiosControl",
+  "description": "Sistema de gestão e avaliação",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": [
+    "medical",
+    "health",
+    "productivity"
+  ],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}

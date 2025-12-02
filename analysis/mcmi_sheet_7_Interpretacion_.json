@@ -1,0 +1,3193 @@
+{
+  "name": "Interpretacion ",
+  "data": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "inferior a 7 o superior a 114, el protocolo debe considerarse inválido. ",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "ESCALA DE VALIDEZ",
+      "Escalas de Validez",
+      null,
+      null,
+      "Tendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "La escala V señala que sus respuestas son ",
+      null,
+      null,
+      null,
+      "V",
+      "Invalidez",
+      1,
+      "válido pero dudable, cuestionable.",
+      "válido pero dudable, cuestionable.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "La escala W señala que sus respuestas son ",
+      null,
+      null,
+      null,
+      "W",
+      "Inconsistencia",
+      7,
+      "consistente.",
+      "consistente.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Interpretacion ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "La escala X señala que sus respuestas son ",
+      null,
+      null,
+      null,
+      "X",
+      "Sinceridad",
+      30,
+      "clínicamente interpretable",
+      "clínicamente interpretable",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "La escala Y señala que ",
+      null,
+      null,
+      null,
+      "Y",
+      "Deseabilidad Social",
+      75,
+      "2",
+      "Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "La escala V señala que sus respuestas son válido pero dudable, cuestionable.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "La escala Z señala que trata de",
+      null,
+      null,
+      null,
+      "Z",
+      "Devaluación",
+      76,
+      "2",
+      "Tendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "La escala W señala que sus respuestas son consistente.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "La escala X señala que sus respuestas son clínicamente interpretable",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "En los patrones de la escala clínica de personalidad presenta ",
+      null,
+      null,
+      null,
+      null,
+      "Patrones de Personalidad ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "La escala Y señala que Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Esquizoide   presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      1,
+      "Esquizoide  ",
+      40,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Destacan por su falta de deseo e incapacidad de sentir placer o dolor intenso, indiferentes a las relaciones sociales, con necesidades afectivas mínimas.",
+      null
+    ],
+    [
+      "La escala Z señala que trata deTendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Evitativo presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "2A",
+      "Evitativo",
+      6,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos evitativos experimentan pocos refuerzos positivos procedentes de sí mismos o de los demás, siempre están alerta, preparados para distanciarse de las experiencias dolorosas o negativas de la vida. Su estrategia adaptative refleja miedo y desconfianza hacia los demás. Mantienen una vigilancia constante para evitar que su anhelo de afecto resulte en la repetición del dolor y la angustia que han experimentado con otras personas. A pesar de sus deseos de relacionarse con los demás, han aprendido que es mejor negar estos sentimientos y mantener la distancia interpersonal necesaria",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Melancólico  presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "2B",
+      "Melancólico ",
+      30,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "A diferencia de los sujetos esquizoides y de los evitativos, los sujetos melancólicos experimentan el dolor como un estado permanente en el que el placer ya no se considera posible. Algunos individuos melancólicos pueden tener una predisposición biológica o química hacia el pesimismo y el desánimo, mientras que otros muestran un estilo de desesperanza ante las pérdidas importantes determinado por la experiencia. El estilo de carácter melancólico puede verse determinado por el hecho de pertenecer a una familia muy triste o des¬animada, estar en un entorno sin interés y tener una perspectiva sin esperanzas.",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Dependiente presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      3,
+      "Dependiente",
+      36,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos dependientes destacan por su falta de iniciativa y autonomía y han aprendido no solo a recurrir a los demás para obtener afecto, cuidados y seguridad, sino también a esperar pasivamente a que sean ellos quienes los dirijan. Se caracterizan por buscar relaciones en las que puedan apoyarse para conseguir afecto y orientación; y han aprendido que es más cómodo asumir un rol pasivo en las relaciones interpersonales, aceptar las atenciones y el apoyo que puedan encontrar, y someterse voluntariamente a los deseos de los demás a fin de conservar su afecto.",
+      null
+    ],
+    [
+      "En los patrones de la escala clínica de personalidad presenta ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Histriónico presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      "Histriónico presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      null,
+      null,
+      null,
+      "4A",
+      "Histriónico",
+      75,
+      "Patrones menos adaptativos y Trastornos ",
+      1,
+      "Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      null,
+      null,
+      "Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Tempestuoso presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      "Tempestuoso presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      null,
+      null,
+      null,
+      "4B",
+      "Tempestuoso",
+      80,
+      "Patrones menos adaptativos y Trastornos ",
+      1,
+      "Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      null,
+      null,
+      "Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Narcisista presenta Categoría de Riesgo Se caracteriza por Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      "Narcisista presenta Categoría de Riesgo Se caracteriza por Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      null,
+      null,
+      null,
+      5,
+      "Narcisista",
+      62,
+      "Categoría de Riesgo ",
+      1,
+      "Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      null,
+      null,
+      "Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Antisocial presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "6A",
+      "Antisocial",
+      20,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos antisociales destacan por su desconfianza hacia los demás, su deseo de autonomía y su anhelo de venganza y recompensa por lo que consideran injusticias del pasado. Para contrarrestar el dolor y los estragos que prevén que les causen otras personas, se comportan de forma engañosa o cometen actos ile¬gales en beneficio propio. Son irresponsables e impulsivos, y justifican estas cualidades porque consideran que los demás son desleales y no se puede confiar en ellos. Su insensibilidad y crueldad son sus únicos medios de evitar el abuso y la vietimización.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Sádico  presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "6B",
+      "Sádico ",
+      10,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos sádicos, a diferencia de los antisociales, pueden buscar placer y satisfacción personal humi¬llando a otras personas y dejando a un lado sus derechos y sentimientos. Por lo general, son hostiles y sumamente combativos; y parece que las consecuencias destructivas de su conducta conflictiva, ofensiva y brutal les son indiferentes o les satisfacen. Aunque muchos encubren sus tendencias más maliciosas y de búsqueda del poder con acciones o profesiones públicamente aceptadas, sus actos dominantes, hostiles y a menudo persecutorios los delatan.",
+      null
+    ],
+    [
+      "Histriónico presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Compulsivo presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      7,
+      "Compulsivo",
+      49,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos compulsivos han sido intimidados y coaccionados para que acepten las exigencias y las decisio¬nes que los demás les imponen. Su prudencia, control y perfeccionismo derivan de un conflicto entre la hos¬tilidad hacia los demás y el miedo a la desaprobación social. Esta ambivalencia la resuelven suprimiendo su resentimiento y exigiéndose mucho a sí mismos y exigiéndolo a los demás. Su disciplinada autocontención les permite controlar los sentimientos oposicionistas intensos, aunque ocultos; y de ello resulta una pasividad manifiesta y una aparente sumisión pública.",
+      null
+    ],
+    [
+      "Tempestuoso presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Negativista presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "8A",
+      "Negativista",
+      60,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos negativistas se debaten entre aceptar las gratificaciones que otros les ofrecen o perseguir sus propios deseos. Dado que vacilan entre la deferencia y el desafío y, a veces, la obediencia y la oposición agresiva, se enfrentan a interminables disputas y decepciones. Esta batalla representa una incapacidad para resolver conflictos similar a la de los sujetos compulsivos. Sin embargo, los conflictos de los negativistas persisten y permanecen cerca de la conciencia. Su conducta se caracteriza por un patrón errático de ira explosiva o resistencia completamente mezclado con periodos de culpa y vergüenza.",
+      null
+    ],
+    [
+      "Narcisista presenta Categoría de Riesgo Se caracteriza por Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Masoquista presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "8B",
+      "Masoquista",
+      38,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos masoquistas se relacionan con los demás de una forma servil y autosacrificada, y les permiten que abusen o se aprovechen de ellos, quizá incluso los alientan a hacerlo. Cuando se muestran sus peores rasgos, muchos sostienen que merecen ser avergonzados y humillados. Para agravar su dolor y angustia, que pueden vivirlos como reconfortantes, los masoquistas rememoran activa y reiteradamente sus desgra¬cias del pasado y, ante situaciones afortunadas, esperan que el resultado sea problemático.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "En las Patologías Graves Personalidad presenta ",
+      " presenta Se caracteriza por ",
+      null,
+      null,
+      null,
+      "Patologías Graves Personalidad",
+      null,
+      null,
+      null,
+      "0",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Esquizotípico  presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "S",
+      "Esquizotípico ",
+      12,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos esquizotípicos prefieren estar aislados socialmente y tener mínimos vínculos y obligaciones per¬sonales. Su funcionamiento cognitivo tiende a ser desorganizado, piensan tangencialmente y a menudo parecen estar absortos en sí mismos y pensativos. Se distinguen por sus excentricidades y a menudo son vistos por los demás como personas raras o diferentes. Si su patrón básico es activo, muestran desconfianza ansiosa e hipersensibilidad; si es pasivo, muestran aplanamiento emocional y afecto deficiente.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Límite     presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "C",
+      "Límite    ",
+      45,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Los sujetos límites se caracterizan por su inestabilidad y labilidad afectiva. Experimentan estados de ánimo endógenos intensos, con periodos recurrentes de abatimiento y apatía, a menudo intercalados con periodos de ira, ansiedad o euforia. Muchos de ellos tienen pensamientos recurrentes de autolesiones y suicidio, pare¬cen extremadamente preocupados por conservar el afecto de los demás y tienen dificultades para mantener el sentido de su propia identidad. Asimismo, a menudo muestran una ambivalencia cognitivo-afectiva que se evidencia en sus sentimientos conflictivos de rabia, amor y culpa hacia los demás.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Paranoide presenta Categoría de Riesgo Se caracteriza por Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      "Paranoide presenta Categoría de Riesgo Se caracteriza por Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      null,
+      null,
+      null,
+      "P",
+      "Paranoide",
+      66,
+      "Categoría de Riesgo ",
+      1,
+      "Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      null,
+      null,
+      "Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "En las Patologías Graves Personalidad presenta ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "En los Sindromes Clínicos de la Personalidad presenta ",
+      null,
+      null,
+      null,
+      null,
+      "Sindromes Clínicos",
+      null,
+      null,
+      null,
+      "0",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Ansiedad Generalizada presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "A",
+      "Ansiedad Generalizada",
+      15,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Se muestra como un estado generalizado de tensión y la incapacidad de relajarse, con una tendencia a sobresaltarse fácilmente. A menudo se quejan de dolencias físicas: Dolores musculares, sudoración excesiva y nauseas, también es común un estado de preocupación por problemas inminentes, un estado de alerta excesivo hacia lo que los rodea e irritabilidad.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Síntomas Somáticos  presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "H",
+      "Síntomas Somáticos ",
+      0,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Se muestra como un estado generalizado de tensión y la incapacidad de relajarse, con una tendencia a sobresaltarse fácilmente. A menudo se quejan de dolencias físicas: Dolores musculares, sudoración excesiva y nauseas, también es común un estado de preocupación por problemas inminentes, un estado de alerta excesivo hacia lo que los rodea e irritabilidad.",
+      null
+    ],
+    [
+      "Paranoide presenta Categoría de Riesgo Se caracteriza por Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Espectro Bípolar presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "N",
+      "Espectro Bípolar",
+      30,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Sujetos que experimentan síntomas ciclotímicos hasta bipolares, pasan por periodos de euforia superficial, autoestima exagerada, hiperactividad y falta atención con nerviosismo, irritabilidad e impulsividad. Duermen menos y llegan a tener estados psicóticos en casos extremos.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Depresión Persistente presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "D",
+      "Depresión Persistente",
+      30,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Sujetos que han pasado años de su vida con angustia y sentimientos de desánimo o culpa, teniendo falta de iniciativa y apatía para la vida. Expresan sentimientos de inutilidad y hacen comentarios autodenigrantes. En los momentos de Depresión profunda existe llanto, ideación suicida, falta de apetito, fatiga crónica y falta de interés por las actividades placenteras",
+      null
+    ],
+    [
+      "En los Sindromes Clínicos de la Personalidad presenta ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Consumo de Alcohol presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "B",
+      "Consumo de Alcohol",
+      0,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Se da en personas con un historial de alcoholismo recurrente o reciente que han tratado de superar con poco éxito. Provocando malestar personal y familiar",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Consumo de Drogas presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "T",
+      "Consumo de Drogas",
+      0,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Se da en personas con un historial de consumo de drogas recurrente y que les cuesta superar, les suele costar reprimir sus impulsos o mantenerlos dentro de los límites sociales convencionales. No limitan su conducta y les cuesta ver las consecuencias de la misma.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Estrés Postraumático presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "R",
+      "Estrés Postraumático",
+      48,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Sujetos que han vivido y presenciado un acontecimiento relacionado con la muerte o con lesiones graves, ya sea real o amenaza, producto de lo cual han sufrido un miedo intenso. Estos hechos se reviven a menudo en pesadillas o recuerdos que producen malestar. Los pacientes presentan activación ansiosa y sobresaltos exagerados.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Espectro Esquizofrénico presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "SS",
+      "Espectro Esquizofrénico",
+      40,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Son pacientes que muestran conductas incongruentes, desorganizadas y regresivas. A menudo parecen confusos y desorientados; a veces muestran afectos inapropiados, alucinaciones aisladas y delirios no sistemáticos. Poseen pensamientos extraños y en ocasiones mostrarse aislados.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Depresión Mayor presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "CC",
+      "Depresión Mayor",
+      51,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Son pacientes incapaces de funcionar en un entorno normal y poseen una visión pesimista del futuro, ideación suicida y una visión generalizada de resignación. También presentan miedos repetitivos y están meditabundos, con un notable deterioro motor. Entre otras conductas resaltan el insomnio, cansancio y perdida de peso.",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      " ",
+      "Delirante presenta No presenta Se caracteriza por  ",
+      null,
+      null,
+      null,
+      "PP",
+      "Delirante",
+      60,
+      "No presenta ",
+      "0",
+      " ",
+      null,
+      null,
+      "Son pacientes en un estado paranoide agudo y periódicamente pueden demostrar agresividad y delirios irracionales con temática persecutoria o de grandeza. Tienen alteración de pensamiento e ideas de traición, estado de animo hostil y se sienten maltratados",
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      " ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "formulas": [
+    {
+      "cell": "A7",
+      "formula": "CORRECCION!C4",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "P8",
+      "formula": "CORRECCION!D10",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "Q8",
+      "formula": "IF(P8=0,\"100% válida.\",IF(P8=1,\"válido pero dudable, cuestionable.\",\"prueba no tiene valor alguno, invalida.\"))",
+      "value": "válido pero dudable, cuestionable.",
+      "type": "s"
+    },
+    {
+      "cell": "R8",
+      "formula": "Q8",
+      "value": "válido pero dudable, cuestionable.",
+      "type": "s"
+    },
+    {
+      "cell": "P9",
+      "formula": "CORRECCION!D11",
+      "value": 7,
+      "type": "n"
+    },
+    {
+      "cell": "Q9",
+      "formula": "IF(P9>18,\"cuestionables o inválidos por posibles respuestas aleatorias.\",\"consistente.\")",
+      "value": "consistente.",
+      "type": "s"
+    },
+    {
+      "cell": "R9",
+      "formula": "Q9",
+      "value": "consistente.",
+      "type": "s"
+    },
+    {
+      "cell": "P10",
+      "formula": "CORRECCION!D12",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "Q10",
+      "formula": "IF(P10<6,\"el protocolo debe considerarse inválido.\",IF(P10>113,\"el protocolo debe considerarse inválido.\",\"clínicamente interpretable\"))",
+      "value": "clínicamente interpretable",
+      "type": "s"
+    },
+    {
+      "cell": "R10",
+      "formula": "Q10",
+      "value": "clínicamente interpretable",
+      "type": "s"
+    },
+    {
+      "cell": "Q11",
+      "formula": "IF(P11<75,\"1\",\"2\")",
+      "value": "2",
+      "type": "s"
+    },
+    {
+      "cell": "R11",
+      "formula": "IF(Q11=\"1\",\"se muestra revelador, abierto y expresivo en sus respuestas.\",R6)",
+      "value": "Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales.",
+      "type": "s"
+    },
+    {
+      "cell": "A12",
+      "formula": "CONCATENATE(J8,R8)",
+      "value": "La escala V señala que sus respuestas son válido pero dudable, cuestionable.",
+      "type": "s"
+    },
+    {
+      "cell": "Q12",
+      "formula": "IF(P12<75,\"1\",\"2\")",
+      "value": "2",
+      "type": "s"
+    },
+    {
+      "cell": "R12",
+      "formula": "IF(Q12=\"1\",\"tiende a presentarse tal como se ve a sí mismo, sin ocultar aquello que le parece importante sobre sus sentimientos, emociones y comportamientos.\",R7)",
+      "value": "Tendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar.",
+      "type": "s"
+    },
+    {
+      "cell": "A13",
+      "formula": "CONCATENATE(J9,R9)",
+      "value": "La escala W señala que sus respuestas son consistente.",
+      "type": "s"
+    },
+    {
+      "cell": "A14",
+      "formula": "CONCATENATE(J10,R10)",
+      "value": "La escala X señala que sus respuestas son clínicamente interpretable",
+      "type": "s"
+    },
+    {
+      "cell": "A15",
+      "formula": "CONCATENATE(J11,R11)",
+      "value": "La escala Y señala que Tendencia a parecer socialmente agradable, moralmente admirable o emocionalmente equilibrado. Tendencia a mostrar una imagen de sí mismo positiva e interesante. Cuanto más alta sea la puntuación, más probable es que el paciente haya ocultado ciertos aspectos de sus dificultades psicológicas o interpersonales.",
+      "type": "s"
+    },
+    {
+      "cell": "I15",
+      "formula": "IF(R15=1,J15,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J15",
+      "formula": "CONCATENATE(O15,\" presenta \",Q15, \"Se caracteriza por \",S15)",
+      "value": "Esquizoide   presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P15",
+      "formula": "CORRECCION!D17",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "Q15",
+      "formula": "IF(P15<=60,\"No presenta \",IF(P15>=85,\"Trastornos Críticos \",IF(P15>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R15",
+      "formula": "IF(P15<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S15",
+      "formula": "IF(R15=1,V15,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A16",
+      "formula": "CONCATENATE(J12,R12)",
+      "value": "La escala Z señala que trata deTendencia del sujeto a menospreciarse o subestimarse manifestando más problemas emocionales y perso¬nales de los que un análisis posterior pueda reflejar.",
+      "type": "s"
+    },
+    {
+      "cell": "I16",
+      "formula": "IF(R16=1,J16,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J16",
+      "formula": "CONCATENATE(O16,\" presenta \",Q16, \"Se caracteriza por \",S16)",
+      "value": "Evitativo presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P16",
+      "formula": "CORRECCION!D18",
+      "value": 6,
+      "type": "n"
+    },
+    {
+      "cell": "Q16",
+      "formula": "IF(P16<=60,\"No presenta \",IF(P16>=85,\"Trastornos Críticos \",IF(P16>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R16",
+      "formula": "IF(P16<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S16",
+      "formula": "IF(R16=1,V16,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I17",
+      "formula": "IF(R17=1,J17,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J17",
+      "formula": "CONCATENATE(O17,\" presenta \",Q17, \"Se caracteriza por \",S17)",
+      "value": "Melancólico  presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P17",
+      "formula": "CORRECCION!D19",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "Q17",
+      "formula": "IF(P17<=60,\"No presenta \",IF(P17>=85,\"Trastornos Críticos \",IF(P17>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R17",
+      "formula": "IF(P17<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S17",
+      "formula": "IF(R17=1,V17,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I18",
+      "formula": "IF(R18=1,J18,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J18",
+      "formula": "CONCATENATE(O18,\" presenta \",Q18, \"Se caracteriza por \",S18)",
+      "value": "Dependiente presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P18",
+      "formula": "CORRECCION!D20",
+      "value": 36,
+      "type": "n"
+    },
+    {
+      "cell": "Q18",
+      "formula": "IF(P18<=60,\"No presenta \",IF(P18>=85,\"Trastornos Críticos \",IF(P18>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R18",
+      "formula": "IF(P18<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S18",
+      "formula": "IF(R18=1,V18,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A19",
+      "formula": "I14",
+      "value": "En los patrones de la escala clínica de personalidad presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "I19",
+      "formula": "IF(R19=1,J19,\" \")",
+      "value": "Histriónico presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      "type": "s"
+    },
+    {
+      "cell": "J19",
+      "formula": "CONCATENATE(O19,\" presenta \",Q19, \"Se caracteriza por \",S19)",
+      "value": "Histriónico presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      "type": "s"
+    },
+    {
+      "cell": "P19",
+      "formula": "CORRECCION!D21",
+      "value": 75,
+      "type": "n"
+    },
+    {
+      "cell": "Q19",
+      "formula": "IF(P19<=60,\"No presenta \",IF(P19>=85,\"Trastornos Críticos \",IF(P19>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "Patrones menos adaptativos y Trastornos ",
+      "type": "s"
+    },
+    {
+      "cell": "R19",
+      "formula": "IF(P19<=60,\"0\",1)",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "S19",
+      "formula": "IF(R19=1,V19,\" \")",
+      "value": "Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      "type": "s"
+    },
+    {
+      "cell": "A20",
+      "formula": "I15",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I20",
+      "formula": "IF(R20=1,J20,\" \")",
+      "value": "Tempestuoso presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      "type": "s"
+    },
+    {
+      "cell": "J20",
+      "formula": "CONCATENATE(O20,\" presenta \",Q20, \"Se caracteriza por \",S20)",
+      "value": "Tempestuoso presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      "type": "s"
+    },
+    {
+      "cell": "P20",
+      "formula": "CORRECCION!D22",
+      "value": 80,
+      "type": "n"
+    },
+    {
+      "cell": "Q20",
+      "formula": "IF(P20<=60,\"No presenta \",IF(P20>=85,\"Trastornos Críticos \",IF(P20>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "Patrones menos adaptativos y Trastornos ",
+      "type": "s"
+    },
+    {
+      "cell": "R20",
+      "formula": "IF(P20<=60,\"0\",1)",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "S20",
+      "formula": "IF(R20=1,V20,\" \")",
+      "value": "Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      "type": "s"
+    },
+    {
+      "cell": "A21",
+      "formula": "I16",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I21",
+      "formula": "IF(R21=1,J21,\" \")",
+      "value": "Narcisista presenta Categoría de Riesgo Se caracteriza por Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      "type": "s"
+    },
+    {
+      "cell": "J21",
+      "formula": "CONCATENATE(O21,\" presenta \",Q21, \"Se caracteriza por \",S21)",
+      "value": "Narcisista presenta Categoría de Riesgo Se caracteriza por Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      "type": "s"
+    },
+    {
+      "cell": "P21",
+      "formula": "CORRECCION!D23",
+      "value": 62,
+      "type": "n"
+    },
+    {
+      "cell": "Q21",
+      "formula": "IF(P21<=60,\"No presenta \",IF(P21>=85,\"Trastornos Críticos \",IF(P21>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "Categoría de Riesgo ",
+      "type": "s"
+    },
+    {
+      "cell": "R21",
+      "formula": "IF(P21<=60,\"0\",1)",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "S21",
+      "formula": "IF(R21=1,V21,\" \")",
+      "value": "Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      "type": "s"
+    },
+    {
+      "cell": "A22",
+      "formula": "I17",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I22",
+      "formula": "IF(R22=1,J22,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J22",
+      "formula": "CONCATENATE(O22,\" presenta \",Q22, \"Se caracteriza por \",S22)",
+      "value": "Antisocial presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P22",
+      "formula": "CORRECCION!D24",
+      "value": 20,
+      "type": "n"
+    },
+    {
+      "cell": "Q22",
+      "formula": "IF(P22<=60,\"No presenta \",IF(P22>=85,\"Trastornos Críticos \",IF(P22>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R22",
+      "formula": "IF(P22<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S22",
+      "formula": "IF(R22=1,V22,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A23",
+      "formula": "I18",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I23",
+      "formula": "IF(R23=1,J23,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J23",
+      "formula": "CONCATENATE(O23,\" presenta \",Q23, \"Se caracteriza por \",S23)",
+      "value": "Sádico  presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P23",
+      "formula": "CORRECCION!D25",
+      "value": 10,
+      "type": "n"
+    },
+    {
+      "cell": "Q23",
+      "formula": "IF(P23<=60,\"No presenta \",IF(P23>=85,\"Trastornos Críticos \",IF(P23>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R23",
+      "formula": "IF(P23<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S23",
+      "formula": "IF(R23=1,V23,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A24",
+      "formula": "I19",
+      "value": "Histriónico presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos histriónicos, al igual que los dependientes, recurren a los demás, pero maximizan la atención y los favores que reciben, manipulando los hechos de una forma superficial y entusiasta. Su comportamiento social inteligente y a menudo ingenioso transmite confianza y seguridad en sí mismo; sin embargo, debajo de esta apariencia, subyace el miedo a la autonomía real y la necesidad de recibir señales recurrentes de aceptación y aprobación casi constantemente.",
+      "type": "s"
+    },
+    {
+      "cell": "I24",
+      "formula": "IF(R24=1,J24,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J24",
+      "formula": "CONCATENATE(O24,\" presenta \",Q24, \"Se caracteriza por \",S24)",
+      "value": "Compulsivo presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P24",
+      "formula": "CORRECCION!D26",
+      "value": 49,
+      "type": "n"
+    },
+    {
+      "cell": "Q24",
+      "formula": "IF(P24<=60,\"No presenta \",IF(P24>=85,\"Trastornos Críticos \",IF(P24>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R24",
+      "formula": "IF(P24<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S24",
+      "formula": "IF(R24=1,V24,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A25",
+      "formula": "I20",
+      "value": "Tempestuoso presenta Patrones menos adaptativos y Trastornos Se caracteriza por Los sujetos tempestuosos son muy alegres y animados, pero su persistente euforia, entrometimiento y vo¬lubilidad puede resultar irritante para los demás. Aunque son apasionados y entusiastas, se aburren con  \r\ndemasiada facilidad y carecen de los recursos y la regularidad necesarios para llevar a término sus objetivos y planes. Sin control, su conducta puede llegar a ser más extrema, temeraria y errática. Con bastante fre¬cuencia, este patrón tipo maníaco, puede conducir al agotamiento depresivo. De todo ello resulta un patrón de conducta impredecible, de pensamiento disperso y de acciones y estados de ánimo impetuosos e impul¬sivos, interrumpidos por arrebatos de ira momentánea y ansiedad temerosa.\r\n",
+      "type": "s"
+    },
+    {
+      "cell": "I25",
+      "formula": "IF(R25=1,J25,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J25",
+      "formula": "CONCATENATE(O25,\" presenta \",Q25, \"Se caracteriza por \",S25)",
+      "value": "Negativista presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P25",
+      "formula": "CORRECCION!D27",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "Q25",
+      "formula": "IF(P25<=60,\"No presenta \",IF(P25>=85,\"Trastornos Críticos \",IF(P25>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R25",
+      "formula": "IF(P25<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S25",
+      "formula": "IF(R25=1,V25,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A26",
+      "formula": "I21",
+      "value": "Narcisista presenta Categoría de Riesgo Se caracteriza por Los sujetos narcisistas destacan por su egocentrismo egotista, por sentir placer simplemente centrándose en sí mismos. Sus sentimientos de superioridad pueden no estar basados en logros reales o maduros; sin embargo, los narcisistas conservan un aire arrogante de seguridad en sí mismos y, sin pensarlo demasiado ni pretenderlo conscientemente, explotan a los demás en beneficio propio. Aunque agradecen y fomentan los elogios y las atenciones que reciben de los demás, no necesitan logros reales o aprobación social para mantener su aire de esnobismo y superioridad pretenciosa. Su confianza extrema hace que no se sientan motivados a implicarse en las interacciones propias de la vida social.",
+      "type": "s"
+    },
+    {
+      "cell": "I26",
+      "formula": "IF(R26=1,J26,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J26",
+      "formula": "CONCATENATE(O26,\" presenta \",Q26, \"Se caracteriza por \",S26)",
+      "value": "Masoquista presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P26",
+      "formula": "CORRECCION!D28",
+      "value": 38,
+      "type": "n"
+    },
+    {
+      "cell": "Q26",
+      "formula": "IF(P26<=60,\"No presenta \",IF(P26>=85,\"Trastornos Críticos \",IF(P26>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R26",
+      "formula": "IF(P26<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S26",
+      "formula": "IF(R26=1,V26,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A27",
+      "formula": "I22",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J27",
+      "formula": "CONCATENATE(O27,\" presenta \",Q27, \"Se caracteriza por \",S27)",
+      "value": " presenta Se caracteriza por ",
+      "type": "s"
+    },
+    {
+      "cell": "R27",
+      "formula": "IF(P27<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "A28",
+      "formula": "I23",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I28",
+      "formula": "IF(R28=1,J28,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J28",
+      "formula": "CONCATENATE(O28,\" presenta \",Q28, \"Se caracteriza por \",S28)",
+      "value": "Esquizotípico  presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P28",
+      "formula": "CORRECCION!D30",
+      "value": 12,
+      "type": "n"
+    },
+    {
+      "cell": "Q28",
+      "formula": "IF(P28<=60,\"No presenta \",IF(P28>=85,\"Trastornos Críticos \",IF(P28>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R28",
+      "formula": "IF(P28<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S28",
+      "formula": "IF(R28=1,V28,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A29",
+      "formula": "I24",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I29",
+      "formula": "IF(R29=1,J29,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J29",
+      "formula": "CONCATENATE(O29,\" presenta \",Q29, \"Se caracteriza por \",S29)",
+      "value": "Límite     presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P29",
+      "formula": "CORRECCION!D31",
+      "value": 45,
+      "type": "n"
+    },
+    {
+      "cell": "Q29",
+      "formula": "IF(P29<=60,\"No presenta \",IF(P29>=85,\"Trastornos Críticos \",IF(P29>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R29",
+      "formula": "IF(P29<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S29",
+      "formula": "IF(R29=1,V29,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A30",
+      "formula": "I25",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I30",
+      "formula": "IF(R30=1,J30,\" \")",
+      "value": "Paranoide presenta Categoría de Riesgo Se caracteriza por Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      "type": "s"
+    },
+    {
+      "cell": "J30",
+      "formula": "CONCATENATE(O30,\" presenta \",Q30, \"Se caracteriza por \",S30)",
+      "value": "Paranoide presenta Categoría de Riesgo Se caracteriza por Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      "type": "s"
+    },
+    {
+      "cell": "P30",
+      "formula": "CORRECCION!D32",
+      "value": 66,
+      "type": "n"
+    },
+    {
+      "cell": "Q30",
+      "formula": "IF(P30<=60,\"No presenta \",IF(P30>=85,\"Trastornos Críticos \",IF(P30>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "Categoría de Riesgo ",
+      "type": "s"
+    },
+    {
+      "cell": "R30",
+      "formula": "IF(P30<=60,\"0\",1)",
+      "value": 1,
+      "type": "n"
+    },
+    {
+      "cell": "S30",
+      "formula": "IF(R30=1,V30,\" \")",
+      "value": "Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      "type": "s"
+    },
+    {
+      "cell": "A31",
+      "formula": "I26",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I31",
+      "formula": "IF(R31=1,J31,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "R31",
+      "formula": "IF(P31<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "A32",
+      "formula": "I27",
+      "value": "En las Patologías Graves Personalidad presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R32",
+      "formula": "IF(P32<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "A33",
+      "formula": "I28",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I33",
+      "formula": "IF(R33=1,J33,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J33",
+      "formula": "CONCATENATE(O33,\" presenta \",Q33, \"Se caracteriza por \",S33)",
+      "value": "Ansiedad Generalizada presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P33",
+      "formula": "CORRECCION!D35",
+      "value": 15,
+      "type": "n"
+    },
+    {
+      "cell": "Q33",
+      "formula": "IF(P33<=60,\"No presenta \",IF(P33>=85,\"Trastornos Críticos \",IF(P33>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R33",
+      "formula": "IF(P33<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S33",
+      "formula": "IF(R33=1,V33,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A34",
+      "formula": "I29",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I34",
+      "formula": "IF(R34=1,J34,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J34",
+      "formula": "CONCATENATE(O34,\" presenta \",Q34, \"Se caracteriza por \",S34)",
+      "value": "Síntomas Somáticos  presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P34",
+      "formula": "CORRECCION!D36",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "Q34",
+      "formula": "IF(P34<=60,\"No presenta \",IF(P34>=85,\"Trastornos Críticos \",IF(P34>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R34",
+      "formula": "IF(P34<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S34",
+      "formula": "IF(R34=1,V34,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A35",
+      "formula": "I30",
+      "value": "Paranoide presenta Categoría de Riesgo Se caracteriza por Los sujetos paranoides se muestran desconfiados y en alerta hacia los demás y tensos y a la defensiva ante posibles críticas y engaños. Presentan una irritabilidad desabrida y tienden a hacer que los demás se exas¬peren o se enfaden. Asimismo se distinguen por la inmutabilidad de sus sentimientos y la inflexlbilidad de su pensamiento. A menudo expresan miedo a perder la independencia, lo que los lleva a resistirse enérgicamen¬te a las influencias y al control externo.",
+      "type": "s"
+    },
+    {
+      "cell": "I35",
+      "formula": "IF(R35=1,J35,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J35",
+      "formula": "CONCATENATE(O35,\" presenta \",Q35, \"Se caracteriza por \",S35)",
+      "value": "Espectro Bípolar presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P35",
+      "formula": "CORRECCION!D37",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "Q35",
+      "formula": "IF(P35<=60,\"No presenta \",IF(P35>=85,\"Trastornos Críticos \",IF(P35>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R35",
+      "formula": "IF(P35<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S35",
+      "formula": "IF(R35=1,V35,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A36",
+      "formula": "I31",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I36",
+      "formula": "IF(R36=1,J36,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J36",
+      "formula": "CONCATENATE(O36,\" presenta \",Q36, \"Se caracteriza por \",S36)",
+      "value": "Depresión Persistente presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P36",
+      "formula": "CORRECCION!D38",
+      "value": 30,
+      "type": "n"
+    },
+    {
+      "cell": "Q36",
+      "formula": "IF(P36<=60,\"No presenta \",IF(P36>=85,\"Trastornos Críticos \",IF(P36>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R36",
+      "formula": "IF(P36<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S36",
+      "formula": "IF(R36=1,V36,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A37",
+      "formula": "I32",
+      "value": "En los Sindromes Clínicos de la Personalidad presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "I37",
+      "formula": "IF(R37=1,J37,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J37",
+      "formula": "CONCATENATE(O37,\" presenta \",Q37, \"Se caracteriza por \",S37)",
+      "value": "Consumo de Alcohol presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P37",
+      "formula": "CORRECCION!D39",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "Q37",
+      "formula": "IF(P37<=60,\"No presenta \",IF(P37>=85,\"Trastornos Críticos \",IF(P37>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R37",
+      "formula": "IF(P37<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S37",
+      "formula": "IF(R37=1,V37,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A38",
+      "formula": "I33",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I38",
+      "formula": "IF(R38=1,J38,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J38",
+      "formula": "CONCATENATE(O38,\" presenta \",Q38, \"Se caracteriza por \",S38)",
+      "value": "Consumo de Drogas presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P38",
+      "formula": "CORRECCION!D40",
+      "value": 0,
+      "type": "n"
+    },
+    {
+      "cell": "Q38",
+      "formula": "IF(P38<=60,\"No presenta \",IF(P38>=85,\"Trastornos Críticos \",IF(P38>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R38",
+      "formula": "IF(P38<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S38",
+      "formula": "IF(R38=1,V38,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A39",
+      "formula": "I34",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I39",
+      "formula": "IF(R39=1,J39,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J39",
+      "formula": "CONCATENATE(O39,\" presenta \",Q39, \"Se caracteriza por \",S39)",
+      "value": "Estrés Postraumático presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P39",
+      "formula": "CORRECCION!D41",
+      "value": 48,
+      "type": "n"
+    },
+    {
+      "cell": "Q39",
+      "formula": "IF(P39<=60,\"No presenta \",IF(P39>=85,\"Trastornos Críticos \",IF(P39>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R39",
+      "formula": "IF(P39<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S39",
+      "formula": "IF(R39=1,V39,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A40",
+      "formula": "I35",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I40",
+      "formula": "IF(R40=1,J40,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J40",
+      "formula": "CONCATENATE(O40,\" presenta \",Q40, \"Se caracteriza por \",S40)",
+      "value": "Espectro Esquizofrénico presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P40",
+      "formula": "CORRECCION!D42",
+      "value": 40,
+      "type": "n"
+    },
+    {
+      "cell": "Q40",
+      "formula": "IF(P40<=60,\"No presenta \",IF(P40>=85,\"Trastornos Críticos \",IF(P40>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R40",
+      "formula": "IF(P40<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S40",
+      "formula": "IF(R40=1,V40,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A41",
+      "formula": "I36",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I41",
+      "formula": "IF(R41=1,J41,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J41",
+      "formula": "CONCATENATE(O41,\" presenta \",Q41, \"Se caracteriza por \",S41)",
+      "value": "Depresión Mayor presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P41",
+      "formula": "CORRECCION!D43",
+      "value": 51,
+      "type": "n"
+    },
+    {
+      "cell": "Q41",
+      "formula": "IF(P41<=60,\"No presenta \",IF(P41>=85,\"Trastornos Críticos \",IF(P41>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R41",
+      "formula": "IF(P41<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S41",
+      "formula": "IF(R41=1,V41,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A42",
+      "formula": "I37",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "I42",
+      "formula": "IF(R42=1,J42,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "J42",
+      "formula": "CONCATENATE(O42,\" presenta \",Q42, \"Se caracteriza por \",S42)",
+      "value": "Delirante presenta No presenta Se caracteriza por  ",
+      "type": "s"
+    },
+    {
+      "cell": "P42",
+      "formula": "CORRECCION!D44",
+      "value": 60,
+      "type": "n"
+    },
+    {
+      "cell": "Q42",
+      "formula": "IF(P42<=60,\"No presenta \",IF(P42>=85,\"Trastornos Críticos \",IF(P42>=75,\"Patrones menos adaptativos y Trastornos \",\"Categoría de Riesgo \")))",
+      "value": "No presenta ",
+      "type": "s"
+    },
+    {
+      "cell": "R42",
+      "formula": "IF(P42<=60,\"0\",1)",
+      "value": "0",
+      "type": "s"
+    },
+    {
+      "cell": "S42",
+      "formula": "IF(R42=1,V42,\" \")",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A43",
+      "formula": "I38",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A44",
+      "formula": "I39",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A45",
+      "formula": "I40",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A46",
+      "formula": "I41",
+      "value": " ",
+      "type": "s"
+    },
+    {
+      "cell": "A47",
+      "formula": "I42",
+      "value": " ",
+      "type": "s"
+    }
+  ],
+  "range": "A1:W63",
+  "merges": [
+    {
+      "s": {
+        "c": 0,
+        "r": 44
+      },
+      "e": {
+        "c": 6,
+        "r": 44
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 45
+      },
+      "e": {
+        "c": 6,
+        "r": 45
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 46
+      },
+      "e": {
+        "c": 6,
+        "r": 46
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 39
+      },
+      "e": {
+        "c": 6,
+        "r": 39
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 40
+      },
+      "e": {
+        "c": 6,
+        "r": 40
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 41
+      },
+      "e": {
+        "c": 6,
+        "r": 41
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 42
+      },
+      "e": {
+        "c": 6,
+        "r": 42
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 43
+      },
+      "e": {
+        "c": 6,
+        "r": 43
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 34
+      },
+      "e": {
+        "c": 6,
+        "r": 34
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 35
+      },
+      "e": {
+        "c": 6,
+        "r": 35
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 36
+      },
+      "e": {
+        "c": 6,
+        "r": 36
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 37
+      },
+      "e": {
+        "c": 6,
+        "r": 37
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 38
+      },
+      "e": {
+        "c": 6,
+        "r": 38
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 29
+      },
+      "e": {
+        "c": 6,
+        "r": 29
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 30
+      },
+      "e": {
+        "c": 6,
+        "r": 30
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 31
+      },
+      "e": {
+        "c": 6,
+        "r": 31
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 32
+      },
+      "e": {
+        "c": 6,
+        "r": 32
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 33
+      },
+      "e": {
+        "c": 6,
+        "r": 33
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 24
+      },
+      "e": {
+        "c": 6,
+        "r": 24
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 25
+      },
+      "e": {
+        "c": 6,
+        "r": 25
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 26
+      },
+      "e": {
+        "c": 6,
+        "r": 26
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 27
+      },
+      "e": {
+        "c": 6,
+        "r": 27
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 28
+      },
+      "e": {
+        "c": 6,
+        "r": 28
+      }
+    },
+    {
+      "s": {
+        "c": 13,
+        "r": 6
+      },
+      "e": {
+        "c": 14,
+        "r": 6
+      }
+    },
+    {
+      "s": {
+        "c": 13,
+        "r": 13
+      },
+      "e": {
+        "c": 14,
+        "r": 13
+      }
+    },
+    {
+      "s": {
+        "c": 13,
+        "r": 26
+      },
+      "e": {
+        "c": 14,
+        "r": 26
+      }
+    },
+    {
+      "s": {
+        "c": 13,
+        "r": 31
+      },
+      "e": {
+        "c": 14,
+        "r": 31
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 9
+      },
+      "e": {
+        "c": 6,
+        "r": 9
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 11
+      },
+      "e": {
+        "c": 6,
+        "r": 11
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 12
+      },
+      "e": {
+        "c": 6,
+        "r": 12
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 13
+      },
+      "e": {
+        "c": 6,
+        "r": 13
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 14
+      },
+      "e": {
+        "c": 6,
+        "r": 14
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 15
+      },
+      "e": {
+        "c": 6,
+        "r": 15
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 18
+      },
+      "e": {
+        "c": 6,
+        "r": 18
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 19
+      },
+      "e": {
+        "c": 6,
+        "r": 19
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 20
+      },
+      "e": {
+        "c": 6,
+        "r": 20
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 21
+      },
+      "e": {
+        "c": 6,
+        "r": 21
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 22
+      },
+      "e": {
+        "c": 6,
+        "r": 22
+      }
+    },
+    {
+      "s": {
+        "c": 0,
+        "r": 23
+      },
+      "e": {
+        "c": 6,
+        "r": 23
+      }
+    }
+  ]
+}

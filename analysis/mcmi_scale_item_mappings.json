@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "source": "APLICACION sheet formulas",
+    "total_scales": 23,
+    "notes": [
+      "Item numbers are 1-indexed (1-195)",
+      "items_weighted: items that count 2x in formula",
+      "items_unweighted: items that count 1x in formula",
+      "Formula: PD = (2 × sum(weighted)) + sum(unweighted)"
+    ]
+  },
+  "scales": [
+    {
+      "code": "1",
+      "name": "Esquizoide",
+      "items_weighted": [
+        6,
+        15,
+        43,
+        90,
+        119,
+        139,
+        149,
+        180
+      ],
+      "items_unweighted": [
+        17,
+        24,
+        30,
+        70,
+        92,
+        154,
+        190
+      ],
+      "formula_original": "(2*(D18+D27+D55+D102+D131+D151+D161+D192)+D29+D36+D42+D82+D104+E166+D202)"
+    },
+    {
+      "code": "2A",
+      "name": "Evitativo",
+      "items_weighted": [
+        5,
+        12,
+        26,
+        99,
+        135,
+        195
+      ],
+      "items_unweighted": [
+        23,
+        24,
+        46,
+        52,
+        67,
+        92,
+        93,
+        112,
+        154,
+        178,
+        184,
+        193
+      ],
+      "formula_original": "(2*(D17+D24+D38+D111+D147+D207)+(D35+D36+D58+D64+E79+D104+D105+D124+E166+D190+D196+D205))"
+    },
+    {
+      "code": "2B",
+      "name": "Melancólico",
+      "items_weighted": [
+        23,
+        51,
+        71,
+        93,
+        111,
+        169,
+        175,
+        184,
+        193
+      ],
+      "items_unweighted": [
+        17,
+        22,
+        39,
+        53,
+        59,
+        70,
+        90,
+        126,
+        170,
+        178
+      ],
+      "formula_original": "(2*(D35+D63+D83+D105+D123+D181+D187+D196+D205)+(D29+D34+D51+E65+D71+D82+D102+D138+D182+D190))"
+    },
+    {
+      "code": "3",
+      "name": "Dependente",
+      "items_weighted": [
+        4,
+        42,
+        60,
+        77,
+        109,
+        133,
+        162,
+        173,
+        194
+      ],
+      "items_unweighted": [
+        5,
+        23,
+        67,
+        72,
+        175
+      ],
+      "formula_original": "(2*(D16+D54+D72+D89+D121+D145+D174+D185+D206)+(D17+D35+E79+D84+D187))"
+    },
+    {
+      "code": "4A",
+      "name": "Histriónico",
+      "items_weighted": [
+        10,
+        30,
+        46,
+        84,
+        117,
+        154,
+        171
+      ],
+      "items_unweighted": [
+        6,
+        8,
+        15,
+        24,
+        26,
+        75,
+        139,
+        155,
+        178,
+        195
+      ],
+      "formula_original": "(2*(D22+D42+D58+D96+D129+D166+D183)+E18+D20+E27+E36+E38+D87+E151+D167+E190+E207)"
+    },
+    {
+      "code": "4B",
+      "name": "Tempestuoso",
+      "items_weighted": [
+        8,
+        20,
+        53,
+        75,
+        129,
+        155,
+        174,
+        185
+      ],
+      "items_unweighted": [
+        26,
+        30,
+        46,
+        67,
+        84,
+        120,
+        142,
+        154,
+        178
+      ],
+      "formula_original": "(2*(D20+D32+D65+D87+D141+D167+D186+D197)+(E38+D42+D58+D79+D96+E132+D154+D166+D190))"
+    },
+    {
+      "code": "5",
+      "name": "Narcisista",
+      "items_weighted": [
+        29,
+        38,
+        54,
+        67,
+        87,
+        106,
+        132,
+        142,
+        159,
+        189
+      ],
+      "items_unweighted": [
+        10,
+        19,
+        83,
+        117,
+        171,
+        191
+      ],
+      "formula_original": "(2*(D41+D50+D66+D79+D99+D118+D144+D154+D171+D201)+(D22+D31+D95+D129+D183+D203))"
+    },
+    {
+      "code": "6A",
+      "name": "Antisocial",
+      "items_weighted": [
+        11,
+        19,
+        65,
+        83,
+        147,
+        183,
+        191
+      ],
+      "items_unweighted": [
+        36,
+        38,
+        48,
+        105,
+        152,
+        158,
+        159
+      ],
+      "formula_original": "(2*(D23+D31+D77+D95+D159+D195+D203)+(D48+D50+E60+D117+D164+E170+D171))"
+    },
+    {
+      "code": "6B",
+      "name": "Agressivo (Sádico)",
+      "items_weighted": [
+        9,
+        50,
+        66,
+        97,
+        103,
+        115,
+        141,
+        152
+      ],
+      "items_unweighted": [
+        11,
+        16,
+        21,
+        74,
+        145,
+        172
+      ],
+      "formula_original": "(2*(D21+D62+D78+D109+D115+D127+D153+D164)+(D23+D28+D33+D86+D157+D184))"
+    },
+    {
+      "code": "7",
+      "name": "Compulsivo",
+      "items_weighted": [
+        2,
+        35,
+        48,
+        63,
+        73,
+        128,
+        140,
+        158,
+        179,
+        188
+      ],
+      "items_unweighted": [
+        83,
+        147,
+        152
+      ],
+      "formula_original": "(2*(D14+D47+D60+D75+D85+D140+D152+D170+D191+D200)+(E95+E159+E164))"
+    },
+    {
+      "code": "8A",
+      "name": "Negativista",
+      "items_weighted": [
+        17,
+        32,
+        82,
+        96,
+        122,
+        137,
+        167,
+        187
+      ],
+      "items_unweighted": [
+        21,
+        37,
+        52,
+        79,
+        88,
+        97,
+        100,
+        168,
+        172,
+        184
+      ],
+      "formula_original": "(2*(D29+D44+D94+D108+D134+D149+D179+D199)+(D33+D49+D64+D91+D100+D109+D112+D180+D184+D196))"
+    },
+    {
+      "code": "8B",
+      "name": "Masoquista",
+      "items_weighted": [
+        39,
+        59,
+        85,
+        100,
+        126,
+        166,
+        192
+      ],
+      "items_unweighted": [
+        4,
+        12,
+        20,
+        23,
+        70,
+        75,
+        93,
+        156,
+        164,
+        178,
+        195
+      ],
+      "formula_original": "(2*(D51+D71+D97+D112+D138+D178+D204)+(D16+D24+E32+D35+D82+E87+D105+D168+D176+D190+D207))"
+    },
+    {
+      "code": "S",
+      "name": "Esquizotípico",
+      "items_weighted": [
+        33,
+        72,
+        89,
+        113,
+        123,
+        143
+      ],
+      "items_unweighted": [
+        31,
+        41,
+        44,
+        51,
+        91,
+        108,
+        109
+      ],
+      "formula_original": "(2*(D45+D84+D101+D125+D135+D155)+(D43+D53+D56+D63+D103+D120+D121))"
+    },
+    {
+      "code": "C",
+      "name": "Borderline",
+      "items_weighted": [
+        7,
+        28,
+        41,
+        120,
+        146
+      ],
+      "items_unweighted": [
+        1,
+        20,
+        57,
+        113,
+        118
+      ],
+      "formula_original": "(2*(D19+D40+D53+D132+D158)+(D13+E32+D69+D125+D130))"
+    },
+    {
+      "code": "P",
+      "name": "Paranoide",
+      "items_weighted": [
+        3,
+        27,
+        56,
+        108,
+        163,
+        177
+      ],
+      "items_unweighted": [
+        37,
+        50,
+        54,
+        82,
+        83,
+        105,
+        155
+      ],
+      "formula_original": "(2*(D15+D39+D68+D120+D175+D189)+(D49+D62+D66+D94+D95+D117+D167))"
+    },
+    {
+      "code": "A",
+      "name": "Ansiedade",
+      "items_weighted": [
+        14,
+        34,
+        64,
+        118,
+        151,
+        170
+      ],
+      "items_unweighted": [
+        17,
+        28,
+        39,
+        51,
+        71,
+        75,
+        77,
+        85,
+        93,
+        101,
+        111,
+        114,
+        120,
+        178,
+        193
+      ],
+      "formula_original": "(2*(D26+D46+D76+D130+D163+D182)+(D29+D40+D51+D63+D83+E87+D89+D97+D105+D113+D123+D126+D132+D190+D205))"
+    },
+    {
+      "code": "H",
+      "name": "Somatização",
+      "items_weighted": [
+        25,
+        45,
+        94,
+        130,
+        161
+      ],
+      "items_unweighted": [
+        65,
+        83,
+        126
+      ],
+      "formula_original": "(2*(D37+D57+D106+D142+D173)+(D77+D95+D138))"
+    },
+    {
+      "code": "N",
+      "name": "Bipolar",
+      "items_weighted": [
+        36,
+        61,
+        81,
+        105,
+        116,
+        124,
+        144
+      ],
+      "items_unweighted": [
+        11,
+        65,
+        152,
+        158
+      ],
+      "formula_original": "(2*(D48+D73+D93+D117+D128+D136+D156)+(D23+D77+D164+D170))"
+    },
+    {
+      "code": "D",
+      "name": "Distimia",
+      "items_weighted": [
+        62,
+        76,
+        91,
+        125,
+        150
+      ],
+      "items_unweighted": [
+        44,
+        47,
+        57,
+        74,
+        89,
+        110,
+        113,
+        143,
+        157
+      ],
+      "formula_original": "(2*(D74+D88+D103+D137+D162)+(D56+D59+D69+D86+D101+D122+D125+D155+D169))"
+    },
+    {
+      "code": "B",
+      "name": "Dependência de Álcool",
+      "items_weighted": [
+        33,
+        58,
+        80,
+        121,
+        131,
+        138
+      ],
+      "items_unweighted": [
+        18,
+        24,
+        52,
+        82,
+        89,
+        92,
+        95,
+        104,
+        123,
+        136,
+        148,
+        156,
+        165,
+        172,
+        182
+      ],
+      "formula_original": "(2*(D45+D70+D92+D133+D143+D150)+(D30+D36+D64+D94+D101+D104+D107+D116+D135+D148+D160+D168+D177+D184+D194))"
+    },
+    {
+      "code": "T",
+      "name": "Dependência de Drogas",
+      "items_weighted": [
+        1,
+        22,
+        57,
+        78,
+        101,
+        107,
+        114
+      ],
+      "items_unweighted": [
+        28,
+        41,
+        59,
+        64,
+        70,
+        80,
+        111,
+        118,
+        120,
+        170
+      ],
+      "formula_original": "(2*(D13+D34+D69+D90+D113+D119+D126)+(D40+D53+D71+D76+D82+D92+D123+D130+D132+D182))"
+    },
+    {
+      "code": "R",
+      "name": "Estresse Pós-Traumático",
+      "items_weighted": [
+        68,
+        95,
+        127,
+        148,
+        182
+      ],
+      "items_unweighted": [
+        13,
+        54,
+        79,
+        88,
+        112,
+        121,
+        136,
+        172,
+        189
+      ],
+      "formula_original": "(2*(D80+D107+D139+D160+D194)+(D25+D66+D91+D100+D124+D133+D148+D184+D201))"
+    },
+    {
+      "code": "CC",
+      "name": "Depressão Maior",
+      "items_weighted": [],
+      "items_unweighted": [
+        49,
+        98,
+        160
+      ],
+      "formula_original": "D61+D110+D172"
+    }
+  ]
+}

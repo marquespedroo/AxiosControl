@@ -1,0 +1,56 @@
+{
+  "tests": [
+    {
+      "nome": "EPF-TDAH",
+      "nome_completo": "Escala de Prejuízos Funcionais - TDAH",
+      "sigla": "EPF-TDAH",
+      "versao": "1.0",
+      "tipo": "escala_likert",
+      "descricao": "Escala composta por frases que descrevem prejuízos que adultos podem vivenciar no cotidiano em função de desatenção, esquecimento, agitação, impulsividade, falta de planejamento, descontrole das emoções e descontrole de raiva.",
+      "faixa_etaria_min": 18,
+      "tempo_medio_aplicacao": 20,
+      "escala": {
+        "min": 0,
+        "max": 4,
+        "opcoes": [
+          { "texto": "Não se aplica (NA)", "valor": 0 },
+          { "texto": "Nunca (N)", "valor": 0 },
+          { "texto": "Raramente (R)", "valor": 1 },
+          { "texto": "Algumas vezes (AV)", "valor": 2 },
+          { "texto": "Muitas vezes (MV)", "valor": 3 },
+          { "texto": "Sempre (S)", "valor": 4 }
+        ]
+      },
+      "interpretacao": [
+        { "min": 0, "max": 88, "nivel": "Baixo", "descricao": "Prejuízos funcionais baixos" },
+        { "min": 89, "max": 176, "nivel": "Moderado", "descricao": "Prejuízos funcionais moderados" },
+        { "min": 177, "max": 264, "nivel": "Alto", "descricao": "Prejuízos funcionais altos" }
+      ],
+      "questoes_file": "epf-tdah-questions.txt"
+    },
+    {
+      "nome": "AQ",
+      "nome_completo": "Quociente Autism-Spectrum",
+      "sigla": "AQ",
+      "versao": "1.0",
+      "tipo": "multipla_escolha",
+      "descricao": "O Quociente Autism-Spectrum, ou AQ, é uma medida do grau de traços Autísticos em adultos. Este teste não é um autodiagnóstico, tem o objetivo de ajudar a identificar alguns traços que podem estar ligados ao comportamento autista.",
+      "faixa_etaria_min": 18,
+      "tempo_medio_aplicacao": 15,
+      "escala": {
+        "opcoes": [
+          { "texto": "Concordo definitivamente", "valor": 0 },
+          { "texto": "Concordo um pouco", "valor": 1 },
+          { "texto": "Discordo um pouco", "valor": 2 },
+          { "texto": "Discordo definitivamente", "valor": 3 }
+        ]
+      },
+      "interpretacao": [
+        { "min": 0, "max": 25, "nivel": "Baixo", "descricao": "Poucos traços autísticos" },
+        { "min": 26, "max": 31, "nivel": "Limítrofe", "descricao": "Possíveis traços autísticos" },
+        { "min": 32, "max": 50, "nivel": "Alto", "descricao": "Traços autísticos significativos" }
+      ],
+      "questoes_file": "aq-questions.txt"
+    }
+  ]
+}
