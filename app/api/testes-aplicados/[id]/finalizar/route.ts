@@ -6,7 +6,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getAuthUser } from '@/lib/auth/helpers'
 import { calculateRawScore } from '@/lib/calculation/calculator'
 import { calculatePercentile, calculateZScore, calculateTScore, classifyPerformance, findNormativeBin } from '@/lib/calculation/normalization'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { createAuditLog, calculateAge } from '@/lib/supabase/helpers'
 
 // POST /api/testes-aplicados/[id]/finalizar - Finalize test and calculate results
@@ -39,13 +39,13 @@ export async function POST(
           const { data: linkTeste } = await supabaseAdmin
             .from('link_testes')
             .select('id')
-            .eq('link_id', link.id)
+            .eq('link_id', (link as any).id)
             .eq('teste_aplicado_id', params.id)
             .single()
 
           if (linkTeste) {
             isPatient = true
-            user = { id: 'patient', clinica_id: link.clinica_id } // Mock user for compatibility
+            user = { id: 'patient', clinica_id: (link as any).clinica_id } // Mock user for compatibility
           }
         }
       }
@@ -71,7 +71,7 @@ export async function POST(
     })
 
     // Get test with all related data using ADMIN CLIENT to bypass RLS
-    const { data: teste, error: testeError } = await supabaseAdmin
+    const { data: testeData, error: testeError } = await supabaseAdmin
       .from('testes_aplicados')
       .select(`
         *,
@@ -94,6 +94,8 @@ export async function POST(
       `)
       .eq('id', params.id)
       .single()
+
+    const teste = testeData as any
 
     console.log('[API] Test query result:', {
       found: !!teste,
@@ -177,7 +179,7 @@ export async function POST(
         // Save answers even when calculation fails
         // This allows users to retry calculation or view answers later
         try {
-          await supabaseAdmin
+          await (supabaseAdmin as any)
             .from('testes_aplicados')
             .update({
               respostas,
@@ -223,7 +225,7 @@ export async function POST(
           sexo: teste.paciente.sexo || 'M',
         }
 
-        const binResult = findNormativeBin(demographics, normativeTables[0].faixas as any[])
+        const binResult = findNormativeBin(demographics, (normativeTables as any)[0].faixas as any[])
 
         if (binResult) {
           const { bin, exact } = binResult
@@ -246,7 +248,7 @@ export async function POST(
           const classificacao = classifyPerformance(percentil)
 
           normalizacao = {
-            tabela_utilizada: normativeTables[0].id,
+            tabela_utilizada: (normativeTables as any)[0].id,
             faixa_aplicada: {
               idade: `${bin.idade_min}-${bin.idade_max}`,
               escolaridade: `${bin.escolaridade_min}-${bin.escolaridade_max}`,
@@ -271,7 +273,7 @@ export async function POST(
       hasNormalization: !!normalizacao
     })
 
-    const { data, error } = await supabaseAdmin
+    const { data, error } = await (supabaseAdmin as any)
       .from('testes_aplicados')
       .update({
         pontuacao_bruta: pontuacaoBruta,

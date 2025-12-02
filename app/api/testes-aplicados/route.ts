@@ -3,7 +3,7 @@ import crypto from 'crypto'
 import { NextRequest, NextResponse } from 'next/server'
 
 import { SessionManager } from '@/lib/auth/SessionManager'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { createAuditLog } from '@/lib/supabase/helpers'
 
 // GET /api/testes-aplicados - List applied tests with pagination and filters
@@ -112,7 +112,7 @@ export async function GET(request: NextRequest) {
     console.log('[API] GET /api/testes-aplicados - Query returned', data?.length || 0, 'tests')
 
     // Filter by clinic and transform data to include paciente_nome and teste_nome
-    const filteredData = (data || [])
+    const filteredData = ((data as any[]) || [])
       .filter(teste => teste.paciente?.clinica_id === user.clinica_id)
 
     console.log('[API] GET /api/testes-aplicados - After clinic filter:', filteredData.length, 'tests for clinic', user.clinica_id)
@@ -201,11 +201,13 @@ export async function POST(request: NextRequest) {
     }
 
     // Verify patient belongs to same clinic
-    const { data: paciente, error: pacienteError } = await supabaseAdmin
+    const { data: pacienteData, error: pacienteError } = await supabaseAdmin
       .from('pacientes')
       .select('clinica_id')
       .eq('id', body.paciente_id)
       .single()
+
+    const paciente = pacienteData as any
 
     if (pacienteError || !paciente || paciente.clinica_id !== user.clinica_id) {
       return NextResponse.json(
@@ -260,11 +262,13 @@ export async function POST(request: NextRequest) {
     }
 
     // Insert test application using admin client to bypass RLS
-    const { data, error } = await supabaseAdmin
+    const { data: createdTest, error } = await supabaseAdmin
       .from('testes_aplicados')
       .insert(testeData as any)
       .select()
       .single()
+
+    const data = createdTest as any
 
     if (error) {
       console.error('[API] Failed to create test:', error)

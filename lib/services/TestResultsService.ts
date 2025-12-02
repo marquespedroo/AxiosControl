@@ -15,7 +15,7 @@ import type {
   PontuacaoBruta,
   Normalizacao,
 } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 /**
  * Test Results Service

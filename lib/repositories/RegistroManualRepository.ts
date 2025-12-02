@@ -3,7 +3,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
 import { RegistroManual } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { Repository, PaginationParams, PaginationResult } from './base/Repository'
 
@@ -127,7 +127,7 @@ export class RegistroManualRepository extends Repository<RegistroManual> {
       const updatedFiles = [...currentFiles, fileUrl]
 
       // Update record
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ arquivos_anexos: updatedFiles })
         .eq('id', id)
@@ -168,7 +168,7 @@ export class RegistroManualRepository extends Repository<RegistroManual> {
       const updatedFiles = currentFiles.filter(url => url !== fileUrl)
 
       // Update record
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ arquivos_anexos: updatedFiles })
         .eq('id', id)

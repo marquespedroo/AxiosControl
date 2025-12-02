@@ -3,14 +3,14 @@ import { NextRequest, NextResponse } from 'next/server'
 import { SessionManager } from '@/lib/auth/SessionManager'
 import { LinkPacienteRepository } from '@/lib/repositories/LinkPacienteRepository'
 import { LinkPacienteService } from '@/lib/services/LinkPacienteService'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { createLinkPacienteSchema } from '@/lib/validations/schemas/link.schema'
 
 /**
  * Set RLS context for the current user session
  */
 async function setRlsContext(userId: string, clinicaId: string) {
-  const { error } = await supabaseAdmin.rpc('set_rls_context' as any, {
+  const { error } = await (supabaseAdmin as any).rpc('set_rls_context', {
     p_user_id: userId,
     p_clinica_id: clinicaId,
   })

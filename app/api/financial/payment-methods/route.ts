@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 import { SessionManager } from '@/lib/auth/SessionManager'
 import { FinancialRepository } from '@/lib/repositories/FinancialRepository'
 import { FinancialService } from '@/lib/services/FinancialService'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 
 export async function GET(_request: Request) {
     const sessionResult = await SessionManager.requireAuth()

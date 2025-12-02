@@ -12,7 +12,7 @@ import type {
   LinkPaciente,
   LinkPacienteWithDetails,
 } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 
 interface CreateLinkParams {

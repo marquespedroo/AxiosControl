@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 import { HandoffService } from '@/lib/services/HandoffService'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { validarPinSchema } from '@/lib/validations/schemas/link.schema'
 
 /**

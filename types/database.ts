@@ -1,77 +1,119 @@
 // Database types generated from schema
 
 export interface Database {
+  __InternalSupabase: {
+    PostgrestVersion: "13.0.5"
+  }
+  graphql_public: {
+    Tables: {
+      [_ in never]: never
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      graphql: {
+        Args: {
+          extensions?: any
+          operationName?: string
+          query?: string
+          variables?: any
+        }
+        Returns: any
+      }
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
   public: {
     Tables: {
       clinicas: {
         Row: Clinica
         Insert: ClinicaInsert
         Update: ClinicaUpdate
+        Relationships: []
       }
       users: {
         Row: User
         Insert: UserInsert
         Update: UserUpdate
+        Relationships: []
       }
       user_roles: {
         Row: UserRole
         Insert: UserRoleInsert
         Update: UserRoleUpdate
+        Relationships: []
       }
       professional_details: {
         Row: ProfessionalDetails
         Insert: ProfessionalDetailsInsert
         Update: ProfessionalDetailsUpdate
+        Relationships: []
       }
       pacientes: {
         Row: Paciente
         Insert: PacienteInsert
         Update: PacienteUpdate
+        Relationships: []
       }
       testes_templates: {
         Row: TesteTemplate
         Insert: TesteTemplateInsert
         Update: TesteTemplateUpdate
+        Relationships: []
       }
       tabelas_normativas: {
         Row: TabelaNormativa
         Insert: TabelaNormativaInsert
         Update: TabelaNormativaUpdate
+        Relationships: []
       }
       testes_aplicados: {
         Row: TesteAplicado
         Insert: TesteAplicadoInsert
         Update: TesteAplicadoUpdate
+        Relationships: []
       }
       registros_manuais: {
         Row: RegistroManual
         Insert: RegistroManualInsert
         Update: RegistroManualUpdate
+        Relationships: []
       }
       logs_auditoria: {
         Row: LogAuditoria
         Insert: LogAuditoriaInsert
         Update: LogAuditoriaUpdate
+        Relationships: []
       }
       tags: {
         Row: Tag
         Insert: TagInsert
         Update: TagUpdate
+        Relationships: []
       }
       testes_templates_tags: {
         Row: TesteTemplateTag
         Insert: TesteTemplateTagInsert
         Update: TesteTemplateTagUpdate
+        Relationships: []
       }
       professional_availability: {
         Row: ProfessionalAvailability
         Insert: ProfessionalAvailabilityInsert
         Update: ProfessionalAvailabilityUpdate
+        Relationships: []
       }
       appointments: {
         Row: Appointment
         Insert: AppointmentInsert
         Update: AppointmentUpdate
+        Relationships: []
       }
     }
     Functions: {

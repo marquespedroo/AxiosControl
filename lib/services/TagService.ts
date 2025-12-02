@@ -3,7 +3,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
 import { Tag, TagInsert, TagUpdate, TagSimple, TagWithCount, CategoriaTag } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { PaginationResult } from '../repositories/base/Repository'
 import { TagRepository, TagSearchParams } from '../repositories/TagRepository'

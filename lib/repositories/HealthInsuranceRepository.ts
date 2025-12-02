@@ -1,4 +1,4 @@
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { HealthInsuranceInsert, HealthInsuranceUpdate, InsuranceProductInsert, InsuranceProductUpdate } from '@/types/database'
 
 const supabase = supabaseAdmin
@@ -16,7 +16,7 @@ export const HealthInsuranceRepository = {
     },
 
     async createInsurance(insurance: HealthInsuranceInsert) {
-        const { data, error } = await supabase
+        const { data, error } = await (supabase as any)
             .from('health_insurances')
             .insert(insurance)
             .select()
@@ -27,7 +27,7 @@ export const HealthInsuranceRepository = {
     },
 
     async updateInsurance(id: string, updates: HealthInsuranceUpdate) {
-        const { data, error } = await supabase
+        const { data, error } = await (supabase as any)
             .from('health_insurances')
             .update(updates)
             .eq('id', id)
@@ -60,7 +60,7 @@ export const HealthInsuranceRepository = {
     },
 
     async createProduct(product: InsuranceProductInsert) {
-        const { data, error } = await supabase
+        const { data, error } = await (supabase as any)
             .from('insurance_products')
             .insert(product)
             .select()
@@ -71,7 +71,7 @@ export const HealthInsuranceRepository = {
     },
 
     async updateProduct(id: string, updates: InsuranceProductUpdate) {
-        const { data, error } = await supabase
+        const { data, error } = await (supabase as any)
             .from('insurance_products')
             .update(updates)
             .eq('id', id)

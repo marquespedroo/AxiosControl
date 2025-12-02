@@ -3,7 +3,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
 import { TesteTemplate } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { Repository, PaginationParams, PaginationResult } from './base/Repository'
 
@@ -266,7 +266,7 @@ export class TesteTemplateRepository extends Repository<TesteTemplate> {
       const original = originalResult.data
 
       // Create copy
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .insert({
           nome: newName,
@@ -422,7 +422,7 @@ export class TesteTemplateRepository extends Repository<TesteTemplate> {
       const newVersionNumber = currentVersionNumber + 1
 
       // Deactivate current active version in the chain
-      const { error: deactivateError } = await this.supabase
+      const { error: deactivateError } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ ativo: false })
         .or(`id.eq.${rootOriginId},versao_origem_id.eq.${rootOriginId}`)
@@ -463,7 +463,7 @@ export class TesteTemplateRepository extends Repository<TesteTemplate> {
         ativo: true,
       }
 
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .insert(newVersionData)
         .select()
@@ -471,7 +471,7 @@ export class TesteTemplateRepository extends Repository<TesteTemplate> {
 
       if (error) {
         // Try to reactivate the previous version if creation fails
-        await this.supabase
+        await (this.supabase as any)
           .from(this.tableName as any)
           .update({ ativo: true })
           .eq('id', originalId)

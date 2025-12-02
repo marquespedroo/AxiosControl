@@ -6,7 +6,7 @@ import { AppError } from '@/lib/errors/AppError'
 import { createAuditLog } from '@/lib/supabase/helpers'
 import { Result, success, failure } from '@/types/core/result'
 import { LinkPaciente as LinkAcesso } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 /**
  * Service layer for LinkAcesso entity
@@ -52,7 +52,7 @@ export class LinkService {
       const codigo_acesso = requer_codigo ? this.generateCode() : null
 
       // Create link
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from('links_paciente')
         .insert({
           clinica_id: '00000000-0000-0000-0000-000000000000', // TODO: Need clinica_id from context or user
@@ -73,10 +73,10 @@ export class LinkService {
       }
 
       // Create link_teste
-      const { error: linkTesteError } = await this.supabase
+      const { error: linkTesteError } = await (this.supabase as any)
         .from('link_testes')
         .insert({
-          link_id: data.id,
+          link_id: (data as any).id,
           teste_aplicado_id,
           ordem: 1
         })
@@ -92,7 +92,7 @@ export class LinkService {
         usuario_id,
         acao: 'criar' as any,
         entidade: 'links_paciente',
-        entidade_id: data.id,
+        entidade_id: (data as any).id,
         dados_anteriores: null,
         dados_novos: data as any,
         ip_address,
@@ -110,7 +110,7 @@ export class LinkService {
    */
   async validate(token: string): Promise<Result<LinkAcesso, AppError>> {
     try {
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from('links_paciente')
         .select('*')
         .eq('link_token', token)
@@ -186,7 +186,7 @@ export class LinkService {
     }
 
     // Update last access
-    await this.supabase
+    await (this.supabase as any)
       .from('links_paciente')
       .update({ ultimo_acesso: new Date().toISOString() })
       .eq('id', link.id)
@@ -203,7 +203,7 @@ export class LinkService {
   async incrementAttempts(link_id: string): Promise<Result<void, AppError>> {
     try {
       // Get current attempts
-      const { data: link, error: fetchError } = await this.supabase
+      const { data: link, error: fetchError } = await (this.supabase as any)
         .from('links_paciente')
         .select('tentativas_falhas')
         .eq('id', link_id)
@@ -213,11 +213,11 @@ export class LinkService {
         return failure(new AppError('LINK_SVC_011', 'Erro ao buscar link', 500, { cause: fetchError }))
       }
 
-      const newAttempts = (link.tentativas_falhas || 0) + 1
+      const newAttempts = ((link as any).tentativas_falhas || 0) + 1
       const shouldBlock = newAttempts >= 3
 
       // Update attempts and block if needed
-      const { error: updateError } = await this.supabase
+      const { error: updateError } = await (this.supabase as any)
         .from('links_paciente')
         .update({
           tentativas_falhas: newAttempts,
@@ -246,7 +246,7 @@ export class LinkService {
   ): Promise<Result<void, AppError>> {
     try {
       // Get link before blocking
-      const { data: link, error: fetchError } = await this.supabase
+      const { data: link, error: fetchError } = await (this.supabase as any)
         .from('links_paciente')
         .select('*')
         .eq('id', link_id)
@@ -257,7 +257,7 @@ export class LinkService {
       }
 
       // Block link
-      const { error: updateError } = await this.supabase
+      const { error: updateError } = await (this.supabase as any)
         .from('links_paciente')
         .update({ bloqueado: true })
         .eq('id', link_id)
@@ -295,7 +295,7 @@ export class LinkService {
   ): Promise<Result<void, AppError>> {
     try {
       // Get link before deactivating
-      const { data: link, error: fetchError } = await this.supabase
+      const { data: link, error: fetchError } = await (this.supabase as any)
         .from('links_paciente')
         .select('*')
         .eq('id', link_id)
@@ -306,7 +306,7 @@ export class LinkService {
       }
 
       // Deactivate link
-      const { error: updateError } = await this.supabase
+      const { error: updateError } = await (this.supabase as any)
         .from('links_paciente')
         .update({ status: 'revogado' })
         .eq('id', link_id)
@@ -339,7 +339,7 @@ export class LinkService {
   async getByTesteAplicado(teste_aplicado_id: string): Promise<Result<LinkAcesso | null, AppError>> {
     try {
       // First find the link_id from link_testes
-      const { data: linkTeste, error: linkTesteError } = await this.supabase
+      const { data: linkTeste, error: linkTesteError } = await (this.supabase as any)
         .from('link_testes')
         .select('link_id')
         .eq('teste_aplicado_id', teste_aplicado_id)
@@ -352,10 +352,10 @@ export class LinkService {
         return failure(new AppError('LINK_SVC_020a', 'Erro ao buscar vínculo do teste', 500, { cause: linkTesteError }))
       }
 
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from('links_paciente')
         .select('*')
-        .eq('id', linkTeste.link_id)
+        .eq('id', (linkTeste as any).link_id)
         .eq('status', 'ativo')
         .single()
 

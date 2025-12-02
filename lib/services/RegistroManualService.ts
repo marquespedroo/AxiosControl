@@ -4,7 +4,7 @@ import { AppError } from '@/lib/errors/AppError'
 import { createAuditLog } from '@/lib/supabase/helpers'
 import { Result, success, failure } from '@/types/core/result'
 import { RegistroManual, RegistroManualInsert, RegistroManualUpdate } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { PaginationResult } from '../repositories/base/Repository'
 import { RegistroManualRepository, RegistroManualSearchParams } from '../repositories/RegistroManualRepository'

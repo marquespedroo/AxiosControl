@@ -5,7 +5,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
 import { TesteAplicado } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { ConfiguracaoSistemaRepository } from '../repositories/ConfiguracaoSistemaRepository'
 import { TesteAplicadoRepository } from '../repositories/TesteAplicadoRepository'
@@ -67,7 +67,7 @@ export class HandoffService {
     // Store PIN hash and update teste to entrega mode
     const pinHash = this.hashPin(pin)
 
-    const { error } = await this.supabase
+    const { error } = await (this.supabase as any)
       .from('testes_aplicados')
       .update({
         tipo_aplicacao: 'entrega',
@@ -102,7 +102,7 @@ export class HandoffService {
     clinicaId: string
   ): Promise<Result<{ valid: boolean; remainingAttempts: number }, AppError>> {
     // Fetch the teste with PIN hash from database
-    const { data: teste, error } = await this.supabase
+    const { data: teste, error } = await (this.supabase as any)
       .from('testes_aplicados')
       .select('id, metadata')
       .eq('id', sessionId)
@@ -112,7 +112,7 @@ export class HandoffService {
       return failure(new AppError('HANDOFF_005', 'Sessão não encontrada', 404))
     }
 
-    const metadata = (teste.metadata || {}) as Record<string, any>
+    const metadata = ((teste as any).metadata || {}) as Record<string, any>
     const storedPinHash = metadata.handoff_pin_hash
 
     if (!storedPinHash) {
@@ -138,7 +138,7 @@ export class HandoffService {
       const isNowBlocked = newAttempts >= maxAttempts
 
       // Update attempts in database
-      await this.supabase
+      await (this.supabase as any)
         .from('testes_aplicados')
         .update({
           metadata: {
@@ -156,7 +156,7 @@ export class HandoffService {
     }
 
     // PIN valid - clear handoff data from metadata
-    await this.supabase
+    await (this.supabase as any)
       .from('testes_aplicados')
       .update({
         metadata: {
@@ -176,7 +176,7 @@ export class HandoffService {
    * Check if a test has an active handoff session
    */
   async hasActiveSession(testeAplicadoId: string): Promise<boolean> {
-    const { data: teste } = await this.supabase
+    const { data: teste } = await (this.supabase as any)
       .from('testes_aplicados')
       .select('metadata')
       .eq('id', testeAplicadoId)
@@ -184,7 +184,7 @@ export class HandoffService {
 
     if (!teste) return false
 
-    const metadata = (teste.metadata || {}) as Record<string, any>
+    const metadata = ((teste as any).metadata || {}) as Record<string, any>
     return !!metadata.handoff_pin_hash && !metadata.handoff_bloqueado
   }
 
@@ -192,7 +192,7 @@ export class HandoffService {
    * Force end session (admin action)
    */
   async endSession(testeAplicadoId: string): Promise<Result<void, AppError>> {
-    const { data: teste } = await this.supabase
+    const { data: teste } = await (this.supabase as any)
       .from('testes_aplicados')
       .select('metadata')
       .eq('id', testeAplicadoId)
@@ -202,9 +202,9 @@ export class HandoffService {
       return failure(new AppError('HANDOFF_002', 'Teste não encontrado', 404))
     }
 
-    const metadata = (teste.metadata || {}) as Record<string, any>
+    const metadata = ((teste as any).metadata || {}) as Record<string, any>
 
-    await this.supabase
+    await (this.supabase as any)
       .from('testes_aplicados')
       .update({
         metadata: {

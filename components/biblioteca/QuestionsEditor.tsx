@@ -193,7 +193,7 @@ export function QuestionsEditor({
         {questions.length === 0 ? (
           <div className="text-center py-8 text-muted-foreground">
             <p>Nenhuma questão adicionada.</p>
-            <p className="text-sm mt-1">Clique em "Adicionar Questão" para começar.</p>
+            <p>Selecione um tipo de questão para começar ou clique em &quot;Adicionar Questão&quot;.</p>
           </div>
         ) : (
           <div className="space-y-4">

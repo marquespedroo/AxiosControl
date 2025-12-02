@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 import { requireSuperAdmin } from '@/lib/middleware/requireSuperAdmin'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 
 export async function GET(request: NextRequest) {
   return requireSuperAdmin(request, async (_req, _session) => {
@@ -64,7 +64,7 @@ export async function POST(request: NextRequest) {
         )
       }
 
-      const { data, error } = await supabaseAdmin
+      const { data, error } = await (supabaseAdmin as any)
         .from('clinicas')
         .insert([body])
         .select()

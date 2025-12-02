@@ -20,7 +20,7 @@ export async function GET(
     const user = authResult.data
 
     // Get test result with all data
-    const { data: teste, error } = await supabase
+    const { data: testeData, error } = await supabase
       .from('testes_aplicados')
       .select(`
         *,
@@ -42,6 +42,8 @@ export async function GET(
       `)
       .eq('id', params.id)
       .single()
+
+    const teste = testeData as any
 
     if (error || !teste) {
       return NextResponse.json(

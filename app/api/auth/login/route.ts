@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 import { SessionManager } from '@/lib/auth/SessionManager'
 import { UserRepository } from '@/lib/repositories/UserRepository'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { createAuditLog } from '@/lib/supabase/helpers'
 
 export async function POST(request: NextRequest) {
@@ -49,8 +49,8 @@ export async function POST(request: NextRequest) {
     }
 
     // Update last access
-    await supabaseAdmin
-      .from('users' as any)
+    await (supabaseAdmin as any)
+      .from('users')
       .update({ ultimo_acesso: new Date().toISOString() })
       .eq('id', user.id)
 

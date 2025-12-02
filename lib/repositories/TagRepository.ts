@@ -3,7 +3,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
 import { Tag, TagSimple, TagWithCount, CategoriaTag } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { Repository, PaginationParams, PaginationResult } from './base/Repository'
 
@@ -183,7 +183,7 @@ export class TagRepository extends Repository<Tag> {
    */
   async addTagToTeste(testeTemplateId: string, tagId: string): Promise<Result<void, AppError>> {
     try {
-      const { error } = await this.supabase
+      const { error } = await (this.supabase as any)
         .from('testes_templates_tags')
         .insert({
           teste_template_id: testeTemplateId,
@@ -247,7 +247,7 @@ export class TagRepository extends Repository<Tag> {
           tag_id: tagId,
         }))
 
-        const { error: insertError } = await this.supabase
+        const { error: insertError } = await (this.supabase as any)
           .from('testes_templates_tags')
           .insert(insertData)
 

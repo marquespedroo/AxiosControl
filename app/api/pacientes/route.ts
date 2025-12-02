@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 import { getAuthUser } from '@/lib/auth/helpers'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { createAuditLog } from '@/lib/supabase/helpers'
 import { PacienteInsert } from '@/types/database'
 
@@ -121,7 +121,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Insert patient using admin client to bypass RLS
-    const { data, error } = await supabaseAdmin
+    const { data, error } = await (supabaseAdmin as any)
       .from('pacientes')
       .insert(pacienteData)
       .select()

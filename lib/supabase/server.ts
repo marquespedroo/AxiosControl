@@ -23,7 +23,7 @@ export async function createServerClient() {
     // Set PostgreSQL session variables for RLS
     // Call the set_session_variables function we created in the migration
     try {
-      await client.rpc('set_session_variables' as any, {
+      await (client as any).rpc('set_session_variables', {
         user_id: session.id,
         clinica_id: session.clinica_id,
         is_super_admin: session.roles.includes('super_admin') || false

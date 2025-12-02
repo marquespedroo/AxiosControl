@@ -2,7 +2,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 export interface PaginationParams {
   page: number
@@ -101,7 +101,7 @@ export abstract class Repository<T extends Record<string, any>> {
    */
   async create(data: Partial<T>): Promise<Result<T, AppError>> {
     try {
-      const { data: created, error } = await this.supabase
+      const { data: created, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .insert(data as any)
         .select()
@@ -122,7 +122,7 @@ export abstract class Repository<T extends Record<string, any>> {
    */
   async update(id: string, data: Partial<T>): Promise<Result<T, AppError>> {
     try {
-      const { data: updated, error } = await this.supabase
+      const { data: updated, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update(data as any)
         .eq('id', id)
@@ -144,7 +144,7 @@ export abstract class Repository<T extends Record<string, any>> {
    */
   async delete(id: string): Promise<Result<void, AppError>> {
     try {
-      const { error } = await this.supabase
+      const { error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ ativo: false } as any)
         .eq('id', id)

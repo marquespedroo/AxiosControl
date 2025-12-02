@@ -3,7 +3,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
 import { TesteAplicado } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { Repository, PaginationParams, PaginationResult } from './base/Repository'
 
@@ -180,7 +180,7 @@ export class TesteAplicadoRepository extends Repository<TesteAplicado> {
    */
   async updateRespostas(id: string, respostas: Record<string, any>): Promise<Result<TesteAplicado, AppError>> {
     try {
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ respostas })
         .eq('id', id)
@@ -210,7 +210,7 @@ export class TesteAplicadoRepository extends Repository<TesteAplicado> {
     }
   ): Promise<Result<TesteAplicado, AppError>> {
     try {
-      const { data: updated, error } = await this.supabase
+      const { data: updated, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update(data)
         .eq('id', id)
@@ -255,7 +255,7 @@ export class TesteAplicadoRepository extends Repository<TesteAplicado> {
     try {
       const now = new Date().toISOString()
 
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ status: 'expirado' })
         .eq('status', 'aguardando')

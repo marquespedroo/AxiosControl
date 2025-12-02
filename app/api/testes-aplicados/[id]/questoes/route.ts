@@ -3,7 +3,7 @@ import crypto from 'crypto'
 import { cookies } from 'next/headers'
 import { NextRequest, NextResponse } from 'next/server'
 
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 
 export async function GET(
     _request: NextRequest,
@@ -36,7 +36,7 @@ export async function GET(
                     const { data: linkTeste } = await supabaseAdmin
                         .from('link_testes')
                         .select('id')
-                        .eq('link_id', link.id)
+                        .eq('link_id', (link as any).id)
                         .eq('teste_aplicado_id', params.id)
                         .single()
 
@@ -59,11 +59,13 @@ export async function GET(
 
         // 2. Fetch test data using admin client
         // Use explicit foreign key to avoid ambiguity
-        const { data: testeAplicado, error } = await supabaseAdmin
+        const { data: testeData, error } = await supabaseAdmin
             .from('testes_aplicados')
             .select('*, testes_templates!testes_aplicados_teste_template_id_fkey(*)')
             .eq('id', params.id)
             .single()
+
+        const testeAplicado = testeData as any
 
         if (error || !testeAplicado) {
             console.error('[API] Error fetching test:', error)

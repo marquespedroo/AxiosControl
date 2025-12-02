@@ -18,7 +18,8 @@ export interface FormFieldProps extends React.InputHTMLAttributes<HTMLInputEleme
  */
 export const FormField = React.forwardRef<HTMLInputElement, FormFieldProps>(
   ({ label, error, helperText, className, id, ...props }, ref) => {
-    const fieldId = id || `field-${React.useId()}`
+    const generatedId = React.useId()
+    const fieldId = id || `field-${generatedId}`
 
     return (
       <div className={cn('space-y-2', className)}>

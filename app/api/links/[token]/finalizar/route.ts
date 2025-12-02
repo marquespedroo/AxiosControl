@@ -18,11 +18,13 @@ export async function POST(
     const supabase = createClient()
 
     // Find teste_aplicado by token
-    const { data: testeAplicado, error: testeError } = await supabase
+    const { data: testeData, error: testeError } = await supabase
       .from('testes_aplicados')
       .select('*')
       .eq('link_token', params.token)
       .single()
+
+    const testeAplicado = testeData as any
 
     if (testeError || !testeAplicado) {
       return NextResponse.json(

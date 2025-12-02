@@ -1,8 +1,9 @@
 import { SupabaseClient } from '@supabase/supabase-js'
 
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import type { AuthUser } from '@/types/database'
 
-import { supabase, supabaseAdmin } from './client'
+import { supabase } from './client'
 
 // ===================================
 // RLS CONTEXT HELPERS
@@ -20,7 +21,7 @@ export async function createClientWithContext(
   clinicaId: string
 ): Promise<SupabaseClient> {
   // Set the session variables for RLS
-  await supabaseAdmin.rpc('set_rls_context' as any, {
+  await (supabaseAdmin as any).rpc('set_rls_context', {
     p_user_id: userId,
     p_clinica_id: clinicaId,
   })
@@ -38,7 +39,7 @@ export async function withRlsContext<T>(
   operation: (client: SupabaseClient) => Promise<T>
 ): Promise<T> {
   // Set context
-  const { error: setError } = await supabaseAdmin.rpc('set_rls_context' as any, {
+  const { error: setError } = await (supabaseAdmin as any).rpc('set_rls_context', {
     p_user_id: userId,
     p_clinica_id: clinicaId,
   })
@@ -261,7 +262,7 @@ export async function createAuditLog({
   ip_address?: string
   user_agent?: string
 }): Promise<void> {
-  await supabaseAdmin.from('logs_auditoria').insert({
+  await (supabaseAdmin as any).from('logs_auditoria').insert({
     usuario_id: usuario_id || null,
     acao,
     entidade,

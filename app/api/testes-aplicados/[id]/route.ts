@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 import { getAuthUser } from '@/lib/auth/helpers'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { createAuditLog } from '@/lib/supabase/helpers'
 
 // GET /api/testes-aplicados/[id] - Get test with questions
@@ -27,7 +27,7 @@ export async function GET(
     })
 
     // Get test application with template
-    const { data: teste, error } = await supabaseAdmin
+    const { data: testeData, error } = await supabaseAdmin
       .from('testes_aplicados')
       .select(`
         *,
@@ -52,6 +52,8 @@ export async function GET(
       `)
       .eq('id', params.id)
       .single()
+
+    const teste = testeData as any
 
     if (error) {
       console.error('[API] Supabase query error:', error)
@@ -79,11 +81,13 @@ export async function GET(
     })
 
     // Verify test belongs to user's clinic
-    const { data: paciente } = await supabaseAdmin
+    const { data: pacienteData } = await supabaseAdmin
       .from('pacientes')
       .select('clinica_id')
       .eq('id', teste.paciente_id)
       .single()
+
+    const paciente = pacienteData as any
 
     console.log('[API] Clinic verification:', {
       patient_clinic: paciente?.clinica_id,
@@ -128,11 +132,13 @@ export async function PUT(
     const body = await request.json()
 
     // Get existing test
-    const { data: existingTest, error: fetchError } = await supabaseAdmin
+    const { data: existingTestData, error: fetchError } = await supabaseAdmin
       .from('testes_aplicados')
       .select('*, paciente:paciente_id(clinica_id)')
       .eq('id', params.id)
       .single()
+
+    const existingTest = existingTestData as any
 
     if (fetchError || !existingTest) {
       return NextResponse.json(
@@ -165,7 +171,7 @@ export async function PUT(
     }
 
     // Update test using admin client to bypass RLS
-    const { data, error } = await supabaseAdmin
+    const { data, error } = await (supabaseAdmin as any)
       .from('testes_aplicados')
       .update(updateData)
       .eq('id', params.id)
@@ -218,11 +224,13 @@ export async function DELETE(
     const user = authResult.data
 
     // Get existing test to verify ownership
-    const { data: existingTest, error: fetchError } = await supabaseAdmin
+    const { data: existingTestData, error: fetchError } = await supabaseAdmin
       .from('testes_aplicados')
       .select('*, paciente:paciente_id(clinica_id)')
       .eq('id', params.id)
       .single()
+
+    const existingTest = existingTestData as any
 
     if (fetchError || !existingTest) {
       return NextResponse.json(
@@ -248,7 +256,7 @@ export async function DELETE(
     }
 
     // Delete the test
-    const { error: deleteError } = await supabaseAdmin
+    const { error: deleteError } = await (supabaseAdmin as any)
       .from('testes_aplicados')
       .delete()
       .eq('id', params.id)

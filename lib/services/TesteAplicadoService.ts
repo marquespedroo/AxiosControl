@@ -407,8 +407,8 @@ export class TesteAplicadoService {
    * TODO: Implement actual audit logging to logs_auditoria table
    */
 
-  private async _logAudit(_action: string, _entity: any, _metadata?: any): Promise<void> {
-    // Implementation would go here
-    // console.log(`[AUDIT] TesteAplicado ${action}:`, entity.id, metadata)
-  }
+  // private async _logAudit(_action: string, _entity: any, _metadata?: any): Promise<void> {
+  //   // Implementation would go here
+  //   // console.log(`[AUDIT] TesteAplicado ${action}:`, entity.id, metadata)
+  // }
 }

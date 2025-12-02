@@ -3,7 +3,7 @@ import crypto from 'crypto'
 import { cookies } from 'next/headers'
 import { NextRequest, NextResponse } from 'next/server'
 
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 
 export async function POST(
     request: NextRequest,
@@ -34,7 +34,7 @@ export async function POST(
                     const { data: linkTeste } = await supabaseAdmin
                         .from('link_testes')
                         .select('id')
-                        .eq('link_id', link.id)
+                        .eq('link_id', (link as any).id)
                         .eq('teste_aplicado_id', params.id)
                         .single()
 
@@ -53,11 +53,13 @@ export async function POST(
         const { questao_id, resposta } = body
 
         // 2. Fetch current answers
-        const { data: teste, error: fetchError } = await supabaseAdmin
+        const { data: testeData, error: fetchError } = await supabaseAdmin
             .from('testes_aplicados')
             .select('respostas, progresso, testes_templates!testes_aplicados_teste_template_id_fkey(questoes)')
             .eq('id', params.id)
             .single()
+
+        const teste = testeData as any
 
         if (fetchError || !teste) {
             return NextResponse.json({ error: 'Teste não encontrado' }, { status: 404 })
@@ -73,7 +75,7 @@ export async function POST(
         const progresso = Math.round((answeredCount / totalQuestions) * 100)
 
         // 4. Save to DB
-        const { error: updateError } = await supabaseAdmin
+        const { error: updateError } = await (supabaseAdmin as any)
             .from('testes_aplicados')
             .update({
                 respostas: newRespostas,

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 import { SessionManager } from '@/lib/auth/SessionManager'
 import { ScheduleService } from '@/lib/services/ScheduleService'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 
 /**
  * GET /api/schedule/availability

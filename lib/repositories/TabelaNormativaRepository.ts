@@ -3,7 +3,7 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { AppError } from '@/lib/errors/AppError'
 import { Result, success, failure } from '@/types/core/result'
 import { TabelaNormativa } from '@/types/database'
-import { Database } from '@/types/database.generated'
+import { Database } from '@/types/database'
 
 import { Repository, PaginationParams, PaginationResult } from './base/Repository'
 
@@ -206,7 +206,7 @@ export class TabelaNormativaRepository extends Repository<TabelaNormativa> {
   async setAsDefault(id: string, teste_id: string): Promise<Result<TabelaNormativa, AppError>> {
     try {
       // First, unset previous default for this test
-      const { error: unsetError } = await this.supabase
+      const { error: unsetError } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ padrao: false } as any)
         .eq('teste_id', teste_id)
@@ -217,7 +217,7 @@ export class TabelaNormativaRepository extends Repository<TabelaNormativa> {
       }
 
       // Then set new default
-      const { data, error } = await this.supabase
+      const { data, error } = await (this.supabase as any)
         .from(this.tableName as any)
         .update({ padrao: true } as any)
         .eq('id', id)

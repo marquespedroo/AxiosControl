@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 import { getAuthUser } from '@/lib/auth/helpers'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import { createAuditLog } from '@/lib/supabase/helpers'
 import { PacienteUpdate } from '@/types/database'
 
@@ -97,7 +97,7 @@ export async function PUT(
     if (body.ativo !== undefined) updateData.ativo = body.ativo
 
     // Update patient using admin client to bypass RLS
-    const { data, error } = await supabaseAdmin
+    const { data, error } = await (supabaseAdmin as any)
       .from('pacientes')
       .update(updateData)
       .eq('id', params.id)
@@ -174,7 +174,7 @@ export async function DELETE(
     }
 
     // Soft delete (set ativo = false)
-    const { data, error } = await supabaseAdmin
+    const { data, error } = await (supabaseAdmin as any)
       .from('pacientes')
       .update({ ativo: false })
       .eq('id', params.id)

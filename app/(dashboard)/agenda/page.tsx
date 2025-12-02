@@ -2,11 +2,13 @@
 
 import { addDays, format, startOfWeek, addMinutes, isSameDay, parseISO } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
-import { toast } from 'react-hot-toast'
 import { motion } from 'framer-motion'
 import { ChevronLeft, ChevronRight, Plus, Calendar as CalendarIcon, Clock, Settings, User, Search, Check, ChevronsUpDown } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { useState, useEffect, Fragment } from 'react'
+import { Fragment, useEffect, useState } from 'react'
+import { toast } from 'react-hot-toast'
+
+
 
 import { Button } from '@/components/ui/atoms/Button'
 import { Input } from '@/components/ui/atoms/Input'

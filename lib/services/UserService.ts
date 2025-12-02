@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs'
 
 import { AppError } from '@/lib/errors/AppError'
 import { UserRepository } from '@/lib/repositories/UserRepository'
-import { supabaseAdmin } from '@/lib/supabase/client'
+import { supabaseAdmin } from '@/lib/supabase/admin'
 import type { Result } from '@/types/core/result'
 import { success, failure } from '@/types/core/result'
 import { User, UserRoleType, UserWithRoles } from '@/types/database'
