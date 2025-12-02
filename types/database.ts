@@ -74,6 +74,24 @@ export interface Database {
         Update: AppointmentUpdate
       }
     }
+    Functions: {
+      set_session_variables: {
+        Args: {
+          user_id: string
+          clinica_id: string
+          is_super_admin: boolean
+        }
+        Returns: void
+      }
+    }
+    Views: {
+      [key: string]: {
+        Row: Record<string, unknown>
+      }
+    }
+    Enums: {
+      [key: string]: unknown
+    }
   }
 }
 

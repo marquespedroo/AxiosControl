@@ -1,11 +1,14 @@
+import * as crypto from 'crypto'
+
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
+import { Result, success, failure } from '@/types/core/result'
 import { TesteAplicado } from '@/types/database'
+import { Database } from '@/types/database.generated'
+
 import { ConfiguracaoSistemaRepository } from '../repositories/ConfiguracaoSistemaRepository'
 import { TesteAplicadoRepository } from '../repositories/TesteAplicadoRepository'
-import * as crypto from 'crypto'
 
 /**
  * Service for Handoff Mode (Modo Entrega)

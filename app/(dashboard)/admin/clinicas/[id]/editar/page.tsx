@@ -1,10 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import ClinicForm from '@/components/forms/ClinicForm'
-import { Clinica } from '@/types/database'
 import { useClinicas } from '@/lib/hooks/useApi'
+import { Clinica } from '@/types/database'
 
 export default function EditarClinicaPage() {
   const params = useParams()

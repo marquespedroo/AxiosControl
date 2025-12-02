@@ -1,11 +1,13 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { RegistroManualRepository, RegistroManualSearchParams } from '../repositories/RegistroManualRepository'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
-import { RegistroManual, RegistroManualInsert, RegistroManualUpdate } from '@/types/database'
-import { PaginationResult } from '../repositories/base/Repository'
 import { createAuditLog } from '@/lib/supabase/helpers'
+import { Result, success, failure } from '@/types/core/result'
+import { RegistroManual, RegistroManualInsert, RegistroManualUpdate } from '@/types/database'
+import { Database } from '@/types/database.generated'
+
+import { PaginationResult } from '../repositories/base/Repository'
+import { RegistroManualRepository, RegistroManualSearchParams } from '../repositories/RegistroManualRepository'
 
 /**
  * Service layer for RegistroManual entity

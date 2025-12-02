@@ -182,3 +182,31 @@ html {
     display: none !important;
   }
 }
+
+/* Elegant Scrollbar Utilities */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scrollbar-track-transparent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thumb-gray-200::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 2px;
+}
+
+.dark .scrollbar-thumb-gray-700::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 2px;
+}
+
+.hover\:scrollbar-thumb-gray-300:hover::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+
+.dark .hover\:scrollbar-thumb-gray-600:hover::-webkit-scrollbar-thumb {
+  background: #4b5563;
+}

@@ -1,6 +1,8 @@
 import * as React from 'react'
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../atoms'
+
 import { cn } from '@/lib/utils'
+
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../atoms'
 
 export interface DataCardProps {
   title: string

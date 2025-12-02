@@ -1,13 +1,12 @@
-import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
 import { NextResponse } from 'next/server'
+
+import { SessionManager } from '@/lib/auth/SessionManager'
 import { FinancialRepository } from '@/lib/repositories/FinancialRepository'
 import { FinancialService } from '@/lib/services/FinancialService'
-import { SessionManager } from '@/lib/auth/SessionManager'
+import { supabaseAdmin } from '@/lib/supabase/client'
 
 export async function GET(request: Request) {
-    const supabase = createRouteHandlerClient({ cookies })
-    const sessionResult = await SessionManager.getSession()
+    const sessionResult = await SessionManager.requireAuth()
 
     if (!sessionResult.success) {
         return new NextResponse('Unauthorized', { status: 401 })
@@ -22,7 +21,7 @@ export async function GET(request: Request) {
         status: searchParams.get('status') as 'pending' | 'paid' | undefined
     }
 
-    const repository = new FinancialRepository(supabase)
+    const repository = new FinancialRepository(supabaseAdmin)
     const service = new FinancialService(repository)
 
     const result = await service.listTransactions(session.clinica_id, filters)
@@ -35,8 +34,7 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
-    const supabase = createRouteHandlerClient({ cookies })
-    const sessionResult = await SessionManager.getSession()
+    const sessionResult = await SessionManager.requireRole(['clinic_admin', 'super_admin'])
 
     if (!sessionResult.success) {
         return new NextResponse('Unauthorized', { status: 401 })
@@ -44,7 +42,7 @@ export async function POST(request: Request) {
     const session = sessionResult.data
 
     const body = await request.json()
-    const repository = new FinancialRepository(supabase)
+    const repository = new FinancialRepository(supabaseAdmin)
     const service = new FinancialService(repository)
 
     const result = await service.createTransaction({

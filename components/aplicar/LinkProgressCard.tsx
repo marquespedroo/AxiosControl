@@ -1,6 +1,7 @@
 'use client'
 
 import type { LinkPacienteWithDetails } from '@/types/database'
+
 import TestProgressList from './TestProgressList'
 
 interface LinkProgressCardProps {

@@ -1,9 +1,11 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Repository, PaginationParams, PaginationResult } from './base/Repository'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
+import { Result, success, failure } from '@/types/core/result'
 import { TabelaNormativa } from '@/types/database'
+import { Database } from '@/types/database.generated'
+
+import { Repository, PaginationParams, PaginationResult } from './base/Repository'
 
 export interface TabelaNormativaSearchParams extends PaginationParams {
   teste_id?: string
@@ -143,7 +145,7 @@ export class TabelaNormativaRepository extends Repository<TabelaNormativa> {
     _escolaridade?: string
   ): Promise<Result<TabelaNormativa | null, AppError>> {
     try {
-      let query = this.supabase
+      const query = this.supabase
         .from(this.tableName as any)
         .select('*')
         .eq('teste_id', teste_id)

@@ -1,7 +1,8 @@
 'use client'
 
-import { Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
+import { Suspense } from 'react'
+
 import ManualRecordForm from '@/components/forms/ManualRecordForm'
 import { LoadingState } from '@/components/ui/molecules/LoadingState'
 

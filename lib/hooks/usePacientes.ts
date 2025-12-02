@@ -1,10 +1,11 @@
 'use client'
 
 import { useCallback } from 'react'
-import { createBrowserClient } from '@/lib/supabase/client'
+
 import { PacienteService } from '@/lib/services/PacienteService'
-import { usePacienteStore, selectPacientes, selectIsLoading } from '@/lib/stores/usePacienteStore'
 import { useAuthStore, selectClinicaId, selectUserId } from '@/lib/stores/useAuthStore'
+import { usePacienteStore, selectPacientes, selectIsLoading } from '@/lib/stores/usePacienteStore'
+import { createBrowserClient } from '@/lib/supabase/client'
 import type { PacienteInsert, PacienteUpdate } from '@/types/database'
 
 /**

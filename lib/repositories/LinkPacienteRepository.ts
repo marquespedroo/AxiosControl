@@ -1,13 +1,15 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { PaginationParams, PaginationResult } from './base/Repository'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
+import { Result, success, failure } from '@/types/core/result'
 import type {
   LinkPaciente,
   LinkPacienteWithDetails,
   LinkTeste,
   LinkTesteInsert,
 } from '@/types/database'
+
+import { PaginationParams, PaginationResult } from './base/Repository'
 
 /**
  * Repository for LinkPaciente (Link Hub) entity

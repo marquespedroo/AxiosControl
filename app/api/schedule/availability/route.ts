@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { ScheduleService } from '@/lib/services/ScheduleService'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { ScheduleService } from '@/lib/services/ScheduleService'
+import { supabaseAdmin } from '@/lib/supabase/client'
 
 /**
  * GET /api/schedule/availability
@@ -26,7 +28,8 @@ export async function GET(request: NextRequest) {
         userIdToFetch = targetUserId
     }
 
-    const service = new ScheduleService()
+    // Use supabaseAdmin to bypass RLS since we already validated the session
+    const service = new ScheduleService(supabaseAdmin)
     const result = await service.getAvailability(userIdToFetch)
 
     if (!result.success) {
@@ -70,7 +73,8 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Body must be an array' }, { status: 400 })
         }
 
-        const service = new ScheduleService()
+        // Use supabaseAdmin to bypass RLS since we already validated the session
+        const service = new ScheduleService(supabaseAdmin)
         const result = await service.updateAvailability(userIdToUpdate, body)
 
         if (!result.success) {

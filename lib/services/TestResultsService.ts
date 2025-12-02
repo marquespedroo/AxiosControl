@@ -1,11 +1,11 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Result, success, failure } from '@/types/core/result'
-import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
-import { TesteAplicadoRepository } from '@/lib/repositories/TesteAplicadoRepository'
+
 import { CalculationEngine } from '@/lib/calculations/CalculationEngine'
-import { NormalizationEngine } from '@/lib/calculations/NormalizationEngine'
 import { InterpretationEngine, InterpretationRule } from '@/lib/calculations/InterpretationEngine'
+import { NormalizationEngine } from '@/lib/calculations/NormalizationEngine'
+import { AppError } from '@/lib/errors/AppError'
+import { TesteAplicadoRepository } from '@/lib/repositories/TesteAplicadoRepository'
+import { Result, success, failure } from '@/types/core/result'
 import type {
   TesteAplicado,
   TesteTemplate,
@@ -15,6 +15,7 @@ import type {
   PontuacaoBruta,
   Normalizacao,
 } from '@/types/database'
+import { Database } from '@/types/database.generated'
 
 /**
  * Test Results Service

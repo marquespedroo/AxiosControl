@@ -1,8 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import { AuthSession } from '@/types/database'
+
 import { useAuthStore } from '@/lib/stores/useAuthStore'
+import { AuthSession } from '@/types/database'
 
 interface LoginFormProps {
   onSuccess?: (session: AuthSession) => void

@@ -1,10 +1,12 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { TagRepository, TagSearchParams } from '../repositories/TagRepository'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
+import { Result, success, failure } from '@/types/core/result'
 import { Tag, TagInsert, TagUpdate, TagSimple, TagWithCount, CategoriaTag } from '@/types/database'
+import { Database } from '@/types/database.generated'
+
 import { PaginationResult } from '../repositories/base/Repository'
+import { TagRepository, TagSearchParams } from '../repositories/TagRepository'
 
 /**
  * Service layer for Tag entity

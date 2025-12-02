@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+
 import { LinkPacienteWithDetails, ModoAplicacao } from '@/types/database'
 
 interface LinkPacienteState {

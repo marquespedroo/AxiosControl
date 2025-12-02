@@ -1,6 +1,7 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
+import { Result, success, failure } from '@/types/core/result'
 import { Database } from '@/types/database.generated'
 
 export interface PaginationParams {

@@ -1,8 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import { ModoAplicacao } from '@/types/database'
+
 import { Button } from '@/components/ui/atoms/Button'
+import { ModoAplicacao } from '@/types/database'
 
 interface ModoAplicacaoModalProps {
   isOpen: boolean

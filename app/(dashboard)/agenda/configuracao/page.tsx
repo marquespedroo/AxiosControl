@@ -1,17 +1,19 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { motion } from 'framer-motion'
+import { ArrowLeft, Save, Clock } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { useSchedule, useUsers } from '@/lib/hooks/useApi'
-import { useAuthStore } from '@/lib/stores/useAuthStore'
+import { useState, useEffect } from 'react'
+import { toast } from 'react-hot-toast'
+
 import { Button } from '@/components/ui/atoms/Button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Input } from '@/components/ui/atoms/Input'
 import { Label } from '@/components/ui/atoms/Label'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/molecules/Select'
-import { toast } from 'react-hot-toast'
-import { ArrowLeft, Save, Clock } from 'lucide-react'
-import { motion } from 'framer-motion'
+import { useSchedule, useUsers } from '@/lib/hooks/useApi'
+import { useAuthStore } from '@/lib/stores/useAuthStore'
+
 
 export default function ScheduleSettingsPage() {
     const router = useRouter()
@@ -40,9 +42,11 @@ export default function ScheduleSettingsPage() {
 
     useEffect(() => {
         if (user) {
-            setSelectedProfessionalId(user.id)
             if (isAdmin) {
+                setSelectedProfessionalId('') // Require selection
                 loadProfessionals()
+            } else {
+                setSelectedProfessionalId(user.id)
             }
         }
     }, [user])
@@ -162,96 +166,110 @@ export default function ScheduleSettingsPage() {
                 </div>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2">
-                <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
-                    <Card>
-                        <CardHeader>
-                            <CardTitle className="flex items-center gap-2">
-                                <Clock className="h-5 w-5 text-blue-600" />
-                                Sessões
-                            </CardTitle>
-                            <CardDescription>Configure a duração padrão dos atendimentos.</CardDescription>
-                        </CardHeader>
-                        <CardContent className="space-y-4">
-                            <div className="space-y-2">
-                                <Label>Duração da Sessão (minutos)</Label>
-                                <Input
-                                    type="number"
-                                    value={settings.default_session_duration}
-                                    onChange={(e) => setSettings({ ...settings, default_session_duration: parseInt(e.target.value) })}
-                                />
-                            </div>
-                            <div className="space-y-2">
-                                <Label>Intervalo entre Sessões (minutos)</Label>
-                                <Input
-                                    type="number"
-                                    value={settings.break_between_sessions}
-                                    onChange={(e) => setSettings({ ...settings, break_between_sessions: parseInt(e.target.value) })}
-                                />
-                            </div>
-                            <div className="space-y-2">
-                                <Label>Valor da Sessão Particular (R$)</Label>
-                                <Input
-                                    type="number"
-                                    step="0.01"
-                                    value={settings.default_price || ''}
-                                    onChange={(e) => setSettings({ ...settings, default_price: parseFloat(e.target.value) })}
-                                    placeholder="0.00"
-                                />
-                                <p className="text-xs text-muted-foreground">
-                                    Este valor será preenchido automaticamente ao agendar sessões particulares.
-                                </p>
-                            </div>
-                        </CardContent>
-                    </Card>
-                </motion.div>
+            {!selectedProfessionalId ? (
+                <div className="flex flex-col items-center justify-center py-12 text-center space-y-4">
+                    <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-full">
+                        <Clock className="w-8 h-8 text-blue-600" />
+                    </div>
+                    <div>
+                        <h3 className="text-lg font-medium">Selecione um Profissional</h3>
+                        <p className="text-muted-foreground">
+                            Selecione um profissional acima para configurar sua agenda e horários de atendimento.
+                        </p>
+                    </div>
+                </div>
+            ) : (
+                <div className="grid gap-6 md:grid-cols-2">
+                    <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="flex items-center gap-2">
+                                    <Clock className="h-5 w-5 text-blue-600" />
+                                    Sessões
+                                </CardTitle>
+                                <CardDescription>Configure a duração padrão dos atendimentos.</CardDescription>
+                            </CardHeader>
+                            <CardContent className="space-y-4">
+                                <div className="space-y-2">
+                                    <Label>Duração da Sessão (minutos)</Label>
+                                    <Input
+                                        type="number"
+                                        value={settings.default_session_duration}
+                                        onChange={(e) => setSettings({ ...settings, default_session_duration: parseInt(e.target.value) })}
+                                    />
+                                </div>
+                                <div className="space-y-2">
+                                    <Label>Intervalo entre Sessões (minutos)</Label>
+                                    <Input
+                                        type="number"
+                                        value={settings.break_between_sessions}
+                                        onChange={(e) => setSettings({ ...settings, break_between_sessions: parseInt(e.target.value) })}
+                                    />
+                                </div>
+                                <div className="space-y-2">
+                                    <Label>Valor da Sessão Particular (R$)</Label>
+                                    <Input
+                                        type="number"
+                                        step="0.01"
+                                        value={settings.default_price || ''}
+                                        onChange={(e) => setSettings({ ...settings, default_price: parseFloat(e.target.value) })}
+                                        placeholder="0.00"
+                                    />
+                                    <p className="text-xs text-muted-foreground">
+                                        Este valor será preenchido automaticamente ao agendar sessões particulares.
+                                    </p>
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }}>
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>Horários de Atendimento</CardTitle>
-                            <CardDescription>Defina sua disponibilidade semanal.</CardDescription>
-                        </CardHeader>
-                        <CardContent className="space-y-4">
-                            {days.map((day) => {
-                                const dayConfig = availability.find(a => a.day_of_week === day.id) || {}
-                                return (
-                                    <div key={day.id} className="flex items-center gap-4 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors border border-transparent hover:border-gray-100 dark:hover:border-gray-700">
-                                        <div className="flex items-center gap-2 w-32">
-                                            <input
-                                                type="checkbox"
-                                                checked={dayConfig.is_active}
-                                                onChange={(e) => updateDay(day.id, 'is_active', e.target.checked)}
-                                                className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-                                            />
-                                            <span className={dayConfig.is_active ? 'font-medium' : 'text-muted-foreground'}>
-                                                {day.label}
-                                            </span>
-                                        </div>
-                                        {dayConfig.is_active && (
-                                            <div className="flex items-center gap-2 flex-1">
-                                                <Input
-                                                    type="time"
-                                                    value={dayConfig.start_time}
-                                                    onChange={(e) => updateDay(day.id, 'start_time', e.target.value)}
-                                                    className="w-32"
+                    <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }}>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>Horários de Atendimento</CardTitle>
+                                <CardDescription>Defina sua disponibilidade semanal.</CardDescription>
+                            </CardHeader>
+                            <CardContent className="space-y-4">
+                                {days.map((day) => {
+                                    const dayConfig = availability.find(a => a.day_of_week === day.id) || {}
+                                    return (
+                                        <div key={day.id} className="flex items-center gap-4 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors border border-transparent hover:border-gray-100 dark:hover:border-gray-700">
+                                            <div className="flex items-center gap-2 w-32">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={dayConfig.is_active}
+                                                    onChange={(e) => updateDay(day.id, 'is_active', e.target.checked)}
+                                                    className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                                                 />
-                                                <span className="text-muted-foreground">-</span>
-                                                <Input
-                                                    type="time"
-                                                    value={dayConfig.end_time}
-                                                    onChange={(e) => updateDay(day.id, 'end_time', e.target.value)}
-                                                    className="w-32"
-                                                />
+                                                <span className={dayConfig.is_active ? 'font-medium' : 'text-muted-foreground'}>
+                                                    {day.label}
+                                                </span>
                                             </div>
-                                        )}
-                                    </div>
-                                )
-                            })}
-                        </CardContent>
-                    </Card>
-                </motion.div>
-            </div>
+                                            {dayConfig.is_active && (
+                                                <div className="flex items-center gap-2 flex-1">
+                                                    <Input
+                                                        type="time"
+                                                        value={dayConfig.start_time}
+                                                        onChange={(e) => updateDay(day.id, 'start_time', e.target.value)}
+                                                        className="w-32"
+                                                    />
+                                                    <span className="text-muted-foreground">-</span>
+                                                    <Input
+                                                        type="time"
+                                                        value={dayConfig.end_time}
+                                                        onChange={(e) => updateDay(day.id, 'end_time', e.target.value)}
+                                                        className="w-32"
+                                                    />
+                                                </div>
+                                            )}
+                                        </div>
+                                    )
+                                })}
+                            </CardContent>
+                        </Card>
+                    </motion.div>
+                </div>
+            )}
         </div>
     )
 }

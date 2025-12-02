@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createAuditLog } from '@/lib/supabase/helpers'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { createAuditLog } from '@/lib/supabase/helpers'
 
 export async function POST(request: NextRequest) {
   try {

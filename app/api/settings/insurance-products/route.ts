@@ -1,10 +1,14 @@
 import { NextResponse } from 'next/server'
-import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
-import { Database } from '@/types/database'
+
+import { SessionManager } from '@/lib/auth/SessionManager'
 import { HealthInsuranceService } from '@/lib/services/HealthInsuranceService'
 
 export async function GET(request: Request) {
+    const sessionResult = await SessionManager.requireAuth()
+    if (!sessionResult.success) {
+        return NextResponse.json({ error: sessionResult.error.message }, { status: 401 })
+    }
+
     const { searchParams } = new URL(request.url)
     const insurance_id = searchParams.get('insurance_id')
 
@@ -21,11 +25,9 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
-    const supabase = createRouteHandlerClient<Database>({ cookies })
-    const { data: { session } } = await supabase.auth.getSession()
-
-    if (!session) {
-        return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    const sessionResult = await SessionManager.requireRole(['clinic_admin', 'super_admin'])
+    if (!sessionResult.success) {
+        return NextResponse.json({ error: sessionResult.error.message }, { status: 401 })
     }
 
     try {
@@ -33,6 +35,7 @@ export async function POST(request: Request) {
         const product = await HealthInsuranceService.createProduct(body)
         return NextResponse.json(product)
     } catch (error) {
+        console.error('[API] Error creating product:', error)
         return NextResponse.json({ error: 'Error creating product' }, { status: 500 })
     }
 }

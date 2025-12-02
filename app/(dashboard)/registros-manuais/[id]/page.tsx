@@ -1,10 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { RegistroManual, Paciente } from '@/types/database'
+import { useParams, useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import { useRegistros, usePacientes } from '@/lib/hooks/useApi'
+import { RegistroManual, Paciente } from '@/types/database'
 
 export default function RegistroDetalhePage() {
   const params = useParams()

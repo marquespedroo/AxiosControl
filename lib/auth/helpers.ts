@@ -1,7 +1,9 @@
 import { NextRequest } from 'next/server'
-import { SessionManager, SessionPayload } from './SessionManager'
-import { Result } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
+import { Result } from '@/types/core/result'
+
+import { SessionManager, SessionPayload } from './SessionManager'
 
 /**
  * Get authenticated user from request

@@ -1,6 +1,6 @@
 -- Create financial_categories table
 CREATE TABLE financial_categories (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     clinica_id UUID NOT NULL REFERENCES clinicas(id),
     name TEXT NOT NULL,
     type TEXT NOT NULL CHECK (type IN ('receita', 'despesa')),
@@ -11,7 +11,7 @@ CREATE TABLE financial_categories (
 
 -- Create payment_methods table
 CREATE TABLE payment_methods (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     clinica_id UUID NOT NULL REFERENCES clinicas(id),
     name TEXT NOT NULL,
     type TEXT NOT NULL CHECK (type IN ('credit_card', 'debit_card', 'pix', 'cash', 'bank_slip', 'insurance', 'other')),
@@ -24,7 +24,7 @@ CREATE TABLE payment_methods (
 
 -- Create financial_transactions table
 CREATE TABLE financial_transactions (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     clinica_id UUID NOT NULL REFERENCES clinicas(id),
     description TEXT NOT NULL,
     amount DECIMAL(10, 2) NOT NULL,

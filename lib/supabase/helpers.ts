@@ -1,6 +1,8 @@
-import { supabase, supabaseAdmin } from './client'
 import { SupabaseClient } from '@supabase/supabase-js'
+
 import type { AuthUser } from '@/types/database'
+
+import { supabase, supabaseAdmin } from './client'
 
 // ===================================
 // RLS CONTEXT HELPERS

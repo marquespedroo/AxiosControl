@@ -1,12 +1,13 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
+import CompletionMessage from '@/components/patient-portal/CompletionMessage'
+import NextTestPrompt from '@/components/patient-portal/NextTestPrompt'
 import PatientAuthForm from '@/components/patient-portal/PatientAuthForm'
 import PatientTestList from '@/components/patient-portal/PatientTestList'
 import PatientTestRunner from '@/components/patient-portal/PatientTestRunner'
-import NextTestPrompt from '@/components/patient-portal/NextTestPrompt'
-import CompletionMessage from '@/components/patient-portal/CompletionMessage'
 
 interface PatientTest {
   id: string

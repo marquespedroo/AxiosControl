@@ -1,16 +1,19 @@
+import crypto from 'crypto'
+
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Result, success, failure } from '@/types/core/result'
+import bcrypt from 'bcryptjs'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
+import { ConfiguracaoSistemaRepository } from '@/lib/repositories/ConfiguracaoSistemaRepository'
+import { LinkPacienteRepository } from '@/lib/repositories/LinkPacienteRepository'
+import { TesteAplicadoRepository } from '@/lib/repositories/TesteAplicadoRepository'
+import { Result, success, failure } from '@/types/core/result'
 import type {
   LinkPaciente,
   LinkPacienteWithDetails,
 } from '@/types/database'
-import { LinkPacienteRepository } from '@/lib/repositories/LinkPacienteRepository'
-import { ConfiguracaoSistemaRepository } from '@/lib/repositories/ConfiguracaoSistemaRepository'
-import { TesteAplicadoRepository } from '@/lib/repositories/TesteAplicadoRepository'
-import crypto from 'crypto'
-import bcrypt from 'bcryptjs'
+import { Database } from '@/types/database.generated'
+
 
 interface CreateLinkParams {
   pacienteId: string

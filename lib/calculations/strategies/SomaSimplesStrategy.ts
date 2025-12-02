@@ -1,7 +1,9 @@
-import { Result, success, failure } from '@/types/core/result'
 import { AppError } from '@/lib/errors/AppError'
-import { ICalculationStrategy } from '../interfaces/ICalculationStrategy'
+import { Result, success, failure } from '@/types/core/result'
 import type { Questao, Respostas, PontuacaoBruta, RegrasCalculoSimples } from '@/types/database'
+
+import { ICalculationStrategy } from '../interfaces/ICalculationStrategy'
+
 
 /**
  * Simple sum calculation strategy

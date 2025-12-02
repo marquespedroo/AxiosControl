@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { ScheduleService } from '@/lib/services/ScheduleService'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { ScheduleService } from '@/lib/services/ScheduleService'
+import { supabaseAdmin } from '@/lib/supabase/client'
 
 /**
  * GET /api/schedule/settings
@@ -26,7 +28,8 @@ export async function GET(request: NextRequest) {
         userIdToFetch = targetUserId
     }
 
-    const service = new ScheduleService()
+    // Use supabaseAdmin to bypass RLS since we already validated the session
+    const service = new ScheduleService(supabaseAdmin)
     const result = await service.getSettings(userIdToFetch)
 
     if (!result.success) {
@@ -65,7 +68,8 @@ export async function POST(request: NextRequest) {
 
     try {
         const body = await request.json()
-        const service = new ScheduleService()
+        // Use supabaseAdmin to bypass RLS since we already validated the session
+        const service = new ScheduleService(supabaseAdmin)
         const result = await service.updateSettings(userIdToUpdate, body)
 
         if (!result.success) {

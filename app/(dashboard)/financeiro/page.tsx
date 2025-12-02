@@ -1,14 +1,15 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
-import { useFinancial } from '@/lib/hooks/useApi'
-import { Button } from '@/components/ui/atoms/Button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { format, startOfMonth, endOfMonth, addMonths, subMonths } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
-import { ChevronLeft, ChevronRight, Settings, TrendingUp, TrendingDown, Calendar } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { ChevronLeft, ChevronRight, Settings, TrendingUp, TrendingDown, Calendar } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useState, useEffect } from 'react'
+
+import { Button } from '@/components/ui/atoms/Button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
+import { useFinancial } from '@/lib/hooks/useApi'
 
 export default function FinancialPage() {
     const router = useRouter()

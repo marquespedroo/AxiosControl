@@ -1,7 +1,5 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
 import {
   Clock,
   User,
@@ -13,6 +11,8 @@ import {
   CheckCircle,
   HelpCircle,
 } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
 
 interface TesteEmAndamento {
   id: string

@@ -4,8 +4,9 @@
  */
 
 import { NextResponse } from 'next/server'
-import { AppError, InternalServerError } from './AppError'
 import { ZodError } from 'zod'
+
+import { AppError, InternalServerError } from './AppError'
 
 /**
  * Handle API errors and return appropriate NextResponse

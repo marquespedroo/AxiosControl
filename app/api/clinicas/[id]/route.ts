@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerClient } from '@/lib/supabase/server'
-import { ClinicaService } from '@/lib/services/ClinicaService'
+
 import { requireSuperAdmin } from '@/lib/middleware/requireSuperAdmin'
+import { ClinicaService } from '@/lib/services/ClinicaService'
+import { createServerClient } from '@/lib/supabase/server'
 import type { ClinicaUpdate } from '@/types/database'
 
 /**

@@ -1,5 +1,5 @@
-import { Result, success, failure } from '@/types/core/result'
 import { AppError } from '@/lib/errors/AppError'
+import { Result, success, failure } from '@/types/core/result'
 import type { Normalizacao, PontuacaoBruta } from '@/types/database'
 
 /**

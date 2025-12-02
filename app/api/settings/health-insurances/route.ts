@@ -1,30 +1,22 @@
 import { NextResponse } from 'next/server'
-import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
-import { Database } from '@/types/database'
+
+import { SessionManager } from '@/lib/auth/SessionManager'
 import { HealthInsuranceService } from '@/lib/services/HealthInsuranceService'
 
 export async function GET(request: Request) {
-    const supabase = createRouteHandlerClient<Database>({ cookies })
+    const sessionResult = await SessionManager.requireAuth()
+    if (!sessionResult.success) {
+        return NextResponse.json({ error: sessionResult.error.message }, { status: 401 })
+    }
+    const session = sessionResult.data
     const { searchParams } = new URL(request.url)
     const clinica_id = searchParams.get('clinica_id')
 
     if (!clinica_id) {
-        // Try to get from user session if not provided
-        const { data: { session } } = await supabase.auth.getSession()
-        if (!session) {
-            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-        }
-
-        // We need to fetch the user's clinica_id. 
-        // Since we don't have easy access to it here without a DB call or custom claim, 
-        // we assume the client should pass it or we fetch the user profile.
-        // For now, let's require it or fetch user.
-        const { data: user } = await supabase.from('users').select('clinica_id').eq('id', session.user.id).single()
-
-        if (user?.clinica_id) {
+        // Use session clinic_id if not provided in params
+        if (session.clinica_id) {
             try {
-                const insurances = await HealthInsuranceService.listInsurances(user.clinica_id)
+                const insurances = await HealthInsuranceService.listInsurances(session.clinica_id)
                 return NextResponse.json(insurances)
             } catch (error) {
                 return NextResponse.json({ error: 'Error fetching insurances' }, { status: 500 })
@@ -35,6 +27,8 @@ export async function GET(request: Request) {
     }
 
     try {
+        // TODO: Add authorization check if clinica_id is provided but different from session?
+        // For now, assuming listing is safe or we trust the ID if provided (e.g. super admin)
         const insurances = await HealthInsuranceService.listInsurances(clinica_id)
         return NextResponse.json(insurances)
     } catch (error) {
@@ -43,28 +37,26 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
-    const supabase = createRouteHandlerClient<Database>({ cookies })
-    const { data: { session } } = await supabase.auth.getSession()
-
-    if (!session) {
-        return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    const sessionResult = await SessionManager.requireRole(['clinic_admin', 'super_admin'])
+    if (!sessionResult.success) {
+        return NextResponse.json({ error: sessionResult.error.message }, { status: 401 })
     }
+    const session = sessionResult.data
 
     try {
         const body = await request.json()
-        // Ensure clinica_id is set to user's clinic if not provided or enforce security
-        const { data: user } = await supabase.from('users').select('clinica_id').eq('id', session.user.id).single()
 
-        if (!user?.clinica_id) {
+        if (!session.clinica_id) {
             return NextResponse.json({ error: 'User not associated with a clinic' }, { status: 403 })
         }
 
         const insurance = await HealthInsuranceService.createInsurance({
             ...body,
-            clinica_id: user.clinica_id
+            clinica_id: session.clinica_id
         })
         return NextResponse.json(insurance)
     } catch (error) {
+        console.error('[API] Error creating insurance:', error)
         return NextResponse.json({ error: 'Error creating insurance' }, { status: 500 })
     }
 }

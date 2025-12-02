@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+
 import { TesteAplicado } from '@/types/database'
 
 type TesteStatus = 'aguardando' | 'em_andamento' | 'finalizado' | 'expirado'

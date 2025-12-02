@@ -1,11 +1,12 @@
 'use client'
 
+import { Plus, Trash2 } from 'lucide-react'
 import * as React from 'react'
+
+import { Button } from '@/components/ui/atoms/Button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Input } from '@/components/ui/atoms/Input'
 import { Label } from '@/components/ui/atoms/Label'
-import { Button } from '@/components/ui/atoms/Button'
-import { Plus, Trash2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { ScoringRulesEditorProps, ScoringRulesFormData, SectionScoreFormData } from '@/types/biblioteca'
 

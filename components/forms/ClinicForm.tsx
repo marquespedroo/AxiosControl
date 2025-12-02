@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { useState } from 'react'
+
 import { Clinica, Endereco } from '@/types/database'
 
 interface ClinicFormProps {
@@ -86,7 +87,7 @@ export default function ClinicForm({ clinica, mode }: ClinicFormProps) {
         method,
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify(body),
       })
@@ -100,7 +101,7 @@ export default function ClinicForm({ clinica, mode }: ClinicFormProps) {
       }
 
       // Redirect to clinics list
-      router.push('/admin/clinicas')
+      router.push('/admin')
     } catch (err) {
       console.error('Error submitting form:', err)
       setError('Erro ao salvar clínica')

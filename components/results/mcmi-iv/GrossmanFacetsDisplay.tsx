@@ -15,10 +15,10 @@ export default function GrossmanFacetsDisplay({ facets }: GrossmanFacetsDisplayP
     // Try F1-F5 grouping (Five Factor Model)
     const fiveFactor = {
       'Emocionalidade Negativa': validFacets.filter(f => f.code.startsWith('F1')),
-      'Introversão': validFacets.filter(f => f.code.startsWith('F2')),
-      'Antagonismo': validFacets.filter(f => f.code.startsWith('F3')),
-      'Desinibição': validFacets.filter(f => f.code.startsWith('F4')),
-      'Compulsividade': validFacets.filter(f => f.code.startsWith('F5'))
+      Introversão: validFacets.filter(f => f.code.startsWith('F2')),
+      Antagonismo: validFacets.filter(f => f.code.startsWith('F3')),
+      Desinibição: validFacets.filter(f => f.code.startsWith('F4')),
+      Compulsividade: validFacets.filter(f => f.code.startsWith('F5'))
     }
 
     // If F-prefix facets found, use that grouping

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { AppointmentService } from '@/lib/services/AppointmentService'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { AppointmentService } from '@/lib/services/AppointmentService'
 
 /**
  * GET /api/appointments/[id]

@@ -1,7 +1,7 @@
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
-import { Database, HealthInsuranceInsert, HealthInsuranceUpdate, InsuranceProductInsert, InsuranceProductUpdate } from '@/types/database'
+import { supabaseAdmin } from '@/lib/supabase/client'
+import { HealthInsuranceInsert, HealthInsuranceUpdate, InsuranceProductInsert, InsuranceProductUpdate } from '@/types/database'
 
-const supabase = createClientComponentClient<Database>()
+const supabase = supabaseAdmin
 
 export const HealthInsuranceRepository = {
     async listInsurances(clinicaId: string) {

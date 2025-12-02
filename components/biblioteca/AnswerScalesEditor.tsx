@@ -1,11 +1,12 @@
 'use client'
 
+import { Plus, Trash2, X } from 'lucide-react'
 import * as React from 'react'
+
+import { Button } from '@/components/ui/atoms/Button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Input } from '@/components/ui/atoms/Input'
 import { Label } from '@/components/ui/atoms/Label'
-import { Button } from '@/components/ui/atoms/Button'
-import { Plus, Trash2, X } from 'lucide-react'
 import { PREDEFINED_SCALES, SCALE_LABELS } from '@/types/biblioteca'
 import type { AnswerScalesEditorProps } from '@/types/biblioteca'
 import type { EscalasResposta, OpcaoResposta } from '@/types/database'

@@ -1,13 +1,14 @@
-import { createClient } from '@/lib/supabase/server'
-import { TesteAplicadoRepository } from '@/lib/repositories/TesteAplicadoRepository'
-import { TabelaNormativaRepository } from '@/lib/repositories/TabelaNormativaRepository'
+import { AppError } from '@/lib/errors/AppError'
 import { PacienteRepository } from '@/lib/repositories/PacienteRepository'
+import { TabelaNormativaRepository } from '@/lib/repositories/TabelaNormativaRepository'
+import { TesteAplicadoRepository } from '@/lib/repositories/TesteAplicadoRepository'
 import { TesteTemplateRepository } from '@/lib/repositories/TesteTemplateRepository'
-import { NormalizacaoService } from './NormalizacaoService'
+import { createClient } from '@/lib/supabase/server'
 import type { Result } from '@/types/core/result'
 import { failure } from '@/types/core/result'
-import { AppError } from '@/lib/errors/AppError'
 import type { TesteAplicado, TabelaNormativa } from '@/types/database'
+
+import { NormalizacaoService } from './NormalizacaoService'
 
 /**
  * TesteAplicadoService - Business logic for applied tests
@@ -405,7 +406,7 @@ export class TesteAplicadoService {
    * Audit logging (placeholder)
    * TODO: Implement actual audit logging to logs_auditoria table
    */
-  // @ts-ignore
+
   private async _logAudit(_action: string, _entity: any, _metadata?: any): Promise<void> {
     // Implementation would go here
     // console.log(`[AUDIT] TesteAplicado ${action}:`, entity.id, metadata)

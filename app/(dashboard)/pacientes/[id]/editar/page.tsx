@@ -1,7 +1,8 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import PatientForm from '@/components/forms/PatientForm'
 import { Paciente } from '@/types/database'
 
@@ -17,7 +18,7 @@ export default function EditarPacientePage() {
         const token = localStorage.getItem('auth_token')
         const response = await fetch(`/api/pacientes/${params.id}`, {
           headers: {
-            'Authorization': `Bearer ${token}`,
+            Authorization: `Bearer ${token}`,
           },
         })
 

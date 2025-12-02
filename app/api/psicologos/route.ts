@@ -1,20 +1,34 @@
 import { NextRequest, NextResponse } from 'next/server'
+
+import { SessionManager } from '@/lib/auth/SessionManager'
 import { UserService } from '@/lib/services/UserService'
 
 /**
  * GET /api/psicologos
- * List psychologists with filters
+ * List users with filters
  */
 export async function GET(request: NextRequest) {
   try {
+    const sessionResult = await SessionManager.requireAuth()
+    if (!sessionResult.success) {
+      return NextResponse.json({ error: sessionResult.error.message }, { status: 401 })
+    }
+    const session = sessionResult.data
+    const isSuperAdmin = session.roles.includes('super_admin')
+
     const searchParams = request.nextUrl.searchParams
-    const clinica_id = searchParams.get('clinica_id') || undefined
+    let clinica_id = searchParams.get('clinica_id') || undefined
     const search = searchParams.get('search') || undefined
     const page = parseInt(searchParams.get('page') || '1')
     const limit = parseInt(searchParams.get('limit') || '10')
+    const role = searchParams.get('role') || undefined
+
+    // Enforce clinic filter for non-superadmins
+    if (!isSuperAdmin) {
+      clinica_id = session.clinica_id
+    }
 
     const service = new UserService()
-    // TODO: Filter by role 'psychologist' when listing
     const result = await service.list({ clinica_id, search, page, limit })
 
     if (!result.success) {
@@ -24,16 +38,19 @@ export async function GET(request: NextRequest) {
       )
     }
 
-    // Filter results to only include psychologists (if not done in service/repo)
-    // For now, assuming all users in this context are relevant or filtering happens in repo
-    const psychologists = result.data.data.filter(u => u.roles?.includes('psychologist'))
+    let users = result.data.data
+
+    // Filter by role if provided
+    if (role) {
+      users = users.filter(u => u.roles?.includes(role as any))
+    }
 
     return NextResponse.json({
-      data: psychologists,
+      data: users,
       meta: result.data.meta
     })
   } catch (error) {
-    console.error('[API] Error listing psicologos:', error)
+    console.error('[API] Error listing users:', error)
     return NextResponse.json(
       { error: 'Erro interno do servidor' },
       { status: 500 }
@@ -43,14 +60,26 @@ export async function GET(request: NextRequest) {
 
 /**
  * POST /api/psicologos
- * Create new psychologist
+ * Create new user
  */
 export async function POST(request: NextRequest) {
   try {
+    const sessionResult = await SessionManager.requireRole(['super_admin', 'clinic_admin'])
+    if (!sessionResult.success) {
+      return NextResponse.json({ error: sessionResult.error.message }, { status: 403 })
+    }
+    const session = sessionResult.data
+    const isSuperAdmin = session.roles.includes('super_admin')
+
     const body = await request.json()
 
+    // Enforce clinic_id for non-superadmins
+    if (!isSuperAdmin) {
+      body.clinica_id = session.clinica_id
+    }
+
     // Validate required fields
-    const requiredFields = ['clinica_id', 'nome_completo', 'email', 'senha', 'crp', 'crp_estado']
+    const requiredFields = ['clinica_id', 'nome_completo', 'email', 'password'] // Changed senha to password to match frontend
     for (const field of requiredFields) {
       if (!body[field]) {
         return NextResponse.json(
@@ -60,10 +89,19 @@ export async function POST(request: NextRequest) {
       }
     }
 
+    // Validate CRP only if role includes psychologist
+    if (body.roles?.includes('psychologist')) {
+      // CRP is optional for now as per user request flow, or we can enforce it. 
+      // Given the UI doesn't ask for CRP in TeamPage, we should probably make it optional or handle it later.
+      // The TeamPage dialog DOES NOT have CRP fields. 
+      // So we should probably NOT enforce CRP here for now, or the user creation will fail.
+    }
+
     const service = new UserService()
     const result = await service.create({
       ...body,
-      roles: ['psychologist']
+      senha: body.password, // Map password to senha
+      roles: body.roles || ['psychologist']
     })
 
     if (!result.success) {
@@ -75,7 +113,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json(result.data, { status: 201 })
   } catch (error) {
-    console.error('[API] Error creating psicologo:', error)
+    console.error('[API] Error creating user:', error)
     return NextResponse.json(
       { error: 'Erro interno do servidor' },
       { status: 500 }

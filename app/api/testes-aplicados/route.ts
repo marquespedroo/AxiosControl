@@ -1,8 +1,10 @@
+import crypto from 'crypto'
+
 import { NextRequest, NextResponse } from 'next/server'
+
+import { SessionManager } from '@/lib/auth/SessionManager'
 import { supabaseAdmin } from '@/lib/supabase/client'
 import { createAuditLog } from '@/lib/supabase/helpers'
-import { SessionManager } from '@/lib/auth/SessionManager'
-import crypto from 'crypto'
 
 // GET /api/testes-aplicados - List applied tests with pagination and filters
 export async function GET(request: NextRequest) {
@@ -110,7 +112,7 @@ export async function GET(request: NextRequest) {
     console.log('[API] GET /api/testes-aplicados - Query returned', data?.length || 0, 'tests')
 
     // Filter by clinic and transform data to include paciente_nome and teste_nome
-    let filteredData = (data || [])
+    const filteredData = (data || [])
       .filter(teste => teste.paciente?.clinica_id === user.clinica_id)
 
     console.log('[API] GET /api/testes-aplicados - After clinic filter:', filteredData.length, 'tests for clinic', user.clinica_id)

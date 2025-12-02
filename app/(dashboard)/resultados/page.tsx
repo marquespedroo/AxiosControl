@@ -1,7 +1,5 @@
 'use client'
 
-import { useEffect, useState, useCallback, useMemo } from 'react'
-import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   BarChart3,
@@ -22,6 +20,8 @@ import {
   AlertCircle,
   Loader2
 } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useEffect, useState, useCallback, useMemo } from 'react'
 
 interface TesteTemplate {
   id: string
@@ -132,7 +132,7 @@ export default function ResultadosPage() {
       const queryString = buildQueryString(currentFilters)
       const response = await fetch(`/api/testes-aplicados?${queryString}`, {
         headers: {
-          'Authorization': `Bearer ${token}`,
+          Authorization: `Bearer ${token}`,
         },
       })
 
@@ -165,7 +165,7 @@ export default function ResultadosPage() {
         // First, fetch all test templates for the filter dropdown
         const templatesResponse = await fetch('/api/testes-templates?limit=100', {
           headers: {
-            'Authorization': `Bearer ${token}`,
+            Authorization: `Bearer ${token}`,
           },
         })
 

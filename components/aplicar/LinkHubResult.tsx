@@ -1,9 +1,11 @@
 'use client'
 
 import { useState } from 'react'
+
 import { Button } from '@/components/ui/atoms/Button'
-import CopyMessageButton from './CopyMessageButton'
 import type { LinkPacienteWithDetails } from '@/types/database'
+
+import CopyMessageButton from './CopyMessageButton'
 
 interface LinkHubResultProps {
   link: LinkPacienteWithDetails

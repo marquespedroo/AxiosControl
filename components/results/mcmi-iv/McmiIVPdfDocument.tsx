@@ -1,4 +1,5 @@
 import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer'
+
 import { McmiResults } from '@/lib/services/mcmi-iv-scoring.service'
 
 // Define styles for PDF

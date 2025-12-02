@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerClient } from '@/lib/supabase/server'
-import { TesteTemplateService } from '@/lib/services/TesteTemplateService'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { TesteTemplateService } from '@/lib/services/TesteTemplateService'
+import { createServerClient } from '@/lib/supabase/server'
 
 interface RestoreVersionBody {
   versionId: string

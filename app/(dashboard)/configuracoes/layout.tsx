@@ -1,8 +1,9 @@
 'use client'
 
-import { usePathname, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Settings, Users, Calendar, Shield } from 'lucide-react'
+import { usePathname, useRouter } from 'next/navigation'
+
 import { cn } from '@/lib/utils'
 
 interface SettingsLayoutProps {

@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
-import { supabaseAdmin } from '@/lib/supabase/client'
-import { LinkPacienteService } from '@/lib/services/LinkPacienteService'
 import { LinkPacienteRepository } from '@/lib/repositories/LinkPacienteRepository'
+import { LinkPacienteService } from '@/lib/services/LinkPacienteService'
+import { supabaseAdmin } from '@/lib/supabase/client'
 import { createLinkPacienteSchema } from '@/lib/validations/schemas/link.schema'
 
 /**

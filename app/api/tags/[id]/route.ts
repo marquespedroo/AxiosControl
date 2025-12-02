@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerClient } from '@/lib/supabase/server'
-import { TagService } from '@/lib/services/TagService'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { TagService } from '@/lib/services/TagService'
+import { createServerClient } from '@/lib/supabase/server'
 import type { TagUpdate } from '@/types/database'
 
 interface RouteParams {

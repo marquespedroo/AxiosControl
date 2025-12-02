@@ -1,13 +1,14 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Brain, User, ArrowRight, ArrowLeft, Check, Smartphone, Link2, UserCheck, Loader2 } from 'lucide-react'
-import type { Paciente, TesteTemplate, ModoAplicacao, LinkPacienteWithDetails } from '@/types/database'
+import { useParams, useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import LinkHubResult from '@/components/aplicar/LinkHubResult'
 import PinEntryModal from '@/components/aplicar/PinEntryModal'
 import { useLinkPaciente } from '@/lib/hooks/useLinkPaciente'
+import type { Paciente, TesteTemplate, ModoAplicacao, LinkPacienteWithDetails } from '@/types/database'
 
 interface ModeOption {
   value: ModoAplicacao

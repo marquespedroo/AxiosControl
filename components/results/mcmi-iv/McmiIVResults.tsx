@@ -1,17 +1,19 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+
 import { McmiIVScoringService, McmiResults, McmiAnswer } from '@/lib/services/mcmi-iv-scoring.service'
 import { generateAndDownloadPdf } from '@/lib/utils/pdf-generator'
-import { McmiIVPdfDocument } from './McmiIVPdfDocument'
-import ValidityScalesTable from './ValidityScalesTable'
-import PersonalityPatternsChart from './PersonalityPatternsChart'
-import SeverePathologyTable from './SeverePathologyTable'
+
 import ClinicalSyndromesChart from './ClinicalSyndromesChart'
 import GrossmanFacetsDisplay from './GrossmanFacetsDisplay'
-import SignificantResponsesTable from './SignificantResponsesTable'
-import ScoreSummaryTable from './ScoreSummaryTable'
 import InterpretationText from './InterpretationText'
+import { McmiIVPdfDocument } from './McmiIVPdfDocument'
+import PersonalityPatternsChart from './PersonalityPatternsChart'
+import ScoreSummaryTable from './ScoreSummaryTable'
+import SeverePathologyTable from './SeverePathologyTable'
+import SignificantResponsesTable from './SignificantResponsesTable'
+import ValidityScalesTable from './ValidityScalesTable'
 
 interface McmiIVResultsProps {
   testTemplate: any

@@ -1,12 +1,13 @@
 'use client'
 
+import { ChevronUp, ChevronDown, Trash2, Copy, Plus, X } from 'lucide-react'
 import * as React from 'react'
+
+import { Button } from '@/components/ui/atoms/Button'
 import { Card, CardContent } from '@/components/ui/atoms/Card'
 import { Input } from '@/components/ui/atoms/Input'
 import { Label } from '@/components/ui/atoms/Label'
-import { Button } from '@/components/ui/atoms/Button'
 import { cn } from '@/lib/utils'
-import { ChevronUp, ChevronDown, Trash2, Copy, Plus, X } from 'lucide-react'
 import type { QuestionItemEditorProps } from '@/types/biblioteca'
 import { SCALE_LABELS } from '@/types/biblioteca'
 import type { TipoResposta } from '@/types/database'

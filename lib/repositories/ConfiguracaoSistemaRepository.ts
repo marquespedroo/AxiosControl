@@ -1,6 +1,7 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
+import { Result, success, failure } from '@/types/core/result'
 import type { ConfiguracaoSistema } from '@/types/database'
 
 /**
@@ -102,7 +103,7 @@ export class ConfiguracaoSistemaRepository {
           {
             clinica_id: clinicaId,
             chave,
-            valor: valor,
+            valor,
             descricao: descricao || null,
           },
           { onConflict: 'clinica_id,chave' }

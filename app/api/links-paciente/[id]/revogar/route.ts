@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
-import { createClient } from '@/lib/supabase/server'
 import { LinkPacienteService } from '@/lib/services/LinkPacienteService'
+import { createClient } from '@/lib/supabase/server'
 
 interface RouteParams {
   params: { id: string }

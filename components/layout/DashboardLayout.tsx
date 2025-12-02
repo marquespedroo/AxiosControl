@@ -1,7 +1,5 @@
 'use client'
 
-import { useRouter, usePathname } from 'next/navigation'
-import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   LayoutDashboard,
@@ -23,6 +21,9 @@ import {
   Sparkles,
   DollarSign,
 } from 'lucide-react'
+import { useRouter, usePathname } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import { AuthUser } from '@/types/database'
 
 interface DashboardLayoutProps {
@@ -87,7 +88,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
     { href: '/resultados', label: 'Resultados', icon: BarChart3 },
     { href: '/biblioteca', label: 'Biblioteca', icon: FolderOpen },
     { href: '/registros-manuais', label: 'Registros', icon: ClipboardList },
-    { href: '/admin', label: 'Administração', icon: Building2 },
+    ...(user?.roles?.includes('super_admin') ? [{ href: '/admin', label: 'Administração', icon: Building2 }] : []),
     { href: '/financeiro', label: 'Financeiro', icon: DollarSign },
     { href: '/configuracoes', label: 'Configurações', icon: Settings },
   ]
@@ -170,9 +171,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         }}
         className="fixed left-0 top-0 h-screen bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-r border-gray-200/50 dark:border-gray-700/50 z-30 hidden lg:block shadow-2xl shadow-gray-200/50"
       >
-        <div className="flex flex-col h-full p-4">
-          {/* Logo & Toggle */}
-          <div className="flex items-center justify-between mb-8">
+        <div className="flex flex-col h-full">
+          {/* Logo & Toggle - Fixed at top */}
+          <div className="p-4 flex items-center justify-between mb-2 shrink-0">
             <motion.div
               animate={{ opacity: sidebarOpen ? 1 : 0 }}
               className="flex items-center gap-3"
@@ -200,17 +201,17 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             </motion.button>
           </div>
 
-          {/* Navigation */}
-          <nav className="flex-1 space-y-2">
+          {/* Navigation - Scrollable */}
+          <nav className="flex-1 space-y-1 overflow-y-auto px-4 py-2 scrollbar-thin scrollbar-thumb-gray-200 dark:scrollbar-thumb-gray-700 scrollbar-track-transparent hover:scrollbar-thumb-gray-300 dark:hover:scrollbar-thumb-gray-600">
             {navItems.map((item) => (
               <NavLink key={item.href} item={item} />
             ))}
           </nav>
 
-          {/* User Profile */}
-          <div className="mt-auto pt-4 border-t border-gray-200/50 dark:border-gray-700/50">
+          {/* User Profile - Fixed at bottom */}
+          <div className="mt-auto p-4 border-t border-gray-200/50 dark:border-gray-700/50 shrink-0 bg-white/50 dark:bg-gray-900/50 backdrop-blur-sm">
             <div className={`flex items-center gap-3 p-3 rounded-xl bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-800/50 ${!sidebarOpen && 'justify-center'}`}>
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-semibold shadow-lg">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-semibold shadow-lg shrink-0">
                 {isClient && user?.nome_completo ? user.nome_completo.charAt(0).toUpperCase() : 'U'}
               </div>
               {sidebarOpen && (
@@ -229,7 +230,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              <LogOut className="w-5 h-5" />
+              <LogOut className="w-5 h-5 shrink-0" />
               {sidebarOpen && <span className="text-sm">Sair</span>}
             </motion.button>
           </div>
@@ -335,7 +336,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="relative z-10 p-6"
+          className="relative z-10 p-4"
         >
           <div className="max-w-7xl mx-auto">
             {children}

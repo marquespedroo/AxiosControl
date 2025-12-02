@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+
 import { useLinks } from '@/lib/hooks/useApi'
 
 interface LinkGeneratorModalProps {

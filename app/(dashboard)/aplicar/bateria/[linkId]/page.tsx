@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect, useState, useCallback } from 'react'
 import { useParams, useRouter } from 'next/navigation'
-import QuestionRenderer from '@/components/test/QuestionRenderer'
+import { useEffect, useState, useCallback } from 'react'
+
 import NextTestPrompt from '@/components/patient-portal/NextTestPrompt'
+import QuestionRenderer from '@/components/test/QuestionRenderer'
 import { Questao } from '@/types/database'
 
 // Local types that match actual API responses

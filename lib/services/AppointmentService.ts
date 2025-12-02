@@ -1,15 +1,18 @@
-import { createClient } from '@/lib/supabase/server'
-import { AppointmentRepository } from '@/lib/repositories/AppointmentRepository'
-import { Result, failure } from '@/types/core/result'
+import { SupabaseClient } from '@supabase/supabase-js'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Appointment, AppointmentInsert, AppointmentUpdate, AppointmentWithDetails } from '@/types/database'
+import { AppointmentRepository } from '@/lib/repositories/AppointmentRepository'
+import { createClient } from '@/lib/supabase/server'
+import { Result, failure } from '@/types/core/result'
+import { Appointment, AppointmentInsert, AppointmentUpdate, AppointmentWithDetails, Database } from '@/types/database'
+
 
 export class AppointmentService {
     private repository: AppointmentRepository
-    private supabase: any
+    private supabase: SupabaseClient<Database>
 
-    constructor() {
-        this.supabase = createClient()
+    constructor(supabaseClient?: SupabaseClient<Database>) {
+        this.supabase = supabaseClient || createClient()
         this.repository = new AppointmentRepository(this.supabase)
     }
 

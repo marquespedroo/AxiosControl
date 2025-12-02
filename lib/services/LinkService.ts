@@ -1,10 +1,12 @@
-import { SupabaseClient } from '@supabase/supabase-js'
-import { Result, success, failure } from '@/types/core/result'
-import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
-import { LinkPaciente as LinkAcesso } from '@/types/database'
-import { createAuditLog } from '@/lib/supabase/helpers'
 import crypto from 'crypto'
+
+import { SupabaseClient } from '@supabase/supabase-js'
+
+import { AppError } from '@/lib/errors/AppError'
+import { createAuditLog } from '@/lib/supabase/helpers'
+import { Result, success, failure } from '@/types/core/result'
+import { LinkPaciente as LinkAcesso } from '@/types/database'
+import { Database } from '@/types/database.generated'
 
 /**
  * Service layer for LinkAcesso entity
@@ -75,7 +77,7 @@ export class LinkService {
         .from('link_testes')
         .insert({
           link_id: data.id,
-          teste_aplicado_id: teste_aplicado_id,
+          teste_aplicado_id,
           ordem: 1
         })
 

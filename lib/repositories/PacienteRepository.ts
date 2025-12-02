@@ -1,9 +1,11 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Repository, PaginationParams, PaginationResult } from './base/Repository'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
+import { Result, success, failure } from '@/types/core/result'
 import { Paciente } from '@/types/database'
+import { Database } from '@/types/database.generated'
+
+import { Repository, PaginationParams, PaginationResult } from './base/Repository'
 
 export interface PacienteSearchParams extends PaginationParams {
   search?: string

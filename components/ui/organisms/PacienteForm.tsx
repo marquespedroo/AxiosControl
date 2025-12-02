@@ -1,12 +1,14 @@
 'use client'
 
+import { zodResolver } from '@hookform/resolvers/zod'
 import * as React from 'react'
 import { useForm } from 'react-hook-form'
-import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
+
+import { usePacientes } from '@/lib/hooks/usePacientes'
+
 import { Button, Textarea } from '../atoms'
 import { FormField } from '../molecules'
-import { usePacientes } from '@/lib/hooks/usePacientes'
 
 const pacienteSchema = z.object({
     nome_completo: z.string().min(3, 'Nome deve ter no mínimo 3 caracteres'),

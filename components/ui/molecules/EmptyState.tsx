@@ -1,6 +1,8 @@
 import * as React from 'react'
-import { Button } from '../atoms'
+
 import { cn } from '@/lib/utils'
+
+import { Button } from '../atoms'
 
 export interface EmptyStateProps {
   title: string

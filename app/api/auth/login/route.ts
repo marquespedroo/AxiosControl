@@ -1,9 +1,10 @@
+import bcrypt from 'bcryptjs'
 import { NextRequest, NextResponse } from 'next/server'
-import { supabaseAdmin } from '@/lib/supabase/client'
-import { createAuditLog } from '@/lib/supabase/helpers'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
 import { UserRepository } from '@/lib/repositories/UserRepository'
-import bcrypt from 'bcryptjs'
+import { supabaseAdmin } from '@/lib/supabase/client'
+import { createAuditLog } from '@/lib/supabase/helpers'
 
 export async function POST(request: NextRequest) {
   try {

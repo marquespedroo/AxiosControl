@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
+
+import { getAuthUser } from '@/lib/auth/helpers'
 import { supabase } from '@/lib/supabase/client'
 import { calculateAge } from '@/lib/supabase/helpers'
-import { getAuthUser } from '@/lib/auth/helpers'
 
 export async function GET(
   request: NextRequest,

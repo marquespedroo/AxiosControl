@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerClient } from '@/lib/supabase/server'
-import { TabelaNormativaService } from '@/lib/services/TabelaNormativaService'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { TabelaNormativaService } from '@/lib/services/TabelaNormativaService'
+import { createServerClient } from '@/lib/supabase/server'
 import type { TabelaNormativaUpdate } from '@/types/database'
 
 /**

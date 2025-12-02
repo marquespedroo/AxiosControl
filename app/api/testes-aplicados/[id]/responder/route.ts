@@ -1,7 +1,9 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { supabaseAdmin } from '@/lib/supabase/client'
-import { cookies } from 'next/headers'
 import crypto from 'crypto'
+
+import { cookies } from 'next/headers'
+import { NextRequest, NextResponse } from 'next/server'
+
+import { supabaseAdmin } from '@/lib/supabase/client'
 
 export async function POST(
     request: NextRequest,

@@ -1,11 +1,13 @@
+import crypto from 'crypto'
+
+import { cookies } from 'next/headers'
 import { NextRequest, NextResponse } from 'next/server'
-import { supabaseAdmin } from '@/lib/supabase/client'
-import { createAuditLog, calculateAge } from '@/lib/supabase/helpers'
+
+import { getAuthUser } from '@/lib/auth/helpers'
 import { calculateRawScore } from '@/lib/calculation/calculator'
 import { calculatePercentile, calculateZScore, calculateTScore, classifyPerformance, findNormativeBin } from '@/lib/calculation/normalization'
-import { getAuthUser } from '@/lib/auth/helpers'
-import { cookies } from 'next/headers'
-import crypto from 'crypto'
+import { supabaseAdmin } from '@/lib/supabase/client'
+import { createAuditLog, calculateAge } from '@/lib/supabase/helpers'
 
 // POST /api/testes-aplicados/[id]/finalizar - Finalize test and calculate results
 export async function POST(
@@ -130,7 +132,7 @@ export async function POST(
       console.log('[API] MCMI-IV test detected - using specialized scoring')
       pontuacaoBruta = {
         total: 0,  // Placeholder - actual scoring done in frontend
-        respostas: respostas  // Include answers for MCMI-IV scoring service
+        respostas  // Include answers for MCMI-IV scoring service
       }
     } else {
       // Determine max scale value
@@ -164,7 +166,7 @@ export async function POST(
 
         pontuacaoBruta = {
           total: rawScore.total,
-          respostas: respostas,
+          respostas,
           ...(rawScore.secoes ? { secoes: rawScore.secoes } : {})
         }
 
@@ -178,7 +180,7 @@ export async function POST(
           await supabaseAdmin
             .from('testes_aplicados')
             .update({
-              respostas: respostas,
+              respostas,
               status: 'erro_calculo',
               observacoes: `Erro de cálculo: ${error.message}`
             })

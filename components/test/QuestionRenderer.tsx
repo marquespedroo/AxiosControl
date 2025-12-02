@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+
 import { Questao } from '@/types/database'
 
 interface QuestionRendererProps {

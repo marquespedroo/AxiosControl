@@ -1,9 +1,10 @@
 'use client'
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
-import { Button } from '@/components/ui/atoms/Button'
-import { useRouter } from 'next/navigation'
 import { Users, Shield, Calendar, ArrowRight } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+
+import { Button } from '@/components/ui/atoms/Button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 
 export default function SettingsPage() {
     const router = useRouter()

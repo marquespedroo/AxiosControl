@@ -1,7 +1,9 @@
 'use client'
 
 import { useEffect, ReactNode } from 'react'
+
 import { useHandoffMode } from '@/lib/hooks/useHandoffMode'
+
 import PinExitModal from './PinExitModal'
 
 interface HandoffContainerProps {

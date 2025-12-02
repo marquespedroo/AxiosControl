@@ -1,8 +1,10 @@
 'use client'
 
 import * as React from 'react'
-import { Input, Label } from '../atoms'
+
 import { cn } from '@/lib/utils'
+
+import { Input, Label } from '../atoms'
 
 export interface FormFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
   label: string

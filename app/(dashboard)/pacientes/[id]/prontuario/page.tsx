@@ -1,10 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { Paciente, TesteAplicado, RegistroManual } from '@/types/database'
+import { useParams, useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import { usePacientes, useTestesAplicados, useRegistros } from '@/lib/hooks/useApi'
+import { Paciente, TesteAplicado, RegistroManual } from '@/types/database'
 
 // Extended type for teste aplicado with API response fields
 interface TesteAplicadoComNome extends TesteAplicado {

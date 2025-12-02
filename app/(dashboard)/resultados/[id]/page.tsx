@@ -1,11 +1,12 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
-import { PontuacaoBruta, Normalizacao, Questao } from '@/types/database'
-import McmiIVResults from '@/components/results/mcmi-iv/McmiIVResults'
+import { useEffect, useState } from 'react'
+
 import AASPResults from '@/components/results/aasp/AASPResults'
+import McmiIVResults from '@/components/results/mcmi-iv/McmiIVResults'
 import { ChildSensoryProfileResults } from '@/components/results/sensory-profile'
+import { PontuacaoBruta, Normalizacao, Questao } from '@/types/database'
 
 interface ResultadoData {
   id: string
@@ -49,7 +50,7 @@ export default function ResultadosPage() {
         const token = localStorage.getItem('auth_token')
         const response = await fetch(`/api/testes-aplicados/${params.id}`, {
           headers: {
-            'Authorization': `Bearer ${token}`,
+            Authorization: `Bearer ${token}`,
           },
         })
 

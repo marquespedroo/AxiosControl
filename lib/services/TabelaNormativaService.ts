@@ -1,11 +1,13 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { TabelaNormativaRepository, TabelaNormativaSearchParams } from '../repositories/TabelaNormativaRepository'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
-import { Database } from '@/types/database.generated'
-import { TabelaNormativa, TabelaNormativaInsert, TabelaNormativaUpdate } from '@/types/database'
-import { PaginationResult } from '../repositories/base/Repository'
 import { createAuditLog } from '@/lib/supabase/helpers'
+import { Result, success, failure } from '@/types/core/result'
+import { TabelaNormativa, TabelaNormativaInsert, TabelaNormativaUpdate } from '@/types/database'
+import { Database } from '@/types/database.generated'
+
+import { PaginationResult } from '../repositories/base/Repository'
+import { TabelaNormativaRepository, TabelaNormativaSearchParams } from '../repositories/TabelaNormativaRepository'
 
 /**
  * Service layer for TabelaNormativa entity

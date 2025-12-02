@@ -1,5 +1,5 @@
-import { Result } from '@/types/core/result'
 import { AppError } from '@/lib/errors/AppError'
+import { Result } from '@/types/core/result'
 import type { Questao, Respostas, PontuacaoBruta } from '@/types/database'
 
 /**

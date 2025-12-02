@@ -1,10 +1,12 @@
-import { createClient } from '@/lib/supabase/server'
+import bcrypt from 'bcryptjs'
+
+import { AppError } from '@/lib/errors/AppError'
 import { UserRepository } from '@/lib/repositories/UserRepository'
+import { supabaseAdmin } from '@/lib/supabase/client'
 import type { Result } from '@/types/core/result'
 import { success, failure } from '@/types/core/result'
-import { AppError } from '@/lib/errors/AppError'
 import { User, UserRoleType, UserWithRoles } from '@/types/database'
-import bcrypt from 'bcryptjs'
+
 
 export interface CreateUserParams {
     clinica_id: string
@@ -35,7 +37,7 @@ export class UserService {
     private supabase: any
 
     constructor() {
-        this.supabase = createClient()
+        this.supabase = supabaseAdmin
         this.repository = new UserRepository(this.supabase)
     }
 
@@ -138,7 +140,7 @@ export class UserService {
                     .from('user_roles')
                     .insert({
                         user_id: user.id,
-                        role: role
+                        role
                     })
 
                 if (roleError) {
@@ -298,8 +300,9 @@ export class UserService {
         if (!/^[A-Z]{2}$/.test(estado)) {
             return failure(new AppError('USER_SERVICE_011', 'Estado do CRP inválido (use 2 letras maiúsculas)', 400))
         }
-        if (!/^\d{5,6}$/.test(crp)) {
-            return failure(new AppError('USER_SERVICE_012', 'Número do CRP inválido (use 5-6 dígitos)', 400))
+        // Allow any CRP format as per user request
+        if (!crp || crp.trim().length === 0) {
+            return failure(new AppError('USER_SERVICE_012', 'Número do CRP inválido', 400))
         }
         return success(true)
     }

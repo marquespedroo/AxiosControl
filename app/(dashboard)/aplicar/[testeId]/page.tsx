@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
-import QuestionRenderer from '@/components/test/QuestionRenderer'
+import { useEffect, useState } from 'react'
+
 import { HandoffContainer } from '@/components/aplicar'
+import QuestionRenderer from '@/components/test/QuestionRenderer'
 import { useHandoffMode } from '@/lib/hooks/useHandoffMode'
 import { Questao, Respostas } from '@/types/database'
 

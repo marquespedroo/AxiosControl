@@ -1,19 +1,23 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
-import { useAppointments, useSchedule, useHealthInsurance, useUsers, usePacientes, useFinancial } from '@/lib/hooks/useApi'
-import { useAuthStore } from '@/lib/stores/useAuthStore'
-import { Button } from '@/components/ui/atoms/Button'
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter, DialogDescription } from '@/components/ui/molecules/Dialog'
-import { Input } from '@/components/ui/atoms/Input'
-import { Label } from '@/components/ui/atoms/Label'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/molecules/Select'
 import { addDays, format, startOfWeek, addMinutes, isSameDay, parseISO } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
-import { ChevronLeft, ChevronRight, Plus, Calendar as CalendarIcon, Clock, Settings, User } from 'lucide-react'
 import { toast } from 'react-hot-toast'
 import { motion } from 'framer-motion'
+import { ChevronLeft, ChevronRight, Plus, Calendar as CalendarIcon, Clock, Settings, User, Search, Check, ChevronsUpDown } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useState, useEffect } from 'react'
+
+import { Button } from '@/components/ui/atoms/Button'
+import { Input } from '@/components/ui/atoms/Input'
+import { Label } from '@/components/ui/atoms/Label'
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/molecules/Command'
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter, DialogDescription } from '@/components/ui/molecules/Dialog'
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/molecules/Popover'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/molecules/Select'
+import { useAppointments, useSchedule, useHealthInsurance, useUsers, usePacientes, useFinancial } from '@/lib/hooks/useApi'
+import { useAuthStore } from '@/lib/stores/useAuthStore'
+import { cn } from '@/lib/utils'
 
 export default function AgendaPage() {
     const router = useRouter()
@@ -31,6 +35,8 @@ export default function AgendaPage() {
     const [products, setProducts] = useState<any[]>([])
     const [professionals, setProfessionals] = useState<any[]>([])
     const [selectedProfessionalId, setSelectedProfessionalId] = useState<string>('')
+    const [searchTerm, setSearchTerm] = useState('')
+    const [openPatientCombobox, setOpenPatientCombobox] = useState(false)
 
     const [settings, setSettings] = useState<{ duration: number; break: number; default_price?: number | null }>({ duration: 50, break: 10, default_price: null })
     const [isDialogOpen, setIsDialogOpen] = useState(false)
@@ -315,6 +321,15 @@ export default function AgendaPage() {
                     <p className="text-muted-foreground">Gerencie seus atendimentos e horários.</p>
                 </div>
                 <div className="flex items-center gap-3">
+                    <div className="relative w-64 hidden md:block">
+                        <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
+                        <Input
+                            placeholder="Buscar paciente..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                            className="pl-8 bg-white dark:bg-gray-800"
+                        />
+                    </div>
                     {isAdmin && (
                         <div className="w-[200px]">
                             <Select
@@ -383,7 +398,9 @@ export default function AgendaPage() {
                                 {weekDays.map((day, dayIndex) => {
                                     const dayAppointments = appointments.filter(apt => {
                                         const aptDate = parseISO(apt.start_time)
-                                        return isSameDay(aptDate, day) && aptDate.getHours() === hour
+                                        const matchesDate = isSameDay(aptDate, day) && aptDate.getHours() === hour
+                                        const matchesSearch = !searchTerm || apt.patient?.nome_completo.toLowerCase().includes(searchTerm.toLowerCase())
+                                        return matchesDate && matchesSearch
                                     })
 
                                     return (
@@ -465,21 +482,49 @@ export default function AgendaPage() {
                         </div>
                         <div className="space-y-2">
                             <Label>Paciente</Label>
-                            <Select
-                                value={formData.patient_id}
-                                onValueChange={(value) => setFormData({ ...formData, patient_id: value })}
-                            >
-                                <SelectTrigger>
-                                    <SelectValue placeholder="Selecione um paciente" />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    {patients.map((patient) => (
-                                        <SelectItem key={patient.id} value={patient.id}>
-                                            {patient.nome_completo}
-                                        </SelectItem>
-                                    ))}
-                                </SelectContent>
-                            </Select>
+                            <Popover open={openPatientCombobox} onOpenChange={setOpenPatientCombobox}>
+                                <PopoverTrigger asChild>
+                                    <Button
+                                        variant="outline"
+                                        role="combobox"
+                                        aria-expanded={openPatientCombobox}
+                                        className="w-full justify-between"
+                                    >
+                                        {formData.patient_id
+                                            ? patients.find((patient) => patient.id === formData.patient_id)?.nome_completo
+                                            : "Selecione um paciente..."}
+                                        <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+                                    </Button>
+                                </PopoverTrigger>
+                                <PopoverContent className="w-[400px] p-0">
+                                    <Command>
+                                        <CommandInput placeholder="Buscar paciente..." />
+                                        <CommandList>
+                                            <CommandEmpty>Nenhum paciente encontrado.</CommandEmpty>
+                                            <CommandGroup>
+                                                {patients.map((patient) => (
+                                                    <CommandItem
+                                                        key={patient.id}
+                                                        value={patient.nome_completo}
+                                                        onSelect={() => {
+                                                            setFormData({ ...formData, patient_id: patient.id })
+                                                            setOpenPatientCombobox(false)
+                                                        }}
+                                                    >
+                                                        <Check
+                                                            className={cn(
+                                                                "mr-2 h-4 w-4",
+                                                                formData.patient_id === patient.id ? "opacity-100" : "opacity-0"
+                                                            )}
+                                                        />
+                                                        {patient.nome_completo}
+                                                    </CommandItem>
+                                                ))}
+                                            </CommandGroup>
+                                        </CommandList>
+                                    </Command>
+                                </PopoverContent>
+                            </Popover>
                         </div>
 
                         <div className="space-y-2">

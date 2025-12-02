@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { useState } from 'react'
+
 import { Paciente, Endereco } from '@/types/database'
 
 interface PatientFormProps {
@@ -106,7 +107,7 @@ export default function PatientForm({ paciente, mode }: PatientFormProps) {
         method,
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify(body),
       })

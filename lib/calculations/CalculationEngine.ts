@@ -1,10 +1,12 @@
-import { Result, success, failure } from '@/types/core/result'
 import { AppError } from '@/lib/errors/AppError'
-import { ICalculationStrategy } from './interfaces/ICalculationStrategy'
-import { SomaSimplesStrategy } from './strategies/SomaSimplesStrategy'
-import { SomaPonderadaStrategy } from './strategies/SomaPonderadaStrategy'
-import { SecoesStrategy } from './strategies/SecoesStrategy'
+import { Result, success, failure } from '@/types/core/result'
 import type { RegrasCalculo, Questao, Respostas, PontuacaoBruta } from '@/types/database'
+
+import { ICalculationStrategy } from './interfaces/ICalculationStrategy'
+import { SecoesStrategy } from './strategies/SecoesStrategy'
+import { SomaPonderadaStrategy } from './strategies/SomaPonderadaStrategy'
+import { SomaSimplesStrategy } from './strategies/SomaSimplesStrategy'
+
 
 /**
  * Calculation Engine

@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+
 import { Paciente } from '@/types/database'
 
 interface PacienteState {

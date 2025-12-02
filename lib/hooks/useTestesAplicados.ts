@@ -1,15 +1,16 @@
 'use client'
 
 import { useCallback } from 'react'
-import { createBrowserClient } from '@/lib/supabase/client'
+
 import { TesteAplicadoRepository } from '@/lib/repositories/TesteAplicadoRepository'
+import { useAuthStore, selectUserId } from '@/lib/stores/useAuthStore'
 import {
   useTesteAplicadoStore,
   selectTestes,
   selectCurrentTeste,
   selectIsLoading,
 } from '@/lib/stores/useTesteAplicadoStore'
-import { useAuthStore, selectUserId } from '@/lib/stores/useAuthStore'
+import { createBrowserClient } from '@/lib/supabase/client'
 // import type { TesteAplicado } from '@/types/database'
 
 type TesteStatus = 'aguardando' | 'em_andamento' | 'finalizado' | 'expirado'

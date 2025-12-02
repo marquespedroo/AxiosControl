@@ -1,9 +1,12 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { cookies } from 'next/headers'
-import { createClient } from '@/lib/supabase/server'
-import { LinkPacienteService } from '@/lib/services/LinkPacienteService'
-import { validarAcessoSchema } from '@/lib/validations/schemas/link.schema'
 import crypto from 'crypto'
+
+import { cookies } from 'next/headers'
+import { NextRequest, NextResponse } from 'next/server'
+
+import { LinkPacienteService } from '@/lib/services/LinkPacienteService'
+import { createClient } from '@/lib/supabase/server'
+import { validarAcessoSchema } from '@/lib/validations/schemas/link.schema'
+
 
 /**
  * POST /api/responder/validar

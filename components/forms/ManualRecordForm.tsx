@@ -1,9 +1,10 @@
 'use client'
 
-import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { RegistroManual, Paciente, Anexo } from '@/types/database'
+import { useState, useEffect } from 'react'
+
 import { usePacientes, useRegistros } from '@/lib/hooks/useApi'
+import { RegistroManual, Paciente, Anexo } from '@/types/database'
 
 interface ManualRecordFormProps {
   registro?: RegistroManual

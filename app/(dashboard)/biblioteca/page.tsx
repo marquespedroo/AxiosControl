@@ -1,10 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 // Card components available if needed: import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Book, Search, Copy, Sparkles, Edit } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import type { TesteTemplate } from '@/types/database'
 
 export default function BibliotecaPage() {

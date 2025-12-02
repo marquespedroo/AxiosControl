@@ -1,12 +1,13 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link2, Search, Filter, RefreshCw } from 'lucide-react'
-import { useLinkPaciente } from '@/lib/hooks/useLinkPaciente'
+import { useEffect, useState } from 'react'
+
 import LinkManagementTable from '@/components/aplicar/LinkManagementTable'
 import LinkProgressCard from '@/components/aplicar/LinkProgressCard'
 import TesteSelectorModal from '@/components/aplicar/TesteSelectorModal'
+import { useLinkPaciente } from '@/lib/hooks/useLinkPaciente'
 import type { LinkPacienteWithDetails } from '@/types/database'
 
 export default function LinksPage() {

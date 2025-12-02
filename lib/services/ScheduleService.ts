@@ -1,15 +1,18 @@
-import { createClient } from '@/lib/supabase/server'
-import { ScheduleRepository } from '@/lib/repositories/ScheduleRepository'
-import { Result, failure } from '@/types/core/result'
+import { SupabaseClient } from '@supabase/supabase-js'
+
 import { AppError } from '@/lib/errors/AppError'
-import { ProfessionalAvailability, ProfessionalDetails } from '@/types/database'
+import { ScheduleRepository } from '@/lib/repositories/ScheduleRepository'
+import { createClient } from '@/lib/supabase/server'
+import { Result, failure } from '@/types/core/result'
+import { Database, ProfessionalAvailability, ProfessionalDetails } from '@/types/database'
+
 
 export class ScheduleService {
     private repository: ScheduleRepository
-    private supabase: any
+    private supabase: SupabaseClient<Database>
 
-    constructor() {
-        this.supabase = createClient()
+    constructor(supabaseClient?: SupabaseClient<Database>) {
+        this.supabase = supabaseClient || createClient()
         this.repository = new ScheduleRepository(this.supabase)
     }
 

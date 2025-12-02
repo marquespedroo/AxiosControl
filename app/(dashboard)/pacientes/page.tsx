@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Users, Search, Plus, Edit, Eye, Calendar, GraduationCap, User } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import { Paciente, PaginatedResponse } from '@/types/database'
 
 export default function PacientesPage() {

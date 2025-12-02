@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
+
+import { getAuthUser } from '@/lib/auth/helpers'
 import { supabaseAdmin } from '@/lib/supabase/client'
 import { createAuditLog } from '@/lib/supabase/helpers'
-import { getAuthUser } from '@/lib/auth/helpers'
 
 // GET /api/testes-aplicados/[id] - Get test with questions
 export async function GET(

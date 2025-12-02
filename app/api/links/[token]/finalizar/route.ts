@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@/lib/supabase/server'
+
 import { TesteAplicadoService } from '@/lib/services/TesteAplicadoService'
+import { createClient } from '@/lib/supabase/server'
 
 /**
  * POST /api/links/[token]/finalizar

@@ -1,35 +1,52 @@
 'use client'
 
+import { Loader2, Plus, Mail, Trash2, Pencil } from 'lucide-react'
 import { useState, useEffect } from 'react'
-import { useUsers } from '@/lib/hooks/useApi'
+import { toast } from 'react-hot-toast'
+
 import { Button } from '@/components/ui/atoms/Button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Input } from '@/components/ui/atoms/Input'
 import { Label } from '@/components/ui/atoms/Label'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/molecules/Dialog'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/molecules/Select'
-import { toast } from 'react-hot-toast'
-import { Loader2, Plus, Mail, Trash2 } from 'lucide-react'
+import { useUsers, useClinicas } from '@/lib/hooks/useApi'
+import { useAuthStore } from '@/lib/stores/useAuthStore'
+
 
 export default function TeamPage() {
-    const { list, create, remove } = useUsers()
+    const { list, create, update, remove } = useUsers({
+        onError: (message) => toast.error(message)
+    })
+    const { list: listClinics } = useClinicas()
+    const { user } = useAuthStore()
+
     const [users, setUsers] = useState<any[]>([])
+    const [clinics, setClinics] = useState<any[]>([])
     const [loading, setLoading] = useState(true)
     const [isDialogOpen, setIsDialogOpen] = useState(false)
-    const [newUser, setNewUser] = useState({
+    const [editingUser, setEditingUser] = useState<any>(null)
+    const [formData, setFormData] = useState({
         nome_completo: '',
         email: '',
         password: '',
-        role: 'psychologist'
+        roles: ['psychologist'] as string[],
+        clinica_id: '',
+        crp: '',
+        crp_estado: ''
     })
+
+    const isSuperAdmin = user?.roles.includes('super_admin')
 
     useEffect(() => {
         loadUsers()
-    }, [])
+        if (isSuperAdmin) {
+            loadClinics()
+        }
+    }, [user])
 
     const loadUsers = async () => {
         setLoading(true)
-        // Assuming list returns all users for the clinic, or we need to adjust the hook/API
         const res = await list({ limit: 100 })
         if (res && res.data) {
             setUsers(res.data)
@@ -37,22 +54,87 @@ export default function TeamPage() {
         setLoading(false)
     }
 
-    const handleCreateUser = async () => {
-        if (!newUser.nome_completo || !newUser.email || !newUser.password) {
-            toast.error('Preencha todos os campos obrigatórios')
+    const loadClinics = async () => {
+        const res = await listClinics({ limit: 100, ativo: true })
+        if (res && res.data) {
+            setClinics(res.data)
+        }
+    }
+
+    const handleOpenDialog = (userToEdit?: any) => {
+        if (userToEdit) {
+            setEditingUser(userToEdit)
+            setFormData({
+                nome_completo: userToEdit.nome_completo,
+                email: userToEdit.email,
+                password: '', // Don't fill password
+                roles: userToEdit.roles || [],
+                clinica_id: userToEdit.clinica_id || '',
+                crp: userToEdit.crp || '',
+                crp_estado: userToEdit.crp_estado || ''
+            })
+        } else {
+            setEditingUser(null)
+            setFormData({
+                nome_completo: '',
+                email: '',
+                password: '',
+                roles: ['psychologist'],
+                clinica_id: '',
+                crp: '',
+                crp_estado: ''
+            })
+        }
+        setIsDialogOpen(true)
+    }
+
+    const handleSaveUser = async () => {
+        if (!formData.nome_completo || !formData.email) {
+            toast.error('Nome e Email são obrigatórios')
+            return
+        }
+
+        if (!editingUser && !formData.password) {
+            toast.error('Senha é obrigatória para novos usuários')
+            return
+        }
+
+        if (isSuperAdmin && !formData.clinica_id) {
+            toast.error('Selecione uma clínica')
+            return
+        }
+
+        if (formData.roles.length === 0) {
+            toast.error('Selecione pelo menos uma função')
             return
         }
 
         try {
-            const res = await create(newUser)
+            const payload: any = {
+                ...formData,
+                clinica_id: isSuperAdmin ? formData.clinica_id : user?.clinica_id
+            }
+
+            // Remove password if empty during edit
+            if (editingUser && !payload.password) {
+                delete payload.password
+            }
+
+            let res
+            if (editingUser) {
+                res = await update(editingUser.id, payload)
+                if (res) toast.success('Usuário atualizado com sucesso!')
+            } else {
+                res = await create(payload)
+                if (res) toast.success('Usuário criado com sucesso!')
+            }
+
             if (res) {
-                toast.success('Usuário convidado com sucesso!')
                 setIsDialogOpen(false)
-                setNewUser({ nome_completo: '', email: '', password: '', role: 'psychologist' })
                 loadUsers()
             }
         } catch (error) {
-            toast.error('Erro ao criar usuário')
+            // Error handled by useUsers onError
         }
     }
 
@@ -68,6 +150,15 @@ export default function TeamPage() {
         }
     }
 
+    const toggleRole = (role: string) => {
+        setFormData(prev => {
+            const roles = prev.roles.includes(role)
+                ? prev.roles.filter(r => r !== role)
+                : [...prev.roles, role]
+            return { ...prev, roles }
+        })
+    }
+
     if (loading) {
         return <div className="flex justify-center p-8"><Loader2 className="h-8 w-8 animate-spin text-blue-600" /></div>
     }
@@ -79,7 +170,7 @@ export default function TeamPage() {
                     <h2 className="text-2xl font-bold tracking-tight">Equipe</h2>
                     <p className="text-muted-foreground">Gerencie os membros da sua clínica.</p>
                 </div>
-                <Button onClick={() => setIsDialogOpen(true)}>
+                <Button onClick={() => handleOpenDialog()}>
                     <Plus className="h-4 w-4 mr-2" />
                     Adicionar Membro
                 </Button>
@@ -93,20 +184,32 @@ export default function TeamPage() {
                                 <div className="h-10 w-10 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-blue-600 font-bold">
                                     {user.nome_completo.charAt(0)}
                                 </div>
-                                <div className="flex gap-2">
-                                    <span className="px-2 py-1 rounded-full bg-white dark:bg-gray-800 text-xs font-medium border border-gray-200 dark:border-gray-700">
-                                        {user.roles?.[0] === 'clinic_admin' ? 'Admin' :
-                                            user.roles?.[0] === 'secretary' ? 'Secretária' : 'Psicólogo'}
-                                    </span>
+                                <div className="flex flex-wrap gap-1 justify-end max-w-[60%]">
+                                    {user.roles?.map((role: string) => (
+                                        <span key={role} className="px-2 py-1 rounded-full bg-white dark:bg-gray-800 text-xs font-medium border border-gray-200 dark:border-gray-700">
+                                            {role === 'clinic_admin' ? 'Admin' :
+                                                role === 'secretary' ? 'Secretária' :
+                                                    role === 'super_admin' ? 'Super Admin' : 'Psicólogo'}
+                                        </span>
+                                    ))}
                                 </div>
                             </div>
                             <CardTitle className="mt-4 text-lg">{user.nome_completo}</CardTitle>
                             <CardDescription className="flex items-center gap-1">
                                 <Mail className="h-3 w-3" /> {user.email}
                             </CardDescription>
+                            {isSuperAdmin && user.clinica_id && (
+                                <CardDescription className="text-xs mt-1">
+                                    Clínica ID: {user.clinica_id}
+                                </CardDescription>
+                            )}
                         </CardHeader>
                         <CardContent className="pt-4">
-                            <div className="flex justify-end">
+                            <div className="flex justify-end gap-2">
+                                <Button variant="ghost" size="sm" onClick={() => handleOpenDialog(user)}>
+                                    <Pencil className="h-4 w-4 mr-2" />
+                                    Editar
+                                </Button>
                                 <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-600 hover:bg-red-50" onClick={() => handleRemoveUser(user.id)}>
                                     <Trash2 className="h-4 w-4 mr-2" />
                                     Remover
@@ -120,52 +223,128 @@ export default function TeamPage() {
             <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                 <DialogContent>
                     <DialogHeader>
-                        <DialogTitle>Adicionar Membro</DialogTitle>
+                        <DialogTitle>{editingUser ? 'Editar Membro' : 'Adicionar Membro'}</DialogTitle>
                     </DialogHeader>
                     <div className="space-y-4 py-4">
                         <div className="space-y-2">
                             <Label>Nome Completo</Label>
                             <Input
-                                value={newUser.nome_completo}
-                                onChange={(e) => setNewUser({ ...newUser, nome_completo: e.target.value })}
+                                value={formData.nome_completo}
+                                onChange={(e) => setFormData({ ...formData, nome_completo: e.target.value })}
                             />
                         </div>
                         <div className="space-y-2">
                             <Label>Email</Label>
                             <Input
                                 type="email"
-                                value={newUser.email}
-                                onChange={(e) => setNewUser({ ...newUser, email: e.target.value })}
+                                value={formData.email}
+                                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                             />
                         </div>
                         <div className="space-y-2">
-                            <Label>Senha Temporária</Label>
+                            <Label>Senha {editingUser ? '(Deixe em branco para manter)' : ''}</Label>
                             <Input
                                 type="password"
-                                value={newUser.password}
-                                onChange={(e) => setNewUser({ ...newUser, password: e.target.value })}
+                                value={formData.password}
+                                onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                             />
                         </div>
+
+                        {isSuperAdmin && (
+                            <div className="space-y-2">
+                                <Label>Clínica</Label>
+                                <Select
+                                    value={formData.clinica_id}
+                                    onValueChange={(value) => setFormData({ ...formData, clinica_id: value })}
+                                >
+                                    <SelectTrigger>
+                                        <SelectValue placeholder="Selecione a clínica" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        {clinics.map((clinic) => (
+                                            <SelectItem key={clinic.id} value={clinic.id}>
+                                                {clinic.nome}
+                                            </SelectItem>
+                                        ))}
+                                    </SelectContent>
+                                </Select>
+                            </div>
+                        )}
+
                         <div className="space-y-2">
-                            <Label>Função</Label>
-                            <Select
-                                value={newUser.role}
-                                onValueChange={(value) => setNewUser({ ...newUser, role: value })}
-                            >
-                                <SelectTrigger>
-                                    <SelectValue />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    <SelectItem value="psychologist">Psicólogo</SelectItem>
-                                    <SelectItem value="secretary">Secretária</SelectItem>
-                                    <SelectItem value="clinic_admin">Administrador</SelectItem>
-                                </SelectContent>
-                            </Select>
+                            <Label>Funções</Label>
+                            <div className="space-y-2 border rounded-md p-3">
+                                <div className="flex items-center space-x-2">
+                                    <input
+                                        type="checkbox"
+                                        id="role-psychologist"
+                                        checked={formData.roles.includes('psychologist')}
+                                        onChange={() => toggleRole('psychologist')}
+                                        className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                                    />
+                                    <label htmlFor="role-psychologist" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                                        Psicólogo
+                                    </label>
+                                </div>
+                                <div className="flex items-center space-x-2">
+                                    <input
+                                        type="checkbox"
+                                        id="role-secretary"
+                                        checked={formData.roles.includes('secretary')}
+                                        onChange={() => toggleRole('secretary')}
+                                        className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                                    />
+                                    <label htmlFor="role-secretary" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                                        Secretária
+                                    </label>
+                                </div>
+                                <div className="flex items-center space-x-2">
+                                    <input
+                                        type="checkbox"
+                                        id="role-admin"
+                                        checked={formData.roles.includes('clinic_admin')}
+                                        onChange={() => toggleRole('clinic_admin')}
+                                        className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                                    />
+                                    <label htmlFor="role-admin" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                                        Administrador da Clínica
+                                    </label>
+                                </div>
+                            </div>
                         </div>
+
+                        {formData.roles.includes('psychologist') && (
+                            <div className="grid grid-cols-2 gap-4">
+                                <div className="space-y-2">
+                                    <Label>CRP</Label>
+                                    <Input
+                                        value={formData.crp}
+                                        onChange={(e) => setFormData({ ...formData, crp: e.target.value })}
+                                        placeholder="00000"
+                                    />
+                                </div>
+                                <div className="space-y-2">
+                                    <Label>Estado CRP</Label>
+                                    <Select
+                                        value={formData.crp_estado}
+                                        onValueChange={(value) => setFormData({ ...formData, crp_estado: value })}
+                                    >
+                                        <SelectTrigger>
+                                            <SelectValue placeholder="UF" />
+                                        </SelectTrigger>
+                                        <SelectContent>
+                                            {['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'].map((uf) => (
+                                                <SelectItem key={uf} value={uf}>{uf}</SelectItem>
+                                            ))}
+                                        </SelectContent>
+                                    </Select>
+                                </div>
+                            </div>
+                        )}
                     </div>
                     <DialogFooter>
                         <Button variant="outline" onClick={() => setIsDialogOpen(false)}>Cancelar</Button>
-                        <Button onClick={handleCreateUser}>Adicionar</Button>
+                        <Button onClick={handleSaveUser}>{editingUser ? 'Salvar Alterações' : 'Adicionar'}</Button>
                     </DialogFooter>
                 </DialogContent>
             </Dialog>

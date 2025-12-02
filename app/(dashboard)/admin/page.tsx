@@ -1,10 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { useAuthStore } from '@/lib/stores/useAuthStore'
 import { Building2, Plus, Edit, Trash2, ShieldAlert } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
+import { useAuthStore } from '@/lib/stores/useAuthStore'
 import type { Clinica } from '@/types/database'
 
 export default function AdminPage() {

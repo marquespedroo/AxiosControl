@@ -1,12 +1,13 @@
 import { SupabaseClient } from '@supabase/supabase-js'
+
+import { AppError } from '@/lib/errors/AppError'
+import { Result, success, failure } from '@/types/core/result'
 import {
     FinancialCategory, FinancialCategoryInsert,
     PaymentMethod, PaymentMethodInsert, PaymentMethodUpdate,
     FinancialTransaction, FinancialTransactionInsert, FinancialTransactionUpdate,
     FinancialTransactionWithDetails
 } from '@/types/database'
-import { Result, success, failure } from '@/types/core/result'
-import { AppError } from '@/lib/errors/AppError'
 
 export class FinancialRepository {
     constructor(private supabase: SupabaseClient) { }

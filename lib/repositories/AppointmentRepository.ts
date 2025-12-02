@@ -1,7 +1,8 @@
 import { SupabaseClient } from '@supabase/supabase-js'
-import { Database, Appointment, AppointmentInsert, AppointmentUpdate, AppointmentWithDetails } from '@/types/database'
-import { Result, success, failure } from '@/types/core/result'
+
 import { AppError } from '@/lib/errors/AppError'
+import { Result, success, failure } from '@/types/core/result'
+import { Database, Appointment, AppointmentInsert, AppointmentUpdate, AppointmentWithDetails } from '@/types/database'
 
 export class AppointmentRepository {
     constructor(private supabase: SupabaseClient<Database>) { }

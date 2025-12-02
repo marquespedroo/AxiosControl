@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Brain, User, Search, Calendar, ArrowRight } from 'lucide-react'
+import { useParams, useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+
 import type { TesteTemplate, Paciente } from '@/types/database'
 
 export default function SelecionarPacientePage() {

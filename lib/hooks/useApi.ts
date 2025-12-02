@@ -210,8 +210,8 @@ export function useLinks() {
   }
 }
 
-export function useUsers() {
-  const api = useApi()
+export function useUsers(options?: UseApiOptions) {
+  const api = useApi(options)
 
   const list = useCallback(
     (params?: {

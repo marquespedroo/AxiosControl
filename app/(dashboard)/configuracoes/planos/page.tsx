@@ -1,15 +1,17 @@
 'use client'
 
+import { motion } from 'framer-motion'
+import { Loader2, Plus, Trash2, Shield, ChevronRight } from 'lucide-react'
 import { useState, useEffect } from 'react'
-import { useHealthInsurance } from '@/lib/hooks/useApi'
+import { toast } from 'react-hot-toast'
+
 import { Button } from '@/components/ui/atoms/Button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Input } from '@/components/ui/atoms/Input'
 import { Label } from '@/components/ui/atoms/Label'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/atoms/Card'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/molecules/Dialog'
-import { toast } from 'react-hot-toast'
-import { Loader2, Plus, Trash2, Shield, ChevronRight } from 'lucide-react'
-import { motion } from 'framer-motion'
+import { useHealthInsurance } from '@/lib/hooks/useApi'
+
 
 export default function HealthInsurancePage() {
     const { listInsurances, createInsurance, deleteInsurance, listProducts, createProduct, deleteProduct } = useHealthInsurance()

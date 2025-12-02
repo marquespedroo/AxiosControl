@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerClient } from '@/lib/supabase/server'
-import { RegistroManualService } from '@/lib/services/RegistroManualService'
+
 import { SessionManager } from '@/lib/auth/SessionManager'
+import { RegistroManualService } from '@/lib/services/RegistroManualService'
+import { createServerClient } from '@/lib/supabase/server'
 import type { RegistroManualInsert } from '@/types/database'
 
 /**

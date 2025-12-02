@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
+
+import { getAuthUser } from '@/lib/auth/helpers'
 import { supabaseAdmin } from '@/lib/supabase/client'
 import { createAuditLog } from '@/lib/supabase/helpers'
 import { PacienteUpdate } from '@/types/database'
-import { getAuthUser } from '@/lib/auth/helpers'
 
 // GET /api/pacientes/[id] - Get patient details
 export async function GET(
