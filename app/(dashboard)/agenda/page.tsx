@@ -6,7 +6,7 @@ import { toast } from 'react-hot-toast'
 import { motion } from 'framer-motion'
 import { ChevronLeft, ChevronRight, Plus, Calendar as CalendarIcon, Clock, Settings, User, Search, Check, ChevronsUpDown } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Fragment } from 'react'
 
 import { Button } from '@/components/ui/atoms/Button'
 import { Input } from '@/components/ui/atoms/Input'
@@ -391,7 +391,7 @@ export default function AgendaPage() {
                 <div className="max-h-[600px] overflow-y-auto">
                     <div className="grid grid-cols-8">
                         {hours.map((hour) => (
-                            <>
+                            <Fragment key={hour}>
                                 <div key={`time-${hour}`} className="col-span-1 p-2 text-right text-xs font-medium text-gray-400 border-r border-b border-gray-100 dark:border-gray-800 bg-gray-50/30">
                                     {hour}:00
                                 </div>
@@ -461,7 +461,7 @@ export default function AgendaPage() {
                                         </div>
                                     )
                                 })}
-                            </>
+                            </Fragment>
                         ))}
                     </div>
                 </div>
