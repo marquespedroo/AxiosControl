@@ -4,6 +4,11 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 import AASPResults from '@/components/results/aasp/AASPResults'
+import { BDEFSResults } from '@/components/results/bdefs'
+import { BFPResults } from '@/components/results/bfp'
+import { BSIResults } from '@/components/results/bsi'
+import { IDADIResults } from '@/components/results/idadi'
+import { IFPIIResults } from '@/components/results/ifp-ii'
 import McmiIVResults from '@/components/results/mcmi-iv/McmiIVResults'
 import { ChildSensoryProfileResults } from '@/components/results/sensory-profile'
 import { PontuacaoBruta, Normalizacao, Questao } from '@/types/database'
@@ -212,14 +217,16 @@ export default function ResultadosPage() {
 
   const idade = calculateAge(resultado.paciente.data_nascimento)
 
-  // Check if this is an MCMI-IV test
-  const isMcmiIV = resultado.teste_template.sigla === 'MCMI-IV'
-
-  // Check if this is an AASP test
-  const isAASP = resultado.teste_template.sigla === 'AASP'
-
-  // Check if this is a Child Sensory Profile test
-  const isChildSensoryProfile = resultado.teste_template.sigla === 'SP2-C'
+  // Check test type by sigla
+  const testSigla = resultado.teste_template.sigla
+  const isMcmiIV = testSigla === 'MCMI-IV'
+  const isAASP = testSigla === 'AASP'
+  const isChildSensoryProfile = testSigla === 'SP2-C'
+  const isBDEFS = testSigla === 'BDEFS' || testSigla === 'BDEFS-L' || testSigla.startsWith('BDEFS')
+  const isBFP = testSigla === 'BFP'
+  const isIDADI = testSigla === 'IDADI' || testSigla.startsWith('IDADI')
+  const isIFPII = testSigla === 'IFP-II' || testSigla === 'IFPII'
+  const isBSI = testSigla === 'BSI'
 
   // Check if there was a calculation error
   const hasCalculationError = resultado.status === 'erro_calculo'
@@ -366,7 +373,7 @@ export default function ResultadosPage() {
         {/* Show full results only if not in answers-only mode and no calculation error */}
         {!modoRespostas && !hasCalculationError && (
           <>
-        {/* Render MCMI-IV specialized results */}
+        {/* Render specialized results based on test type */}
         {isMcmiIV ? (
           <McmiIVResults
             testTemplate={resultado.teste_template}
@@ -383,6 +390,41 @@ export default function ResultadosPage() {
           />
         ) : isChildSensoryProfile ? (
           <ChildSensoryProfileResults
+            testTemplate={resultado.teste_template as any}
+            pontuacaoBruta={resultado.pontuacao_bruta as any}
+            patientInfo={resultado.paciente}
+            dataConlusao={resultado.data_conclusao}
+          />
+        ) : isBDEFS ? (
+          <BDEFSResults
+            testTemplate={resultado.teste_template as any}
+            pontuacaoBruta={resultado.pontuacao_bruta as any}
+            patientInfo={resultado.paciente}
+            dataConlusao={resultado.data_conclusao}
+          />
+        ) : isBFP ? (
+          <BFPResults
+            testTemplate={resultado.teste_template as any}
+            pontuacaoBruta={resultado.pontuacao_bruta as any}
+            patientInfo={resultado.paciente}
+            dataConlusao={resultado.data_conclusao}
+          />
+        ) : isIDADI ? (
+          <IDADIResults
+            testTemplate={resultado.teste_template as any}
+            pontuacaoBruta={resultado.pontuacao_bruta as any}
+            patientInfo={resultado.paciente}
+            dataConlusao={resultado.data_conclusao}
+          />
+        ) : isIFPII ? (
+          <IFPIIResults
+            testTemplate={resultado.teste_template as any}
+            pontuacaoBruta={resultado.pontuacao_bruta as any}
+            patientInfo={resultado.paciente}
+            dataConlusao={resultado.data_conclusao}
+          />
+        ) : isBSI ? (
+          <BSIResults
             testTemplate={resultado.teste_template as any}
             pontuacaoBruta={resultado.pontuacao_bruta as any}
             patientInfo={resultado.paciente}

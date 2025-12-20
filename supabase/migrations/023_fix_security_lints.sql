@@ -32,14 +32,14 @@ CREATE POLICY "Super admins can manage tags"
   TO authenticated
   USING (
     EXISTS (
-      SELECT 1 FROM psicologos
-      WHERE id = auth.uid() AND is_super_admin = true
+      SELECT 1 FROM user_roles
+      WHERE user_id = auth.uid() AND role = 'super_admin'
     )
   )
   WITH CHECK (
     EXISTS (
-      SELECT 1 FROM psicologos
-      WHERE id = auth.uid() AND is_super_admin = true
+      SELECT 1 FROM user_roles
+      WHERE user_id = auth.uid() AND role = 'super_admin'
     )
   );
 
@@ -58,7 +58,7 @@ CREATE POLICY "View tags for accessible tests"
         AND (
           tt.publico = true OR
           tt.criado_por IN (
-            SELECT id FROM psicologos WHERE clinica_id = public.user_clinica_id()
+            SELECT id FROM users WHERE clinica_id = public.user_clinica_id()
           )
         )
     )

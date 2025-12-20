@@ -275,6 +275,7 @@ export type TipoResposta =
   | 'likert_0_4'
   | 'likert_0_3'
   | 'likert_0_2'
+  | 'diferencial_0_3'
   | 'multipla_escolha'
   | 'verdadeiro_falso'
   | 'texto_livre'
@@ -283,6 +284,8 @@ export type TipoResposta =
 export interface Questao {
   numero: number
   texto: string
+  texto_esquerda?: string  // For bipolar/semantic differential questions (positive statement)
+  texto_direita?: string   // For bipolar/semantic differential questions (negative statement)
   subtexto?: string
   secao: string
   tipo_resposta: TipoResposta

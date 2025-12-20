@@ -1,0 +1,390 @@
+{
+  "test_info": {
+    "name": "EBADEP-A",
+    "full_name": "Escala Baptista de Depressão - Versão Adulto",
+    "description": "Scale for measuring depressive symptoms in adults using semantic differential format",
+    "target_population": "Adults",
+    "total_items": 45,
+    "scoring_format": "Semantic differential with 4 options (0-3)",
+    "max_score": 135,
+    "min_score": 0,
+    "time_reference": "Last two weeks (including today)",
+    "instructions": "Read the two opposing statements on each line and mark with an X the option closest to how you have been feeling in the last two weeks."
+  },
+  "scoring_system": {
+    "item_scoring": {
+      "description": "Each item has two opposing statements with 4 options between them",
+      "options": [
+        {"position": 1, "value": 0, "meaning": "Strongly agrees with positive/healthy statement"},
+        {"position": 2, "value": 1, "meaning": "Agrees with positive/healthy statement"},
+        {"position": 3, "value": 2, "meaning": "Agrees with negative/depressive statement"},
+        {"position": 4, "value": 3, "meaning": "Strongly agrees with negative/depressive statement"}
+      ]
+    },
+    "total_score_calculation": {
+      "formula": "SUM of all 45 item responses",
+      "range": "0-135",
+      "interpretation": "Higher scores indicate greater depressive symptomatology"
+    }
+  },
+  "classification_system": {
+    "method": "Percentile-based classification from normative sample",
+    "classifications": [
+      {
+        "name": "SINTOMATOLOGIA DEPRESSIVA",
+        "description": "Depressive symptomatology (within normal range)",
+        "score_range": {"min": 0, "max": 59},
+        "percentile_range": {"min": 1, "max": 71},
+        "clinical_interpretation": "Normal depressive symptoms within expected range for general population"
+      },
+      {
+        "name": "SINTOMATOLOGIA DEPRESSIVA LEVE",
+        "description": "Mild depressive symptomatology",
+        "score_range": {"min": 60, "max": 76},
+        "percentile_range": {"min": 72, "max": 87},
+        "clinical_interpretation": "Elevated depressive symptoms requiring monitoring"
+      },
+      {
+        "name": "SINTOMATOLOGIA DEPRESSIVA MODERADA",
+        "description": "Moderate depressive symptomatology",
+        "score_range": {"min": 77, "max": 110},
+        "percentile_range": {"min": 88, "max": 99},
+        "clinical_interpretation": "Significant depressive symptoms requiring clinical attention"
+      },
+      {
+        "name": "SINTOMATOLOGIA DEPRESSIVA SEVERA",
+        "description": "Severe depressive symptomatology",
+        "score_range": {"min": 111, "max": 135},
+        "percentile_range": {"min": 99, "max": 99},
+        "clinical_interpretation": "Severe depressive symptoms requiring immediate clinical intervention"
+      }
+    ]
+  },
+  "percentile_table": [
+    {"score": 0, "percentile": 1}, {"score": 1, "percentile": 1}, {"score": 2, "percentile": 1},
+    {"score": 3, "percentile": 2}, {"score": 4, "percentile": 2}, {"score": 5, "percentile": 2},
+    {"score": 6, "percentile": 3}, {"score": 7, "percentile": 3}, {"score": 8, "percentile": 4},
+    {"score": 9, "percentile": 5}, {"score": 10, "percentile": 6}, {"score": 11, "percentile": 7},
+    {"score": 12, "percentile": 8}, {"score": 13, "percentile": 8}, {"score": 14, "percentile": 9},
+    {"score": 15, "percentile": 10}, {"score": 16, "percentile": 12}, {"score": 17, "percentile": 13},
+    {"score": 18, "percentile": 14}, {"score": 19, "percentile": 16}, {"score": 20, "percentile": 17},
+    {"score": 21, "percentile": 19}, {"score": 22, "percentile": 20}, {"score": 23, "percentile": 22},
+    {"score": 24, "percentile": 24}, {"score": 25, "percentile": 25}, {"score": 26, "percentile": 25},
+    {"score": 27, "percentile": 27}, {"score": 28, "percentile": 28}, {"score": 29, "percentile": 29},
+    {"score": 30, "percentile": 31}, {"score": 31, "percentile": 32}, {"score": 32, "percentile": 33},
+    {"score": 33, "percentile": 34}, {"score": 34, "percentile": 36}, {"score": 35, "percentile": 38},
+    {"score": 36, "percentile": 39}, {"score": 37, "percentile": 40}, {"score": 38, "percentile": 42},
+    {"score": 39, "percentile": 43}, {"score": 40, "percentile": 45}, {"score": 41, "percentile": 47},
+    {"score": 42, "percentile": 48}, {"score": 43, "percentile": 50}, {"score": 44, "percentile": 51},
+    {"score": 45, "percentile": 52}, {"score": 46, "percentile": 54}, {"score": 47, "percentile": 55},
+    {"score": 48, "percentile": 57}, {"score": 49, "percentile": 59}, {"score": 50, "percentile": 60},
+    {"score": 51, "percentile": 61}, {"score": 52, "percentile": 63}, {"score": 53, "percentile": 64},
+    {"score": 54, "percentile": 65}, {"score": 55, "percentile": 66}, {"score": 56, "percentile": 67},
+    {"score": 57, "percentile": 69}, {"score": 58, "percentile": 70}, {"score": 59, "percentile": 71},
+    {"score": 60, "percentile": 72}, {"score": 61, "percentile": 73}, {"score": 62, "percentile": 74},
+    {"score": 63, "percentile": 75}, {"score": 64, "percentile": 76}, {"score": 65, "percentile": 77},
+    {"score": 66, "percentile": 78}, {"score": 67, "percentile": 79}, {"score": 68, "percentile": 80},
+    {"score": 69, "percentile": 81}, {"score": 70, "percentile": 82}, {"score": 71, "percentile": 83},
+    {"score": 72, "percentile": 84}, {"score": 73, "percentile": 85}, {"score": 74, "percentile": 86},
+    {"score": 75, "percentile": 86}, {"score": 76, "percentile": 87}, {"score": 77, "percentile": 88},
+    {"score": 78, "percentile": 88}, {"score": 79, "percentile": 89}, {"score": 80, "percentile": 90},
+    {"score": 81, "percentile": 90}, {"score": 82, "percentile": 91}, {"score": 83, "percentile": 91},
+    {"score": 84, "percentile": 92}, {"score": 85, "percentile": 92}, {"score": 86, "percentile": 92},
+    {"score": 87, "percentile": 93}, {"score": 88, "percentile": 93}, {"score": 89, "percentile": 94},
+    {"score": 90, "percentile": 94}, {"score": 91, "percentile": 95}, {"score": 92, "percentile": 95},
+    {"score": 93, "percentile": 96}, {"score": 94, "percentile": 96}, {"score": 95, "percentile": 96},
+    {"score": 96, "percentile": 97}, {"score": 97, "percentile": 97}, {"score": 98, "percentile": 97},
+    {"score": 99, "percentile": 97}, {"score": 100, "percentile": 97}, {"score": 101, "percentile": 98},
+    {"score": 102, "percentile": 98}, {"score": 103, "percentile": 98}, {"score": 104, "percentile": 98},
+    {"score": 105, "percentile": 98}, {"score": 106, "percentile": 98}, {"score": 107, "percentile": 98},
+    {"score": 108, "percentile": 98}, {"score": 109, "percentile": 99}, {"score": 110, "percentile": 99},
+    {"score": 111, "percentile": 99}, {"score": 112, "percentile": 99}, {"score": 113, "percentile": 99},
+    {"score": 114, "percentile": 99}, {"score": 115, "percentile": 99}, {"score": 116, "percentile": 99},
+    {"score": 117, "percentile": 99}, {"score": 118, "percentile": 99}, {"score": 119, "percentile": 99},
+    {"score": 120, "percentile": 99}, {"score": 121, "percentile": 99}, {"score": 122, "percentile": 99},
+    {"score": 123, "percentile": 99}, {"score": 124, "percentile": 99}, {"score": 125, "percentile": 99},
+    {"score": 126, "percentile": 99}, {"score": 127, "percentile": 99}, {"score": 128, "percentile": 99},
+    {"score": 129, "percentile": 99}, {"score": 130, "percentile": 99}, {"score": 131, "percentile": 99},
+    {"score": 132, "percentile": 99}, {"score": 133, "percentile": 99}, {"score": 134, "percentile": 99},
+    {"score": 135, "percentile": 99}
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "positive_statement": "Não tenho vontade de chorar",
+      "negative_statement": "Tenho sentido vontade de chorar"
+    },
+    {
+      "number": 2,
+      "positive_statement": "Tenho me sentido muito bem",
+      "negative_statement": "Tenho estado mais angustiado"
+    },
+    {
+      "number": 3,
+      "positive_statement": "Consigo realizar tarefas",
+      "negative_statement": "Sinto-me mais impotente para realizar tarefas"
+    },
+    {
+      "number": 4,
+      "positive_statement": "Resolvo meus problemas",
+      "negative_statement": "Sinto-me menos capaz para enfrentar meus problemas"
+    },
+    {
+      "number": 5,
+      "positive_statement": "Faço coisas que gosto",
+      "negative_statement": "Não tenho mais vontade de fazer coisas que gostava"
+    },
+    {
+      "number": 6,
+      "positive_statement": "Não tenho chorado",
+      "negative_statement": "Tenho chorado"
+    },
+    {
+      "number": 7,
+      "positive_statement": "Não sinto solidão",
+      "negative_statement": "Sinto-me cada vez mais sozinho"
+    },
+    {
+      "number": 8,
+      "positive_statement": "Sei me comportar nas situações",
+      "negative_statement": "Não sei como agir"
+    },
+    {
+      "number": 9,
+      "positive_statement": "Consigo me virar sozinho",
+      "negative_statement": "Não consigo mais me virar sozinho"
+    },
+    {
+      "number": 10,
+      "positive_statement": "O futuro será melhor",
+      "negative_statement": "Não acredito que as coisas melhorem"
+    },
+    {
+      "number": 11,
+      "positive_statement": "Minhas atitudes me parecem normais",
+      "negative_statement": "Acho minhas atitudes menos adequadas do que antes"
+    },
+    {
+      "number": 12,
+      "positive_statement": "Faço planos para o futuro",
+      "negative_statement": "Não consigo planejar meu futuro"
+    },
+    {
+      "number": 13,
+      "positive_statement": "Acredito em mim",
+      "negative_statement": "Estou acreditando menos em mim"
+    },
+    {
+      "number": 14,
+      "positive_statement": "Não tenho problemas para decidir",
+      "negative_statement": "Está mais difícil decidir"
+    },
+    {
+      "number": 15,
+      "positive_statement": "Escolho com facilidade",
+      "negative_statement": "Não consigo mais escolher sozinho"
+    },
+    {
+      "number": 16,
+      "positive_statement": "Consigo fazer minhas tarefas sem ajuda",
+      "negative_statement": "Estou precisando de ajuda para realizar meus trabalhos"
+    },
+    {
+      "number": 17,
+      "positive_statement": "Sinto prazer em realizar minhas atividades",
+      "negative_statement": "As coisas não me agradam como antigamente"
+    },
+    {
+      "number": 18,
+      "positive_statement": "Sinto-me feliz com a minha vida",
+      "negative_statement": "Antes eu era mais feliz"
+    },
+    {
+      "number": 19,
+      "positive_statement": "Acredito que as coisas estão indo bem na minha vida",
+      "negative_statement": "Acredito que atualmente nada vai bem"
+    },
+    {
+      "number": 20,
+      "positive_statement": "Faço coisas que ajudam os outros",
+      "negative_statement": "As coisas que faço não ajudam a mais ninguém"
+    },
+    {
+      "number": 21,
+      "positive_statement": "Estar com pessoas é bom",
+      "negative_statement": "Comecei a inventar desculpas para não me encontrar com as pessoas"
+    },
+    {
+      "number": 22,
+      "positive_statement": "Compareço a festas e reuniões quando sou convidado",
+      "negative_statement": "Tenho evitado festas e reuniões, mesmo convidado"
+    },
+    {
+      "number": 23,
+      "positive_statement": "Consigo me concentrar nas minhas atividades",
+      "negative_statement": "Não consigo mais me concentrar"
+    },
+    {
+      "number": 24,
+      "positive_statement": "Tenho realizado minhas tarefas normalmente",
+      "negative_statement": "Estou mais lento para realizar minhas tarefas"
+    },
+    {
+      "number": 25,
+      "positive_statement": "Tenho realizado minhas tarefas normalmente",
+      "negative_statement": "Estou me sentindo mais agitado do que antes"
+    },
+    {
+      "number": 26,
+      "positive_statement": "Sempre achei minha vida boa",
+      "negative_statement": "Hoje acho que meu passado não foi bom"
+    },
+    {
+      "number": 27,
+      "positive_statement": "Sinto-me disposto",
+      "negative_statement": "Logo pela manhã me sinto esgotado"
+    },
+    {
+      "number": 28,
+      "positive_statement": "Minha vida é boa",
+      "negative_statement": "Minha vida está cada vez pior"
+    },
+    {
+      "number": 29,
+      "positive_statement": "Morrer não é a solução para problemas",
+      "negative_statement": "Tenho pensado que seria melhor estar morto"
+    },
+    {
+      "number": 30,
+      "positive_statement": "Acredito em mim",
+      "negative_statement": "Não acredito mais em mim"
+    },
+    {
+      "number": 31,
+      "positive_statement": "Durmo bem",
+      "negative_statement": "Não consigo mais dormir a noite inteira"
+    },
+    {
+      "number": 32,
+      "positive_statement": "Faço normalmente o que é necessário",
+      "negative_statement": "Não consigo mais fazer o necessário"
+    },
+    {
+      "number": 33,
+      "positive_statement": "Gosto muito da minha vida",
+      "negative_statement": "Não dou mais valor à minha vida"
+    },
+    {
+      "number": 34,
+      "positive_statement": "Gosto de mim",
+      "negative_statement": "Não gosto mais de mim"
+    },
+    {
+      "number": 35,
+      "positive_statement": "Termino minhas tarefas",
+      "negative_statement": "Não termino mais minhas tarefas"
+    },
+    {
+      "number": 36,
+      "positive_statement": "Estou tranquilo",
+      "negative_statement": "Perco a paciência por muito pouco"
+    },
+    {
+      "number": 37,
+      "positive_statement": "Não venho me sentindo nervoso",
+      "negative_statement": "Qualquer coisa me deixa nervoso"
+    },
+    {
+      "number": 38,
+      "positive_statement": "Sinto-me com disposição",
+      "negative_statement": "Ando mais cansado"
+    },
+    {
+      "number": 39,
+      "positive_statement": "Sinto-me disposto",
+      "negative_statement": "Não tenho mais vontade de fazer as coisas"
+    },
+    {
+      "number": 40,
+      "positive_statement": "Durmo normalmente",
+      "negative_statement": "Tenho dormido muito"
+    },
+    {
+      "number": 41,
+      "positive_statement": "Minha fome continua como sempre",
+      "negative_statement": "Tenho comido menos"
+    },
+    {
+      "number": 42,
+      "positive_statement": "Tenho desejo sexual como antes",
+      "negative_statement": "Meu desejo sexual vem diminuindo muito"
+    },
+    {
+      "number": 43,
+      "positive_statement": "Meu peso continua o mesmo",
+      "negative_statement": "Tenho emagrecido sem fazer regime"
+    },
+    {
+      "number": 44,
+      "positive_statement": "Tomo remédio apenas quando preciso",
+      "negative_statement": "Gosto de tomar remédio por precaução"
+    },
+    {
+      "number": 45,
+      "positive_statement": "Não costumo sentir culpa",
+      "negative_statement": "Venho me sentindo culpado pelos problemas"
+    }
+  ],
+  "result_visualization": {
+    "output_fields": [
+      {
+        "field": "Escore Bruto",
+        "description": "Raw total score (sum of all 45 items)",
+        "formula": "SUM(responses)",
+        "range": "0-135"
+      },
+      {
+        "field": "Percentil",
+        "description": "Percentile rank based on normative sample",
+        "formula": "VLOOKUP(raw_score, percentile_table, 2)",
+        "range": "1-99"
+      },
+      {
+        "field": "Classificação",
+        "description": "Clinical classification based on percentile",
+        "formula": "VLOOKUP(percentile, classification_table, 3)",
+        "possible_values": [
+          "SINTOMATOLOGIA DEPRESSIVA",
+          "SINTOMATOLOGIA DEPRESSIVA LEVE",
+          "SINTOMATOLOGIA DEPRESSIVA MODERADA",
+          "SINTOMATOLOGIA DEPRESSIVA SEVERA"
+        ]
+      }
+    ],
+    "display_colors": {
+      "header_background": "#E7E6E6",
+      "result_background": "#FEF2CB",
+      "classification_text": "Based on severity level"
+    }
+  },
+  "formulas": {
+    "total_score": "=SUM(C3:C47)",
+    "percentile_lookup": "=VLOOKUP(total_score, B59:C194, 2, 0)",
+    "classification_lookup": "=VLOOKUP(percentile, B59:E194, 3, FALSE)"
+  },
+  "alternative_scoring_system": {
+    "name": "Amostra Geral (27-item version)",
+    "description": "Alternative scoring with inverted items and additional metrics",
+    "total_items": 27,
+    "max_score": 54,
+    "inverted_items": [9, 12, 13, 14, 15, 16, 17, 18, 19, 23, 25],
+    "inversion_formula": "IF(value=2, 0, IF(value=1, 1, IF(value=0, 2)))",
+    "additional_metrics": ["T-score", "Estanino (Stanine)"],
+    "classifications_by_raw_score": [
+      {"range": "0-20", "classification": "COMPORTAMENTO POSITIVO"},
+      {"range": "21-30", "classification": "SINTOMATOLOGIA LEVE"},
+      {"range": "31-45", "classification": "SINTOMATOLOGIA MODERADA"},
+      {"range": "46-54", "classification": "SINTOMATOLOGIA GRAVE OU SEVERA"}
+    ]
+  }
+}

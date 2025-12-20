@@ -89,6 +89,73 @@ export default function QuestionRenderer({
     )
   }
 
+  // Render bipolar/semantic differential (EBADEP-A format)
+  if (questao.tipo_resposta === 'diferencial_0_3') {
+    return (
+      <div className="bg-white rounded-lg shadow p-6">
+        {/* Question number */}
+        <div className="mb-6">
+          <div className="flex items-center gap-3">
+            <span className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-semibold text-sm">
+              {questao.numero}
+            </span>
+          </div>
+        </div>
+
+        {/* Bipolar statements with horizontal options */}
+        <div className="flex items-center gap-4">
+          {/* Left statement (positive) */}
+          <div className="flex-1 text-right">
+            <p className="text-base text-gray-900">{questao.texto_esquerda}</p>
+          </div>
+
+          {/* Horizontal radio buttons */}
+          <div className="flex items-center gap-3">
+            {[0, 1, 2, 3].map((valor) => {
+              const isSelected = selectedValue === String(valor)
+
+              return (
+                <button
+                  key={valor}
+                  onClick={() => handleSelect(String(valor))}
+                  disabled={readonly}
+                  className={`w-10 h-10 rounded-full border-2 flex items-center justify-center transition-all ${
+                    isSelected
+                      ? 'border-blue-600 bg-blue-600'
+                      : 'border-gray-300 hover:border-blue-400'
+                  } ${readonly ? 'cursor-not-allowed opacity-60' : 'cursor-pointer'}`}
+                  aria-label={`Opção ${valor}`}
+                >
+                  {isSelected && (
+                    <div className="w-4 h-4 bg-white rounded-full" />
+                  )}
+                </button>
+              )
+            })}
+          </div>
+
+          {/* Right statement (negative) */}
+          <div className="flex-1 text-left">
+            <p className="text-base text-gray-900">{questao.texto_direita}</p>
+          </div>
+        </div>
+
+        {/* Value labels below options */}
+        <div className="flex items-center gap-4 mt-2">
+          <div className="flex-1"></div>
+          <div className="flex items-center gap-3">
+            {[0, 1, 2, 3].map((valor) => (
+              <div key={valor} className="w-10 text-center">
+                <span className="text-xs text-gray-500">{valor}</span>
+              </div>
+            ))}
+          </div>
+          <div className="flex-1"></div>
+        </div>
+      </div>
+    )
+  }
+
   // Render Likert scale (most common)
   if (questao.tipo === 'likert' || !questao.tipo) {
     // CRITICAL FIX: Find appropriate scale from escalasResposta

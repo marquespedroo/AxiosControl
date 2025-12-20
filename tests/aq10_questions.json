@@ -1,0 +1,153 @@
+{
+  "test_info": {
+    "name": "AQ-10 Children Version",
+    "full_name": "Autism Spectrum Quotient - 10 Item Screening Tool",
+    "age_range": "4-11 years",
+    "language": "Portuguese (Portugal)",
+    "total_items": 10,
+    "score_range": "0-10",
+    "cutoff_score": 6
+  },
+  "response_options": {
+    "C": {
+      "code": "C",
+      "portuguese": "Concordo Totalmente",
+      "english": "Strongly Agree"
+    },
+    "D": {
+      "code": "D",
+      "portuguese": "Concordo em parte",
+      "english": "Somewhat Agree"
+    },
+    "E": {
+      "code": "E",
+      "portuguese": "Discordo em parte",
+      "english": "Somewhat Disagree"
+    },
+    "F": {
+      "code": "F",
+      "portuguese": "Discordo Totalmente",
+      "english": "Strongly Disagree"
+    }
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text_pt": "Ele/a nota muitas vezes pequenos ruídos que passam despercebidos às outras pessoas.",
+      "text_en": "He/she often notices small sounds that others do not.",
+      "scoring_type": "direct",
+      "scoring_rule": "Agreement (C or D) = 1 point, Disagreement (E or F) = 0 points",
+      "formula": "IF(E='X', 0, IF(F='X', 0, IF(C='X', 1, IF(D='X', 1, 0))))",
+      "domain": "Sensory sensitivity"
+    },
+    {
+      "number": 2,
+      "text_pt": "Habitualmente, ele/a concentra-se mais na imagem ou situação no seu todo, do que nos pequenos detalhes.",
+      "text_en": "Usually, he/she concentrates more on the whole picture or situation rather than the small details.",
+      "scoring_type": "reverse",
+      "scoring_rule": "Disagreement (E or F) = 1 point, Agreement (C or D) = 0 points",
+      "formula": "IF(C='X', 0, IF(D='X', 0, IF(E='X', 1, IF(F='X', 1, 0))))",
+      "domain": "Attention to detail"
+    },
+    {
+      "number": 3,
+      "text_pt": "Quando está num grupo social, ele/a consegue facilmente seguir conversas de várias pessoas diferentes.",
+      "text_en": "When in a social group, he/she can easily follow conversations between different people.",
+      "scoring_type": "reverse",
+      "scoring_rule": "Disagreement (E or F) = 1 point, Agreement (C or D) = 0 points",
+      "formula": "IF(C='X', 0, IF(D='X', 0, IF(E='X', 1, IF(F='X', 1, 0))))",
+      "domain": "Social communication"
+    },
+    {
+      "number": 4,
+      "text_pt": "Ele/a consegue facilmente fazer mais do que uma coisa ao mesmo tempo.",
+      "text_en": "He/she can easily do more than one thing at the same time.",
+      "scoring_type": "reverse",
+      "scoring_rule": "Disagreement (E or F) = 1 point, Agreement (C or D) = 0 points",
+      "formula": "IF(C='X', 0, IF(D='X', 0, IF(E='X', 1, IF(F='X', 1, 0))))",
+      "domain": "Attention switching"
+    },
+    {
+      "number": 5,
+      "text_pt": "Ele/a não sabe como manter uma conversa com os seus pares.",
+      "text_en": "He/she doesn't know how to keep a conversation going with peers.",
+      "scoring_type": "direct",
+      "scoring_rule": "Agreement (C or D) = 1 point, Disagreement (E or F) = 0 points",
+      "formula": "IF(E='X', 0, IF(F='X', 0, IF(C='X', 1, IF(D='X', 1, 0))))",
+      "domain": "Social communication"
+    },
+    {
+      "number": 6,
+      "text_pt": "Socialmente, ele/a é bom/boa conversador/a.",
+      "text_en": "Socially, he/she is a good conversationalist.",
+      "scoring_type": "reverse",
+      "scoring_rule": "Disagreement (E or F) = 1 point, Agreement (C or D) = 0 points",
+      "formula": "IF(C='X', 0, IF(D='X', 0, IF(E='X', 1, IF(F='X', 1, 0))))",
+      "domain": "Social communication"
+    },
+    {
+      "number": 7,
+      "text_pt": "Durante a leitura de uma história, ele/a tem dificuldades em perceber as intenções das personagens.",
+      "text_en": "When reading a story, he/she has difficulty understanding the characters' intentions.",
+      "scoring_type": "direct",
+      "scoring_rule": "Agreement (C or D) = 1 point, Disagreement (E or F) = 0 points",
+      "formula": "IF(E='X', 0, IF(F='X', 0, IF(C='X', 1, IF(D='X', 1, 0))))",
+      "domain": "Theory of mind"
+    },
+    {
+      "number": 8,
+      "text_pt": "No pré-escolar, ele/a gostava de brincar a jogos de faz-de-conta com as outras crianças.",
+      "text_en": "In preschool, he/she enjoyed playing pretend games with other children.",
+      "scoring_type": "reverse",
+      "scoring_rule": "Disagreement (E or F) = 1 point, Agreement (C or D) = 0 points",
+      "formula": "IF(C='X', 0, IF(D='X', 0, IF(E='X', 1, IF(F='X', 1, 0))))",
+      "domain": "Imagination/pretend play"
+    },
+    {
+      "number": 9,
+      "text_pt": "Ele/a percebe facilmente o que alguém está a pensar ou a sentir, apenas olhando para o rosto dessa pessoa.",
+      "text_en": "He/she easily perceives what someone is thinking or feeling just by looking at that person's face.",
+      "scoring_type": "reverse",
+      "scoring_rule": "Disagreement (E or F) = 1 point, Agreement (C or D) = 0 points",
+      "formula": "IF(C='X', 0, IF(D='X', 0, IF(E='X', 1, IF(F='X', 1, 0))))",
+      "domain": "Theory of mind/emotion recognition"
+    },
+    {
+      "number": 10,
+      "text_pt": "Ele/a tem dificuldades em fazer novos amigos",
+      "text_en": "He/she has difficulty making new friends",
+      "scoring_type": "direct",
+      "scoring_rule": "Agreement (C or D) = 1 point, Disagreement (E or F) = 0 points",
+      "formula": "IF(E='X', 0, IF(F='X', 0, IF(C='X', 1, IF(D='X', 1, 0))))",
+      "domain": "Social interaction"
+    }
+  ],
+  "scoring_summary": {
+    "direct_items": [1, 5, 7, 10],
+    "reverse_items": [2, 3, 4, 6, 8, 9],
+    "total_formula": "SUM(scores_q1_to_q10)",
+    "interpretation": {
+      "cutoff": 6,
+      "above_cutoff": "Suggests potential autism spectrum traits - further comprehensive assessment recommended",
+      "below_cutoff": "Below clinical cutoff - score within typical range"
+    }
+  },
+  "administration_instructions": {
+    "pt": [
+      "Aplicação Individual",
+      "1. Leia cada uma das questões",
+      "2. Preencha a escola, marcando um X na resposta do paciente",
+      "3. Ao finalizar a aplica, a planilha do Exel ira realizas os cálculos automaticamente"
+    ],
+    "en": [
+      "Individual Administration",
+      "1. Read each of the questions",
+      "2. Fill in the choice, marking an X in the patient's response",
+      "3. Upon finishing application, the Excel spreadsheet will perform calculations automatically"
+    ]
+  },
+  "scoring_instructions": {
+    "pt": "Cote 1 ponto por cada resposta 'Concordo totalmente' ou 'Concordo em parte' dada nas questões: 1, 5, 7 e 10 e 1 ponto por cada resposta 'Discordo em parte' ou 'Discordo totalmente' dada nas questões: 2, 3, 4, 6, 8 e 9.",
+    "en": "Score 1 point for each 'Strongly agree' or 'Somewhat agree' response given in questions: 1, 5, 7, and 10, and 1 point for each 'Somewhat disagree' or 'Strongly disagree' response given in questions: 2, 3, 4, 6, 8, and 9."
+  }
+}

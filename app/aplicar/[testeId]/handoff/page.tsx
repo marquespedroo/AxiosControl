@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 
 import { HandoffContainer } from '@/components/aplicar'
 import QuestionRenderer from '@/components/test/QuestionRenderer'
+import TestInstructions from '@/components/test/TestInstructions'
 import { useHandoffMode } from '@/lib/hooks/useHandoffMode'
 import { Questao, Respostas } from '@/types/database'
 
@@ -17,6 +18,15 @@ interface TesteData {
     questoes: Questao[]
     tempo_estimado: number
     escalas_resposta?: Record<string, any>
+    interpretacao?: {
+      instrucoes_aplicacao?: string
+      exemplos_resposta?: Array<{
+        texto_esquerda: string
+        texto_direita: string
+        marcacao: number
+        descricao: string
+      }>
+    }
   }
   paciente: {
     nome_completo: string
@@ -38,6 +48,7 @@ export default function HandoffTestePage() {
   const [isSaving, setIsSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [isCompleted, setIsCompleted] = useState(false)
+  const [showInstructions, setShowInstructions] = useState(true)
 
   // Handoff mode - sessionId is the same as testeAplicadoId
   const { isActive: isHandoffActive, startSession, completeTest } = useHandoffMode()
@@ -218,6 +229,45 @@ export default function HandoffTestePage() {
           <p className="text-gray-600">{error || 'Teste não encontrado'}</p>
         </div>
       </div>
+    )
+  }
+
+  // Show instructions if available and not yet dismissed
+  if (showInstructions && teste?.teste_template?.interpretacao?.instrucoes_aplicacao) {
+    return (
+      <HandoffContainer onExitSuccess={handleHandoffExit}>
+        <TestInstructions
+          titulo={teste.teste_template.nome}
+          instrucoes={teste.teste_template.interpretacao.instrucoes_aplicacao}
+          exemplos={teste.teste_template.interpretacao.exemplos_resposta || [
+            {
+              texto_esquerda: "Estou me sentindo alegre",
+              texto_direita: "Estou me sentindo triste",
+              marcacao: 0,
+              descricao: "Se você tem se sentido muito alegre, marque a primeira opção"
+            },
+            {
+              texto_esquerda: "Estou me sentindo alegre",
+              texto_direita: "Estou me sentindo triste",
+              marcacao: 1,
+              descricao: "Se você tem se sentido alegre, marque a segunda opção"
+            },
+            {
+              texto_esquerda: "Estou me sentindo alegre",
+              texto_direita: "Estou me sentindo triste",
+              marcacao: 2,
+              descricao: "Se você tem se sentido triste, marque a terceira opção"
+            },
+            {
+              texto_esquerda: "Estou me sentindo alegre",
+              texto_direita: "Estou me sentindo triste",
+              marcacao: 3,
+              descricao: "Se você tem se sentido muito triste, marque a quarta opção"
+            }
+          ]}
+          onStart={() => setShowInstructions(false)}
+        />
+      </HandoffContainer>
     )
   }
 
