@@ -135,7 +135,7 @@ INSERT INTO testes_templates (
   -- ========================================================================
   $${
     "notas": "A EBADEP-A avalia sintomas depressivos em adultos através de 45 itens em formato de diferencial semântico (bipolar). O avaliado deve indicar como tem se sentido nas últimas duas semanas, inclusive hoje. Pontuações mais altas indicam maior sintomatologia depressiva.",
-    "instrucoes_aplicacao": "Leia atentamente as duas frases opostas em cada linha e marque com um X a opção que melhor representa como você vem se sentindo em um período de duas semanas, inclusive hoje. O parêntese que você escolher deve estar mais próximo do que a frase significar.",
+    "instrucoes_aplicacao": "Leia atentamente as duas frases opostas em cada linha e clique no círculo que melhor representa como você vem se sentindo em um período de duas semanas, inclusive hoje. O círculo que você escolher deve estar mais próximo da frase que melhor descreve seu estado.",
     "exemplos_resposta": [
       {
         "texto_esquerda": "Não tenho vontade de chorar",

@@ -430,7 +430,7 @@ INSERT INTO testes_templates (
   -- INTERPRETACAO (com instruções de aplicação)
   $${
     "notas": "A EBADEP-A avalia sintomas depressivos em adultos através de 45 itens em formato de diferencial semântico.",
-    "instrucoes_aplicacao": "Você acabou de receber uma escala com 45 itens, contendo duas frases na mesma linha de cada item. Entre as frases há quatro parênteses. Leia atentamente as duas frases opostas em cada linha e marque com um X como você vem se sentindo em um período de duas semanas, inclusive hoje. O parêntese que você escolher deve estar mais próximo do que a frase significar.",
+    "instrucoes_aplicacao": "Leia atentamente as duas frases opostas em cada linha e clique no círculo que melhor representa como você vem se sentindo em um período de duas semanas, inclusive hoje. O círculo que você escolher deve estar mais próximo da frase que melhor descreve seu estado.",
     "faixas": [
       {
         "pontuacao_min": 0,
@@ -609,7 +609,7 @@ INSERT INTO testes_templates (
   'EBADEP-A',
   $${
     "notas": "Avalia sintomas depressivos através de 45 itens bipolares.",
-    "instrucoes_aplicacao": "Leia atentamente as duas frases opostas em cada linha e marque com um X a opção que melhor representa como você vem se sentindo em um período de duas semanas, inclusive hoje. O parêntese que você escolher deve estar mais próximo do que a frase significar.",
+    "instrucoes_aplicacao": "Leia atentamente as duas frases opostas em cada linha e clique no círculo que melhor representa como você vem se sentindo em um período de duas semanas, inclusive hoje. O círculo que você escolher deve estar mais próximo da frase que melhor descreve seu estado.",
     "exemplos_resposta": [
       {
         "texto_esquerda": "Não tenho vontade de chorar",
