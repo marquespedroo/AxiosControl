@@ -139,19 +139,6 @@ export default function QuestionRenderer({
             <p className="text-base text-gray-900">{questao.texto_direita}</p>
           </div>
         </div>
-
-        {/* Value labels below options */}
-        <div className="flex items-center gap-4 mt-2">
-          <div className="flex-1"></div>
-          <div className="flex items-center gap-3">
-            {[0, 1, 2, 3].map((valor) => (
-              <div key={valor} className="w-10 text-center">
-                <span className="text-xs text-gray-500">{valor}</span>
-              </div>
-            ))}
-          </div>
-          <div className="flex-1"></div>
-        </div>
       </div>
     )
   }
