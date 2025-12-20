@@ -490,6 +490,36 @@ export function calculateRawScore(
       return { total, secoes }
     }
 
+    case 'percentil_lookup': {
+      // Calculate raw score first, then look up percentile
+      // Used for tests like EBADEP-A that map raw scores to percentile values
+      const rules = (regrasCalculo as any)
+
+      if (!rules.tabela_percentil) {
+        throw new Error('CALC_002: Percentile table not found for percentil_lookup type')
+      }
+
+      // Determine how to calculate the raw score
+      let rawScore: number
+      if (rules.score_total === 'soma_simples') {
+        rawScore = calculateSimpleSum(responses, questions, maxScaleValue)
+      } else {
+        throw new Error(`CALC_002: Unsupported score_total method: ${rules.score_total} for percentil_lookup`)
+      }
+
+      // Look up percentile from the table
+      const percentile = rules.tabela_percentil[rawScore.toString()]
+
+      if (percentile === undefined) {
+        throw new Error(`CALC_002: No percentile found for raw score ${rawScore}`)
+      }
+
+      return {
+        total: rawScore,
+        percentil: percentile
+      }
+    }
+
     case 'custom': {
       // For custom calculations, this would execute user-defined JavaScript
       // For security, this should be sandboxed or pre-validated

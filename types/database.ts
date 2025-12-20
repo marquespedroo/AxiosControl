@@ -443,6 +443,7 @@ export interface Respostas {
 export interface PontuacaoBruta {
   total: number
   secoes?: Record<string, number>
+  percentil?: number  // For tests like EBADEP-A that use percentil_lookup
 }
 
 export interface Normalizacao {
