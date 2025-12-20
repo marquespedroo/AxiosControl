@@ -7,6 +7,7 @@ import AASPResults from '@/components/results/aasp/AASPResults'
 import { BDEFSResults } from '@/components/results/bdefs'
 import { BFPResults } from '@/components/results/bfp'
 import { BSIResults } from '@/components/results/bsi'
+import { EBADEPResults } from '@/components/results/ebadep'
 import { IDADIResults } from '@/components/results/idadi'
 import { IFPIIResults } from '@/components/results/ifp-ii'
 import McmiIVResults from '@/components/results/mcmi-iv/McmiIVResults'
@@ -224,6 +225,7 @@ export default function ResultadosPage() {
   const isChildSensoryProfile = testSigla === 'SP2-C'
   const isBDEFS = testSigla === 'BDEFS' || testSigla === 'BDEFS-L' || testSigla.startsWith('BDEFS')
   const isBFP = testSigla === 'BFP'
+  const isEBADEP = testSigla === 'EBADEP-A' || testSigla.startsWith('EBADEP')
   const isIDADI = testSigla === 'IDADI' || testSigla.startsWith('IDADI')
   const isIFPII = testSigla === 'IFP-II' || testSigla === 'IFPII'
   const isBSI = testSigla === 'BSI'
@@ -407,6 +409,14 @@ export default function ResultadosPage() {
             testTemplate={resultado.teste_template as any}
             pontuacaoBruta={resultado.pontuacao_bruta as any}
             patientInfo={resultado.paciente}
+            dataConlusao={resultado.data_conclusao}
+          />
+        ) : isEBADEP ? (
+          <EBADEPResults
+            testTemplate={resultado.teste_template as any}
+            pontuacaoBruta={resultado.pontuacao_bruta as any}
+            patientInfo={resultado.paciente}
+            respostas={resultado.respostas}
             dataConlusao={resultado.data_conclusao}
           />
         ) : isIDADI ? (
